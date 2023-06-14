@@ -1,0 +1,21 @@
+{
+	"__comment": "List of debris variants.",
+	"code": "debris",
+	"variants": [
+		{
+			"Code": "ancientdebris"
+		},
+	    {
+			"Code": "mossysandstonedebris"
+		},
+		{
+			"Code": "mossyschistdebris"
+		},
+		{
+			"Code": "sandstonedebris"
+		},
+		{
+			"Code": "schistdebris"
+		}
+	]
+}

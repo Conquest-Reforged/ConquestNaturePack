@@ -1,0 +1,51 @@
+{
+	"__comment": "List of ground coverage variants.",
+	"code": "groundcoverage",
+	"variants": [
+		{
+			"Code": "autumnalforestfloorwithroots"
+		},
+		{
+			"Code": "brownsphagnummoss"
+		},
+		{
+			"Code": "firforestfloor"
+		},
+		{
+			"Code": "greensphagnummoss"
+		},
+		{
+			"Code": "lightgreensphagnummoss"
+		},
+		{
+			"Code": "lorienforestfloor"
+		},
+		{
+			"Code": "mossylorienforestfloor"
+		},
+	    {
+			"Code": "muddyautumnalforestfloor"
+		},
+		{
+			"Code": "redsphagnummoss"
+		},
+		{
+			"Code": "shreddedleaves"
+		},
+		{
+			"Code": "taigaforestfloor"
+		},
+		{
+			"Code": "taigagrass"
+		},
+		{
+			"Code": "thickmoss"
+		},
+	    {
+			"Code": "vibrantautumnalforestfloor"
+		},
+		{
+			"Code": "yellowsphagnummoss"
+		}
+	]
+}

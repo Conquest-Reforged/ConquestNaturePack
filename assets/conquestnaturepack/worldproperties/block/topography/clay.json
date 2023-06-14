@@ -1,0 +1,9 @@
+{
+	"__comment": "List of clay variants.",
+	"code": "clay",
+	"variants": [
+		{
+			"Code": "grayclay"
+		}
+	]
+}

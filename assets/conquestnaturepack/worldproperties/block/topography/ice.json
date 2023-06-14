@@ -1,0 +1,24 @@
+{
+	"__comment": "List of ice variants.",
+	"code": "ice",
+	"variants": [
+	    {
+			"Code": "blueice"
+		},
+		{
+			"Code": "brightglacierice"
+		},
+		{
+			"Code": "cloud"
+		},
+		{
+			"Code": "icebricks"
+		},
+		{
+			"Code": "snow"
+		},
+		{
+			"Code": "waterfall"
+		}
+	]
+}

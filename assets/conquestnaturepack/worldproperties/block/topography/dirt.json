@@ -1,0 +1,69 @@
+{
+	"__comment": "List of dirt variants.",
+	"code": "dirt",
+	"variants": [
+		{
+			"Code": "antsonsoil"
+		},
+		{
+			"Code": "bluesoil"
+		},
+	    {
+			"Code": "brownearth"
+		},
+		{
+			"Code": "burntsoil"
+		},
+		{
+			"Code": "chalkysoil"
+		},
+	    {
+			"Code": "clayrichmud"
+		},
+		{
+			"Code": "copperrichsoil"
+		},
+		{
+			"Code": "cushionmosscoveredloamydirt"
+		},
+		{
+			"Code": "darksandysoil"
+		},
+		{
+			"Code": "frozenloamydirt"
+		},
+		{
+			"Code": "lichenloamydirt"
+		},
+		{
+			"Code": "lightsilt"
+		},
+		{
+			"Code": "mossysoil"
+		},
+		{
+			"Code": "mud"
+		},
+		{
+			"Code": "redearth"
+		},
+		{
+			"Code": "rockysandysoil"
+		},
+		{
+			"Code": "rockysoil"
+		},
+		{
+			"Code": "siltyloriendirt"
+		},
+		{
+			"Code": "soulsand"
+		},
+		{
+			"Code": "soulsoil"
+		},
+		{
+			"Code": "thickmud"
+		}
+	]
+}

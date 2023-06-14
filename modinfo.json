@@ -1,0 +1,14 @@
+{
+    "type": "content", 
+    "modid": "conquestnaturepack",  
+    "name": "Conquest Nature Pack",
+    "authors": [ "CreativeRealms, Dechoppy, Kurgahn, Arkaik" ],
+    "description": "Adds natural Conquest Reforged blocks to Vintage Story.",
+    "side": "universal",
+	"RequiredOnClient": true,
+    "RequiredOnServer": true,
+    "Dependencies": {},
+    "version": "0.0.1",
+    "textureSize" : 32,
+    "website": "https://discord.gg/u52x8pGkXq"
+}

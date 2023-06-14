@@ -1,0 +1,21 @@
+{
+	"__comment": "List of crystal variants.",
+	"code": "crystal",
+	"variants": [
+		{
+			"Code": "warpedbluecalcitecrystal"
+		},
+	    {
+			"Code": "warpedgreencalcitecrystal"
+		},
+		{
+			"Code": "warpedlightgreencalcitecrystal"
+		},
+		{
+			"Code": "warpedpurplecalcitecrystal"
+		},
+		{
+			"Code": "warpedredcalcitecrystal"
+		}
+	]
+}

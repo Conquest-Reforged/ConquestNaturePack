@@ -1,0 +1,69 @@
+{
+	"__comment": "List of sand variants.",
+	"code": "sand",
+	"variants": [
+		{
+			"Code": "dryriversand"
+		},
+		{
+			"Code": "graysand"
+		},
+		{
+			"Code": "limesand"
+		},
+		{
+			"Code": "pinksand"
+		},
+		{
+			"Code": "purplesand"
+		},
+		{
+			"Code": "redsand"
+		},
+		{
+			"Code": "redsandandgravel"
+		},
+		{
+			"Code": "redsandandvegetation"
+		},
+		{
+			"Code": "sand"
+		},
+		{
+			"Code": "sandandgravel"
+		},
+		{
+			"Code": "sandandvegetation"
+		},
+		{
+			"Code": "sulfurpools"
+		},
+		{
+			"Code": "wetgraysand"
+		},
+		{
+			"Code": "wetlimesand"
+		},
+		{
+			"Code": "wetpinksand"
+		},
+		{
+			"Code": "wetpurplesand"
+		},
+		{
+			"Code": "wetriversand"
+		},
+		{
+			"Code": "wetsand"
+		},
+		{
+			"Code": "wetsandandgravel"
+		},
+		{
+			"Code": "wetsandandvegetation"
+		},
+		{
+			"Code": "yellowsulfur"
+		}
+	]
+}

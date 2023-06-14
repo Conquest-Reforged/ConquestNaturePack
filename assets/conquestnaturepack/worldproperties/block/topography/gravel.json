@@ -1,0 +1,27 @@
+{
+	"__comment": "List of gravel variants.",
+	"code": "gravel",
+	"variants": [
+	    {
+			"Code": "ash"
+		},
+		{
+			"Code": "browngravel"
+		},
+		{
+			"Code": "gravel"
+		},
+		{
+			"Code": "netherrack"
+		},
+		{
+			"Code": "smallstones"
+		},
+		{
+			"Code": "smoothpebbles"
+		},
+		{
+			"Code": "zengardendirt"
+		}
+	]
+}

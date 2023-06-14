@@ -1,0 +1,14 @@
+{
+	"code": "miningtier",
+	"variants": [
+		{
+			"code": "*-dolomite": 3
+		},
+		{
+			"code": "*-blackstone": 4
+		},
+		{
+			"code": "*": 2
+		}
+	]
+}

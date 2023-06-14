@@ -1,0 +1,14 @@
+{
+	"code": "resistance",
+	"variants": [
+		{
+			"code": "*-dolomite": 2
+		},
+		{
+			"code": "*-blackstone": 2
+		},
+		{
+			"code": "*": 1.5
+		}
+	]
+}

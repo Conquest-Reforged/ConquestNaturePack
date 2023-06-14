@@ -1,0 +1,655 @@
+[
+    {
+        "file": "worldproperties/block/rockwithdeposit.json",
+        "op": "replace",
+        "path": "/variants",
+        "value": [
+		    "__comment": "Igneous Extrusive",
+            {
+                "Code": "andesite",
+                "Weight": "80",
+                "SoilpH": "6.5",
+                "WeatheringFactor": "0.7",
+                "RockGroup": "igneous_extrusive"
+            },
+            {
+                "Code": "andesite-columnar",
+                "Weight": "40",
+                "SoilpH": "6.5",
+                "WeatheringFactor": "0.7",
+                "RockGroup": "igneous_extrusive"
+            },
+			{
+                "Code": "andesite-porous",
+                "Weight": "80",
+                "SoilpH": "6.5",
+                "WeatheringFactor": "0.7",
+                "RockGroup": "igneous_extrusive"
+            },
+			{
+			    "Code": "basalt",
+			    "Weight": "80",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "igneous_extrusive"
+		    },
+			{
+			    "Code": "basalt-columnar",
+			    "Weight": "40",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "igneous_extrusive"
+		    },
+			{
+			    "Code": "basalt-porous",
+			    "Weight": "80",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "igneous_extrusive"
+		    },
+			{
+			    "Code": "basalt-weathered",
+			    "Weight": "80",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "igneous_extrusive"
+		    },
+			{
+			    "Code": "blackstone",
+			    "Weight": "80",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "igneous_extrusive"
+		    },
+			{
+			    "Code": "dacite-columnar",
+			    "Weight": "40",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "igneous_extrusive"
+		    },
+			{
+			    "Code": "dacite-porous",
+			    "Weight": "80",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "igneous_extrusive"
+		    },
+			{
+			    "Code": "dacite-weathered",
+			    "Weight": "80",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "igneous_extrusive"
+		    },
+		    {
+			    "Code": "kimberlite",
+			    "Weight": "50",
+			    "SoilpH" : "6",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "igneous_extrusive"
+		    },
+			{
+			    "Code": "obsidian",
+			    "Weight": "50",
+			    "SoilpH" : "6",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "igneous_extrusive"
+		    },
+			{
+			    "Code": "obsidian-crying",
+			    "Weight": "50",
+			    "SoilpH" : "6",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "igneous_extrusive"
+		    },
+			{
+			    "Code": "obsidian-light",
+			    "Weight": "50",
+			    "SoilpH" : "6",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "igneous_extrusive"
+		    },
+			{
+			    "Code": "obsidian-smooth",
+			    "Weight": "50",
+			    "SoilpH" : "6",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "igneous_extrusive"
+		    },
+			{
+			    "Code": "rhyolite-columnar",
+			    "Weight": "40",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "igneous_extrusive"
+		    },
+			{
+			    "Code": "rhyolite-weathered",
+			    "Weight": "80",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "igneous_extrusive"
+		    },
+			{
+			    "Code": "scoria",
+			    "Weight": "50",
+			    "SoilpH" : "6",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "igneous_extrusive"
+		    },
+			{
+			    "Code": "suevite",
+			    "Weight": "50",
+			    "SoilpH" : "6",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "igneous_extrusive"
+		    },
+		    {
+			    "Code": "tuff",
+			    "Weight": "50",
+			    "SoilpH" : "6",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "igneous_extrusive"
+		    },
+			{
+			    "Code": "tuff-light",
+			    "Weight": "50",
+			    "SoilpH" : "6",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "igneous_extrusive"
+		    },
+			{
+			    "Code": "tuff-smooth",
+			    "Weight": "50",
+			    "SoilpH" : "6",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "igneous_extrusive"
+		    },
+			
+		    "__comment": "Igneous Intrusive",
+			{
+			    "Code": "anorthosite-rough",
+			    "Weight": "80",
+			    "SoilpH" : "7.3",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "igneous_intrusive"
+		    },
+			{
+			    "Code": "anorthosite-smooth",
+			    "Weight": "80",
+			    "SoilpH" : "7.3",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "igneous_intrusive"
+		    },
+			{
+			    "Code": "anorthosite-weathered",
+			    "Weight": "80",
+			    "SoilpH" : "7.3",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "igneous_intrusive"
+		    },
+			{
+			    "Code": "granite",
+			    "Weight": "80",
+			    "SoilpH" : "7.3",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "igneous_intrusive"
+		    },
+			{
+			    "Code": "granite-red",
+			    "Weight": "80",
+			    "SoilpH" : "7.3",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "igneous_intrusive"
+		    },
+			{
+			    "Code": "granite-smooth",
+			    "Weight": "80",
+			    "SoilpH" : "7.3",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "igneous_intrusive"
+		    },
+			{
+			    "Code": "granite-smooth-red",
+			    "Weight": "80",
+			    "SoilpH" : "7.3",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "igneous_intrusive"
+		    },
+			{
+			    "Code": "granite-snowy",
+			    "Weight": "0",
+			    "SoilpH" : "7.3",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "igneous_intrusive"
+		    },
+			{
+			    "Code": "peridotite",
+			    "Weight": "80",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "igneous_intrusive"
+		    },
+			
+			"__comment": "Metamorphic",
+			{
+			    "Code": "gneiss",
+			    "Weight": "80",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "metamorphic"
+		    },
+			{
+			    "Code": "greenmarble",
+			    "Weight": "50",
+			    "SoilpH" : "6",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "metamorphic"
+		    },
+			{
+			    "Code": "redmarble",
+			    "Weight": "50",
+			    "SoilpH" : "6",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "metamorphic"
+		    },
+			{
+			    "Code": "whitemarble",
+			    "Weight": "50",
+			    "SoilpH" : "6",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "metamorphic"
+		    },
+			{
+			    "Code": "marble-rough-dark",
+			    "Weight": "50",
+			    "SoilpH" : "6",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "metamorphic"
+		    },
+			{
+			    "Code": "phyllite",
+			    "Weight": "80",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "metamorphic"
+		    },
+			{
+			    "Code": "quartzite-pink",
+			    "Weight": "80",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "metamorphic"
+		    },
+			{
+			    "Code": "quartzite-yellow",
+			    "Weight": "80",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "metamorphic"
+		    },
+			{
+			    "Code": "schist-blue",
+			    "Weight": "80",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "metamorphic"
+		    },
+			{
+			    "Code": "schist-green",
+			    "Weight": "80",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "metamorphic"
+		    },
+			{
+			    "Code": "schist-lichen-blue",
+			    "Weight": "0",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "metamorphic"
+		    },
+			{
+			    "Code": "schist-mossy-blue",
+			    "Weight": "0",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "metamorphic"
+		    },
+			{
+			    "Code": "schist-weathered-blue",
+			    "Weight": "80",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "metamorphic"
+		    },
+			{
+			    "Code": "serpentinite",
+			    "Weight": "50",
+			    "SoilpH" : "6",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "metamorphic"
+		    },
+			{
+			    "Code": "serpentinite-smooth",
+			    "Weight": "50",
+			    "SoilpH" : "6",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "metamorphic"
+		    },
+			{
+			    "Code": "slate",
+			    "Weight": "80",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "metamorphic"
+		    },
+			{
+			    "Code": "slate-warped",
+			    "Weight": "80",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "metamorphic"
+		    },
+			{
+			    "Code": "slate-warped-costal",
+			    "Weight": "0",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "metamorphic"
+		    },
+			{
+			    "Code": "slate-wet",
+			    "Weight": "0",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "metamorphic"
+		    },
+			
+			"__comment": "Sedimentary",
+			{
+			    "Code": "bauxite",
+			    "Weight": "50",
+			    "SoilpH" : "6",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "sedimentary"
+		    },
+		    {
+			    "Code": "chalk",
+			    "Weight": "40",
+			    "SoilpH" : "7.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "chalk-light",
+			    "Weight": "40",
+			    "SoilpH" : "7.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "chert",
+			    "Weight": "40",
+			    "SoilpH" : "7.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "claystone",
+			    "Weight": "30",
+			    "SoilpH" : "6.2",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "conglomerate",
+			    "Weight": "40",
+			    "SoilpH" : "7.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "dolomite",
+			    "Weight": "50",
+			    "SoilpH" : "7.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "graywacke",
+			    "Weight": "80",
+			    "SoilpH" : "7.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "limestone",
+			    "Weight": "70",
+			    "SoilpH" : "7.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "limestone-boulders-light",
+			    "Weight": "0",
+			    "SoilpH" : "7.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "limestone-boulders-mossy-light",
+			    "Weight": "0",
+			    "SoilpH" : "7.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "limestone-icy",
+			    "Weight": "0",
+			    "SoilpH" : "7.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "limestone-light",
+			    "Weight": "70",
+			    "SoilpH" : "7.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "limestone-mossy",
+			    "Weight": "0",
+			    "SoilpH" : "7.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "limestone-pink",
+			    "Weight": "70",
+			    "SoilpH" : "7.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "limestone-stained-tan",
+			    "Weight": "70",
+			    "SoilpH" : "7.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "limestone-tan",
+			    "Weight": "70",
+			    "SoilpH" : "7.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "mudstone-light",
+			    "Weight": "30",
+			    "SoilpH" : "6.2",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "mudstone-lightbrown",
+			    "Weight": "30",
+			    "SoilpH" : "6.2",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "mudstone-orange",
+			    "Weight": "30",
+			    "SoilpH" : "6.2",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "mudstone-red",
+			    "Weight": "30",
+			    "SoilpH" : "6.2",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "mudstone-umbre",
+			    "Weight": "30",
+			    "SoilpH" : "6.2",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "mudstone-yellow",
+			    "Weight": "30",
+			    "SoilpH" : "6.2",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "sandstone",
+			    "Weight": "40",
+			    "SoilpH" : "5.5",
+			    "WeatheringFactor": "1.2",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "sandstone-costal-red",
+			    "Weight": "0",
+			    "SoilpH" : "5.5",
+			    "WeatheringFactor": "1.2",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "sandstone-mossy-red",
+			    "Weight": "0",
+			    "SoilpH" : "5.5",
+			    "WeatheringFactor": "1.2",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "sandstone-red",
+			    "Weight": "40",
+			    "SoilpH" : "5.5",
+			    "WeatheringFactor": "1.2",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "sandstone-tan",
+			    "Weight": "40",
+			    "SoilpH" : "5.5",
+			    "WeatheringFactor": "1.2",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "sandstone-warped",
+			    "Weight": "40",
+			    "SoilpH" : "5.5",
+			    "WeatheringFactor": "1.2",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "shale",
+			    "Weight": "50",
+			    "SoilpH" : "6",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "sedimentary"
+		    },
+			{
+			    "Code": "silt-cave-gray",
+			    "Weight": "0",
+			    "SoilpH" : "6.2",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "sedimentary"
+		    },
+			
+			"__comment": "To Be Determined",
+			{
+			    "Code": "calcite",
+			    "Weight": "0",
+			    "SoilpH" : "7.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "tbd"
+		    },
+			{
+			    "Code": "calcite-rough",
+			    "Weight": "0",
+			    "SoilpH" : "7.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "tbd"
+		    },
+			{
+			    "Code": "dripstone",
+			    "Weight": "0",
+			    "SoilpH" : "7.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "tbd"
+		    },
+			{
+			    "Code": "endstone",
+			    "Weight": "0",
+			    "SoilpH" : "7.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "tbd"
+		    },
+			{
+			    "Code": "halite",
+			    "Weight": "50",
+			    "SoilpH" : "6",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "igneous_extrusive"
+		    },
+			{
+			    "Code": "magma",
+			    "Weight": "0",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "tbd"
+		    },
+			{
+			    "Code": "pahoehoe",
+			    "Weight": "0",
+			    "SoilpH" : "6.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "tbd"
+		    },
+			{
+			    "Code": "salt-flats-blue",
+			    "Weight": "0",
+			    "SoilpH" : "6",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "tbd"
+		    },
+			{
+			    "Code": "salt-flats-pink",
+			    "Weight": "0",
+			    "SoilpH" : "6",
+			    "WeatheringFactor": "1",
+			    "RockGroup": "tbd"
+		    }
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+{
+	"__comment": "List of ground coverage variants with side/top textures.",
+	"code": "groundcoveragesidetexture",
+	"variants": [
+	    {
+			"Code": "autumnalforestfloor"
+		},
+		{
+			"Code": "clovercoveredgrass"
+		},
+		{
+			"Code": "crimsonnylium"
+		},
+		{
+			"Code": "mossyforestfloorwithroots"
+		},
+		{
+			"Code": "mycelium"
+		},
+		{
+			"Code": "warpednylium"
+		}
+	]
+}
