@@ -4,7 +4,6 @@
         "op": "replace",
         "path": "/variants",
         "value": [
-		    "__comment": "Igneous Extrusive",
             {
                 "Code": "andesite",
                 "Weight": "80",
@@ -167,7 +166,8 @@
 			    "RockGroup": "igneous_extrusive"
 		    },
 			
-		    "__comment": "Igneous Intrusive",
+			
+			
 			{
 			    "Code": "anorthosite-rough",
 			    "Weight": "80",
@@ -232,7 +232,8 @@
 			    "RockGroup": "igneous_intrusive"
 		    },
 			
-			"__comment": "Metamorphic",
+
+
 			{
 			    "Code": "gneiss",
 			    "Weight": "80",
@@ -367,7 +368,8 @@
 			    "RockGroup": "metamorphic"
 		    },
 			
-			"__comment": "Sedimentary",
+
+
 			{
 			    "Code": "bauxite",
 			    "Weight": "50",
@@ -586,7 +588,8 @@
 			    "RockGroup": "sedimentary"
 		    },
 			
-			"__comment": "To Be Determined",
+
+
 			{
 			    "Code": "calcite",
 			    "Weight": "0",
