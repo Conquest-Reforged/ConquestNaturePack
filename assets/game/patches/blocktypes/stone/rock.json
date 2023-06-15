@@ -32,14 +32,101 @@
         "file": "blocktypes/stone/rock.json",
         "op": "replace",
         "path": "/texturesByType",
-        "side": "server",
         "value": {
-          
-            "*": {
-                "all": { "base": "conquestnaturepack:block/topography/rock/{rock}/sides" },
-                "up": { "base": "conquestnaturepack:block/topography/rock/{rock}/top" },
-                "down": { "base": "conquestnaturepack:block/topography/rock/{rock}/top" }
+            "*-basalt": {
+                "all": { "base": "block/stone/rock/{rock}*" },
+                "up": { "base": "block/stone/rock/top/{rock}*" },
+                "down": { "base": "block/stone/rock/top/{rock}*" }
+            },
+            "*-andesite": {
+                "all": { "base": "block/stone/rock/{rock}*" },
+                "up": { "base": "block/stone/rock/top/{rock}*" },
+                "down": { "base": "block/stone/rock/top/{rock}*" }
+            },
+            "*-phyllite": {
+                "all": { "base": "block/stone/rock/{rock}*" },
+                "up": { "base": "block/stone/rock/top/{rock}*" },
+                "down": { "base": "block/stone/rock/top/{rock}*" }
+            },
+            "*-slate": {
+                "all": { "base": "block/stone/rock/{rock}*" },
+                "up": { "base": "block/stone/rock/top/{rock}*" },
+                "down": { "base": "block/stone/rock/top/{rock}*" }
+            },
+            "*-conglomerate": {
+                "all": { "base": "block/stone/rock/{rock}*" },
+                "up": { "base": "block/stone/rock/top/{rock}*" },
+                "down": { "base": "block/stone/rock/top/{rock}*" }
+            },
+            "*-granite": {
+                "all": { "base": "block/stone/rock/{rock}*" },
+                "up": { "base": "block/stone/rock/top/{rock}*" },
+                "down": { "base": "block/stone/rock/top/{rock}*" }
+            },
+            "*-sandstone": {
+                "all": { "base": "block/stone/rock/{rock}*" },
+                "up": { "base": "block/stone/rock/top/{rock}*" },
+                "down": { "base": "block/stone/rock/top/{rock}*" }
+            },
+            "*-chert": {
+                "all": { "base": "block/stone/rock/{rock}*" },
+                "up": { "base": "block/stone/rock/top/{rock}*" },
+                "down": { "base": "block/stone/rock/top/{rock}*" }
+            },
+            "*-shale": {
+                "all": { "base": "block/stone/rock/{rock}*" },
+                "up": { "base": "block/stone/rock/top/{rock}*" },
+                "down": { "base": "block/stone/rock/top/{rock}*" }
+            },
+            "*-claystone": {
+                "all": { "base": "block/stone/rock/{rock}*" },
+                "up": { "base": "block/stone/rock/top/{rock}*" },
+                "down": { "base": "block/stone/rock/top/{rock}*" }
+            },
+			"*-chalk": {
+                "all": { "base": "block/stone/rock/{rock}*" }
+            },
+			"*-limestone": {
+                "all": { "base": "block/stone/rock/{rock}*" }
+            },
+			"*-peridotite": {
+                "all": { "base": "block/stone/rock/{rock}*" }
+            },
+			"*-obsidian": {
+                "all": { "base": "block/stone/rock/{rock}*" }
+            },
+			"*-kimberlite": {
+                "all": { "base": "block/stone/rock/{rock}*" }
+            },
+			"*-scoria": {
+                "all": { "base": "block/stone/rock/{rock}*" }
+            },
+			"*-tuff": {
+                "all": { "base": "block/stone/rock/{rock}*" }
+            },
+			"*-bauxite": {
+                "all": { "base": "block/stone/rock/{rock}*" }
+            },
+			"*-halite": {
+                "all": { "base": "block/stone/rock/{rock}*" }
+            },
+			"*-suevite": {
+                "all": { "base": "block/stone/rock/{rock}*" }
+            },
+			"*-whitemarble": {
+                "all": { "base": "block/stone/rock/{rock}*" }
+            },
+			"*-redmarble": {
+                "all": { "base": "block/stone/rock/{rock}*" }
+            },
+			"*-greenmarble": {
+                "all": { "base": "block/stone/rock/{rock}*" }
+            },
+			"*": {
+                "all": { base: "conquestnaturepack:block/topography/rock/{rock}/sides/*" },
+                "up": { base: "conquestnaturepack:block/topography/rock/{rock}/top/*" },
+                "down": { base: "conquestnaturepack:block/topography/rock/{rock}/top/*" }
             }
         }
-    }
+	}
 ]
