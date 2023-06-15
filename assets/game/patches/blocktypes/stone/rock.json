@@ -1,340 +1,45 @@
 [
-  {
-    "op": "remove",
-    "path": "/requiredMiningTier",
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/requiredMiningTierByType",
-    "value": [
-      {
-        "code": "miningtier",
-        "loadFromProperties": "block/topography/rock/miningtier"
-      }
-    ],
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/resistanceByType",
-    "value": [
-      {
-        "code": "resistance",
-        "loadFromProperties": "block/topography/rock/resistance"
-      }
-    ],
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "remove",
-    "path": "/texturesByType/rock-*",
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*",
-    "value": {
-      "all": {
-        "base": "conquestnaturepack:block/stone/rock/{rock}*"
-      },
-      "up": {
-        "base": "conquestnaturepack:block/stone/rock/top/{rock}*"
-      },
-      "down": {
-        "base": "conquestnaturepack:block/stone/rock/top/{rock}*"
-      }
+    {
+        "file": "blocktypes/stone/rock.json",
+        "op": "remove",
+        "side": "server",
+        "path": "/requiredMiningTier"
     },
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*-andesite",
-    "value": {
-      "all": {
-        "base": "block/stone/rock/{rock}*"
-      },
-      "up": {
-        "base": "block/stone/rock/top/{rock}*"
-      },
-      "down": {
-        "base": "block/stone/rock/top/{rock}*"
-      }
+    {
+        "file": "blocktypes/stone/rock.json",
+        "op": "add",
+        "path": "/requiredMiningTierByType",
+        "side": "server",
+        "value": {
+            "*-dolomite": 3,
+            "*-blackstone": 4,
+            "*": 2
+        }
     },
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*-basalt",
-    "value": {
-      "all": {
-        "base": "block/stone/rock/{rock}*"
-      },
-      "up": {
-        "base": "block/stone/rock/top/{rock}*"
-      },
-      "down": {
-        "base": "block/stone/rock/top/{rock}*"
-      }
+    {
+        "file": "blocktypes/stone/rock.json",
+        "op": "add",
+        "path": "/resistanceByType",
+        "side": "server",
+        "value": {
+            "*-dolomite": 2,
+            "*-blackstone": 2,
+            "*": 1.5
+        }
     },
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*-bauxite",
-    "value": {
-      "all": {
-        "base": "block/stone/rock/{rock}*"
-      }
-    },
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*-chalk",
-    "value": {
-      "all": {
-        "base": "block/stone/rock/{rock}*"
-      }
-    },
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*-chert",
-    "value": {
-      "all": {
-        "base": "block/stone/rock/{rock}*"
-      },
-      "up": {
-        "base": "block/stone/rock/top/{rock}*"
-      },
-      "down": {
-        "base": "block/stone/rock/top/{rock}*"
-      }
-    },
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*-claystone",
-    "value": {
-      "all": {
-        "base": "block/stone/rock/{rock}*"
-      },
-      "up": {
-        "base": "block/stone/rock/top/{rock}*"
-      },
-      "down": {
-        "base": "block/stone/rock/top/{rock}*"
-      }
-    },
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*-conglomerate",
-    "value": {
-      "all": {
-        "base": "block/stone/rock/{rock}*"
-      },
-      "up": {
-        "base": "block/stone/rock/top/{rock}*"
-      },
-      "down": {
-        "base": "block/stone/rock/top/{rock}*"
-      }
-    },
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*-granite",
-    "value": {
-      "all": {
-        "base": "block/stone/rock/{rock}*"
-      },
-      "up": {
-        "base": "block/stone/rock/top/{rock}*"
-      },
-      "down": {
-        "base": "block/stone/rock/top/{rock}*"
-      }
-    },
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*-greenmarble",
-    "value": {
-      "all": {
-        "base": "block/stone/rock/{rock}*"
-      }
-    },
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*-halite",
-    "value": {
-      "all": {
-        "base": "block/stone/rock/{rock}*"
-      }
-    },
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*-kimberlite",
-    "value": {
-      "all": {
-        "base": "block/stone/rock/{rock}*"
-      }
-    },
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*-limestone",
-    "value": {
-      "all": {
-        "base": "block/stone/rock/{rock}*"
-      }
-    },
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*-obsidian",
-    "value": {
-      "all": {
-        "base": "block/stone/rock/{rock}*"
-      }
-    },
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*-peridotite",
-    "value": {
-      "all": {
-        "base": "block/stone/rock/{rock}*"
-      }
-    },
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*-phyllite",
-    "value": {
-      "all": {
-        "base": "block/stone/rock/{rock}*"
-      },
-      "up": {
-        "base": "block/stone/rock/top/{rock}*"
-      },
-      "down": {
-        "base": "block/stone/rock/top/{rock}*"
-      }
-    },
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*-redmarble",
-    "value": {
-      "all": {
-        "base": "block/stone/rock/{rock}*"
-      }
-    },
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*-sandstone",
-    "value": {
-      "all": {
-        "base": "block/stone/rock/{rock}*"
-      },
-      "up": {
-        "base": "block/stone/rock/top/{rock}*"
-      },
-      "down": {
-        "base": "block/stone/rock/top/{rock}*"
-      }
-    },
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*-scoria",
-    "value": {
-      "all": {
-        "base": "block/stone/rock/{rock}*"
-      }
-    },
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*-shale",
-    "value": {
-      "all": {
-        "base": "block/stone/rock/{rock}*"
-      },
-      "up": {
-        "base": "block/stone/rock/top/{rock}*"
-      },
-      "down": {
-        "base": "block/stone/rock/top/{rock}*"
-      }
-    },
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*-slate",
-    "value": {
-      "all": {
-        "base": "block/stone/rock/{rock}*"
-      },
-      "up": {
-        "base": "block/stone/rock/top/{rock}*"
-      },
-      "down": {
-        "base": "block/stone/rock/top/{rock}*"
-      }
-    },
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*-suevite",
-    "value": {
-      "all": {
-        "base": "block/stone/rock/{rock}*"
-      }
-    },
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*-tuff",
-    "value": {
-      "all": {
-        "base": "block/stone/rock/{rock}*"
-      }
-    },
-    "file": "game:blocktypes/stone/rock.json"
-  },
-  {
-    "op": "add",
-    "path": "/texturesByType/*-whitemarble",
-    "value": {
-      "all": {
-        "base": "block/stone/rock/{rock}*"
-      }
-    },
-    "file": "game:blocktypes/stone/rock.json"
-  }
+
+    {
+        "file": "blocktypes/stone/rock.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+          
+            "*": {
+                "all": { "base": "conquestnaturepack:block/topography/rock/{rock}/sides" },
+                "up": { "base": "conquestnaturepack:block/topography/rock/{rock}/top" },
+                "down": { "base": "conquestnaturepack:block/topography/rock/{rock}/top" }
+            }
+        }
+    }
 ]
