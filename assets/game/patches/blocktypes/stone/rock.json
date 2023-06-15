@@ -34,54 +34,34 @@
         "path": "/texturesByType",
         "value": {
             "*-basalt": {
-                "all": { "base": "block/stone/rock/{rock}*" },
-                "up": { "base": "block/stone/rock/top/{rock}*" },
-                "down": { "base": "block/stone/rock/top/{rock}*" }
+                "all": { "base": "block/stone/rock/{rock}*" }
             },
             "*-andesite": {
-                "all": { "base": "block/stone/rock/{rock}*" },
-                "up": { "base": "block/stone/rock/top/{rock}*" },
-                "down": { "base": "block/stone/rock/top/{rock}*" }
+                "all": { "base": "block/stone/rock/{rock}*" }
             },
             "*-phyllite": {
-                "all": { "base": "block/stone/rock/{rock}*" },
-                "up": { "base": "block/stone/rock/top/{rock}*" },
-                "down": { "base": "block/stone/rock/top/{rock}*" }
+                "all": { "base": "block/stone/rock/{rock}*" }
             },
             "*-slate": {
-                "all": { "base": "block/stone/rock/{rock}*" },
-                "up": { "base": "block/stone/rock/top/{rock}*" },
-                "down": { "base": "block/stone/rock/top/{rock}*" }
+                "all": { "base": "block/stone/rock/{rock}*" }
             },
             "*-conglomerate": {
-                "all": { "base": "block/stone/rock/{rock}*" },
-                "up": { "base": "block/stone/rock/top/{rock}*" },
-                "down": { "base": "block/stone/rock/top/{rock}*" }
+                "all": { "base": "block/stone/rock/{rock}*" }
             },
             "*-granite": {
-                "all": { "base": "block/stone/rock/{rock}*" },
-                "up": { "base": "block/stone/rock/top/{rock}*" },
-                "down": { "base": "block/stone/rock/top/{rock}*" }
+                "all": { "base": "block/stone/rock/{rock}*" }
             },
             "*-sandstone": {
-                "all": { "base": "block/stone/rock/{rock}*" },
-                "up": { "base": "block/stone/rock/top/{rock}*" },
-                "down": { "base": "block/stone/rock/top/{rock}*" }
+                "all": { "base": "block/stone/rock/{rock}*" }
             },
             "*-chert": {
-                "all": { "base": "block/stone/rock/{rock}*" },
-                "up": { "base": "block/stone/rock/top/{rock}*" },
-                "down": { "base": "block/stone/rock/top/{rock}*" }
+                "all": { "base": "block/stone/rock/{rock}*" }
             },
             "*-shale": {
-                "all": { "base": "block/stone/rock/{rock}*" },
-                "up": { "base": "block/stone/rock/top/{rock}*" },
-                "down": { "base": "block/stone/rock/top/{rock}*" }
+                "all": { "base": "block/stone/rock/{rock}*" }
             },
             "*-claystone": {
-                "all": { "base": "block/stone/rock/{rock}*" },
-                "up": { "base": "block/stone/rock/top/{rock}*" },
-                "down": { "base": "block/stone/rock/top/{rock}*" }
+                "all": { "base": "block/stone/rock/{rock}*" }
             },
 			"*-chalk": {
                 "all": { "base": "block/stone/rock/{rock}*" }
