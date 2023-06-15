@@ -32,6 +32,7 @@
         "file": "blocktypes/stone/rock.json",
         "op": "replace",
         "path": "/texturesByType",
+		"side": "server",
         "value": {
             "*-andesite": {
                 "all": { base: "block/stone/rock/{rock}*" }
