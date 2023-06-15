@@ -619,6 +619,13 @@
 			    "RockGroup": "tbd"
 		    },
 			{
+			    "Code": "endstone-barren",
+			    "Weight": "0",
+			    "SoilpH" : "7.5",
+			    "WeatheringFactor": "0.7",
+			    "RockGroup": "tbd"
+		    },
+			{
 			    "Code": "halite",
 			    "Weight": "50",
 			    "SoilpH" : "6",
