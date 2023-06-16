@@ -1,7 +1,7 @@
 [
     {
         "file": "worldgen/rockstrata.json",
-        "op": "add",
+        "op": "replace",
         "path": "/variants",
 		"side": "server",
         "value": [
