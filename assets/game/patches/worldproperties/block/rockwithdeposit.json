@@ -3,6 +3,7 @@
         "file": "worldproperties/block/rockwithdeposit.json",
         "op": "replace",
         "path": "/variants",
+		"side": "server",
         "value": [
             {
                 "Code": "andesite",
