@@ -1,0 +1,31 @@
+[
+
+
+    {
+        "file": "game:blocktypes/stone/gravel.json",
+        "op": "remove",
+        "path": "/textures",
+        "side": "server",
+        "value": {}
+
+    },
+
+
+    {
+        "file": "game:blocktypes/stone/gravel.json",
+        "op": "add",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|limestone|peridotite|phyllite|sandstone|shale|slate)": {
+                "all": { "base": "game:block/stone/gravel/{rock}*" }
+            },
+                "*": {
+                    "all": { "base": "conquestnaturepack:block/topography/gravel/{rock}/*" }
+                }
+
+            }
+        }
+
+
+]

@@ -1,0 +1,32 @@
+[
+	{
+		"file": "game:blocktypes/stone/gravel-layered.json",
+		"op": "remove",
+		"path": "/textures",
+		"side": "server",
+		"value": {}
+
+	},
+
+
+	{
+		"file": "game:blocktypes/stone/gravel-layered.json",
+		"op": "add",
+		"path": "/texturesByType",
+		"side": "server",
+		"value": {
+			"@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|limestone|peridotite|phyllite|sandstone|shale|slate)-land-.*": {
+				"material": { "base": "game:block/stone/gravel/{rock}" }
+			},
+			"@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|limestone|peridotite|phyllite|sandstone|shale|slate)-water-.*": {
+				"material": { "base": "game:block/stone/gravel/{rock}" }
+			},
+			"@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|limestone|peridotite|phyllite|sandstone|shale|slate)-ice-.*": {
+				"material": { "base": "game:block/stone/gravel/{rock}" }
+			},
+			"*": {
+				"material": { "base": "conquestnaturepack:block/topography/gravel/{rock}/*" }
+			}
+		}
+		}
+]

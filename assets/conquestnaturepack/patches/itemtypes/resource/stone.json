@@ -1,0 +1,25 @@
+[
+	{
+		"file": "game:itemtypes/resource/stone.json",
+		"op": "remove",
+		"path": "/textures",
+		"side": "server",
+		"value": {
+		}
+	},
+	{
+		"file": "game:itemtypes/resource/stone.json",
+		"op": "add",
+		"path": "/texturesByType",
+		"side": "server",
+		"value": {
+			"@.*-(andesite|chalk|chert|conglomerate|limestone|claystone|granite|sandstone|shale|basalt|peridotite|phyllite|slate|obsidian|kimberlite|scoria|tuff|bauxite|halite|suevite|whitemarble|redmarble|greenmarble)": {
+				"material": { "base": "game:block/stone/rock/{rock}1" }
+			},
+			"*": {
+				"material": { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
+			}
+		}
+	}
+]
+

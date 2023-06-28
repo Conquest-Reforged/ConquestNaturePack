@@ -1,0 +1,36 @@
+[
+    {
+        "file": "game:blocktypes/stone/looseflints.json",
+        "op": "remove",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+        }
+    },
+
+    {
+        "file": "game:blocktypes/stone/looseflints.json",
+        "op": "add",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "@.*-(andesite|chalk|chert|conglomerate|limestone|claystone|granite|sandstone|shale|basalt|peridotite|phyllite|slate|obsidian|kimberlite|scoria|tuff|bauxite|halite|suevite|whitemarble|redmarble|greenmarble)-free": {
+                "rock": { "base": "game:block/stone/rock/{rockwithdeposit}1" }
+            },
+            "@.*-(andesite|chalk|chert|conglomerate|limestone|claystone|granite|sandstone|shale|basalt|peridotite|phyllite|slate|obsidian|kimberlite|scoria|tuff|bauxite|halite|suevite|whitemarble|redmarble|greenmarble)-water": {
+                "rock": { "base": "game:block/stone/rock/{rockwithdeposit}1" }
+            },
+            "@.*-(andesite|chalk|chert|conglomerate|limestone|claystone|granite|sandstone|shale|basalt|peridotite|phyllite|slate|obsidian|kimberlite|scoria|tuff|bauxite|halite|suevite|whitemarble|redmarble|greenmarble)-ice": {
+                "rock": { "base": "game:block/stone/rock/{rockwithdeposit}1" }
+            },
+            "@.*-(andesite|chalk|chert|conglomerate|limestone|claystone|granite|sandstone|shale|basalt|peridotite|phyllite|slate|obsidian|kimberlite|scoria|tuff|bauxite|halite|suevite|whitemarble|redmarble|greenmarble)-snow": {
+                "rock": { "base": "game:block/stone/rock/{rockwithdeposit}1" }
+            },
+
+            "*": {
+                "rock": { "base": "conquestnaturepack:block/topography/rock/{rockwithdeposit}/*" }
+            }
+
+        }
+    }
+]
