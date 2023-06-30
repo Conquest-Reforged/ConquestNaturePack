@@ -159,7 +159,7 @@
         "op": "add",
         "path": "/variants/36",
         "value": {
-            "Code": "rhyolite-weathered",
+            "Code": "rhyolite_weathered",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
@@ -519,7 +519,7 @@
         "op": "add",
         "path": "/variants/66",
         "value": {
-            "Code": "limestone-light",
+            "Code": "limestonelight",
             "Weight": "70",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
@@ -831,7 +831,7 @@
         "op": "add",
         "path": "/variants/92",
         "value": {
-            "Code": "mudstone-brown",
+            "Code": "mudstonebrown",
             "Weight": "30",
             "SoilpH": "6.2",
             "WeatheringFactor": "1",
