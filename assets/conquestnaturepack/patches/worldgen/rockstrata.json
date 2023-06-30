@@ -5,7 +5,7 @@
         "path": "/variants/3",
         "side": "server",
         "value": {
-            "blockcode": "rock-basalt-columnar",
+            "blockcode": "rock-basalt_columnar",
             "amplitudes": [
                 4,
                 2,
@@ -87,7 +87,7 @@
         "path": "/variants/13",
         "side": "server",
         "value": {
-            "blockcode": "rock-limestonelight",
+            "blockcode": "rock-limestone_light",
             "amplitudes": [
                 4,
                 2,
@@ -113,7 +113,7 @@
         "path": "/variants/14",
         "side": "server",
         "value": {
-            "blockcode": "rock-limestone-pink",
+            "blockcode": "rock-limestone_pink",
             "amplitudes": [
                 4,
                 2,
@@ -139,7 +139,7 @@
         "path": "/variants/15",
         "side": "server",
         "value": {
-            "blockcode": "rock-limestone-tan",
+            "blockcode": "rock-limestone_tan",
             "amplitudes": [
                 4,
                 2,
@@ -165,7 +165,7 @@
         "path": "/variants/16",
         "side": "server",
         "value": {
-            "blockcode": "rock-mudstonebrown",
+            "blockcode": "rock-mudstone_brown",
             "amplitudes": [
                 5,
                 2.5,
@@ -194,7 +194,7 @@
         "path": "/variants/17",
         "side": "server",
         "value": {
-            "blockcode": "rock-mudstone-light",
+            "blockcode": "rock-mudstone_light",
             "amplitudes": [
                 5,
                 2.5,
@@ -223,7 +223,7 @@
         "path": "/variants/18",
         "side": "server",
         "value": {
-            "blockcode": "rock-mudstone-lightbrown",
+            "blockcode": "rock-mudstone_lightbrown",
             "amplitudes": [
                 5,
                 2.5,
@@ -252,7 +252,7 @@
         "path": "/variants/19",
         "side": "server",
         "value": {
-            "blockcode": "rock-mudstone-orange",
+            "blockcode": "rock-mudstone_orange",
             "amplitudes": [
                 5,
                 2.5,
@@ -281,7 +281,7 @@
         "path": "/variants/20",
         "side": "server",
         "value": {
-            "blockcode": "rock-mudstone-red",
+            "blockcode": "rock-mudstone_red",
             "amplitudes": [
                 5,
                 2.5,
@@ -310,7 +310,7 @@
         "path": "/variants/21",
         "side": "server",
         "value": {
-            "blockcode": "rock-mudstone-umbre",
+            "blockcode": "rock-mudstone_umbre",
             "amplitudes": [
                 5,
                 2.5,
@@ -339,7 +339,7 @@
         "path": "/variants/22",
         "side": "server",
         "value": {
-            "blockcode": "rock-mudstone-yellow",
+            "blockcode": "rock-mudstone_yellow",
             "amplitudes": [
                 5,
                 2.5,
@@ -368,7 +368,7 @@
         "path": "/variants/23",
         "side": "server",
         "value": {
-            "blockcode": "rock-sandstone-red",
+            "blockcode": "rock-sandstone_red",
             "amplitudes": [
                 5,
                 2.5,
@@ -397,7 +397,7 @@
         "path": "/variants/24",
         "side": "server",
         "value": {
-            "blockcode": "rock-sandstone-tan",
+            "blockcode": "rock-sandstone_tan",
             "amplitudes": [
                 5,
                 2.5,
@@ -426,7 +426,7 @@
         "path": "/variants/25",
         "side": "server",
         "value": {
-            "blockcode": "rock-sandstone-warped",
+            "blockcode": "rock-sandstone_warped",
             "amplitudes": [
                 5,
                 2.5,
@@ -484,7 +484,7 @@
         "path": "/variants/30",
         "side": "server",
         "value": {
-            "blockcode": "rock-quartzite-pink",
+            "blockcode": "rock-quartzite_pink",
             "amplitudes": [
                 2.9,
                 1.6,
@@ -513,7 +513,7 @@
         "path": "/variants/31",
         "side": "server",
         "value": {
-            "blockcode": "rock-quartzite-yellow",
+            "blockcode": "rock-quartzite_yellow",
             "amplitudes": [
                 2.9,
                 1.6,
@@ -542,7 +542,7 @@
         "path": "/variants/32",
         "side": "server",
         "value": {
-            "blockcode": "rock-schist-blue",
+            "blockcode": "rock-schist_blue",
             "amplitudes": [
                 2.9,
                 1.6,
@@ -571,7 +571,7 @@
         "path": "/variants/33",
         "side": "server",
         "value": {
-            "blockcode": "rock-schist-green",
+            "blockcode": "rock-schist_green",
             "amplitudes": [
                 2.9,
                 1.6,
@@ -629,7 +629,7 @@
         "path": "/variants/35",
         "side": "server",
         "value": {
-            "blockcode": "rock-basalt-columnar",
+            "blockcode": "rock-basalt_columnar",
             "amplitudes": [
                 10,
                 5,
@@ -659,7 +659,7 @@
         "path": "/variants/36",
         "side": "server",
         "value": {
-            "blockcode": "rock-dacite-columnar",
+            "blockcode": "rock-dacite_columnar",
             "amplitudes": [
                 2.9,
                 1.6,
@@ -717,7 +717,7 @@
         "path": "/variants/38",
         "side": "server",
         "value": {
-            "blockcode": "rock-tuff-light",
+            "blockcode": "rock-tuff_light",
             "amplitudes": [
                 2.9,
                 1.6,
@@ -746,7 +746,7 @@
         "path": "/variants/39",
         "side": "server",
         "value": {
-            "blockcode": "rock-anorthosite-rough",
+            "blockcode": "rock-anorthosite_rough",
             "amplitudes": [
                 2.9,
                 1.6,
@@ -776,7 +776,7 @@
         "path": "/variants/40",
         "side": "server",
         "value": {
-            "blockcode": "rock-granite-red",
+            "blockcode": "rock-granite_red",
             "amplitudes": [
                 2.9,
                 1.6,

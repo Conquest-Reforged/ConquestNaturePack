@@ -3,7 +3,7 @@
         "op": "add",
         "path": "/variants/1",
         "value": {
-            "Code": "basalt-columnar",
+            "Code": "basalt_columnar",
             "Weight": "40",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
@@ -27,7 +27,7 @@
         "op": "add",
         "path": "/variants/3",
         "value": {
-            "Code": "dacite-columnar",
+            "Code": "dacite_columnar",
             "Weight": "40",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
@@ -51,7 +51,7 @@
         "op": "add",
         "path": "/variants/5",
         "value": {
-            "Code": "tuff-light",
+            "Code": "tuff_light",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",
@@ -63,7 +63,7 @@
         "op": "add",
         "path": "/variants/6",
         "value": {
-            "Code": "anorthosite-rough",
+            "Code": "anorthosite_rough",
             "Weight": "80",
             "SoilpH": "7.3",
             "WeatheringFactor": "0.7",
@@ -75,7 +75,7 @@
         "op": "add",
         "path": "/variants/7",
         "value": {
-            "Code": "granite-red",
+            "Code": "granite_red",
             "Weight": "80",
             "SoilpH": "7.3",
             "WeatheringFactor": "0.7",
@@ -99,7 +99,7 @@
         "op": "add",
         "path": "/variants/9",
         "value": {
-            "Code": "quartzite-pink",
+            "Code": "quartzite_pink",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
@@ -111,7 +111,7 @@
         "op": "add",
         "path": "/variants/10",
         "value": {
-            "Code": "quartzite-yellow",
+            "Code": "quartzite_yellow",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
@@ -123,7 +123,7 @@
         "op": "add",
         "path": "/variants/11",
         "value": {
-            "Code": "schist-blue",
+            "Code": "schist_blue",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
@@ -135,7 +135,7 @@
         "op": "add",
         "path": "/variants/12",
         "value": {
-            "Code": "schist-green",
+            "Code": "schist_green",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
@@ -183,7 +183,7 @@
         "op": "add",
         "path": "/variants/16",
         "value": {
-            "Code": "limestonelight",
+            "Code": "limestone_light",
             "Weight": "70",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
@@ -195,7 +195,7 @@
         "op": "add",
         "path": "/variants/17",
         "value": {
-            "Code": "limestone-pink",
+            "Code": "limestone_pink",
             "Weight": "70",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
@@ -207,7 +207,7 @@
         "op": "add",
         "path": "/variants/18",
         "value": {
-            "Code": "limestone-tan",
+            "Code": "limestone_tan",
             "Weight": "70",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
@@ -219,7 +219,7 @@
         "op": "add",
         "path": "/variants/19",
         "value": {
-            "Code": "mudstonebrown",
+            "Code": "mudstone_brown",
             "Weight": "30",
             "SoilpH": "6.2",
             "WeatheringFactor": "1",
@@ -231,7 +231,7 @@
         "op": "add",
         "path": "/variants/20",
         "value": {
-            "Code": "mudstone-light",
+            "Code": "mudstone_light",
             "Weight": "30",
             "SoilpH": "6.2",
             "WeatheringFactor": "1",
@@ -243,7 +243,7 @@
         "op": "add",
         "path": "/variants/21",
         "value": {
-            "Code": "mudstone-lightbrown",
+            "Code": "mudstone_lightbrown",
             "Weight": "30",
             "SoilpH": "6.2",
             "WeatheringFactor": "1",
@@ -255,7 +255,7 @@
         "op": "add",
         "path": "/variants/22",
         "value": {
-            "Code": "mudstone-orange",
+            "Code": "mudstone_orange",
             "Weight": "30",
             "SoilpH": "6.2",
             "WeatheringFactor": "1",
@@ -267,7 +267,7 @@
         "op": "add",
         "path": "/variants/23",
         "value": {
-            "Code": "mudstone-red",
+            "Code": "mudstone_red",
             "Weight": "30",
             "SoilpH": "6.2",
             "WeatheringFactor": "1",
@@ -279,7 +279,7 @@
         "op": "add",
         "path": "/variants/24",
         "value": {
-            "Code": "mudstone-umbre",
+            "Code": "mudstone_umbre",
             "Weight": "30",
             "SoilpH": "6.2",
             "WeatheringFactor": "1",
@@ -291,7 +291,7 @@
         "op": "add",
         "path": "/variants/25",
         "value": {
-            "Code": "mudstone-yellow",
+            "Code": "mudstone_yellow",
             "Weight": "30",
             "SoilpH": "6.2",
             "WeatheringFactor": "1",
@@ -303,7 +303,7 @@
         "op": "add",
         "path": "/variants/26",
         "value": {
-            "Code": "sandstone-red",
+            "Code": "sandstone_red",
             "Weight": "40",
             "SoilpH": "5.5",
             "WeatheringFactor": "1.2",
@@ -315,7 +315,7 @@
         "op": "add",
         "path": "/variants/27",
         "value": {
-            "Code": "sandstone-tan",
+            "Code": "sandstone_tan",
             "Weight": "40",
             "SoilpH": "5.5",
             "WeatheringFactor": "1.2",
@@ -327,7 +327,7 @@
         "op": "add",
         "path": "/variants/28",
         "value": {
-            "Code": "sandstone-warped",
+            "Code": "sandstone_warped",
             "Weight": "40",
             "SoilpH": "5.5",
             "WeatheringFactor": "1.2",
