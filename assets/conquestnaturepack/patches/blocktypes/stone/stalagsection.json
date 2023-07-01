@@ -1,0 +1,25 @@
+[
+    {
+        "file": "game:blocktypes/stone/stalagsection.json",
+        "op": "remove",
+        "path": "/textures",
+        "side": "server",
+        "value": {}
+
+    },
+    {
+        "file": "game:blocktypes/stone/stalagsection.json",
+        "op": "add",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "@.*-(andesite|chalk|chert|conglomerate|limestone|claystone|granite|sandstone|shale|basalt|peridotite|phyllite|slate|obsidian|kimberlite|scoria|tuff|bauxite|halite|suevite|whitemarble|redmarble|greenmarble)*": {
+                "rock": { "base": "game:block/stone/rock/{rock}*" }
+            },
+            "*": {
+                "rock": { "base": "conquestnaturepack:block/topography/rock/{rock}*" }
+            }
+
+        }
+    }
+]
