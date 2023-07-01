@@ -1,32 +1,27 @@
 [
-
-
 	{
-		"file": "game:blocktypes/stone/stalagsection.json",
+		"file": "game:blocktypes/stone/sand-layered.json",
 		"op": "remove",
 		"path": "/textures",
 		"side": "server",
-		"value": {}
+		"value": {
 
+		}
 	},
-
-
 	{
-		"file": "game:blocktypes/stone/stalagsection.json",
+		"file": "game:blocktypes/stone/sand-layered.json",
 		"op": "add",
 		"path": "/texturesByType",
 		"side": "server",
 		"value": {
 			"@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|limestone|peridotite|phyllite|sandstone|shale|slate)": {
-				"all": { "base": "game:block/stone/rock/{rock}*" }
+				"all": { "base": "game:block/stone/gravel/{rock}*" }
 			},
 			"*": {
-				"all": { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
+				"all": { "base": "conquestnaturepack:block/topography/sand/{rock}/*" }
 			}
-
 		}
 	}
-
-
 ]
+
 

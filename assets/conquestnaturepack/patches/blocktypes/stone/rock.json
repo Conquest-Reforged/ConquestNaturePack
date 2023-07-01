@@ -92,7 +92,7 @@
             "*-limestone_light": 6,
             "*-limestone_mossy": 6,
             "*-limestone_pink": 6,
-            "*-limestone_stained_tan": 6,
+            "*-limestone_stained-tan": 6,
             "*-limestone_tan": 6,
             "*-mudstone_light": 5,
             "*-mudstone_lightbrown": 5,
@@ -139,6 +139,7 @@
                 "up": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" },
                 "down": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
             },
+
             "@.*-(sandstone_costal_red|sandstone_mossy_red|sandstone_red|sandstone_tan)": {
                 "all": { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" },
                 "up": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" },
@@ -147,8 +148,9 @@
             "@.*-(andesite|basalt|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite)": {
                 "all": { "base": "game:block/stone/rock/{rock}*" }
             },
+
             "*": {
-                "all": { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" }
+                "all": { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
             }
         }
     }
