@@ -1,0 +1,37 @@
+[
+  {
+    "op": "add",
+    "path": "/skipVariants",
+    "value": [
+      "*-basalt_columnar",
+      "*-blackstone",
+      "*-dacite_columnar",
+      "*-rhyolite_weathered",
+      "*-tuff_light",
+      "*-anorthosite_rough",
+      "*-granite_red",
+      "*-gneiss",
+      "*-quartzite_pink",
+      "*-quartzite_yellow",
+      "*-schist_blue",
+      "*-schist_green",
+      "*-serpentinite",
+      "*-dolomite",
+      "*-graywacke",
+      "*-limestone_light",
+      "*-limestone_pink",
+      "*-limestone_tan",
+      "*-mudstone_brown",
+      "*-mudstone_light",
+      "*-mudstone_lightbrown",
+      "*-mudstone_orange",
+      "*-mudstone_red",
+      "*-mudstone_umbre",
+      "*-mudstone_yellow",
+      "*-sandstone_red",
+      "*-sandstone_tan",
+      "*-sandstone_warped"
+    ],
+    "file": "game:blocktypes/stone/stonebrick/stonebricks.json"
+  }
+]
