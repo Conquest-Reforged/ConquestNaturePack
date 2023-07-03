@@ -30,7 +30,8 @@
       "*-mudstone_yellow",
       "*-sandstone_red",
       "*-sandstone_tan",
-      "*-sandstone_warped"
+      "*-sandstone_warped",
+	  "*-calcite"
     ],
     "file": "game:blocktypes/stone/stonebrick/agedstonebricks.json"
   }

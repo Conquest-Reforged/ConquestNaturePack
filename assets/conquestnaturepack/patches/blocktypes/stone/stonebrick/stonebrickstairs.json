@@ -166,5 +166,11 @@
     "path": "/skipVariants/27",
     "value": "*-sandstone_warped-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/28",
+    "value": "*-calcite-*",
+    "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   }
 ]

@@ -334,5 +334,17 @@
             "RockGroup": "sedimentary"
         },
         "file": "game:worldproperties/block/rock.json"
+    },
+	{
+        "op": "add",
+        "path": "/variants/27",
+        "value": {
+            "Code": "calcite",
+            "Weight": "0",
+            "SoilpH": "7.5",
+            "WeatheringFactor": "0.7",
+            "RockGroup": "tbd"
+        },
+        "file": "game:worldproperties/block/rock.json"
     }
 ]
