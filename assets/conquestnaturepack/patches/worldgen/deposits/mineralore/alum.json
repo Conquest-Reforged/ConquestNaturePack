@@ -1,0 +1,20 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "value": "sandstone*",
+    "file": "game:worldgen/deposits/mineralore/alum.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/3",
+    "value": "chalk*",
+    "file": "game:worldgen/deposits/mineralore/alum.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/4",
+    "value": "limestone*",
+    "file": "game:worldgen/deposits/mineralore/alum.json"
+  }
+]

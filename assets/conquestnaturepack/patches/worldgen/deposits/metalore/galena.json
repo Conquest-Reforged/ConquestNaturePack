@@ -1,0 +1,63 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "value": "sandstone*",
+    "file": "game:worldgen/deposits/metalore/galena.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/3",
+    "value": "chalk*",
+    "file": "game:worldgen/deposits/metalore/galena.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/4",
+    "value": "limestone*",
+    "file": "game:worldgen/deposits/metalore/galena.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-chalk",
+    "file": "game:worldgen/deposits/metalore/galena.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone",
+    "file": "game:worldgen/deposits/metalore/galena.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone",
+    "file": "game:worldgen/deposits/metalore/galena.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-chalk*",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/galena.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone*",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/galena.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone*",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/galena.json"
+  }
+]

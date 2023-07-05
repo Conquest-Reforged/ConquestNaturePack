@@ -1,146 +1,278 @@
 [
-    {
-        "file": "game:blocktypes/stone/ore-ungraded.json",
-        "op": "replace",
-        "path": "/skipVariants",
-        "side": "server",
-        "value": [
-            "ore-flint-suevite",
-            "ore-flint-halite",
-            "ore-flint-alum",
-            "ore-flint-whitemarble",
-            "ore-flint-redmarble",
-            "ore-flint-greenmarble",
-            "ore-flint-scoria",
-            "ore-flint-tuff",
-            "ore-flint-obsidian",
-            "ore-flint-andesite_columnar",
-            "ore-flint-andesite_porous",
-            "ore-flint-andesite_weathered",
-            "ore-flint-anorthosite_rough",
-            "ore-flint-anorthosite_smooth",
-            "ore-flint-anorthosite_weathered",
-            "ore-flint-basalt_columnar",
-            "ore-flint-basalt_porous",
-            "ore-flint-basalt_weathered",
-            "ore-flint-blackstone",
-            "ore-flint-calcite",
-            "ore-flint-calcite_rough",
-            "ore-flint-dacite_columnar",
-            "ore-flint-dacite_porous",
-            "ore-flint-dacite_weathered",
-            "ore-flint-dripstone",
-            "ore-flint-endstone",
-            "ore-flint-endstone_barren",
-            "ore-flint-gneiss",
-            "ore-flint-granite_red",
-            "ore-flint-granite_smooth",
-            "ore-flint-granite_smooth_red",
-            "ore-flint-granite_snowy",
-            "ore-flint-magma",
-            "ore-flint-marble_rough_dark",
-            "ore-flint-obsidian_crying",
-            "ore-flint-obsidian_light",
-            "ore-flint-obsidian_smooth",
-            "ore-flint-pahoehoe",
-            "ore-flint-quartzite_pink",
-            "ore-flint-quartzite_yellow",
-            "ore-flint-rhyolite_columnar",
-            "ore-flint-rhyolite_weathered",
-            "ore-flint-salt_flats_blue",
-            "ore-flint-salt_flats_pink",
-            "ore-flint-schist_blue",
-            "ore-flint-schist_green",
-            "ore-flint-schist_lichen_blue",
-            "ore-flint-schist_mossy_blue",
-            "ore-flint-schist_weathered_blue",
-            "ore-flint-serpentinite",
-            "ore-flint-serpentinite_smooth",
-            "ore-flint-slate_warped",
-            "ore-flint-slate_warped_costal",
-            "ore-flint-slate_wet",
-            "ore-flint-tuff_light",
-            "ore-flint-tuff_smooth"
-        ]
-    },
-
-    {
-        "op": "remove",
-        "path": "/textures",
-        "file": "game:blocktypes/stone/ore-ungraded.json"
-    },
-    {
-        "file": "game:blocktypes/stone/ore-ungraded.json",
-        "op": "add",
-        "path": "/texturesByType",
-        "value": {
-            "@.*-(andesite|chalk|chert|conglomerate|limestone|claystone|granite|sandstone|shale|basalt|peridotite|phyllite|slate|obsidian|kimberlite|scoria|tuff|bauxite|halite|suevite|whitemarble|redmarble|greenmarble)": {
-                "all": {
-                    "base": "game:block/stone/rock/{rock}1",
-                    "overlays": [
-                        "game:block/stone/ore/{type}1"
-                    ],
-                    "alternates": [
-                        {
-                            "base": "game:block/stone/rock/{rock}1",
-                            "overlays": [
-                                "game:block/stone/ore/{type}2"
-                            ]
-                        },
-                        {
-                            "base": "game:block/stone/rock/{rock}1",
-                            "overlays": [
-                                "game:block/stone/ore/{type}3"
-                            ]
-                        }
-                    ]
-                }
-            },
-            "@.*-(graywacke|limestone_boulders_mossy_light|limestone_icy|limestone_mossy|sandstone_costal_red|sandstone_mossy_red|sandstone_red|sandstone_tan)": {
-                "all": {
-                    "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
-                    "overlays": [
-                        "conquestnaturepack:block/topography/ore/{type}/{type}1"
-                    ],
-                    "alternates": [
-                        {
-                            "base": "conquestnaturepack:block/topography/rock/{rock}/sides/2",
-                            "overlays": [
-                                "conquestnaturepack:block/topography/ore/{type}/{type}2"
-                            ]
-                        },
-                        {
-                            "base": "conquestnaturepack:block/topography/rock/{rock}/sides/3",
-                            "overlays": [
-                                "conquestnaturepack:block/topography/ore/{type}/{type}3"
-                            ]
-                        }
-                    ]
-                }
-            },
-            "*": {
-                "all": {
-                    "base": "conquestnaturepack:block/topography/rock/{rock}/1",
-                    "overlays": [
-                        "conquestnaturepack:block/topography/ore/{type}/{type}1"
-                    ],
-                    "alternates": [
-                        {
-                            "base": "conquestnaturepack:block/topography/rock/{rock}/2",
-                            "overlays": [
-                                "conquestnaturepack:block/topography/ore/{type}/{type}2"
-                            ]
-                        },
-                        {
-                            "base": "conquestnaturepack:block/topography/rock/{rock}/3",
-                            "overlays": [
-                                "conquestnaturepack:block/topography/ore/{type}/{type}3"
-                            ]
-                        }
-                    ]
-                }
-            }
-        }
-
-    }
+  {
+    "op": "replace",
+    "path": "/allowedVariants/1",
+    "value": "ore-quartz-andesite*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/2",
+    "value": "ore-quartz-granite*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/3",
+    "value": "ore-quartz-basalt*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/6",
+    "value": "ore-quartz-sandstone*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/8",
+    "value": "ore-quartz-chalk*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/9",
+    "value": "ore-quartz-limestone*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/13",
+    "value": "ore-quartz-slate*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/14",
+    "value": "ore-quartz_wolframite-granite*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/16",
+    "value": "ore-alum-sandstone*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/18",
+    "value": "ore-alum-chalk*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/19",
+    "value": "ore-alum-limestone*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/22",
+    "value": "ore-stibnite-limestone*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/24",
+    "value": "ore-lignite-sandstone*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/26",
+    "value": "ore-lignite-chalk*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/27",
+    "value": "ore-lignite-limestone*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/31",
+    "value": "ore-bituminouscoal-sandstone*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/33",
+    "value": "ore-bituminouscoal-chalk*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/34",
+    "value": "ore-bituminouscoal-limestone*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/38",
+    "value": "ore-anthracite-sandstone*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/40",
+    "value": "ore-anthracite-chalk*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/41",
+    "value": "ore-anthracite-limestone*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/45",
+    "value": "ore-sulfur-sandstone*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/47",
+    "value": "ore-sulfur-chalk*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/48",
+    "value": "ore-sulfur-limestone*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/53",
+    "value": "ore-borax-sandstone*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/55",
+    "value": "ore-borax-chalk*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/56",
+    "value": "ore-borax-limestone*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/60",
+    "value": "ore-kernite-sandstone*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/62",
+    "value": "ore-kernite-chalk*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/63",
+    "value": "ore-kernite-limestone*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/67",
+    "value": "ore-graphite-slate*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/71",
+    "value": "ore-cinnabar-andesite*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/72",
+    "value": "ore-cinnabar-granite*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/73",
+    "value": "ore-cinnabar-basalt*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/76",
+    "value": "ore-cinnabar-slate*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/79",
+    "value": "ore-corundum-slate*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/83",
+    "value": "ore-lapislazuli-limestone*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/90",
+    "value": "ore-fluorite-sandstone*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/92",
+    "value": "ore-fluorite-chalk*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/93",
+    "value": "ore-fluorite-limestone*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/97",
+    "value": "ore-fluorite-slate*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/99",
+    "value": "ore-phosphorite-sandstone*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/101",
+    "value": "ore-phosphorite-chalk*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/allowedVariants/102",
+    "value": "ore-phosphorite-limestone*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/skipVariants/7",
+    "value": "ore-flint-tuff*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  },
+  {
+    "op": "replace",
+    "path": "/skipVariants/8",
+    "value": "ore-flint-obsidian*",
+    "file": "game:blocktypes/stone/ore-ungraded.json"
+  }
 ]

@@ -1,0 +1,62 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/0",
+    "value": "andesite*",
+    "file": "game:worldgen/deposits/metalore/pentlandite.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "value": "granite*",
+    "file": "game:worldgen/deposits/metalore/pentlandite.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/2",
+    "value": "basalt*",
+    "file": "game:worldgen/deposits/metalore/pentlandite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-andesite",
+    "file": "game:worldgen/deposits/metalore/pentlandite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt",
+    "file": "game:worldgen/deposits/metalore/pentlandite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite",
+    "file": "game:worldgen/deposits/metalore/pentlandite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-andesite*",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/pentlandite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt*",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/pentlandite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite*",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/pentlandite.json"
+  }
+]

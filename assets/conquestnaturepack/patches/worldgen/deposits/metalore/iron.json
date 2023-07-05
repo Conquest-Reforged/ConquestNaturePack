@@ -1,0 +1,126 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/0",
+    "value": "basalt*",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt*",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "replace",
+    "path": "/1/attributes/inblock/allowedVariants/0",
+    "value": "granite*",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "replace",
+    "path": "/1/attributes/inblock/allowedVariants/2",
+    "value": "limestone*",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "remove",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-granite",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "remove",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-limestone",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-granite*",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-limestone*",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "replace",
+    "path": "/2/attributes/inblock/allowedVariants/0",
+    "value": "andesite*",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "replace",
+    "path": "/2/attributes/inblock/allowedVariants/2",
+    "value": "chalk*",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "replace",
+    "path": "/2/attributes/inblock/allowedVariants/4",
+    "value": "slate*",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "remove",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-andesite",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "remove",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-chalk",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "remove",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-slate",
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-andesite*",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-chalk*",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-slate*",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/iron.json"
+  }
+]

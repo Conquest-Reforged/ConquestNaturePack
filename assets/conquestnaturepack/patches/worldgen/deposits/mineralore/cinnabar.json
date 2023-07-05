@@ -1,0 +1,26 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/0",
+    "value": "andesite*",
+    "file": "game:worldgen/deposits/mineralore/cinnabar.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "value": "granite*",
+    "file": "game:worldgen/deposits/mineralore/cinnabar.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/2",
+    "value": "basalt*",
+    "file": "game:worldgen/deposits/mineralore/cinnabar.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/5",
+    "value": "slate*",
+    "file": "game:worldgen/deposits/mineralore/cinnabar.json"
+  }
+]

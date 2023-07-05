@@ -1,0 +1,20 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/0",
+    "value": "basalt*",
+    "file": "game:worldgen/deposits/gem/emerald.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/3",
+    "value": "limestone*",
+    "file": "game:worldgen/deposits/gem/emerald.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/5",
+    "value": "slate*",
+    "file": "game:worldgen/deposits/gem/emerald.json"
+  }
+]

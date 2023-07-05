@@ -1,0 +1,190 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/0",
+    "value": "andesite*",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "value": "granite*",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/2",
+    "value": "basalt*",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/5",
+    "value": "slate*",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "replace",
+    "path": "/1/attributes/inblock/allowedVariants/0",
+    "value": "andesite*",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "replace",
+    "path": "/1/attributes/inblock/allowedVariants/1",
+    "value": "granite*",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "replace",
+    "path": "/1/attributes/inblock/allowedVariants/2",
+    "value": "basalt*",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "replace",
+    "path": "/1/attributes/inblock/allowedVariants/5",
+    "value": "slate*",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-andesite",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-basalt",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-granite",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-slate",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-andesite*",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-basalt*",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-granite*",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-slate*",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "replace",
+    "path": "/2/attributes/inblock/allowedVariants/0",
+    "value": "andesite*",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "replace",
+    "path": "/2/attributes/inblock/allowedVariants/1",
+    "value": "granite*",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "replace",
+    "path": "/2/attributes/inblock/allowedVariants/2",
+    "value": "basalt*",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "replace",
+    "path": "/2/attributes/inblock/allowedVariants/5",
+    "value": "slate*",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-andesite",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-basalt",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-granite",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-slate",
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-andesite*",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-basalt*",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-granite*",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  },
+  {
+    "op": "add",
+    "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-slate*",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/cassiterite.json"
+  }
+]

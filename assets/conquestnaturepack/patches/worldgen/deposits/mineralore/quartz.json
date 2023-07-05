@@ -1,0 +1,44 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/0",
+    "value": "andesite*",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "value": "chalk*",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/4",
+    "value": "limestone*",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/6",
+    "value": "granite*",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/7",
+    "value": "sandstone*",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/9",
+    "value": "basalt*",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/12",
+    "value": "slate*",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  }
+]

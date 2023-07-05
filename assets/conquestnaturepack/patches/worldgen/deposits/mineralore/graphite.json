@@ -1,0 +1,8 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "value": "slate*",
+    "file": "game:worldgen/deposits/mineralore/graphite.json"
+  }
+]

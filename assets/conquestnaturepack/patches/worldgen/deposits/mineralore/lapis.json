@@ -1,0 +1,8 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/attributes/inblock/allowedVariants/0",
+    "value": "limestone*",
+    "file": "game:worldgen/deposits/mineralore/lapis.json"
+  }
+]
