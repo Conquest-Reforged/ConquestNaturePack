@@ -1,6 +1,6 @@
 [
 	{
-		code: "andesite",
+		code: "rock-andesite",
 		triesPerChunk: 0.25,
 		generator: "disc-anywhere",
 		attributes: {
@@ -14,7 +14,7 @@
 		}
 	},
 	{
-		code: "rockvariant",
+		code: "rock-andesite",
 		triesPerChunk: 0.25,
 		generator: "disc-followsurface",
 		attributes: {
