@@ -1,44 +1,291 @@
 [
   {
-    "op": "replace",
-    "path": "/0/attributes/inblock/allowedVariants/0",
-    "value": "andesite*",
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
     "file": "game:worldgen/deposits/mineralore/quartz.json"
   },
   {
     "op": "replace",
     "path": "/0/attributes/inblock/allowedVariants/1",
-    "value": "chalk*",
+    "value": "andesite_columnar",
     "file": "game:worldgen/deposits/mineralore/quartz.json"
   },
   {
-    "op": "replace",
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/2",
+    "value": "andesite_porous",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/3",
+    "value": "andesite_weathered",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
     "path": "/0/attributes/inblock/allowedVariants/4",
-    "value": "limestone*",
+    "value": "chalk",
     "file": "game:worldgen/deposits/mineralore/quartz.json"
   },
   {
-    "op": "replace",
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/5",
+    "value": "chalk_light",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
     "path": "/0/attributes/inblock/allowedVariants/6",
-    "value": "granite*",
+    "value": "chert",
     "file": "game:worldgen/deposits/mineralore/quartz.json"
   },
   {
-    "op": "replace",
+    "op": "add",
     "path": "/0/attributes/inblock/allowedVariants/7",
-    "value": "sandstone*",
+    "value": "conglomerate",
     "file": "game:worldgen/deposits/mineralore/quartz.json"
   },
   {
-    "op": "replace",
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/8",
+    "value": "limestone",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
     "path": "/0/attributes/inblock/allowedVariants/9",
-    "value": "basalt*",
+    "value": "limestone_boulders_light",
     "file": "game:worldgen/deposits/mineralore/quartz.json"
   },
   {
-    "op": "replace",
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/10",
+    "value": "limestone_boulders_mossy_light",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/11",
+    "value": "limestone_icy",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
     "path": "/0/attributes/inblock/allowedVariants/12",
-    "value": "slate*",
+    "value": "limestone_light",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/13",
+    "value": "limestone_mossy",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/14",
+    "value": "limestone_pink",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/15",
+    "value": "limestone_stained_tan",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/16",
+    "value": "limestone_tan",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/17",
+    "value": "claystone",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/18",
+    "value": "granite",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/19",
+    "value": "granite_red",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/20",
+    "value": "granite_smooth",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/21",
+    "value": "granite_smooth_red",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/22",
+    "value": "granite_snowy",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/23",
+    "value": "sandstone",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/24",
+    "value": "sandstone_costal_red",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/25",
+    "value": "sandstone_mossy_red",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/26",
+    "value": "sandstone_red",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/27",
+    "value": "sandstone_tan",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/28",
+    "value": "sandstone_warped",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/29",
+    "value": "shale",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/30",
+    "value": "basalt",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/31",
+    "value": "basalt_columnar",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/32",
+    "value": "basalt_porous",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/33",
+    "value": "basalt_weathered",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/34",
+    "value": "peridotite",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/35",
+    "value": "phyllite",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/36",
+    "value": "slate",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/37",
+    "value": "slate_warped",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/38",
+    "value": "slate_warped_costal",
+    "file": "game:worldgen/deposits/mineralore/quartz.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/39",
+    "value": "slate_wet",
     "file": "game:worldgen/deposits/mineralore/quartz.json"
   }
 ]

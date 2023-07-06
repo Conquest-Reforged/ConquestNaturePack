@@ -1,84 +1,296 @@
 [
   {
-    "op": "replace",
-    "path": "/0/attributes/inblock/allowedVariants/0",
-    "value": "andesite*",
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/inblock/allowedVariants/1",
     "file": "game:worldgen/deposits/metalore/sphalerite.json"
   },
   {
     "op": "replace",
     "path": "/0/attributes/inblock/allowedVariants/1",
-    "value": "granite*",
+    "value": "andesite_columnar",
     "file": "game:worldgen/deposits/metalore/sphalerite.json"
   },
   {
-    "op": "replace",
+    "op": "add",
     "path": "/0/attributes/inblock/allowedVariants/2",
-    "value": "basalt*",
+    "value": "andesite_porous",
     "file": "game:worldgen/deposits/metalore/sphalerite.json"
   },
   {
-    "op": "replace",
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/3",
+    "value": "andesite_weathered",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/4",
+    "value": "granite",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
     "path": "/0/attributes/inblock/allowedVariants/5",
-    "value": "sandstone*",
+    "value": "granite_red",
     "file": "game:worldgen/deposits/metalore/sphalerite.json"
   },
   {
-    "op": "replace",
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/6",
+    "value": "granite_smooth",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
     "path": "/0/attributes/inblock/allowedVariants/7",
-    "value": "chalk*",
+    "value": "granite_smooth_red",
     "file": "game:worldgen/deposits/metalore/sphalerite.json"
   },
   {
-    "op": "replace",
+    "op": "add",
     "path": "/0/attributes/inblock/allowedVariants/8",
-    "value": "limestone*",
+    "value": "granite_snowy",
     "file": "game:worldgen/deposits/metalore/sphalerite.json"
   },
   {
-    "op": "replace",
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/9",
+    "value": "basalt",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/10",
+    "value": "basalt_columnar",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/11",
+    "value": "basalt_porous",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
     "path": "/0/attributes/inblock/allowedVariants/12",
-    "value": "slate*",
-    "file": "game:worldgen/deposits/metalore/sphalerite.json"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-andesite",
-    "file": "game:worldgen/deposits/metalore/sphalerite.json"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt",
-    "file": "game:worldgen/deposits/metalore/sphalerite.json"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-chalk",
-    "file": "game:worldgen/deposits/metalore/sphalerite.json"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite",
-    "file": "game:worldgen/deposits/metalore/sphalerite.json"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone",
-    "file": "game:worldgen/deposits/metalore/sphalerite.json"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone",
-    "file": "game:worldgen/deposits/metalore/sphalerite.json"
-  },
-  {
-    "op": "remove",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-slate",
+    "value": "basalt_weathered",
     "file": "game:worldgen/deposits/metalore/sphalerite.json"
   },
   {
     "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-andesite*",
+    "path": "/0/attributes/inblock/allowedVariants/13",
+    "value": "peridotite",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/14",
+    "value": "claystone",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/15",
+    "value": "sandstone",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/16",
+    "value": "sandstone_costal_red",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/17",
+    "value": "sandstone_mossy_red",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/18",
+    "value": "sandstone_red",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/19",
+    "value": "sandstone_tan",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/20",
+    "value": "sandstone_warped",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/21",
+    "value": "shale",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/22",
+    "value": "chalk",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/23",
+    "value": "chalk_light",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/24",
+    "value": "limestone",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/25",
+    "value": "limestone_boulders_light",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/26",
+    "value": "limestone_boulders_mossy_light",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/27",
+    "value": "limestone_icy",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/28",
+    "value": "limestone_light",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/29",
+    "value": "limestone_mossy",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/30",
+    "value": "limestone_pink",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/31",
+    "value": "limestone_stained_tan",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/32",
+    "value": "limestone_tan",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/33",
+    "value": "chert",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/34",
+    "value": "conglomerate",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/35",
+    "value": "phyllite",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/36",
+    "value": "slate",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/37",
+    "value": "slate_warped",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/38",
+    "value": "slate_warped_costal",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/inblock/allowedVariants/39",
+    "value": "slate_wet",
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-andesite_columnar",
     "value": [
       "poor",
       "medium"
@@ -87,7 +299,7 @@
   },
   {
     "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt*",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-andesite_porous",
     "value": [
       "poor",
       "medium"
@@ -96,7 +308,43 @@
   },
   {
     "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-chalk*",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-andesite_weathered",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_columnar",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_porous",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_weathered",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-chalk_light",
     "value": [
       "poor",
       "medium",
@@ -106,7 +354,7 @@
   },
   {
     "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite*",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite_red",
     "value": [
       "poor",
       "medium"
@@ -115,7 +363,34 @@
   },
   {
     "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone*",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite_smooth",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite_smooth_red",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite_snowy",
+    "value": [
+      "poor",
+      "medium"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_boulders_light",
     "value": [
       "poor",
       "medium",
@@ -125,7 +400,7 @@
   },
   {
     "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone*",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_boulders_mossy_light",
     "value": [
       "poor",
       "medium",
@@ -135,7 +410,139 @@
   },
   {
     "op": "add",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-slate*",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_icy",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_light",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_mossy",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_pink",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_stained_tan",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_tan",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_costal_red",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_mossy_red",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_red",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_tan",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_warped",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-slate_warped",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-slate_warped_costal",
+    "value": [
+      "poor",
+      "medium",
+      "rich",
+      "bountiful"
+    ],
+    "file": "game:worldgen/deposits/metalore/sphalerite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-slate_wet",
     "value": [
       "poor",
       "medium",
