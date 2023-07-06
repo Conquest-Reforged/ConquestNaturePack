@@ -1,0 +1,31 @@
+[
+	{
+		code: "rock-anorthosite",
+		triesPerChunk: 0.25,
+		generator: "disc-anywhere",
+		attributes: {
+			inblock: { code: "rock-anorthosite_rough" },
+			placeblock: { code: "rock-*", name: "rock", allowedVariants: ["anorthosite_smooth", "anorthosite_weathered"] },
+			surfaceBlock: { code: "loosestones-*-free", name: "rock", allowedVariants: ["anorthosite_smooth", "anorthosite_weathered"] },
+			surfaceBlockChance: 0.015,
+			radius: { dist: "gaussian", avg: 250, var: 100 },
+			yPosRel: {dist: "uniform", avg: 0.5, var: 1 },
+			thickness: { dist: "invexp", avg: 75, var: 100 }
+		}
+	},
+	{
+		code: "rock-anorthosite",
+		triesPerChunk: 0.25,
+		generator: "disc-followsurface",
+		attributes: {
+			inblock: { code: "rock-anorthosite_rough" },
+			placeblock: { code: "rock-*", name: "rock", allowedVariants: ["anorthosite_smooth", "anorthosite_weathered"] },
+			genSurfaceBlockChance: 0.015,
+			surfaceBlock: { code: "loosestones-*-free", name: "rock", allowedVariants: ["anorthosite_smooth", "anorthosite_weathered"] },
+			surfaceBlockChance: 0.15,
+			radius: { dist: "gaussian", avg: 250, var: 100 },
+			yPosRel: {dist: "uniform", avg: 0.5, var: 1 },
+			thickness: { dist: "invexp", avg: 75, var: 100 }
+		}
+	}
+]

@@ -1,0 +1,31 @@
+[
+	{
+		code: "rock-schist_blue",
+		triesPerChunk: 0.25,
+		generator: "disc-anywhere",
+		attributes: {
+			inblock: { code: "rock-schist_blue" },
+			placeblock: { code: "rock-*", name: "rock", allowedVariants: ["schist_weathered_blue"] },
+			surfaceBlock: { code: "loosestones-*-free", name: "rock", allowedVariants: ["schist_weathered_blue"] },
+			surfaceBlockChance: 0.015,
+			radius: { dist: "gaussian", avg: 250, var: 100 },
+			yPosRel: {dist: "uniform", avg: 0.5, var: 1 },
+			thickness: { dist: "invexp", avg: 75, var: 100 }
+		}
+	},
+	{
+		code: "rock-schist_blue",
+		triesPerChunk: 0.25,
+		generator: "disc-followsurface",
+		attributes: {
+			inblock: { code: "rock-schist_blue" },
+			placeblock: { code: "rock-*", name: "rock", allowedVariants: ["schist_weathered_blue"] },
+			genSurfaceBlockChance: 0.015,
+			surfaceBlock: { code: "loosestones-*-free", name: "rock", allowedVariants: ["schist_weathered_blue"] },
+			surfaceBlockChance: 0.15,
+			radius: { dist: "gaussian", avg: 250, var: 100 },
+			yPosRel: {dist: "uniform", avg: 0.5, var: 1 },
+			thickness: { dist: "invexp", avg: 75, var: 100 }
+		}
+	}
+]

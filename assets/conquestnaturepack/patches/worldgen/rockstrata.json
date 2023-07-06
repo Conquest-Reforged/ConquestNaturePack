@@ -576,7 +576,7 @@
         "path": "/variants/35",
         "side": "server",
         "value": {
-            "blockcode": "rock-dacite_columnar",
+            "blockcode": "rock-dacite_weathered",
             "amplitudes": [
                 2.9,
                 1.6,
