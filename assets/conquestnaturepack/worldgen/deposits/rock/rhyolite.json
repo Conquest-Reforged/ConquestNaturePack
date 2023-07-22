@@ -31,7 +31,7 @@
     {
         "code": "rock-rhyolite_columnar",
 		_comment: "Rare surface columnar rhyolite deposits.",
-        "triesPerChunk": 0.01,
+        "triesPerChunk": 0.085,
         "generator": "disc-anywhere",
         "attributes": {
             "inblock": { "code": "rock-rhyolite_weathered" },
@@ -53,8 +53,8 @@
             },
             "yPosRel": {
                 "dist": "uniform",
-                "avg": 0.5,
-                "var": 0.5
+                "avg": 1,
+                "var": 0.52
             },
             "thickness": {
                 "dist": "invexp",
