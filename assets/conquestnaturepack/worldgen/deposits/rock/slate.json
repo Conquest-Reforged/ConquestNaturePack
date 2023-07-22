@@ -1,31 +1,37 @@
 [
-	{
-		code: "rock-slate",
-		triesPerChunk: 0.25,
-		generator: "disc-anywhere",
-		attributes: {
-			inblock: { code: "rock-slate" },
-			placeblock: { code: "rock-*", name: "rock", allowedVariants: ["slate_warped"] },
-			surfaceBlock: { code: "loosestones-*-free", name: "rock", allowedVariants: ["slate_warped"] },
-			surfaceBlockChance: 0.015,
-			radius: { dist: "gaussian", avg: 250, var: 100 },
-			yPosRel: {dist: "uniform", avg: 0.5, var: 1 },
-			thickness: { dist: "invexp", avg: 75, var: 100 }
-		}
-	},
-	{
-		code: "rock-slate",
-		triesPerChunk: 0.25,
-		generator: "disc-followsurface",
-		attributes: {
-			inblock: { code: "rock-slate" },
-			placeblock: { code: "rock-*", name: "rock", allowedVariants: ["slate_warped"] },
-			genSurfaceBlockChance: 0.015,
-			surfaceBlock: { code: "loosestones-*-free", name: "rock", allowedVariants: ["slate_warped"] },
-			surfaceBlockChance: 0.15,
-			radius: { dist: "gaussian", avg: 250, var: 100 },
-			yPosRel: {dist: "uniform", avg: 0.5, var: 1 },
-			thickness: { dist: "invexp", avg: 75, var: 100 }
-		}
-	}
+    {
+        "code": "rock-slate",
+		_comment: "Slate rock deposits.",
+        "triesPerChunk": 1.5,
+        "generator": "disc-anywhere",
+        "attributes": {
+            "inblock": { "code": "rock-slate" },
+            "placeblock": {
+                "code": "rock-*",
+                "name": "rock",
+                "allowedVariants": [ "slate_warped" ]
+            },
+            "surfaceBlock": {
+                "code": "loosestones-*-free",
+                "name": "rock",
+                "allowedVariants": [ "slate_warped" ]
+            },
+            "surfaceBlockChance": 0.015,
+            "radius": {
+                "dist": "gaussian",
+                "avg": 10000,
+                "var": 10000
+            },
+            "yPosRel": {
+                "dist": "uniform",
+                "avg": 0.5,
+                "var": 0.5
+            },
+            "thickness": {
+                "dist": "invexp",
+                "avg": 6.5,
+                "var": 15
+            }
+        }
+    }
 ]

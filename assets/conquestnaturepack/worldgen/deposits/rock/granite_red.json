@@ -1,31 +1,37 @@
 [
-	{
-		code: "rock-granite_red",
-		triesPerChunk: 0.25,
-		generator: "disc-anywhere",
-		attributes: {
-			inblock: { code: "rock-granite_red" },
-			placeblock: { code: "rock-*", name: "rock", allowedVariants: ["granite_smooth_red"] },
-			surfaceBlock: { code: "loosestones-*-free", name: "rock", allowedVariants: ["granite_smooth_red"] },
-			surfaceBlockChance: 0.015,
-			radius: { dist: "gaussian", avg: 250, var: 100 },
-			yPosRel: {dist: "uniform", avg: 0.5, var: 1 },
-			thickness: { dist: "invexp", avg: 75, var: 100 }
-		}
-	},
-	{
-		code: "rock-granite_red",
-		triesPerChunk: 0.25,
-		generator: "disc-followsurface",
-		attributes: {
-			inblock: { code: "rock-granite_red" },
-			placeblock: { code: "rock-*", name: "rock", allowedVariants: ["granite_smooth_red"] },
-			genSurfaceBlockChance: 0.015,
-			surfaceBlock: { code: "loosestones-*-free", name: "rock", allowedVariants: ["granite_smooth_red"] },
-			surfaceBlockChance: 0.15,
-			radius: { dist: "gaussian", avg: 250, var: 100 },
-			yPosRel: {dist: "uniform", avg: 0.5, var: 1 },
-			thickness: { dist: "invexp", avg: 75, var: 100 }
-		}
-	}
+    {
+        "code": "rock-granite_red",
+		_comment: "Smooth red granite rock deposits.",
+        "triesPerChunk": 1.5,
+        "generator": "disc-anywhere",
+        "attributes": {
+            "inblock": { "code": "rock-granite_red" },
+            "placeblock": {
+                "code": "rock-*",
+                "name": "rock",
+                "allowedVariants": [ "granite_smooth_red" ]
+            },
+            "surfaceBlock": {
+                "code": "loosestones-*-free",
+                "name": "rock",
+                "allowedVariants": [ "granite_smooth_red" ]
+            },
+            "surfaceBlockChance": 0.015,
+            "radius": {
+                "dist": "gaussian",
+                "avg": 10000,
+                "var": 10000
+            },
+            "yPosRel": {
+                "dist": "uniform",
+                "avg": 0.5,
+                "var": 0.5
+            },
+            "thickness": {
+                "dist": "invexp",
+                "avg": 6.5,
+                "var": 15
+            }
+        }
+    }
 ]

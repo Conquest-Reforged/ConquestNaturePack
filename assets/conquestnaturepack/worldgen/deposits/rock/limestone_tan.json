@@ -1,31 +1,37 @@
 [
-	{
-		code: "rock-limestone_tan",
-		triesPerChunk: 0.25,
-		generator: "disc-anywhere",
-		attributes: {
-			inblock: { code: "rock-limestone_tan" },
-			placeblock: { code: "rock-*", name: "rock", allowedVariants: ["limestone_stained_tan"] },
-			surfaceBlock: { code: "loosestones-*-free", name: "rock", allowedVariants: ["limestone_stained_tan"] },
-			surfaceBlockChance: 0.015,
-			radius: { dist: "gaussian", avg: 250, var: 100 },
-			yPosRel: {dist: "uniform", avg: 0.5, var: 1 },
-			thickness: { dist: "invexp", avg: 75, var: 100 }
-		}
-	},
-	{
-		code: "rock-limestone_tan",
-		triesPerChunk: 0.25,
-		generator: "disc-followsurface",
-		attributes: {
-			inblock: { code: "rock-limestone_tan" },
-			placeblock: { code: "rock-*", name: "rock", allowedVariants: ["limestone_stained_tan"] },
-			genSurfaceBlockChance: 0.015,
-			surfaceBlock: { code: "loosestones-*-free", name: "rock", allowedVariants: ["limestone_stained_tan"] },
-			surfaceBlockChance: 0.15,
-			radius: { dist: "gaussian", avg: 250, var: 100 },
-			yPosRel: {dist: "uniform", avg: 0.5, var: 1 },
-			thickness: { dist: "invexp", avg: 75, var: 100 }
-		}
-	}
+    {
+        "code": "rock-limestone_tan",
+		_comment: "Stained tan limestone deposits.",
+        "triesPerChunk": 1.5,
+        "generator": "disc-anywhere",
+        "attributes": {
+            "inblock": { "code": "rock-limestone_tan" },
+            "placeblock": {
+                "code": "rock-*",
+                "name": "rock",
+                "allowedVariants": [ "limestone_stained_tan" ]
+            },
+            "surfaceBlock": {
+                "code": "loosestones-*-free",
+                "name": "rock",
+                "allowedVariants": [ "limestone_stained_tan" ]
+            },
+            "surfaceBlockChance": 0.015,
+            "radius": {
+                "dist": "gaussian",
+                "avg": 10000,
+                "var": 10000
+            },
+            "yPosRel": {
+                "dist": "uniform",
+                "avg": 0.5,
+                "var": 0.5
+            },
+            "thickness": {
+                "dist": "invexp",
+                "avg": 6.5,
+                "var": 15
+            }
+        }
+    }
 ]

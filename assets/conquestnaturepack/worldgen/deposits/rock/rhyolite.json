@@ -1,31 +1,66 @@
 [
-	{
-		code: "rock-rhyolite",
-		triesPerChunk: 0.25,
-		generator: "disc-anywhere",
-		attributes: {
-			inblock: { code: "rock-rhyolite_weathered" },
-			placeblock: { code: "rock-*", name: "rock", allowedVariants: ["rhyolite_columnar"] },
-			surfaceBlock: { code: "loosestones-*-free", name: "rock", allowedVariants: ["rhyolite_columnar"] },
-			surfaceBlockChance: 0.015,
-			radius: { dist: "gaussian", avg: 250, var: 100 },
-			yPosRel: {dist: "uniform", avg: 0.5, var: 1 },
-			thickness: { dist: "invexp", avg: 75, var: 100 }
-		}
-	},
-	{
-		code: "rock-rhyolite",
-		triesPerChunk: 0.25,
-		generator: "disc-followsurface",
-		attributes: {
-			inblock: { code: "rock-rhyolite_weathered" },
-			placeblock: { code: "rock-*", name: "rock", allowedVariants: ["rhyolite_columnar"] },
-			genSurfaceBlockChance: 0.015,
-			surfaceBlock: { code: "loosestones-*-free", name: "rock", allowedVariants: ["rhyolite_columnar"] },
-			surfaceBlockChance: 0.15,
-			radius: { dist: "gaussian", avg: 250, var: 100 },
-			yPosRel: {dist: "uniform", avg: 0.5, var: 1 },
-			thickness: { dist: "invexp", avg: 75, var: 100 }
-		}
-	}
+    {
+        "code": "rock-rhyolite_columnar",
+		_comment: "Deep columnar rhyolite deposits.",
+        "triesPerChunk": 0.5,
+        "generator": "disc-followsurface",
+        "attributes": {
+            "inblock": { "code": "rock-rhyolite_weathered" },
+            "placeblock": {
+                "code": "rock-*",
+                "name": "rock",
+                "allowedVariants": [ "rhyolite_columnar" ]
+            },
+            "radius": {
+                "dist": "gaussian",
+                "avg": 10000,
+                "var": 10000
+            },
+            "yPosRel": {
+                "dist": "uniform",
+                "avg": 0,
+                "var": 0.2
+            },
+            "thickness": {
+                "dist": "invexp",
+                "avg": 6.5,
+                "var": 15
+            }
+        }
+    },
+    {
+        "code": "rock-rhyolite_columnar",
+		_comment: "Rare surface columnar rhyolite deposits.",
+        "triesPerChunk": 0.01,
+        "generator": "disc-anywhere",
+        "attributes": {
+            "inblock": { "code": "rock-rhyolite_weathered" },
+            "placeblock": {
+                "code": "rock-*",
+                "name": "rock",
+                "allowedVariants": [ "rhyolite_columnar" ]
+            },
+			"surfaceBlock": {
+                "code": "loosestones-*-free",
+                "name": "rock",
+                "allowedVariants": [ "rhyolite_columnar" ]
+            },
+            "surfaceBlockChance": 0.015,
+            "radius": {
+                "dist": "gaussian",
+                "avg": 10000,
+                "var": 10000
+            },
+            "yPosRel": {
+                "dist": "uniform",
+                "avg": 0.5,
+                "var": 0.5
+            },
+            "thickness": {
+                "dist": "invexp",
+                "avg": 6.5,
+                "var": 15
+            }
+        }
+    }
 ]
