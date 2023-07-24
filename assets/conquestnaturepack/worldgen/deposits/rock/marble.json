@@ -1,0 +1,200 @@
+[
+    {
+        "code": "whitemarble",
+        "_comment": "White marble rock deposits.",
+		"triesPerChunk": 0.85,
+		withOreMap: true,
+        oreMapScale: 1,
+        oreMapContrast: 2.5,
+        oreMapSub: 0,
+        "generator": "disc-anywhere",
+        "attributes": {
+          "inblock": {
+            "code": "rock-*",
+            "name": "rock",
+            "allowedVariants": [
+              "limestone",
+              "limestone_light",
+              "limestone_tan",
+              "limestone_stained_tan"
+            ]
+          },
+          "placeblock": {
+            "code": "rock-*",
+            "name": "rock",
+            "allowedVariants": [
+              "whitemarble"
+            ]
+          },
+          "surfaceBlock": {
+            "code": "loosestones-*-free",
+            "name": "rock",
+            "allowedVariants": [
+              "whitemarble"
+            ]
+          },
+          "surfaceBlockChance": 0.015,
+            "radius": {
+                "dist": "uniform",
+                "avg": 80,
+                "var": 16
+            },
+            "yPosRel": {
+                "dist": "uniform",
+                "avg": 1,
+                "var": 0.5
+            },
+            "thickness": {
+                "dist": "invexp",
+                "avg": 40,
+                "var": 40
+            }
+        }
+    },
+    {
+        "code": "darkmarble",
+        "_comment": "Dark marble rock deposits.",
+		"triesPerChunk": 0.85,
+		withOreMap: true,
+        oreMapScale: 1,
+        oreMapContrast: 2.5,
+        oreMapSub: 0,
+        "generator": "disc-anywhere",
+        "attributes": {
+          "inblock": {
+            "code": "rock-*",
+            "name": "rock",
+            "allowedVariants": [
+			  "diorite",
+			  "phyllite",
+			  "slate",
+			  "slate_warped",
+			  "slate_warped_costal",
+			  "slate_wet"
+            ]
+          },
+          "placeblock": {
+            "code": "rock-*",
+            "name": "rock",
+            "allowedVariants": [
+              "marble_rough_dark"
+            ]
+          },
+          "surfaceBlock": {
+            "code": "loosestones-*-free",
+            "name": "rock",
+            "allowedVariants": [
+              "marble_rough_dark"
+            ]
+          },
+          "surfaceBlockChance": 0.015,
+            "radius": {
+                "dist": "uniform",
+                "avg": 80,
+                "var": 16
+            },
+            "yPosRel": {
+                "dist": "uniform",
+                "avg": 1,
+                "var": 0.5
+            },
+            "thickness": {
+                "dist": "invexp",
+                "avg": 40,
+                "var": 40
+            }
+        }
+    },
+    {
+        "code": "greenmarble",
+        "_comment": "Green marble rock deposits.",
+        "triesPerChunk": 0.01,
+        "generator": "disc-anywhere",
+        "attributes": {
+          "inblock": {
+            "code": "rock-*",
+            "name": "rock",
+            "allowedVariants": [
+              "peridotite",
+              "serpentinite",
+              "serpentinite_smooth"
+            ]
+          },
+          "placeblock": {
+            "code": "rock-*",
+            "name": "rock",
+            "allowedVariants": [
+              "greenmarble"
+            ]
+          },
+          "surfaceBlock": {
+            "code": "loosestones-*-free",
+            "name": "rock",
+            "allowedVariants": [
+              "greenmarble"
+            ]
+          },
+          "surfaceBlockChance": 0.015,
+            "radius": {
+                "dist": "uniform",
+                "avg": 80,
+                "var": 16
+            },
+            "yPosRel": {
+                "dist": "uniform",
+                "avg": 0.5,
+                "var": 0.5
+            },
+            "thickness": {
+                "dist": "invexp",
+                "avg": 40,
+                "var": 40
+            }
+        }
+    },
+    {
+        "code": "redmarble",
+        "_comment": "Red marble rock deposits.",
+        "triesPerChunk": 0.01,
+        "generator": "disc-anywhere",
+        "attributes": {
+          "inblock": {
+            "code": "rock-*",
+            "name": "rock",
+            "allowedVariants": [
+              "limestone_pink"
+            ]
+          },
+          "placeblock": {
+            "code": "rock-*",
+            "name": "rock",
+            "allowedVariants": [
+              "redmarble"
+            ]
+          },
+          "surfaceBlock": {
+            "code": "loosestones-*-free",
+            "name": "rock",
+            "allowedVariants": [
+              "redmarble"
+            ]
+          },
+          "surfaceBlockChance": 0.015,
+            "radius": {
+                "dist": "uniform",
+                "avg": 80,
+                "var": 16
+            },
+            "yPosRel": {
+                "dist": "uniform",
+                "avg": 1,
+                "var": 0.5
+            },
+            "thickness": {
+                "dist": "invexp",
+                "avg": 40,
+                "var": 40
+            }
+        }
+    }
+]
