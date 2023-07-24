@@ -2,10 +2,10 @@
     {
         "code": "whitemarble",
         "_comment": "White marble rock deposits.",
-		"triesPerChunk": 0.85,
+		"triesPerChunk": 0.825,
 		withOreMap: true,
-        oreMapScale: 1,
-        oreMapContrast: 2.5,
+        oreMapScale: 2,
+        oreMapContrast: 5,
         oreMapSub: 0,
         "generator": "disc-anywhere",
         "attributes": {
@@ -54,10 +54,10 @@
     {
         "code": "darkmarble",
         "_comment": "Dark marble rock deposits.",
-		"triesPerChunk": 0.85,
+		"triesPerChunk": 0.825,
 		withOreMap: true,
-        oreMapScale: 1,
-        oreMapContrast: 2.5,
+        oreMapScale: 2,
+        oreMapContrast: 5,
         oreMapSub: 0,
         "generator": "disc-anywhere",
         "attributes": {
@@ -108,7 +108,11 @@
     {
         "code": "greenmarble",
         "_comment": "Green marble rock deposits.",
-        "triesPerChunk": 0.01,
+        "triesPerChunk": 0.0085,
+		withOreMap: true,
+        oreMapScale: 2,
+        oreMapContrast: 5,
+        oreMapSub: 0,
         "generator": "disc-anywhere",
         "attributes": {
           "inblock": {
@@ -136,7 +140,7 @@
           },
           "surfaceBlockChance": 0.015,
             "radius": {
-                "dist": "uniform",
+                "dist": "gaussian",
                 "avg": 80,
                 "var": 16
             },
@@ -147,15 +151,15 @@
             },
             "thickness": {
                 "dist": "invexp",
-                "avg": 40,
-                "var": 40
+                "avg": 20,
+                "var": 20
             }
         }
     },
     {
         "code": "redmarble",
         "_comment": "Red marble rock deposits.",
-        "triesPerChunk": 0.01,
+        "triesPerChunk": 0.0085,
         "generator": "disc-anywhere",
         "attributes": {
           "inblock": {
@@ -181,7 +185,7 @@
           },
           "surfaceBlockChance": 0.015,
             "radius": {
-                "dist": "uniform",
+                "dist": "gaussian",
                 "avg": 80,
                 "var": 16
             },
@@ -192,8 +196,8 @@
             },
             "thickness": {
                 "dist": "invexp",
-                "avg": 40,
-                "var": 40
+                "avg": 20,
+                "var": 20
             }
         }
     }
