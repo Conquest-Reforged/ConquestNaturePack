@@ -1,10 +1,12 @@
 [
+
+
     {
         "op": "add",
         "path": "/variants/1",
         "value": {
-            "Code": "basalt_columnar",
-            "Weight": "40",
+            "Code": "dacite",
+            "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "igneous_extrusive"
@@ -15,7 +17,7 @@
         "op": "add",
         "path": "/variants/2",
         "value": {
-            "Code": "blackstone",
+            "Code": "rhyolite",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
@@ -27,42 +29,6 @@
         "op": "add",
         "path": "/variants/3",
         "value": {
-            "Code": "dacite_columnar",
-            "Weight": "40",
-            "SoilpH": "6.5",
-            "WeatheringFactor": "0.7",
-            "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rock.json"
-    },
-    {
-        "op": "add",
-        "path": "/variants/4",
-        "value": {
-            "Code": "rhyolite_weathered",
-            "Weight": "80",
-            "SoilpH": "6.5",
-            "WeatheringFactor": "0.7",
-            "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rock.json"
-    },
-    {
-        "op": "add",
-        "path": "/variants/5",
-        "value": {
-            "Code": "tuff_light",
-            "Weight": "50",
-            "SoilpH": "6",
-            "WeatheringFactor": "1",
-            "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rock.json"
-    },
-    {
-        "op": "add",
-        "path": "/variants/6",
-        "value": {
             "Code": "anorthosite_rough",
             "Weight": "80",
             "SoilpH": "7.3",
@@ -73,7 +39,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/7",
+        "path": "/variants/4",
         "value": {
             "Code": "granite_red",
             "Weight": "80",
@@ -85,7 +51,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/8",
+        "path": "/variants/5",
         "value": {
             "Code": "gneiss",
             "Weight": "80",
@@ -97,7 +63,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/9",
+        "path": "/variants/6",
         "value": {
             "Code": "quartzite_pink",
             "Weight": "80",
@@ -109,7 +75,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/10",
+        "path": "/variants/7",
         "value": {
             "Code": "quartzite_yellow",
             "Weight": "80",
@@ -121,7 +87,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/11",
+        "path": "/variants/8",
         "value": {
             "Code": "schist_blue",
             "Weight": "80",
@@ -133,7 +99,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/12",
+        "path": "/variants/9",
         "value": {
             "Code": "schist_green",
             "Weight": "80",
@@ -145,7 +111,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/13",
+        "path": "/variants/10",
         "value": {
             "Code": "serpentinite",
             "Weight": "50",
@@ -157,7 +123,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/14",
+        "path": "/variants/11",
         "value": {
             "Code": "dolomite",
             "Weight": "50",
@@ -169,7 +135,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/15",
+        "path": "/variants/12",
         "value": {
             "Code": "graywacke",
             "Weight": "80",
@@ -181,7 +147,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/16",
+        "path": "/variants/13",
         "value": {
             "Code": "limestone_light",
             "Weight": "70",
@@ -193,7 +159,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/17",
+        "path": "/variants/14",
         "value": {
             "Code": "limestone_pink",
             "Weight": "70",
@@ -205,7 +171,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/18",
+        "path": "/variants/15",
         "value": {
             "Code": "limestone_tan",
             "Weight": "70",
@@ -217,7 +183,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/19",
+        "path": "/variants/16",
         "value": {
             "Code": "mudstone_brown",
             "Weight": "30",
@@ -229,7 +195,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/20",
+        "path": "/variants/17",
         "value": {
             "Code": "mudstone_light",
             "Weight": "30",
@@ -241,7 +207,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/21",
+        "path": "/variants/18",
         "value": {
             "Code": "mudstone_lightbrown",
             "Weight": "30",
@@ -253,7 +219,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/22",
+        "path": "/variants/19",
         "value": {
             "Code": "mudstone_orange",
             "Weight": "30",
@@ -265,7 +231,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/23",
+        "path": "/variants/20",
         "value": {
             "Code": "mudstone_red",
             "Weight": "30",
@@ -277,7 +243,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/24",
+        "path": "/variants/21",
         "value": {
             "Code": "mudstone_umbre",
             "Weight": "30",
@@ -289,7 +255,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/25",
+        "path": "/variants/22",
         "value": {
             "Code": "mudstone_yellow",
             "Weight": "30",
@@ -301,7 +267,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/26",
+        "path": "/variants/23",
         "value": {
             "Code": "sandstone_red",
             "Weight": "40",
@@ -313,7 +279,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/27",
+        "path": "/variants/24",
         "value": {
             "Code": "sandstone_tan",
             "Weight": "40",
@@ -325,7 +291,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/28",
+        "path": "/variants/25",
         "value": {
             "Code": "sandstone_warped",
             "Weight": "40",
@@ -335,16 +301,16 @@
         },
         "file": "game:worldproperties/block/rock.json"
     },
-	{
+    {
         "op": "add",
-        "path": "/variants/27",
+        "path": "/variants/26",
         "value": {
-            "Code": "calcite",
-            "Weight": "0",
-            "SoilpH": "7.5",
-            "WeatheringFactor": "0.7",
-            "RockGroup": "tbd"
+            "Code": "tuff_light",
+            "Weight": "50",
+            "SoilpH": "6",
+            "WeatheringFactor": "1",
+            "RockGroup": "igneous_extrusive"
         },
-        "file": "game:worldproperties/block/rock.json"
+        "file": "game:worldproperties/block/rockwithdeposit.json"
     }
 ]

@@ -59,7 +59,7 @@
         "path": "/variants/13",
         "side": "server",
         "value": {
-            "blockcode": "rock-limestone_pink",
+            "blockcode": "rock-limestone_light",
             "amplitudes": [
                 4,
                 2,
@@ -85,7 +85,7 @@
         "path": "/variants/14",
         "side": "server",
         "value": {
-            "blockcode": "rock-limestone_tan",
+            "blockcode": "rock-limestone_pink",
             "amplitudes": [
                 4,
                 2,
@@ -109,6 +109,32 @@
     {
         "op": "add",
         "path": "/variants/15",
+        "side": "server",
+        "value": {
+            "blockcode": "rock-limestone_tan",
+            "amplitudes": [
+                4,
+                2,
+                1
+            ],
+            "thresholds": [
+                2.2,
+                1.1,
+                0.5
+            ],
+            "frequencies": [
+                0.05,
+                0.1,
+                0.2
+            ],
+            "genDir": "TopDown",
+            "rockGroup": "Sedimentary"
+        },
+        "file": "game:worldgen/rockstrata.json"
+    },
+    {
+        "op": "add",
+        "path": "/variants/16",
         "side": "server",
         "value": {
             "blockcode": "rock-mudstone_brown",
@@ -137,7 +163,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/16",
+        "path": "/variants/17",
         "side": "server",
         "value": {
             "blockcode": "rock-mudstone_light",
@@ -166,7 +192,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/17",
+        "path": "/variants/18",
         "side": "server",
         "value": {
             "blockcode": "rock-mudstone_lightbrown",
@@ -195,7 +221,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/18",
+        "path": "/variants/19",
         "side": "server",
         "value": {
             "blockcode": "rock-mudstone_orange",
@@ -224,7 +250,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/19",
+        "path": "/variants/20",
         "side": "server",
         "value": {
             "blockcode": "rock-mudstone_red",
@@ -253,7 +279,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/20",
+        "path": "/variants/21",
         "side": "server",
         "value": {
             "blockcode": "rock-mudstone_umbre",
@@ -282,7 +308,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/21",
+        "path": "/variants/22",
         "side": "server",
         "value": {
             "blockcode": "rock-mudstone_yellow",
@@ -311,7 +337,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/22",
+        "path": "/variants/23",
         "side": "server",
         "value": {
             "blockcode": "rock-sandstone_red",
@@ -340,7 +366,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/23",
+        "path": "/variants/24",
         "side": "server",
         "value": {
             "blockcode": "rock-sandstone_tan",
@@ -369,7 +395,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/24",
+        "path": "/variants/25",
         "side": "server",
         "value": {
             "blockcode": "rock-sandstone_warped",
@@ -398,7 +424,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/29",
+        "path": "/variants/26",
         "side": "server",
         "value": {
             "blockcode": "rock-gneiss",
@@ -427,7 +453,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/30",
+        "path": "/variants/27",
         "side": "server",
         "value": {
             "blockcode": "rock-quartzite_pink",
@@ -456,7 +482,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/31",
+        "path": "/variants/28",
         "side": "server",
         "value": {
             "blockcode": "rock-quartzite_yellow",
@@ -485,7 +511,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/32",
+        "path": "/variants/29",
         "side": "server",
         "value": {
             "blockcode": "rock-schist_blue",
@@ -514,7 +540,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/33",
+        "path": "/variants/30",
         "side": "server",
         "value": {
             "blockcode": "rock-schist_green",
@@ -543,7 +569,7 @@
     },
     {
         "op": "add",
-        "path": "/variants/34",
+        "path": "/variants/31",
         "side": "server",
         "value": {
             "blockcode": "rock-serpentinite",
@@ -573,10 +599,98 @@
 
     {
         "op": "add",
+        "path": "/variants/32",
+        "side": "server",
+        "value": {
+            "blockcode": "rock-dacite",
+            "amplitudes": [
+                2.9,
+                1.6,
+                0.75,
+                0.43
+            ],
+            "thresholds": [
+                0.8,
+                0.4,
+                0.2,
+                0.15
+            ],
+            "frequencies": [
+                0.05,
+                0.1,
+                0.2,
+                0.4
+            ],
+            "genDir": "BottomUp",
+            "rockGroup": "Igneous"
+        },
+        "file": "game:worldgen/rockstrata.json"
+    },
+    {
+        "op": "add",
+        "path": "/variants/33",
+        "side": "server",
+        "value": {
+            "blockcode": "rock-rhyolite",
+            "amplitudes": [
+                2.9,
+                1.6,
+                0.75,
+                0.43
+            ],
+            "thresholds": [
+                0.8,
+                0.4,
+                0.2,
+                0.15
+            ],
+            "frequencies": [
+                0.05,
+                0.1,
+                0.2,
+                0.4
+            ],
+            "genDir": "BottomUp",
+            "rockGroup": "Igneous"
+        },
+        "file": "game:worldgen/rockstrata.json"
+    },
+    {
+        "op": "add",
+        "path": "/variants/34",
+        "side": "server",
+        "value": {
+            "blockcode": "rock-anorthosite_rough",
+            "amplitudes": [
+                2.9,
+                1.6,
+                0.75,
+                0.43
+            ],
+            "thresholds": [
+                0.8,
+                0.4,
+                0.2,
+                0.15
+            ],
+            "frequencies": [
+                0.05,
+                0.1,
+                0.2,
+                0.4
+            ],
+            "genDir": "BottomUp",
+            "rockGroup": "Igneous"
+        },
+        "file": "game:worldgen/rockstrata.json"
+    },
+
+    {
+        "op": "add",
         "path": "/variants/35",
         "side": "server",
         "value": {
-            "blockcode": "rock-dacite_weathered",
+            "blockcode": "rock-granite_red",
             "amplitudes": [
                 2.9,
                 1.6,
@@ -605,66 +719,7 @@
         "path": "/variants/36",
         "side": "server",
         "value": {
-            "blockcode": "rock-rhyolite_weathered",
-            "amplitudes": [
-                2.9,
-                1.6,
-                0.75,
-                0.43
-            ],
-            "thresholds": [
-                0.8,
-                0.4,
-                0.2,
-                0.15
-            ],
-            "frequencies": [
-                0.05,
-                0.1,
-                0.2,
-                0.4
-            ],
-            "genDir": "BottomUp",
-            "rockGroup": "Igneous"
-        },
-        "file": "game:worldgen/rockstrata.json"
-    },
-    {
-        "op": "add",
-        "path": "/variants/37",
-        "side": "server",
-        "value": {
-            "blockcode": "rock-anorthosite_rough",
-            "amplitudes": [
-                2.9,
-                1.6,
-                0.75,
-                0.43
-            ],
-            "thresholds": [
-                0.8,
-                0.4,
-                0.2,
-                0.15
-            ],
-            "frequencies": [
-                0.05,
-                0.1,
-                0.2,
-                0.4
-            ],
-            "genDir": "BottomUp",
-            "rockGroup": "Igneous"
-        },
-        "file": "game:worldgen/rockstrata.json"
-    },
-   
-    {
-        "op": "add",
-        "path": "/variants/38",
-        "side": "server",
-        "value": {
-            "blockcode": "rock-granite_red",
+            "blockcode": "rock-tuff_light",
             "amplitudes": [
                 2.9,
                 1.6,

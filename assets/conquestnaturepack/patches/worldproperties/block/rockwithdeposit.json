@@ -850,5 +850,29 @@
             "RockGroup": "igneous_extrusive"
         },
         "file": "game:worldproperties/block/rockwithdeposit.json"
+    },
+    {
+        "op": "add",
+        "path": "/variants/94",
+        "value": {
+            "Code": "dacite",
+            "Weight": "80",
+            "SoilpH": "6.5",
+            "WeatheringFactor": "0.7",
+            "RockGroup": "igneous_extrusive"
+        },
+        "file": "game:worldproperties/block/rockwithdeposit.json"
+    },
+    {
+        "op": "add",
+        "path": "/variants/95",
+        "value": {
+            "Code": "rhyolite",
+            "Weight": "80",
+            "SoilpH": "6.5",
+            "WeatheringFactor": "0.7",
+            "RockGroup": "igneous_extrusive"
+        },
+        "file": "game:worldproperties/block/rockwithdeposit.json"
     }
 ]
