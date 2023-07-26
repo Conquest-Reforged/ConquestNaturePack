@@ -15,7 +15,7 @@
         "side": "server",
         "value": {
             "@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|limestone|peridotite|phyllite|sandstone|shale|slate)": {
-                "all": { "base": "game:block/stone/gravel/{rock}*" }
+                "all": { "base": "game:block/stone/sand/{rock}*" }
             },
             "*": {
                 "all": { "base": "conquestnaturepack:block/topography/sand/{rock}/*" }

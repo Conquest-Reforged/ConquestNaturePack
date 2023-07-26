@@ -311,6 +311,6 @@
             "WeatheringFactor": "1",
             "RockGroup": "igneous_extrusive"
         },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
+        "file": "game:worldproperties/block/rock.json"
     }
 ]

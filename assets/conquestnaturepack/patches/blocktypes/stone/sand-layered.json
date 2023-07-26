@@ -1,27 +1,24 @@
 [
-	{
-		"file": "game:blocktypes/stone/sand-layered.json",
-		"op": "remove",
-		"path": "/textures",
-		"side": "server",
-		"value": {
+    {
+        "file": "game:blocktypes/stone/sand-layered.json",
+        "op": "remove",
+        "path": "/textures",
+        "side": "server",
+        "value": {}
 
-		}
-	},
-	{
-		"file": "game:blocktypes/stone/sand-layered.json",
-		"op": "add",
-		"path": "/texturesByType",
-		"side": "server",
-		"value": {
-			"@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|limestone|peridotite|phyllite|sandstone|shale|slate)": {
-				"all": { "base": "game:block/stone/gravel/{rock}*" }
-			},
-			"*": {
-				"all": { "base": "conquestnaturepack:block/topography/sand/{rock}/*" }
-			}
-		}
-	}
+    },
+    {
+        "file": "game:blocktypes/stone/sand-layered.json",
+        "op": "add",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|limestone|peridotite|phyllite|sandstone|shale|slate)-*": {
+                "all": { "base": "game:block/stone/sand/{rock}" }
+            },
+            "*": {
+                "all": { "base": "conquestnaturepack:block/topography/sand/{rock}/*" }
+            }
+        }
+    }
 ]
-
-
