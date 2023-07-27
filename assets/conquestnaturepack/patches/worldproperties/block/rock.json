@@ -1,316 +1,602 @@
 [
-
-
-    {
-        "op": "add",
-        "path": "/variants/1",
-        "value": {
-            "Code": "dacite",
-            "Weight": "80",
-            "SoilpH": "6.5",
-            "WeatheringFactor": "0.7",
-            "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rock.json"
+  {
+    "op": "remove",
+    "path": "/variants/1",
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "remove",
+    "path": "/variants/1",
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "remove",
+    "path": "/variants/1",
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "remove",
+    "path": "/variants/1",
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "remove",
+    "path": "/variants/1",
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "remove",
+    "path": "/variants/1",
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "remove",
+    "path": "/variants/1",
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "remove",
+    "path": "/variants/1",
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "remove",
+    "path": "/variants/1",
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "remove",
+    "path": "/variants/1",
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "remove",
+    "path": "/variants/1",
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "remove",
+    "path": "/variants/1",
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "replace",
+    "path": "/variants/1",
+    "value": {
+      "Code": "basalt",
+      "Weight": "80",
+      "SoilpH": "6.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "igneous_extrusive"
     },
-    {
-        "op": "add",
-        "path": "/variants/2",
-        "value": {
-            "Code": "rhyolite",
-            "Weight": "80",
-            "SoilpH": "6.5",
-            "WeatheringFactor": "0.7",
-            "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/2",
+    "value": {
+      "Code": "dacite",
+      "Weight": "80",
+      "SoilpH": "6.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "igneous_extrusive"
     },
-    {
-        "op": "add",
-        "path": "/variants/3",
-        "value": {
-            "Code": "anorthosite_rough",
-            "Weight": "80",
-            "SoilpH": "7.3",
-            "WeatheringFactor": "0.7",
-            "RockGroup": "igneous_intrusive"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/3",
+    "value": {
+      "Code": "kimberlite",
+      "Weight": "50",
+      "SoilpH": "6",
+      "WeatheringFactor": "1",
+      "RockGroup": "igneous_extrusive"
     },
-    {
-        "op": "add",
-        "path": "/variants/4",
-        "value": {
-            "Code": "granite_red",
-            "Weight": "80",
-            "SoilpH": "7.3",
-            "WeatheringFactor": "0.7",
-            "RockGroup": "igneous_intrusive"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/4",
+    "value": {
+      "Code": "rhyolite",
+      "Weight": "80",
+      "SoilpH": "6",
+      "WeatheringFactor": "1",
+      "RockGroup": "igneous_extrusive"
     },
-    {
-        "op": "add",
-        "path": "/variants/5",
-        "value": {
-            "Code": "gneiss",
-            "Weight": "80",
-            "SoilpH": "6.5",
-            "WeatheringFactor": "0.7",
-            "RockGroup": "metamorphic"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/5",
+    "value": {
+      "Code": "tuff",
+      "Weight": "50",
+      "SoilpH": "6",
+      "WeatheringFactor": "1",
+      "RockGroup": "igneous_extrusive"
     },
-    {
-        "op": "add",
-        "path": "/variants/6",
-        "value": {
-            "Code": "quartzite_pink",
-            "Weight": "80",
-            "SoilpH": "6.5",
-            "WeatheringFactor": "0.7",
-            "RockGroup": "metamorphic"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/6",
+    "value": {
+      "Code": "anorthosite_rough",
+      "Weight": "80",
+      "SoilpH": "6",
+      "WeatheringFactor": "1",
+      "RockGroup": "igneous_extrusive"
     },
-    {
-        "op": "add",
-        "path": "/variants/7",
-        "value": {
-            "Code": "quartzite_yellow",
-            "Weight": "80",
-            "SoilpH": "6.5",
-            "WeatheringFactor": "0.7",
-            "RockGroup": "metamorphic"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/7",
+    "value": {
+      "Code": "granite",
+      "Weight": "80",
+      "SoilpH": "7.3",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "igneous_intrusive"
     },
-    {
-        "op": "add",
-        "path": "/variants/8",
-        "value": {
-            "Code": "schist_blue",
-            "Weight": "80",
-            "SoilpH": "6.5",
-            "WeatheringFactor": "0.7",
-            "RockGroup": "metamorphic"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/8",
+    "value": {
+      "Code": "granite_red",
+      "Weight": "80",
+      "SoilpH": "7.3",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "igneous_intrusive"
     },
-    {
-        "op": "add",
-        "path": "/variants/9",
-        "value": {
-            "Code": "schist_green",
-            "Weight": "80",
-            "SoilpH": "6.5",
-            "WeatheringFactor": "0.7",
-            "RockGroup": "metamorphic"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/9",
+    "value": {
+      "Code": "peridotite",
+      "Weight": "80",
+      "SoilpH": "6.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "igneous_intrusive"
     },
-    {
-        "op": "add",
-        "path": "/variants/10",
-        "value": {
-            "Code": "serpentinite",
-            "Weight": "50",
-            "SoilpH": "6",
-            "WeatheringFactor": "1",
-            "RockGroup": "metamorphic"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/10",
+    "value": {
+      "Code": "gneiss",
+      "Weight": "80",
+      "SoilpH": "6.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "metamorphic"
     },
-    {
-        "op": "add",
-        "path": "/variants/11",
-        "value": {
-            "Code": "dolomite",
-            "Weight": "50",
-            "SoilpH": "7.5",
-            "WeatheringFactor": "0.7",
-            "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/11",
+    "value": {
+      "Code": "phyllite",
+      "Weight": "80",
+      "SoilpH": "6.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "metamorphic"
     },
-    {
-        "op": "add",
-        "path": "/variants/12",
-        "value": {
-            "Code": "graywacke",
-            "Weight": "80",
-            "SoilpH": "7.5",
-            "WeatheringFactor": "0.7",
-            "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/12",
+    "value": {
+      "Code": "quartzite_gray",
+      "Weight": "80",
+      "SoilpH": "6.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "metamorphic"
     },
-    {
-        "op": "add",
-        "path": "/variants/13",
-        "value": {
-            "Code": "limestone_light",
-            "Weight": "70",
-            "SoilpH": "7.5",
-            "WeatheringFactor": "0.7",
-            "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/13",
+    "value": {
+      "Code": "quartzite_pink",
+      "Weight": "80",
+      "SoilpH": "6.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "metamorphic"
     },
-    {
-        "op": "add",
-        "path": "/variants/14",
-        "value": {
-            "Code": "limestone_pink",
-            "Weight": "70",
-            "SoilpH": "7.5",
-            "WeatheringFactor": "0.7",
-            "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/14",
+    "value": {
+      "Code": "quartzite_yellow",
+      "Weight": "80",
+      "SoilpH": "6.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "metamorphic"
     },
-    {
-        "op": "add",
-        "path": "/variants/15",
-        "value": {
-            "Code": "limestone_tan",
-            "Weight": "70",
-            "SoilpH": "7.5",
-            "WeatheringFactor": "0.7",
-            "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/15",
+    "value": {
+      "Code": "schist_blue",
+      "Weight": "80",
+      "SoilpH": "6.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "metamorphic"
     },
-    {
-        "op": "add",
-        "path": "/variants/16",
-        "value": {
-            "Code": "mudstone_brown",
-            "Weight": "30",
-            "SoilpH": "6.2",
-            "WeatheringFactor": "1",
-            "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/16",
+    "value": {
+      "Code": "schist_green",
+      "Weight": "80",
+      "SoilpH": "6.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "metamorphic"
     },
-    {
-        "op": "add",
-        "path": "/variants/17",
-        "value": {
-            "Code": "mudstone_light",
-            "Weight": "30",
-            "SoilpH": "6.2",
-            "WeatheringFactor": "1",
-            "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/17",
+    "value": {
+      "Code": "serpentinite",
+      "Weight": "60",
+      "SoilpH": "6.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "metamorphic"
     },
-    {
-        "op": "add",
-        "path": "/variants/18",
-        "value": {
-            "Code": "mudstone_lightbrown",
-            "Weight": "30",
-            "SoilpH": "6.2",
-            "WeatheringFactor": "1",
-            "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/18",
+    "value": {
+      "Code": "slate",
+      "Weight": "80",
+      "SoilpH": "6.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "metamorphic"
     },
-    {
-        "op": "add",
-        "path": "/variants/19",
-        "value": {
-            "Code": "mudstone_orange",
-            "Weight": "30",
-            "SoilpH": "6.2",
-            "WeatheringFactor": "1",
-            "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/19",
+    "value": {
+      "Code": "bauxite",
+      "Weight": "50",
+      "SoilpH": "6",
+      "WeatheringFactor": "1",
+      "RockGroup": "sedimentary"
     },
-    {
-        "op": "add",
-        "path": "/variants/20",
-        "value": {
-            "Code": "mudstone_red",
-            "Weight": "30",
-            "SoilpH": "6.2",
-            "WeatheringFactor": "1",
-            "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/20",
+    "value": {
+      "Code": "chalk",
+      "Weight": "40",
+      "SoilpH": "7.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "sedimentary"
     },
-    {
-        "op": "add",
-        "path": "/variants/21",
-        "value": {
-            "Code": "mudstone_umbre",
-            "Weight": "30",
-            "SoilpH": "6.2",
-            "WeatheringFactor": "1",
-            "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/21",
+    "value": {
+      "Code": "chert",
+      "Weight": "40",
+      "SoilpH": "7.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "sedimentary"
     },
-    {
-        "op": "add",
-        "path": "/variants/22",
-        "value": {
-            "Code": "mudstone_yellow",
-            "Weight": "30",
-            "SoilpH": "6.2",
-            "WeatheringFactor": "1",
-            "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/22",
+    "value": {
+      "Code": "claystone",
+      "Weight": "30",
+      "SoilpH": "6.2",
+      "WeatheringFactor": "1",
+      "RockGroup": "sedimentary"
     },
-    {
-        "op": "add",
-        "path": "/variants/23",
-        "value": {
-            "Code": "sandstone_red",
-            "Weight": "40",
-            "SoilpH": "5.5",
-            "WeatheringFactor": "1.2",
-            "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/23",
+    "value": {
+      "Code": "conglomerate",
+      "Weight": "40",
+      "SoilpH": "7.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "sedimentary"
     },
-    {
-        "op": "add",
-        "path": "/variants/24",
-        "value": {
-            "Code": "sandstone_tan",
-            "Weight": "40",
-            "SoilpH": "5.5",
-            "WeatheringFactor": "1.2",
-            "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/24",
+    "value": {
+      "Code": "dolomite",
+      "Weight": "60",
+      "SoilpH": "7.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "sedimentary"
     },
-    {
-        "op": "add",
-        "path": "/variants/25",
-        "value": {
-            "Code": "sandstone_warped",
-            "Weight": "40",
-            "SoilpH": "5.5",
-            "WeatheringFactor": "1.2",
-            "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rock.json"
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/25",
+    "value": {
+      "Code": "graywacke",
+      "Weight": "80",
+      "SoilpH": "7.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "sedimentary"
     },
-    {
-        "op": "add",
-        "path": "/variants/26",
-        "value": {
-            "Code": "tuff",
-            "Weight": "50",
-            "SoilpH": "6",
-            "WeatheringFactor": "1",
-            "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rock.json"
-    }
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/26",
+    "value": {
+      "Code": "limestone",
+      "Weight": "70",
+      "SoilpH": "7.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "sedimentary"
+    },
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/27",
+    "value": {
+      "Code": "limestone_boulders_light",
+      "Weight": "70",
+      "SoilpH": "7.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "sedimentary"
+    },
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/28",
+    "value": {
+      "Code": "limestone_light",
+      "Weight": "70",
+      "SoilpH": "7.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "sedimentary"
+    },
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/29",
+    "value": {
+      "Code": "limestone_pink",
+      "Weight": "70",
+      "SoilpH": "7.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "sedimentary"
+    },
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/30",
+    "value": {
+      "Code": "limestone_tan",
+      "Weight": "70",
+      "SoilpH": "7.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "sedimentary"
+    },
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/31",
+    "value": {
+      "Code": "mudstone",
+      "Weight": "70",
+      "SoilpH": "7.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "sedimentary"
+    },
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/32",
+    "value": {
+      "Code": "mudstone_brown",
+      "Weight": "70",
+      "SoilpH": "7.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "sedimentary"
+    },
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/33",
+    "value": {
+      "Code": "mudstone_light",
+      "Weight": "70",
+      "SoilpH": "7.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "sedimentary"
+    },
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/34",
+    "value": {
+      "Code": "mudstone_lightbrown",
+      "Weight": "70",
+      "SoilpH": "7.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "sedimentary"
+    },
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/35",
+    "value": {
+      "Code": "mudstone_orange",
+      "Weight": "70",
+      "SoilpH": "7.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "sedimentary"
+    },
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/36",
+    "value": {
+      "Code": "mudstone_red",
+      "Weight": "70",
+      "SoilpH": "7.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "sedimentary"
+    },
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/37",
+    "value": {
+      "Code": "mudstone_umbre",
+      "Weight": "70",
+      "SoilpH": "7.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "sedimentary"
+    },
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/38",
+    "value": {
+      "Code": "mudstone_yellow",
+      "Weight": "70",
+      "SoilpH": "7.5",
+      "WeatheringFactor": "0.7",
+      "RockGroup": "sedimentary"
+    },
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/39",
+    "value": {
+      "Code": "sandstone",
+      "Weight": "40",
+      "SoilpH": "5.5",
+      "WeatheringFactor": "1.2",
+      "RockGroup": "sedimentary"
+    },
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/40",
+    "value": {
+      "Code": "sandstone_brown",
+      "Weight": "40",
+      "SoilpH": "5.5",
+      "WeatheringFactor": "1.2",
+      "RockGroup": "sedimentary"
+    },
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/41",
+    "value": {
+      "Code": "sandstone_orange",
+      "Weight": "40",
+      "SoilpH": "5.5",
+      "WeatheringFactor": "1.2",
+      "RockGroup": "sedimentary"
+    },
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/42",
+    "value": {
+      "Code": "sandstone_red",
+      "Weight": "40",
+      "SoilpH": "5.5",
+      "WeatheringFactor": "1.2",
+      "RockGroup": "sedimentary"
+    },
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/43",
+    "value": {
+      "Code": "sandstone_tan",
+      "Weight": "40",
+      "SoilpH": "5.5",
+      "WeatheringFactor": "1.2",
+      "RockGroup": "sedimentary"
+    },
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/44",
+    "value": {
+      "Code": "sandstone_warped",
+      "Weight": "40",
+      "SoilpH": "5.5",
+      "WeatheringFactor": "1.2",
+      "RockGroup": "sedimentary"
+    },
+    "file": "game:worldproperties/block/rock.json"
+  },
+  {
+    "op": "add",
+    "path": "/variants/45",
+    "value": {
+      "Code": "shale",
+      "Weight": "50",
+      "SoilpH": "6",
+      "WeatheringFactor": "1",
+      "RockGroup": "sedimentary"
+    },
+    "file": "game:worldproperties/block/rock.json"
+  }
 ]
