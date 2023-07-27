@@ -1,6 +1,4 @@
 [
-
-
 	{
 		"file": "game:blocktypes/stone/stalagsection.json",
 		"op": "remove",
@@ -26,7 +24,4 @@
 
 		}
 	}
-
-
 ]
-
