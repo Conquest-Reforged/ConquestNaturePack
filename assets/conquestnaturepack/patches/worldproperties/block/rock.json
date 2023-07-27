@@ -305,7 +305,7 @@
         "op": "add",
         "path": "/variants/26",
         "value": {
-            "Code": "tuff_light",
+            "Code": "tuff",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",

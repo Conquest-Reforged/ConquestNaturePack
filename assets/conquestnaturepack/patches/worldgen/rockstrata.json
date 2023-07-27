@@ -719,7 +719,7 @@
         "path": "/variants/36",
         "side": "server",
         "value": {
-            "blockcode": "rock-tuff_light",
+            "blockcode": "rock-tuff",
             "amplitudes": [
                 2.9,
                 1.6,

@@ -727,7 +727,7 @@
             "Weight": "0",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
-            "RockGroup": "tbd"
+            "RockGroup": "sedimentary"
         },
         "file": "game:worldproperties/block/rockwithdeposit.json"
     },
@@ -739,7 +739,7 @@
             "Weight": "0",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
-            "RockGroup": "tbd"
+            "RockGroup": "sedimentary"
         },
         "file": "game:worldproperties/block/rockwithdeposit.json"
     },
@@ -751,7 +751,7 @@
             "Weight": "0",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
-            "RockGroup": "tbd"
+            "RockGroup": "sedimentary"
         },
         "file": "game:worldproperties/block/rockwithdeposit.json"
     },
@@ -763,7 +763,7 @@
             "Weight": "0",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
-            "RockGroup": "tbd"
+            "RockGroup": "metamorphic"
         },
         "file": "game:worldproperties/block/rockwithdeposit.json"
     },
@@ -775,7 +775,7 @@
             "Weight": "0",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
-            "RockGroup": "tbd"
+            "RockGroup": "metamorphic"
         },
         "file": "game:worldproperties/block/rockwithdeposit.json"
     },
@@ -787,7 +787,7 @@
             "Weight": "0",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
-            "RockGroup": "tbd"
+            "RockGroup": "metamorphic"
         },
         "file": "game:worldproperties/block/rockwithdeposit.json"
     },
@@ -799,7 +799,7 @@
             "Weight": "0",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
-            "RockGroup": "tbd"
+            "RockGroup": "metamorphic"
         },
         "file": "game:worldproperties/block/rockwithdeposit.json"
     },
@@ -811,7 +811,7 @@
             "Weight": "0",
             "SoilpH": "6",
             "WeatheringFactor": "1",
-            "RockGroup": "tbd"
+            "RockGroup": "igneous_extrusive"
         },
         "file": "game:worldproperties/block/rockwithdeposit.json"
     },
@@ -823,7 +823,7 @@
             "Weight": "0",
             "SoilpH": "6",
             "WeatheringFactor": "1",
-            "RockGroup": "tbd"
+            "RockGroup": "igneous_extrusive"
         },
         "file": "game:worldproperties/block/rockwithdeposit.json"
     },
