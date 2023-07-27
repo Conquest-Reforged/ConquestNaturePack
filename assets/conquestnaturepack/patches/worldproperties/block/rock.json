@@ -1,66 +1,7 @@
 [
+ 
   {
-    "op": "remove",
-    "path": "/variants/1",
-    "file": "game:worldproperties/block/rock.json"
-  },
-  {
-    "op": "remove",
-    "path": "/variants/1",
-    "file": "game:worldproperties/block/rock.json"
-  },
-  {
-    "op": "remove",
-    "path": "/variants/1",
-    "file": "game:worldproperties/block/rock.json"
-  },
-  {
-    "op": "remove",
-    "path": "/variants/1",
-    "file": "game:worldproperties/block/rock.json"
-  },
-  {
-    "op": "remove",
-    "path": "/variants/1",
-    "file": "game:worldproperties/block/rock.json"
-  },
-  {
-    "op": "remove",
-    "path": "/variants/1",
-    "file": "game:worldproperties/block/rock.json"
-  },
-  {
-    "op": "remove",
-    "path": "/variants/1",
-    "file": "game:worldproperties/block/rock.json"
-  },
-  {
-    "op": "remove",
-    "path": "/variants/1",
-    "file": "game:worldproperties/block/rock.json"
-  },
-  {
-    "op": "remove",
-    "path": "/variants/1",
-    "file": "game:worldproperties/block/rock.json"
-  },
-  {
-    "op": "remove",
-    "path": "/variants/1",
-    "file": "game:worldproperties/block/rock.json"
-  },
-  {
-    "op": "remove",
-    "path": "/variants/1",
-    "file": "game:worldproperties/block/rock.json"
-  },
-  {
-    "op": "remove",
-    "path": "/variants/1",
-    "file": "game:worldproperties/block/rock.json"
-  },
-  {
-    "op": "replace",
+    "op": "add",
     "path": "/variants/1",
     "value": {
       "Code": "basalt",
