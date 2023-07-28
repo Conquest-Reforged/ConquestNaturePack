@@ -370,27 +370,5 @@
             "RockGroup": "sedimentary"
         },
         "file": "game:worldproperties/block/rock.json"
-    },
-    {
-        "op": "replace",
-        "path": "/variants/limestone",
-        "value": {
-            "Weight": "70",
-            "SoilpH": "7.5",
-            "WeatheringFactor": "0.7",
-            "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rock.json"
-    },
-    {
-        "op": "replace",
-        "path": "/variants/perodotite",
-        "value": {
-            "Weight": "80",
-            "SoilpH": "6.5",
-            "WeatheringFactor": "0.7",
-            "RockGroup": "igneous_intrusive"
-        },
-        "file": "game:worldproperties/block/rock.json"
     }
 ]

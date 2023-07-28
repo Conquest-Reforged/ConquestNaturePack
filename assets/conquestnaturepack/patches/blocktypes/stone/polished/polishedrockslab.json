@@ -2,91 +2,91 @@
   {
     "op": "add",
     "path": "/skipVariants/0",
-    "value": "*-basalt_columnar-*",
+    "value": "*-dacite-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/1",
-    "value": "*-blackstone-*",
+    "value": "*-rhyolite-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/2",
-    "value": "*-dacite_columnar-*",
+    "value": "*-tuff-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/3",
-    "value": "*-rhyolite_weathered-*",
-    "file": "game:blocktypes/stone/polished/polishedrockslab.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/4",
-    "value": "*-tuff_light-*",
-    "file": "game:blocktypes/stone/polished/polishedrockslab.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/5",
     "value": "*-anorthosite_rough-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   },
   {
     "op": "add",
-    "path": "/skipVariants/6",
+    "path": "/skipVariants/4",
     "value": "*-granite_red-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   },
   {
     "op": "add",
-    "path": "/skipVariants/7",
+    "path": "/skipVariants/5",
     "value": "*-gneiss-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   },
   {
     "op": "add",
-    "path": "/skipVariants/8",
+    "path": "/skipVariants/6",
+    "value": "*-quartzite_gray-*",
+    "file": "game:blocktypes/stone/polished/polishedrockslab.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/7",
     "value": "*-quartzite_pink-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   },
   {
     "op": "add",
-    "path": "/skipVariants/9",
+    "path": "/skipVariants/8",
     "value": "*-quartzite_yellow-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   },
   {
     "op": "add",
-    "path": "/skipVariants/10",
+    "path": "/skipVariants/9",
     "value": "*-schist_blue-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   },
   {
     "op": "add",
-    "path": "/skipVariants/11",
+    "path": "/skipVariants/10",
     "value": "*-schist_green-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   },
   {
     "op": "add",
-    "path": "/skipVariants/12",
+    "path": "/skipVariants/11",
     "value": "*-serpentinite-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   },
   {
     "op": "add",
-    "path": "/skipVariants/13",
+    "path": "/skipVariants/12",
     "value": "*-dolomite-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   },
   {
     "op": "add",
-    "path": "/skipVariants/14",
+    "path": "/skipVariants/13",
     "value": "*-graywacke-*",
+    "file": "game:blocktypes/stone/polished/polishedrockslab.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/14",
+    "value": "*-limestone_boulders_light-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   },
   {
@@ -110,67 +110,79 @@
   {
     "op": "add",
     "path": "/skipVariants/18",
-    "value": "*-mudstone_brown-*",
+    "value": "*-mudstone-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/19",
-    "value": "*-mudstone_light-*",
+    "value": "*-mudstone_brown-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/20",
-    "value": "*-mudstone_lightbrown-*",
+    "value": "*-mudstone_light-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/21",
-    "value": "*-mudstone_orange-*",
+    "value": "*-mudstone_lightbrown-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/22",
-    "value": "*-mudstone_red-*",
+    "value": "*-mudstone_orange-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/23",
-    "value": "*-mudstone_umbre-*",
+    "value": "*-mudstone_red-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/24",
-    "value": "*-mudstone_yellow-*",
+    "value": "*-mudstone_umbre-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/25",
-    "value": "*-sandstone_red-*",
+    "value": "*-mudstone_yellow-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/26",
-    "value": "*-sandstone_tan-*",
+    "value": "*-sandstone_brown-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/27",
-    "value": "*-sandstone_warped-*",
+    "value": "*-sandstone_orange-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/28",
-    "value": "*-calcite-*",
+    "value": "*-sandstone_red-*",
+    "file": "game:blocktypes/stone/polished/polishedrockslab.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/29",
+    "value": "*-sandstone_tan-*",
+    "file": "game:blocktypes/stone/polished/polishedrockslab.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/30",
+    "value": "*-sandstone_warped-*",
     "file": "game:blocktypes/stone/polished/polishedrockslab.json"
   }
 ]

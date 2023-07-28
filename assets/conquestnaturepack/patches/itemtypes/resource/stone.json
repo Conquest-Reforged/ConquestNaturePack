@@ -13,7 +13,7 @@
 		"path": "/texturesByType",
 		"side": "server",
 		"value": {
-			"@.*-(andesite|chalk|chert|conglomerate|limestone|claystone|granite|sandstone|shale|basalt|peridotite|phyllite|slate|obsidian|kimberlite|scoria|tuff|bauxite|halite|suevite|whitemarble|redmarble|greenmarble)": {
+			"@.*-(andesite|chalk|chert|conglomerate|limestone|claystone|granite|sandstone|shale|basalt|peridotite|phyllite|slate|obsidian|kimberlite|scoria|tuff|bauxite|halite|suevite|whitemarble|redmarble|greenmarble|meteorite-iron)": {
 				"material": { "base": "game:block/stone/rock/{rock}1" }
 			},
 			"*": {

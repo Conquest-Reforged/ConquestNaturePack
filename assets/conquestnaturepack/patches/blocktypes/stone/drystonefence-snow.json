@@ -26,403 +26,499 @@
   {
     "op": "add",
     "path": "/skipVariants/8",
-    "value": "*-basalt_porous-*",
+    "value": "*-basalt_columnar_light-*",
     "file": "game:blocktypes/stone/drystonefence-snow.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/9",
-    "value": "*-basalt_weathered-*",
+    "value": "*-basalt_porous-*",
     "file": "game:blocktypes/stone/drystonefence-snow.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/10",
-    "value": "*-blackstone-*",
+    "value": "*-basalt_smooth-*",
     "file": "game:blocktypes/stone/drystonefence-snow.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/11",
-    "value": "*-dacite_columnar-*",
+    "value": "*-basalt_weathered-*",
     "file": "game:blocktypes/stone/drystonefence-snow.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/12",
-    "value": "*-dacite_porous-*",
+    "value": "*-blackstone-*",
     "file": "game:blocktypes/stone/drystonefence-snow.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/13",
-    "value": "*-dacite_weathered-*",
+    "value": "*-dacite-*",
     "file": "game:blocktypes/stone/drystonefence-snow.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/14",
-    "value": "*-obsidian_crying-*",
+    "value": "*-dacite_columnar-*",
     "file": "game:blocktypes/stone/drystonefence-snow.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/15",
-    "value": "*-obsidian_light-*",
+    "value": "*-dacite_porous-*",
     "file": "game:blocktypes/stone/drystonefence-snow.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/16",
-    "value": "*-obsidian_smooth-*",
+    "value": "*-dacite_weathered-*",
     "file": "game:blocktypes/stone/drystonefence-snow.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/17",
-    "value": "*-rhyolite_columnar-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/18",
-    "value": "*-rhyolite_weathered-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/19",
-    "value": "*-tuff_light-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/20",
-    "value": "*-tuff_smooth-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/21",
-    "value": "*-anorthosite_rough-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/22",
-    "value": "*-anorthosite_smooth-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/23",
-    "value": "*-anorthosite_weathered-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/24",
-    "value": "*-granite_red-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/25",
-    "value": "*-granite_smooth-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/26",
-    "value": "*-granite_smooth_red-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/27",
-    "value": "*-granite_snowy-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/28",
-    "value": "*-gneiss-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/29",
-    "value": "*-marble_rough_dark-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/30",
-    "value": "*-quartzite_pink-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/31",
-    "value": "*-quartzite_yellow-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/32",
-    "value": "*-schist_blue-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/33",
-    "value": "*-schist_green-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/34",
-    "value": "*-schist_lichen_blue-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/35",
-    "value": "*-schist_mossy_blue-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/36",
-    "value": "*-schist_weathered_blue-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/37",
-    "value": "*-serpentinite-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/38",
-    "value": "*-serpentinite_smooth-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/39",
-    "value": "*-slate_warped-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/40",
-    "value": "*-slate_warped_costal-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/41",
-    "value": "*-slate_wet-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/42",
-    "value": "*-chalk_light-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/43",
-    "value": "*-dolomite-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/44",
-    "value": "*-graywacke-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/45",
-    "value": "*-limestone_boulders_light-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/46",
-    "value": "*-limestone_boulders_mossy_light-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/47",
-    "value": "*-limestone_icy-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/48",
-    "value": "*-limestone_light-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/49",
-    "value": "*-limestone_mossy-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/50",
-    "value": "*-limestone_pink-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/51",
-    "value": "*-limestone_stained_tan-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/52",
-    "value": "*-limestone_tan-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/53",
-    "value": "*-mudstone_light-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/54",
-    "value": "*-mudstone_lightbrown-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/55",
-    "value": "*-mudstone_orange-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/56",
-    "value": "*-mudstone_red-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/57",
-    "value": "*-mudstone_umbre-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/58",
-    "value": "*-mudstone_yellow-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/59",
-    "value": "*-sandstone_costal_red-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/60",
-    "value": "*-sandstone_mossy_red-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/61",
-    "value": "*-sandstone_red-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/62",
-    "value": "*-sandstone_tan-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/63",
-    "value": "*-sandstone_warped-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/64",
-    "value": "*-silt_cave_gray-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/65",
-    "value": "*-calcite-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/66",
-    "value": "*-calcite_rough-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/67",
-    "value": "*-dripstone-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/68",
-    "value": "*-endstone-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/69",
-    "value": "*-endstone_barren-*",
-    "file": "game:blocktypes/stone/drystonefence-snow.json"
-  },
-  {
-    "op": "add",
-    "path": "/skipVariants/70",
     "value": "*-magma-*",
     "file": "game:blocktypes/stone/drystonefence-snow.json"
   },
   {
     "op": "add",
-    "path": "/skipVariants/71",
+    "path": "/skipVariants/18",
+    "value": "*-obsidian_crying-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/19",
+    "value": "*-obsidian_light-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/20",
+    "value": "*-obsidian_smooth-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/21",
     "value": "*-pahoehoe-*",
     "file": "game:blocktypes/stone/drystonefence-snow.json"
   },
   {
     "op": "add",
+    "path": "/skipVariants/22",
+    "value": "*-rhyolite-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/23",
+    "value": "*-rhyolite_columnar-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/24",
+    "value": "*-rhyolite_porous-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/25",
+    "value": "*-rhyolite_weathered-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/26",
+    "value": "*-tuff_light-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/27",
+    "value": "*-tuff_smooth-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/28",
+    "value": "*-anorthosite_rough-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/29",
+    "value": "*-anorthosite_smooth-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/30",
+    "value": "*-anorthosite_weathered-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/31",
+    "value": "*-granite_red-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/32",
+    "value": "*-granite_smooth-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/33",
+    "value": "*-granite_smooth_red-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/34",
+    "value": "*-granite_snowy-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/35",
+    "value": "*-gneiss-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/36",
+    "value": "*-gneiss_eroded-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/37",
+    "value": "*-marble_rough-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/38",
+    "value": "*-marble_rough_dark-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/39",
+    "value": "*-quartzite_gray-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/40",
+    "value": "*-quartzite_pink-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/41",
+    "value": "*-quartzite_yellow-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/42",
+    "value": "*-schist_blue-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/43",
+    "value": "*-schist_green-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/44",
+    "value": "*-schist_lichen_blue-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/45",
+    "value": "*-schist_mossy_blue-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/46",
+    "value": "*-schist_weathered_blue-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/47",
+    "value": "*-serpentinite-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/48",
+    "value": "*-serpentinite_smooth-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/49",
+    "value": "*-slate_warped-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/50",
+    "value": "*-slate_warped_costal-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/51",
+    "value": "*-slate_wet-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/52",
+    "value": "*-calcite-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/53",
+    "value": "*-calcite_limestone-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/54",
+    "value": "*-calcite_rough-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/55",
+    "value": "*-chalk_layered-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/56",
+    "value": "*-dolomite-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/57",
+    "value": "*-dripstone-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/58",
+    "value": "*-dripstone_dark-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/59",
+    "value": "*-endstone_layered-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/60",
+    "value": "*-endstone_rough-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/61",
+    "value": "*-endstone_smooth-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/62",
+    "value": "*-graywacke-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/63",
+    "value": "*-limestone_boulders_light-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/64",
+    "value": "*-limestone_boulders_mossy_light-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/65",
+    "value": "*-limestone_icy-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/66",
+    "value": "*-limestone_light-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/67",
+    "value": "*-limestone_mossy-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/68",
+    "value": "*-limestone_pink-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/69",
+    "value": "*-limestone_stained_tan-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/70",
+    "value": "*-limestone_tan-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/71",
+    "value": "*-mudstone-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
     "path": "/skipVariants/72",
-    "value": "*-salt_flats_blue-*",
+    "value": "*-mudstone_brown-*",
     "file": "game:blocktypes/stone/drystonefence-snow.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/73",
-    "value": "*-salt_flats_pink-*",
+    "value": "*-mudstone_light-*",
     "file": "game:blocktypes/stone/drystonefence-snow.json"
   },
   {
     "op": "add",
     "path": "/skipVariants/74",
-    "value": "*-mudstone_brown-*",
+    "value": "*-mudstone_lightbrown-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/75",
+    "value": "*-mudstone_orange-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/76",
+    "value": "*-mudstone_red-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/77",
+    "value": "*-mudstone_umbre-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/78",
+    "value": "*-mudstone_yellow-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/79",
+    "value": "*-salt_flats_blue-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/80",
+    "value": "*-salt_flats_brown-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/81",
+    "value": "*-salt_flats_pink-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/82",
+    "value": "*-salt_flats_white-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/83",
+    "value": "*-sandstone_brown-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/84",
+    "value": "*-sandstone_costal_red-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/85",
+    "value": "*-sandstone_mossy_red-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/86",
+    "value": "*-sandstone_orange-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/87",
+    "value": "*-sandstone_red-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/88",
+    "value": "*-sandstone_tan-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/89",
+    "value": "*-sandstone_warped-*",
+    "file": "game:blocktypes/stone/drystonefence-snow.json"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/90",
+    "value": "*-silt_cave_gray-*",
     "file": "game:blocktypes/stone/drystonefence-snow.json"
   }
 ]
