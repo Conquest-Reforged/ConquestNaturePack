@@ -1,20 +1,20 @@
 [
     {
-        "code": "chalk",
-		_comment: "Chalk rock deposits.",
+        "code": "gneiss",
+		_comment: "Gneiss rock deposits.",
         "triesPerChunk": 1.5,
         "generator": "disc-anywhere",
         "attributes": {
-            "inblock": { "code": "rock-chalk" },
+            "inblock": { "code": "rock-gneiss" },
             "placeblock": {
                 "code": "rock-*",
                 "name": "rock",
-                "allowedVariants": [ "chalk_layered" ]
+                "allowedVariants": [ "gneiss_eroded" ]
             },
             "surfaceBlock": {
                 "code": "loosestones-*-free",
                 "name": "rock",
-                "allowedVariants": [ "chalk_layered" ]
+                "allowedVariants": [ "gneiss_eroded" ]
             },
             "surfaceBlockChance": 0.015,
             "radius": {

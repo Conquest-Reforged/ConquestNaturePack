@@ -1,6 +1,6 @@
 [
     {
-        "code": "rock-limestone_tan",
+        "code": "limestone_tan",
 		_comment: "Stained tan limestone deposits.",
         "triesPerChunk": 1.5,
         "generator": "disc-anywhere",

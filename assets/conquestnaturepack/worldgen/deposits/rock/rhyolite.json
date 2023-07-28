@@ -1,11 +1,46 @@
 [
     {
-        "code": "rock-rhyolite_columnar",
+        "code": "rhyolite",
+		_comment: "Rhyolite rock deposits.",
+        "triesPerChunk": 1.5,
+        "generator": "disc-anywhere",
+        "attributes": {
+            "inblock": { "code": "rock-rhyolite" },
+            "placeblock": {
+                "code": "rock-*",
+                "name": "rock",
+                "allowedVariants": [ "rhyolite_porous", "rhyolite_weathered" ]
+            },
+            "surfaceBlock": {
+                "code": "loosestones-*-free",
+                "name": "rock",
+                "allowedVariants": [ "rhyolite_porous", "rhyolite_weathered" ]
+            },
+            "surfaceBlockChance": 0.015,
+            "radius": {
+                "dist": "gaussian",
+                "avg": 10000,
+                "var": 10000
+            },
+            "yPosRel": {
+                "dist": "uniform",
+                "avg": 0.5,
+                "var": 0.5
+            },
+            "thickness": {
+                "dist": "invexp",
+                "avg": 6.5,
+                "var": 15
+            }
+        }
+    },
+    {
+        "code": "rhyolite_columnar",
 		_comment: "Deep columnar rhyolite deposits.",
         "triesPerChunk": 0.5,
         "generator": "disc-followsurface",
         "attributes": {
-            "inblock": { "code": "rock-rhyolite_weathered" },
+            "inblock": { "code": "rock-rhyolite" },
             "placeblock": {
                 "code": "rock-*",
                 "name": "rock",
@@ -29,12 +64,12 @@
         }
     },
     {
-        "code": "rock-rhyolite_columnar",
+        "code": "surface_rhyolite_columnar",
 		_comment: "Rare surface columnar rhyolite deposits.",
         "triesPerChunk": 0.085,
         "generator": "disc-anywhere",
         "attributes": {
-            "inblock": { "code": "rock-rhyolite_weathered" },
+            "inblock": { "code": "rock-rhyolite" },
             "placeblock": {
                 "code": "rock-*",
                 "name": "rock",

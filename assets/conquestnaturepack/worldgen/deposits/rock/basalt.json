@@ -1,6 +1,6 @@
 [
     {
-        "code": "rock-basalt",
+        "code": "basalt",
 		_comment: "Basalt rock deposits.",
         "triesPerChunk": 1.5,
         "generator": "disc-anywhere",
@@ -35,7 +35,7 @@
         }
     },
     {
-        "code": "rock-basalt_columnar",
+        "code": "basalt_columnar",
 		_comment: "Deep columnar basalt deposits.",
         "triesPerChunk": 0.5,
         "generator": "disc-followsurface",
@@ -44,7 +44,7 @@
             "placeblock": {
                 "code": "rock-*",
                 "name": "rock",
-                "allowedVariants": [ "basalt_columnar" ]
+                "allowedVariants": [ "basalt_columnar", "basalt_columnar_light" ]
             },
             "radius": {
                 "dist": "gaussian",
@@ -64,7 +64,7 @@
         }
     },
     {
-        "code": "rock-basalt_columnar",
+        "code": "surface_basalt_columnar",
 		_comment: "Rare surface columnar basalt deposits.",
         "triesPerChunk": 0.085,
         "generator": "disc-anywhere",
@@ -73,12 +73,12 @@
             "placeblock": {
                 "code": "rock-*",
                 "name": "rock",
-                "allowedVariants": [ "basalt_columnar" ]
+                "allowedVariants": [ "basalt_columnar", "basalt_columnar_light" ]
             },
 			"surfaceBlock": {
                 "code": "loosestones-*-free",
                 "name": "rock",
-                "allowedVariants": [ "basalt_columnar" ]
+                "allowedVariants": [ "basalt_columnar", "basalt_columnar_light" ]
             },
             "surfaceBlockChance": 0.015,
             "radius": {

@@ -1,6 +1,6 @@
 [
     {
-        "code": "rock-andesite",
+        "code": "andesite",
 		_comment: "Andesite rock deposits.",
         "triesPerChunk": 1.5,
         "generator": "disc-anywhere",
@@ -35,7 +35,7 @@
         }
     },
     {
-        "code": "rock-andesite_columnar",
+        "code": "andesite_columnar",
 		_comment: "Deep columnar andesite deposits.",
         "triesPerChunk": 0.5,
         "generator": "disc-followsurface",
@@ -64,7 +64,7 @@
         }
     },
     {
-        "code": "rock-andesite_columnar",
+        "code": "surface_andesite_columnar",
 		_comment: "Rare surface columnar andesite deposits.",
         "triesPerChunk": 0.085,
         "generator": "disc-anywhere",

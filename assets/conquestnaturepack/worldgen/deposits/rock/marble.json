@@ -51,9 +51,9 @@
             }
         }
     },
-    {
-        "code": "darkmarble",
-        "_comment": "Dark marble rock deposits.",
+	{
+        "code": "roughmarble",
+        "_comment": "Rough marble rock deposits.",
 		"triesPerChunk": 0.825,
 		withOreMap: true,
         oreMapScale: 2,
@@ -66,7 +66,55 @@
             "name": "rock",
             "allowedVariants": [
 			  "diorite",
-			  "phyllite",
+			  "phyllite"
+            ]
+          },
+          "placeblock": {
+            "code": "rock-*",
+            "name": "rock",
+            "allowedVariants": [
+              "marble_rough"
+            ]
+          },
+          "surfaceBlock": {
+            "code": "loosestones-*-free",
+            "name": "rock",
+            "allowedVariants": [
+              "marble_rough"
+            ]
+          },
+          "surfaceBlockChance": 0.015,
+            "radius": {
+                "dist": "uniform",
+                "avg": 80,
+                "var": 16
+            },
+            "yPosRel": {
+                "dist": "uniform",
+                "avg": 1,
+                "var": 0.5
+            },
+            "thickness": {
+                "dist": "invexp",
+                "avg": 40,
+                "var": 40
+            }
+        }
+    },
+    {
+        "code": "darkroughmarble",
+        "_comment": "Dark rough marble rock deposits.",
+		"triesPerChunk": 0.825,
+		withOreMap: true,
+        oreMapScale: 2,
+        oreMapContrast: 5,
+        oreMapSub: 0,
+        "generator": "disc-anywhere",
+        "attributes": {
+          "inblock": {
+            "code": "rock-*",
+            "name": "rock",
+            "allowedVariants": [
 			  "slate",
 			  "slate_warped",
 			  "slate_warped_costal",

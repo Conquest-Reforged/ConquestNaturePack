@@ -1,20 +1,20 @@
 [
     {
-        "code": "rock-dacite",
+        "code": "dacite",
 		_comment: "Dacite rock deposits.",
         "triesPerChunk": 1.5,
         "generator": "disc-anywhere",
         "attributes": {
-            "inblock": { "code": "rock-dacite_weathered" },
+            "inblock": { "code": "rock-dacite" },
             "placeblock": {
                 "code": "rock-*",
                 "name": "rock",
-                "allowedVariants": [ "dacite_porous" ]
+                "allowedVariants": [ "dacite_porous", "dacite_weathered" ]
             },
             "surfaceBlock": {
                 "code": "loosestones-*-free",
                 "name": "rock",
-                "allowedVariants": [ "dacite_porous" ]
+                "allowedVariants": [ "dacite_porous", "dacite_weathered" ]
             },
             "surfaceBlockChance": 0.015,
             "radius": {
@@ -35,12 +35,12 @@
         }
     },
     {
-        "code": "rock-dacite_columnar",
+        "code": "dacite_columnar",
 		_comment: "Deep columnar dacite deposits.",
         "triesPerChunk": 0.5,
         "generator": "disc-followsurface",
         "attributes": {
-            "inblock": { "code": "rock-dacite_weathered" },
+            "inblock": { "code": "rock-dacite" },
             "placeblock": {
                 "code": "rock-*",
                 "name": "rock",
@@ -64,12 +64,12 @@
         }
     },
     {
-        "code": "rock-dacite_columnar",
+        "code": "surface_dacite_columnar",
 		_comment: "Rare surface columnar dacite deposits.",
         "triesPerChunk": 0.085,
         "generator": "disc-anywhere",
         "attributes": {
-            "inblock": { "code": "rock-dacite_weathered" },
+            "inblock": { "code": "rock-dacite" },
             "placeblock": {
                 "code": "rock-*",
                 "name": "rock",

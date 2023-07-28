@@ -1,20 +1,20 @@
 [
     {
-        "code": "chalk",
-		_comment: "Chalk rock deposits.",
+        "code": "limestone_boulders_light",
+		_comment: "Light limestone boulder rock deposits.",
         "triesPerChunk": 1.5,
         "generator": "disc-anywhere",
         "attributes": {
-            "inblock": { "code": "rock-chalk" },
+            "inblock": { "code": "rock-limestone_boulders_light" },
             "placeblock": {
                 "code": "rock-*",
                 "name": "rock",
-                "allowedVariants": [ "chalk_layered" ]
+                "allowedVariants": [ "limestone_boulders_mossy_light" ]
             },
             "surfaceBlock": {
                 "code": "loosestones-*-free",
                 "name": "rock",
-                "allowedVariants": [ "chalk_layered" ]
+                "allowedVariants": [ "limestone_boulders_mossy_light" ]
             },
             "surfaceBlockChance": 0.015,
             "radius": {
