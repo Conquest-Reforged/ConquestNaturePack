@@ -1,134 +1,157 @@
 [
   {
     "op": "remove",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/1",
     "file": "game:worldgen/deposits/metalore/bismuthinite.json"
   },
   {
     "op": "remove",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/1",
     "file": "game:worldgen/deposits/metalore/bismuthinite.json"
   },
   {
     "op": "remove",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/1",
     "file": "game:worldgen/deposits/metalore/bismuthinite.json"
   },
   {
     "op": "remove",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/1",
     "file": "game:worldgen/deposits/metalore/bismuthinite.json"
   },
   {
     "op": "replace",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/1",
     "value": "andesite_columnar",
     "file": "game:worldgen/deposits/metalore/bismuthinite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/2",
     "value": "andesite_porous",
     "file": "game:worldgen/deposits/metalore/bismuthinite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/3",
     "value": "andesite_weathered",
     "file": "game:worldgen/deposits/metalore/bismuthinite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/4",
     "value": "granite",
     "file": "game:worldgen/deposits/metalore/bismuthinite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/5",
     "value": "granite_red",
     "file": "game:worldgen/deposits/metalore/bismuthinite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/6",
     "value": "granite_smooth",
     "file": "game:worldgen/deposits/metalore/bismuthinite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/7",
     "value": "granite_smooth_red",
     "file": "game:worldgen/deposits/metalore/bismuthinite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/8",
     "value": "granite_snowy",
     "file": "game:worldgen/deposits/metalore/bismuthinite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/9",
     "value": "basalt",
     "file": "game:worldgen/deposits/metalore/bismuthinite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/10",
     "value": "basalt_columnar",
     "file": "game:worldgen/deposits/metalore/bismuthinite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/11",
     "value": "basalt_porous",
     "file": "game:worldgen/deposits/metalore/bismuthinite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/12",
     "value": "basalt_weathered",
     "file": "game:worldgen/deposits/metalore/bismuthinite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/13",
     "value": "peridotite",
     "file": "game:worldgen/deposits/metalore/bismuthinite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/14",
     "value": "phyllite",
     "file": "game:worldgen/deposits/metalore/bismuthinite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/15",
     "value": "slate",
     "file": "game:worldgen/deposits/metalore/bismuthinite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/16",
     "value": "slate_warped",
     "file": "game:worldgen/deposits/metalore/bismuthinite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/17",
     "value": "slate_warped_costal",
     "file": "game:worldgen/deposits/metalore/bismuthinite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/18",
     "value": "slate_wet",
     "file": "game:worldgen/deposits/metalore/bismuthinite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-andesite_columnar",
     "value": [
       "poor",
@@ -139,6 +162,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-andesite_porous",
     "value": [
       "poor",
@@ -149,6 +173,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-andesite_weathered",
     "value": [
       "poor",
@@ -159,6 +184,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_columnar",
     "value": [
       "poor",
@@ -170,6 +196,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_porous",
     "value": [
       "poor",
@@ -181,6 +208,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_weathered",
     "value": [
       "poor",
@@ -192,6 +220,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite_red",
     "value": [
       "poor",
@@ -202,6 +231,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite_smooth",
     "value": [
       "poor",
@@ -212,6 +242,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite_smooth_red",
     "value": [
       "poor",
@@ -222,6 +253,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite_snowy",
     "value": [
       "poor",
@@ -232,6 +264,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-slate_warped",
     "value": [
       "poor",
@@ -241,6 +274,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-slate_warped_costal",
     "value": [
       "poor",
@@ -250,6 +284,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-slate_wet",
     "value": [
       "poor",

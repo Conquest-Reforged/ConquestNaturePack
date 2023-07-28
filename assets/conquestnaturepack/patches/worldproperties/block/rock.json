@@ -1,6 +1,7 @@
 [
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/1",
         "value": {
             "Code": "dacite",
@@ -13,6 +14,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/2",
         "value": {
             "Code": "rhyolite",
@@ -25,6 +27,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/3",
         "value": {
             "Code": "tuff",
@@ -37,6 +40,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/4",
         "value": {
             "Code": "anorthosite_rough",
@@ -49,6 +53,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/5",
         "value": {
             "Code": "granite_red",
@@ -61,6 +66,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/6",
         "value": {
             "Code": "gneiss",
@@ -73,6 +79,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/7",
         "value": {
             "Code": "quartzite_gray",
@@ -85,6 +92,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/8",
         "value": {
             "Code": "quartzite_pink",
@@ -97,6 +105,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/9",
         "value": {
             "Code": "quartzite_yellow",
@@ -109,6 +118,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/10",
         "value": {
             "Code": "schist_blue",
@@ -121,6 +131,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/11",
         "value": {
             "Code": "schist_green",
@@ -133,6 +144,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/12",
         "value": {
             "Code": "serpentinite",
@@ -145,6 +157,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/13",
         "value": {
             "Code": "dolomite",
@@ -157,6 +170,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/14",
         "value": {
             "Code": "graywacke",
@@ -169,6 +183,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/15",
         "value": {
             "Code": "limestone_boulders_light",
@@ -181,6 +196,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/16",
         "value": {
             "Code": "limestone_light",
@@ -193,6 +209,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/17",
         "value": {
             "Code": "limestone_pink",
@@ -205,6 +222,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/18",
         "value": {
             "Code": "limestone_tan",
@@ -217,6 +235,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/19",
         "value": {
             "Code": "mudstone",
@@ -229,6 +248,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/20",
         "value": {
             "Code": "mudstone_brown",
@@ -241,6 +261,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/21",
         "value": {
             "Code": "mudstone_light",
@@ -253,6 +274,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/22",
         "value": {
             "Code": "mudstone_lightbrown",
@@ -265,6 +287,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/23",
         "value": {
             "Code": "mudstone_orange",
@@ -277,6 +300,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/24",
         "value": {
             "Code": "mudstone_red",
@@ -289,6 +313,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/25",
         "value": {
             "Code": "mudstone_umbre",
@@ -301,6 +326,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/26",
         "value": {
             "Code": "mudstone_yellow",
@@ -313,6 +339,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/27",
         "value": {
             "Code": "sandstone_brown",
@@ -325,6 +352,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/28",
         "value": {
             "Code": "sandstone_orange",
@@ -337,6 +365,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/29",
         "value": {
             "Code": "sandstone_red",
@@ -349,6 +378,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/30",
         "value": {
             "Code": "sandstone_tan",
@@ -361,6 +391,7 @@
     },
     {
         "op": "add",
+	"side": "server",
         "path": "/variants/31",
         "value": {
             "Code": "sandstone_warped",

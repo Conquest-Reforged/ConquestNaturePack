@@ -1,112 +1,131 @@
 [
   {
     "op": "remove",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/2",
     "file": "game:worldgen/deposits/mineralore/alum.json"
   },
   {
     "op": "remove",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/2",
     "file": "game:worldgen/deposits/mineralore/alum.json"
   },
   {
     "op": "replace",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/2",
     "value": "sandstone_costal_red",
     "file": "game:worldgen/deposits/mineralore/alum.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/3",
     "value": "sandstone_mossy_red",
     "file": "game:worldgen/deposits/mineralore/alum.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/4",
     "value": "sandstone_red",
     "file": "game:worldgen/deposits/mineralore/alum.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/5",
     "value": "sandstone_tan",
     "file": "game:worldgen/deposits/mineralore/alum.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/6",
     "value": "sandstone_warped",
     "file": "game:worldgen/deposits/mineralore/alum.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/7",
     "value": "shale",
     "file": "game:worldgen/deposits/mineralore/alum.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/8",
     "value": "chalk",
     "file": "game:worldgen/deposits/mineralore/alum.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/9",
     "value": "chalk_light",
     "file": "game:worldgen/deposits/mineralore/alum.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/10",
     "value": "limestone",
     "file": "game:worldgen/deposits/mineralore/alum.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/11",
     "value": "limestone_boulders_light",
     "file": "game:worldgen/deposits/mineralore/alum.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/12",
     "value": "limestone_boulders_mossy_light",
     "file": "game:worldgen/deposits/mineralore/alum.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/13",
     "value": "limestone_icy",
     "file": "game:worldgen/deposits/mineralore/alum.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/14",
     "value": "limestone_light",
     "file": "game:worldgen/deposits/mineralore/alum.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/15",
     "value": "limestone_mossy",
     "file": "game:worldgen/deposits/mineralore/alum.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/16",
     "value": "limestone_pink",
     "file": "game:worldgen/deposits/mineralore/alum.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/17",
     "value": "limestone_stained_tan",
     "file": "game:worldgen/deposits/mineralore/alum.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/18",
     "value": "limestone_tan",
     "file": "game:worldgen/deposits/mineralore/alum.json"

@@ -1,52 +1,61 @@
 [
   {
     "op": "remove",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/2",
     "file": "game:worldgen/deposits/mineralore/graphite.json"
   },
   {
     "op": "remove",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/2",
     "file": "game:worldgen/deposits/mineralore/graphite.json"
   },
   {
     "op": "replace",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/2",
     "value": "slate_warped",
     "file": "game:worldgen/deposits/mineralore/graphite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/3",
     "value": "slate_warped_costal",
     "file": "game:worldgen/deposits/mineralore/graphite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/4",
     "value": "slate_wet",
     "file": "game:worldgen/deposits/mineralore/graphite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/5",
     "value": "greenmarble",
     "file": "game:worldgen/deposits/mineralore/graphite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/6",
     "value": "redmarble",
     "file": "game:worldgen/deposits/mineralore/graphite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/7",
     "value": "whitemarble",
     "file": "game:worldgen/deposits/mineralore/graphite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/8",
     "value": "marble_rough_dark",
     "file": "game:worldgen/deposits/mineralore/graphite.json"

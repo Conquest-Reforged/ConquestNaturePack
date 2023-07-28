@@ -2,6 +2,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/1",
         "value": {
             "blockcode": "rock-dacite",
@@ -30,6 +31,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/2",
         "value": {
             "blockcode": "rock-rhyolite",
@@ -58,6 +60,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/3",
         "value": {
             "blockcode": "rock-tuff",
@@ -86,6 +89,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/4",
         "value": {
             "blockcode": "rock-anorthosite_rough",
@@ -114,6 +118,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/5",
         "value": {
             "blockcode": "rock-granite_red",
@@ -142,6 +147,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/6",
         "value": {
             "blockcode": "rock-gneiss",
@@ -170,6 +176,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/7",
         "value": {
             "blockcode": "rock-quartzite_gray",
@@ -198,6 +205,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/8",
         "value": {
             "blockcode": "rock-quartzite_pink",
@@ -226,6 +234,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/9",
         "value": {
             "blockcode": "rock-quartzite_yellow",
@@ -254,6 +263,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/10",
         "value": {
             "blockcode": "rock-schist_blue",
@@ -282,6 +292,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/11",
         "value": {
             "blockcode": "rock-schist_green",
@@ -310,6 +321,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/12",
         "value": {
             "blockcode": "rock-serpentinite",
@@ -338,6 +350,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/13",
         "value": {
             "blockcode": "rock-dolomite",
@@ -363,6 +376,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/14",
         "value": {
             "blockcode": "rock-graywacke",
@@ -391,6 +405,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/15",
         "value": {
             "blockcode": "rock-limestone_boulders_light",
@@ -416,6 +431,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/16",
         "value": {
             "blockcode": "rock-limestone_light",
@@ -441,6 +457,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/17",
         "value": {
             "blockcode": "rock-limestone_pink",
@@ -466,6 +483,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/18",
         "value": {
             "blockcode": "rock-limestone_tan",
@@ -491,6 +509,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/19",
         "value": {
             "blockcode": "rock-mudstone",
@@ -519,6 +538,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/20",
         "value": {
             "blockcode": "rock-mudstone_brown",
@@ -547,6 +567,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/21",
         "value": {
             "blockcode": "rock-mudstone_light",
@@ -575,6 +596,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/22",
         "value": {
             "blockcode": "rock-mudstone_lightbrown",
@@ -603,6 +625,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/23",
         "value": {
             "blockcode": "rock-mudstone_orange",
@@ -631,6 +654,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/24",
         "value": {
             "blockcode": "rock-mudstone_red",
@@ -659,6 +683,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/25",
         "value": {
             "blockcode": "rock-mudstone_umbre",
@@ -687,6 +712,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/26",
         "value": {
             "blockcode": "rock-mudstone_yellow",
@@ -715,6 +741,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/27",
         "value": {
             "blockcode": "rock-sandstone_brown",
@@ -743,6 +770,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/28",
         "value": {
             "blockcode": "rock-sandstone_orange",
@@ -771,6 +799,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/29",
         "value": {
             "blockcode": "rock-sandstone_red",
@@ -799,6 +828,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/30",
         "value": {
             "blockcode": "rock-sandstone_tan",
@@ -827,6 +857,7 @@
     {
         "file": "game:worldgen/rockstrata.json",
         "op": "add",
+	"side": "server",
         "path": "/variants/31",
         "value": {
             "blockcode": "rock-sandstone_warped",

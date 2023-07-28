@@ -1,6 +1,7 @@
 [
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants",
     "value": [
 		"*-dacite",

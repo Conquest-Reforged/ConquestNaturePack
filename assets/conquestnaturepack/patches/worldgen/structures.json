@@ -1,42 +1,49 @@
 [
   {
     "op": "replace",
+	"side": "server",
     "path": "/structures/11/rockTypeRemaps/gravel-granite",
     "value": "gravel-calcite",
     "file": "game:worldgen/structures.json"
   },
   {
     "op": "replace",
+	"side": "server",
     "path": "/structures/11/rockTypeRemaps/rock-granite",
     "value": "rock-calcite_rough",
     "file": "game:worldgen/structures.json"
   },
   {
     "op": "replace",
+	"side": "server",
     "path": "/structures/11/rockTypeRemaps/sand-granite",
     "value": "sand-calcite",
     "file": "game:worldgen/structures.json"
   },
   {
     "op": "replace",
+	"side": "server",
     "path": "/structures/11/rockTypeRemaps/stalagsection-granite-04",
     "value": "stalagsection-dripstone-04",
     "file": "game:worldgen/structures.json"
   },
   {
     "op": "replace",
+	"side": "server",
     "path": "/structures/11/rockTypeRemaps/stalagsection-granite-06",
     "value": "stalagsection-dripstone-06",
     "file": "game:worldgen/structures.json"
   },
   {
     "op": "replace",
+	"side": "server",
     "path": "/structures/11/rockTypeRemaps/stalagsection-granite-08",
     "value": "stalagsection-dripstone-08",
     "file": "game:worldgen/structures.json"
   },
   {
     "op": "replace",
+	"side": "server",
     "path": "/structures/11/rockTypeRemaps/stalagsection-granite-10",
     "value": "stalagsection-dripstone-10",
     "file": "game:worldgen/structures.json"

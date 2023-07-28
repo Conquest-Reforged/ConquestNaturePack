@@ -1,42 +1,49 @@
 [
   {
     "op": "replace",
+	"side": "server",
     "path": "/allowedVariants/0",
     "value": "ore-low-emerald-basalt*",
     "file": "game:blocktypes/stone/ore-gem.json"
   },
   {
     "op": "replace",
+	"side": "server",
     "path": "/allowedVariants/1",
     "value": "ore-medium-emerald-basalt*",
     "file": "game:blocktypes/stone/ore-gem.json"
   },
   {
     "op": "replace",
+	"side": "server",
     "path": "/allowedVariants/7",
     "value": "ore-low-emerald-limestone*",
     "file": "game:blocktypes/stone/ore-gem.json"
   },
   {
     "op": "replace",
+	"side": "server",
     "path": "/allowedVariants/8",
     "value": "ore-medium-emerald-limestone*",
     "file": "game:blocktypes/stone/ore-gem.json"
   },
   {
     "op": "replace",
+	"side": "server",
     "path": "/allowedVariants/9",
     "value": "ore-high-emerald-limestone*",
     "file": "game:blocktypes/stone/ore-gem.json"
   },
   {
     "op": "replace",
+	"side": "server",
     "path": "/allowedVariants/12",
     "value": "ore-low-emerald-slate*",
     "file": "game:blocktypes/stone/ore-gem.json"
   },
   {
     "op": "replace",
+	"side": "server",
     "path": "/allowedVariants/13",
     "value": "ore-medium-emerald-slate*",
     "file": "game:blocktypes/stone/ore-gem.json"

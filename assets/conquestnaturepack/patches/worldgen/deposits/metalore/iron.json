@@ -1,24 +1,28 @@
 [
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/1",
     "value": "basalt_columnar",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/2",
     "value": "basalt_porous",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/3",
     "value": "basalt_weathered",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_columnar",
     "value": [
       "poor",
@@ -28,6 +32,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_porous",
     "value": [
       "poor",
@@ -37,6 +42,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_weathered",
     "value": [
       "poor",
@@ -46,95 +52,111 @@
   },
   {
     "op": "remove",
+	"side": "server",
     "path": "/1/attributes/inblock/allowedVariants/1",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "replace",
+	"side": "server",
     "path": "/1/attributes/inblock/allowedVariants/1",
     "value": "granite_red",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/inblock/allowedVariants/2",
     "value": "granite_smooth",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/inblock/allowedVariants/3",
     "value": "granite_smooth_red",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/inblock/allowedVariants/4",
     "value": "granite_snowy",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/inblock/allowedVariants/5",
     "value": "peridotite",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/inblock/allowedVariants/6",
     "value": "limestone",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/inblock/allowedVariants/7",
     "value": "limestone_boulders_light",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/inblock/allowedVariants/8",
     "value": "limestone_boulders_mossy_light",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/inblock/allowedVariants/9",
     "value": "limestone_icy",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/inblock/allowedVariants/10",
     "value": "limestone_light",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/inblock/allowedVariants/11",
     "value": "limestone_mossy",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/inblock/allowedVariants/12",
     "value": "limestone_pink",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/inblock/allowedVariants/13",
     "value": "limestone_stained_tan",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/inblock/allowedVariants/14",
     "value": "limestone_tan",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-granite_red",
     "value": [
       "poor",
@@ -146,6 +168,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-granite_smooth",
     "value": [
       "poor",
@@ -157,6 +180,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-granite_smooth_red",
     "value": [
       "poor",
@@ -168,6 +192,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-granite_snowy",
     "value": [
       "poor",
@@ -179,6 +204,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_boulders_light",
     "value": [
       "poor",
@@ -189,6 +215,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_boulders_mossy_light",
     "value": [
       "poor",
@@ -199,6 +226,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_icy",
     "value": [
       "poor",
@@ -209,6 +237,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_light",
     "value": [
       "poor",
@@ -219,6 +248,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_mossy",
     "value": [
       "poor",
@@ -229,6 +259,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_pink",
     "value": [
       "poor",
@@ -239,6 +270,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_stained_tan",
     "value": [
       "poor",
@@ -249,6 +281,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/1/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_tan",
     "value": [
       "poor",
@@ -259,87 +292,102 @@
   },
   {
     "op": "remove",
+	"side": "server",
     "path": "/2/attributes/inblock/allowedVariants/1",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "remove",
+	"side": "server",
     "path": "/2/attributes/inblock/allowedVariants/1",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "remove",
+	"side": "server",
     "path": "/2/attributes/inblock/allowedVariants/1",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "replace",
+	"side": "server",
     "path": "/2/attributes/inblock/allowedVariants/1",
     "value": "andesite_columnar",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/2/attributes/inblock/allowedVariants/2",
     "value": "andesite_porous",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/2/attributes/inblock/allowedVariants/3",
     "value": "andesite_weathered",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/2/attributes/inblock/allowedVariants/4",
     "value": "claystone",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/2/attributes/inblock/allowedVariants/5",
     "value": "chalk",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/2/attributes/inblock/allowedVariants/6",
     "value": "chalk_light",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/2/attributes/inblock/allowedVariants/7",
     "value": "conglomerate",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/2/attributes/inblock/allowedVariants/8",
     "value": "slate",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/2/attributes/inblock/allowedVariants/9",
     "value": "slate_warped",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/2/attributes/inblock/allowedVariants/10",
     "value": "slate_warped_costal",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/2/attributes/inblock/allowedVariants/11",
     "value": "slate_wet",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-andesite_columnar",
     "value": [
       "poor",
@@ -350,6 +398,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-andesite_porous",
     "value": [
       "poor",
@@ -360,6 +409,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-andesite_weathered",
     "value": [
       "poor",
@@ -370,6 +420,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-chalk_light",
     "value": [
       "poor",
@@ -379,6 +430,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-slate_warped",
     "value": [
       "poor",
@@ -388,6 +440,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-slate_warped_costal",
     "value": [
       "poor",
@@ -397,6 +450,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/2/attributes/placeblock/allowedVariantsByInBlock/rock-slate_wet",
     "value": [
       "poor",

@@ -1,186 +1,217 @@
 [
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/0",
     "value": "*-dacite-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/1",
     "value": "*-rhyolite-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/2",
     "value": "*-tuff-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/3",
     "value": "*-anorthosite_rough-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/4",
     "value": "*-granite_red-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/5",
     "value": "*-gneiss-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/6",
     "value": "*-quartzite_gray-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/7",
     "value": "*-quartzite_pink-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/8",
     "value": "*-quartzite_yellow-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/9",
     "value": "*-schist_blue-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/10",
     "value": "*-schist_green-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/11",
     "value": "*-serpentinite-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/12",
     "value": "*-dolomite-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/13",
     "value": "*-graywacke-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/14",
     "value": "*-limestone_boulders_light-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/15",
     "value": "*-limestone_light-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/16",
     "value": "*-limestone_pink-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/17",
     "value": "*-limestone_tan-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/18",
     "value": "*-mudstone-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/19",
     "value": "*-mudstone_brown-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/20",
     "value": "*-mudstone_light-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/21",
     "value": "*-mudstone_lightbrown-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/22",
     "value": "*-mudstone_orange-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/23",
     "value": "*-mudstone_red-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/24",
     "value": "*-mudstone_umbre-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/25",
     "value": "*-mudstone_yellow-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/26",
     "value": "*-sandstone_brown-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/27",
     "value": "*-sandstone_orange-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/28",
     "value": "*-sandstone_red-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/29",
     "value": "*-sandstone_tan-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/skipVariants/30",
     "value": "*-sandstone_warped-*",
     "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
