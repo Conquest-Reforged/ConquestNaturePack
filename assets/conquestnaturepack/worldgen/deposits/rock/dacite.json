@@ -1,7 +1,7 @@
 [
     {
         "code": "dacite",
-		_comment: "Dacite rock deposits.",
+        "_comment": "Dacite rock deposits.",
         "triesPerChunk": 1.5,
         "generator": "disc-anywhere",
         "attributes": {
@@ -36,7 +36,7 @@
     },
     {
         "code": "dacite_columnar",
-		_comment: "Deep columnar dacite deposits.",
+        "_comment": "Deep columnar dacite deposits.",
         "triesPerChunk": 0.5,
         "generator": "disc-followsurface",
         "attributes": {
@@ -65,7 +65,7 @@
     },
     {
         "code": "surface_dacite_columnar",
-		_comment: "Rare surface columnar dacite deposits.",
+        "_comment": "Rare surface columnar dacite deposits.",
         "triesPerChunk": 0.085,
         "generator": "disc-anywhere",
         "attributes": {
@@ -75,7 +75,7 @@
                 "name": "rock",
                 "allowedVariants": [ "dacite_columnar" ]
             },
-			"surfaceBlock": {
+            "surfaceBlock": {
                 "code": "loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [ "dacite_columnar" ]

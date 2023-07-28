@@ -1,7 +1,7 @@
 [
     {
         "code": "slate",
-		_comment: "Slate rock deposits.",
+        "_comment": "Slate rock deposits.",
         "triesPerChunk": 1.5,
         "generator": "disc-anywhere",
         "attributes": {

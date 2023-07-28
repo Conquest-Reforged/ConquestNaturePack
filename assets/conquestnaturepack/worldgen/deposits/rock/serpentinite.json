@@ -1,7 +1,7 @@
 [
     {
         "code": "serpentinite",
-		_comment: "Serpentinite rock deposits.",
+        "_comment": "Serpentinite rock deposits.",
         "triesPerChunk": 1.5,
         "generator": "disc-anywhere",
         "attributes": {

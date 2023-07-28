@@ -1,7 +1,7 @@
 [
     {
         "code": "rhyolite",
-		_comment: "Rhyolite rock deposits.",
+        "_comment": "Rhyolite rock deposits.",
         "triesPerChunk": 1.5,
         "generator": "disc-anywhere",
         "attributes": {
@@ -36,7 +36,7 @@
     },
     {
         "code": "rhyolite_columnar",
-		_comment: "Deep columnar rhyolite deposits.",
+        "_comment": "Deep columnar rhyolite deposits.",
         "triesPerChunk": 0.5,
         "generator": "disc-followsurface",
         "attributes": {
@@ -65,7 +65,7 @@
     },
     {
         "code": "surface_rhyolite_columnar",
-		_comment: "Rare surface columnar rhyolite deposits.",
+        "_comment": "Rare surface columnar rhyolite deposits.",
         "triesPerChunk": 0.085,
         "generator": "disc-anywhere",
         "attributes": {
@@ -75,7 +75,7 @@
                 "name": "rock",
                 "allowedVariants": [ "rhyolite_columnar" ]
             },
-			"surfaceBlock": {
+            "surfaceBlock": {
                 "code": "loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [ "rhyolite_columnar" ]

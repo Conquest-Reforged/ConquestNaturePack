@@ -1,7 +1,7 @@
 [
     {
         "code": "limestone_boulders_light",
-		_comment: "Light limestone boulder rock deposits.",
+        "_comment": "Light limestone boulder rock deposits.",
         "triesPerChunk": 1.5,
         "generator": "disc-anywhere",
         "attributes": {

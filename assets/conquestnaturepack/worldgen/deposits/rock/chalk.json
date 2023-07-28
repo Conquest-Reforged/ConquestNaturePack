@@ -1,7 +1,7 @@
 [
     {
         "code": "chalk",
-		_comment: "Chalk rock deposits.",
+        "_comment": "Chalk rock deposits.",
         "triesPerChunk": 1.5,
         "generator": "disc-anywhere",
         "attributes": {

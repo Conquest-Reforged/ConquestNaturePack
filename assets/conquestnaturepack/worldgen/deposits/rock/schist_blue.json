@@ -1,7 +1,7 @@
 [
     {
         "code": "schist_blue",
-		_comment: "Schist rock deposits.",
+        "_comment": "Schist rock deposits.",
         "triesPerChunk": 1.5,
         "generator": "disc-anywhere",
         "attributes": {

@@ -1,7 +1,7 @@
 [
     {
         "code": "gneiss",
-		_comment: "Gneiss rock deposits.",
+        "_comment": "Gneiss rock deposits.",
         "triesPerChunk": 1.5,
         "generator": "disc-anywhere",
         "attributes": {

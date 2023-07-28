@@ -1,7 +1,7 @@
 [
     {
         "code": "tuff",
-		_comment: "Tuff rock deposits.",
+        "_comment": "Tuff rock deposits.",
         "triesPerChunk": 1.5,
         "generator": "disc-anywhere",
         "attributes": {

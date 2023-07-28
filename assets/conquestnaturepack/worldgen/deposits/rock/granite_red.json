@@ -1,7 +1,7 @@
 [
     {
         "code": "granite_red",
-		_comment: "Smooth red granite rock deposits.",
+        "_comment": "Smooth red granite rock deposits.",
         "triesPerChunk": 1.5,
         "generator": "disc-anywhere",
         "attributes": {

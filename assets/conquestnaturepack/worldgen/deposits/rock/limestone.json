@@ -1,7 +1,7 @@
 [
     {
         "code": "limestone",
-		_comment: "Light limestone rock deposits.",
+        "_comment": "Light limestone rock deposits.",
         "triesPerChunk": 1.5,
         "generator": "disc-anywhere",
         "attributes": {

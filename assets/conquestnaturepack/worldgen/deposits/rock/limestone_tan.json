@@ -1,7 +1,7 @@
 [
     {
         "code": "limestone_tan",
-		_comment: "Stained tan limestone deposits.",
+        "_comment": "Stained tan limestone deposits.",
         "triesPerChunk": 1.5,
         "generator": "disc-anywhere",
         "attributes": {

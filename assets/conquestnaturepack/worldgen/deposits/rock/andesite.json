@@ -1,7 +1,7 @@
 [
     {
         "code": "andesite",
-		_comment: "Andesite rock deposits.",
+        "_comment": "Andesite rock deposits.",
         "triesPerChunk": 1.5,
         "generator": "disc-anywhere",
         "attributes": {
@@ -36,7 +36,7 @@
     },
     {
         "code": "andesite_columnar",
-		_comment: "Deep columnar andesite deposits.",
+        "_comment": "Deep columnar andesite deposits.",
         "triesPerChunk": 0.5,
         "generator": "disc-followsurface",
         "attributes": {
@@ -65,7 +65,7 @@
     },
     {
         "code": "surface_andesite_columnar",
-		_comment: "Rare surface columnar andesite deposits.",
+        "_comment": "Rare surface columnar andesite deposits.",
         "triesPerChunk": 0.085,
         "generator": "disc-anywhere",
         "attributes": {
@@ -75,7 +75,7 @@
                 "name": "rock",
                 "allowedVariants": [ "andesite_columnar" ]
             },
-			"surfaceBlock": {
+            "surfaceBlock": {
                 "code": "loosestones-*-free",
                 "name": "rock",
                 "allowedVariants": [ "andesite_columnar" ]
