@@ -1,6 +1,7 @@
 [
   {
     "op": "replace",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants",
     "value": [
       "marble_green",
@@ -27,21 +28,25 @@
   },
   {
     "op": "remove",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-greenmarble",
     "file": "game:worldgen/deposits/metalore/malachite.json"
   },
   {
     "op": "remove",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-redmarble",
     "file": "game:worldgen/deposits/metalore/malachite.json"
   },
   {
     "op": "remove",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-whitemarble",
     "file": "game:worldgen/deposits/metalore/malachite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-calcite",
     "value": [
       "poor"
@@ -50,6 +55,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-calcite_limestone",
     "value": [
       "poor"
@@ -58,6 +64,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-calcite_rough",
     "value": [
       "poor"
@@ -66,6 +73,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-dolomite",
     "value": [
       "poor",
@@ -76,6 +84,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-graywacke",
     "value": [
       "poor",
@@ -85,6 +94,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_boulders_light",
     "value": [
       "poor",
@@ -95,6 +105,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_boulders_mossy_light",
     "value": [
       "poor",
@@ -105,6 +116,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_icy",
     "value": [
       "poor",
@@ -115,6 +127,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_light",
     "value": [
       "poor",
@@ -125,6 +138,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_mossy",
     "value": [
       "poor",
@@ -135,6 +149,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_pink",
     "value": [
       "poor",
@@ -145,6 +160,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_stained_tan",
     "value": [
       "poor",
@@ -155,6 +171,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_tan",
     "value": [
       "poor",
@@ -165,6 +182,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marble_green",
     "value": [
       "poor",
@@ -175,6 +193,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marble_red",
     "value": [
       "poor",
@@ -185,6 +204,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marble_rough",
     "value": [
       "poor",
@@ -195,6 +215,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marble_rough_dark",
     "value": [
       "poor",
@@ -205,6 +226,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marble_white",
     "value": [
       "poor",
@@ -215,6 +237,7 @@
   },
   {
     "op": "remove",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone/2",
     "file": "game:worldgen/deposits/metalore/malachite.json"
   }

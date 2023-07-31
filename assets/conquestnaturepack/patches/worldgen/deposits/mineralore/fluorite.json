@@ -1,6 +1,7 @@
 [
   {
     "op": "replace",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants",
     "value": [
       "chalk",

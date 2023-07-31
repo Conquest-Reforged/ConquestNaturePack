@@ -1,6 +1,7 @@
 [
   {
     "op": "replace",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants",
     "value": [
       "anorthosite_rough",
@@ -49,6 +50,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-anorthosite_rough",
     "value": [
       "poor",
@@ -58,6 +60,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-anorthosite_smooth",
     "value": [
       "poor",
@@ -67,6 +70,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-anorthosite_weathered",
     "value": [
       "poor",
@@ -76,6 +80,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-chalk_layered",
     "value": [
       "poor",
@@ -85,6 +90,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_boulders_light",
     "value": [
       "poor",
@@ -94,6 +100,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_boulders_mossy_light",
     "value": [
       "poor",
@@ -103,6 +110,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_icy",
     "value": [
       "poor",
@@ -112,6 +120,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_light",
     "value": [
       "poor",
@@ -121,6 +130,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_mossy",
     "value": [
       "poor",
@@ -130,6 +140,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_pink",
     "value": [
       "poor",
@@ -139,6 +150,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_stained_tan",
     "value": [
       "poor",
@@ -148,6 +160,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_tan",
     "value": [
       "poor",
@@ -157,6 +170,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-mudstone",
     "value": [
       "poor",
@@ -167,6 +181,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-mudstone_brown",
     "value": [
       "poor",
@@ -177,6 +192,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-mudstone_light",
     "value": [
       "poor",
@@ -187,6 +203,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-mudstone_lightbrown",
     "value": [
       "poor",
@@ -197,6 +214,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-mudstone_orange",
     "value": [
       "poor",
@@ -207,6 +225,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-mudstone_red",
     "value": [
       "poor",
@@ -217,6 +236,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-mudstone_umbre",
     "value": [
       "poor",
@@ -227,6 +247,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-mudstone_yellow",
     "value": [
       "poor",
@@ -237,6 +258,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_brown",
     "value": [
       "poor",
@@ -247,6 +269,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_costal_red",
     "value": [
       "poor",
@@ -257,6 +280,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_mossy_red",
     "value": [
       "poor",
@@ -267,6 +291,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_orange",
     "value": [
       "poor",
@@ -277,6 +302,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_red",
     "value": [
       "poor",
@@ -287,6 +313,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_tan",
     "value": [
       "poor",
@@ -297,6 +324,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-sandstone_warped",
     "value": [
       "poor",
@@ -307,6 +335,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-serpentinite",
     "value": [
       "poor",
@@ -316,6 +345,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-serpentinite_smooth",
     "value": [
       "poor",
@@ -325,6 +355,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-slate_warped",
     "value": [
       "poor",
@@ -336,6 +367,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-slate_warped_costal",
     "value": [
       "poor",
@@ -347,6 +379,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-slate_wet",
     "value": [
       "poor",

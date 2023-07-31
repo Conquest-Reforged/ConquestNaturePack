@@ -1,12 +1,14 @@
 [
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/1",
     "value": "serpentinite",
     "file": "game:worldgen/deposits/mineralore/olivine.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/2",
     "value": "serpentinite_smooth",
     "file": "game:worldgen/deposits/mineralore/olivine.json"

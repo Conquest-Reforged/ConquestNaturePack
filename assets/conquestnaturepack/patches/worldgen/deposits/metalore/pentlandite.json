@@ -1,226 +1,264 @@
 [
   {
     "op": "remove",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/1",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "remove",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/1",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "replace",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/1",
     "value": "andesite_columnar",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/2",
     "value": "andesite_porous",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/3",
     "value": "andesite_weathered",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/4",
     "value": "basalt",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/5",
     "value": "basalt_columnar",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/6",
     "value": "basalt_columnar_light",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/7",
     "value": "basalt_porous",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/8",
     "value": "basalt_smooth",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/9",
     "value": "basalt_weathered",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/10",
     "value": "dacite",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/11",
     "value": "dacite_columnar",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/12",
     "value": "dacite_porous",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/13",
     "value": "dacite_weathered",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/14",
     "value": "rhyolite",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/15",
     "value": "rhyolite_columnar",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/16",
     "value": "rhyolite_porous",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/17",
     "value": "rhyolite_weathered",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/18",
     "value": "anorthosite_rough",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/19",
     "value": "anorthosite_smooth",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/20",
     "value": "anorthosite_weathered",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/21",
     "value": "granite",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/22",
     "value": "granite_red",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/23",
     "value": "granite_smooth",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/24",
     "value": "granite_smooth_red",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/25",
     "value": "granite_snowy",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/26",
     "value": "peridotite",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/27",
     "value": "gneiss",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/28",
     "value": "gneiss_eroded",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/29",
     "value": "schist_blue",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/30",
     "value": "schist_green",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/31",
     "value": "schist_lichen_blue",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/32",
     "value": "schist_mossy_blue",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/33",
     "value": "schist_weathered_blue",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/34",
     "value": "serpentinite",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/35",
     "value": "serpentinite_smooth",
     "file": "game:worldgen/deposits/metalore/pentlandite.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-andesite_columnar",
     "value": [
       "poor",
@@ -230,6 +268,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-andesite_porous",
     "value": [
       "poor",
@@ -239,6 +278,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-andesite_weathered",
     "value": [
       "poor",
@@ -248,6 +288,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-anorthosite_rough",
     "value": [
       "poor",
@@ -257,6 +298,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-anorthosite_smooth",
     "value": [
       "poor",
@@ -266,6 +308,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-anorthosite_weathered",
     "value": [
       "poor",
@@ -275,6 +318,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_columnar",
     "value": [
       "poor",
@@ -284,6 +328,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_columnar_light",
     "value": [
       "poor",
@@ -293,6 +338,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_porous",
     "value": [
       "poor",
@@ -302,6 +348,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_smooth",
     "value": [
       "poor",
@@ -311,6 +358,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_weathered",
     "value": [
       "poor",
@@ -320,6 +368,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-dacite",
     "value": [
       "poor",
@@ -329,6 +378,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-dacite_columnar",
     "value": [
       "poor",
@@ -338,6 +388,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-dacite_porous",
     "value": [
       "poor",
@@ -347,6 +398,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-dacite_weathered",
     "value": [
       "poor",
@@ -356,6 +408,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-gneiss",
     "value": [
       "poor",
@@ -365,6 +418,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-gneiss_eroded",
     "value": [
       "poor",
@@ -374,6 +428,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite_red",
     "value": [
       "poor",
@@ -383,6 +438,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite_smooth",
     "value": [
       "poor",
@@ -392,6 +448,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite_smooth_red",
     "value": [
       "poor",
@@ -401,6 +458,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-granite_snowy",
     "value": [
       "poor",
@@ -410,6 +468,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-rhyolite",
     "value": [
       "poor",
@@ -419,6 +478,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-rhyolite_columnar",
     "value": [
       "poor",
@@ -428,6 +488,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-rhyolite_porous",
     "value": [
       "poor",
@@ -437,6 +498,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-rhyolite_weathered",
     "value": [
       "poor",
@@ -446,6 +508,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-schist_blue",
     "value": [
       "poor",
@@ -455,6 +518,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-schist_green",
     "value": [
       "poor",
@@ -464,6 +528,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-schist_lichen_blue",
     "value": [
       "poor",
@@ -473,6 +538,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-schist_mossy_blue",
     "value": [
       "poor",
@@ -482,6 +548,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-schist_weathered_blue",
     "value": [
       "poor",
@@ -491,6 +558,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-serpentinite",
     "value": [
       "poor",
@@ -501,6 +569,7 @@
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-serpentinite_smooth",
     "value": [
       "poor",
