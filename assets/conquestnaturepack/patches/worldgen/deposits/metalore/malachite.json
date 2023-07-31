@@ -1,205 +1,221 @@
 [
   {
-    "op": "remove",
-	"side": "server",
-    "path": "/0/attributes/inblock/allowedVariants/1",
-    "file": "game:worldgen/deposits/metalore/malachite.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/0/attributes/inblock/allowedVariants/1",
-    "file": "game:worldgen/deposits/metalore/malachite.json"
-  },
-  {
     "op": "replace",
-	"side": "server",
-    "path": "/0/attributes/inblock/allowedVariants/1",
-    "value": "limestone_boulders_light",
+    "path": "/0/attributes/inblock/allowedVariants",
+    "value": [
+      "marble_green",
+      "marble_red",
+      "marble_rough",
+      "marble_rough_dark",
+      "marble_white",
+      "calcite",
+      "calcite_limestone",
+      "calcite_rough",
+      "dolomite",
+      "graywacke",
+      "limestone",
+      "limestone_boulders_light",
+      "limestone_boulders_mossy_light",
+      "limestone_icy",
+      "limestone_light",
+      "limestone_mossy",
+      "limestone_pink",
+      "limestone_stained_tan",
+      "limestone_tan"
+    ],
+    "file": "game:worldgen/deposits/metalore/malachite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-greenmarble",
+    "file": "game:worldgen/deposits/metalore/malachite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-redmarble",
+    "file": "game:worldgen/deposits/metalore/malachite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-whitemarble",
     "file": "game:worldgen/deposits/metalore/malachite.json"
   },
   {
     "op": "add",
-	"side": "server",
-    "path": "/0/attributes/inblock/allowedVariants/2",
-    "value": "limestone_boulders_mossy_light",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-calcite",
+    "value": [
+      "poor"
+    ],
     "file": "game:worldgen/deposits/metalore/malachite.json"
   },
   {
     "op": "add",
-	"side": "server",
-    "path": "/0/attributes/inblock/allowedVariants/3",
-    "value": "limestone_icy",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-calcite_limestone",
+    "value": [
+      "poor"
+    ],
     "file": "game:worldgen/deposits/metalore/malachite.json"
   },
   {
     "op": "add",
-	"side": "server",
-    "path": "/0/attributes/inblock/allowedVariants/4",
-    "value": "limestone_light",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-calcite_rough",
+    "value": [
+      "poor"
+    ],
     "file": "game:worldgen/deposits/metalore/malachite.json"
   },
   {
     "op": "add",
-	"side": "server",
-    "path": "/0/attributes/inblock/allowedVariants/5",
-    "value": "limestone_mossy",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-dolomite",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
     "file": "game:worldgen/deposits/metalore/malachite.json"
   },
   {
     "op": "add",
-	"side": "server",
-    "path": "/0/attributes/inblock/allowedVariants/6",
-    "value": "limestone_pink",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-graywacke",
+    "value": [
+      "poor",
+      "medium"
+    ],
     "file": "game:worldgen/deposits/metalore/malachite.json"
   },
   {
     "op": "add",
-	"side": "server",
-    "path": "/0/attributes/inblock/allowedVariants/7",
-    "value": "limestone_stained_tan",
-    "file": "game:worldgen/deposits/metalore/malachite.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/0/attributes/inblock/allowedVariants/8",
-    "value": "limestone_tan",
-    "file": "game:worldgen/deposits/metalore/malachite.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/0/attributes/inblock/allowedVariants/9",
-    "value": "greenmarble",
-    "file": "game:worldgen/deposits/metalore/malachite.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/0/attributes/inblock/allowedVariants/10",
-    "value": "redmarble",
-    "file": "game:worldgen/deposits/metalore/malachite.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/0/attributes/inblock/allowedVariants/11",
-    "value": "whitemarble",
-    "file": "game:worldgen/deposits/metalore/malachite.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/0/attributes/inblock/allowedVariants/12",
-    "value": "marble_rough_dark",
-    "file": "game:worldgen/deposits/metalore/malachite.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_boulders_light",
     "value": [
       "poor",
       "medium",
-      "rich",
       "bountiful"
     ],
     "file": "game:worldgen/deposits/metalore/malachite.json"
   },
   {
     "op": "add",
-	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_boulders_mossy_light",
     "value": [
       "poor",
       "medium",
-      "rich",
       "bountiful"
     ],
     "file": "game:worldgen/deposits/metalore/malachite.json"
   },
   {
     "op": "add",
-	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_icy",
     "value": [
       "poor",
       "medium",
-      "rich",
       "bountiful"
     ],
     "file": "game:worldgen/deposits/metalore/malachite.json"
   },
   {
     "op": "add",
-	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_light",
     "value": [
       "poor",
       "medium",
-      "rich",
       "bountiful"
     ],
     "file": "game:worldgen/deposits/metalore/malachite.json"
   },
   {
     "op": "add",
-	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_mossy",
     "value": [
       "poor",
       "medium",
-      "rich",
       "bountiful"
     ],
     "file": "game:worldgen/deposits/metalore/malachite.json"
   },
   {
     "op": "add",
-	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_pink",
     "value": [
       "poor",
       "medium",
-      "rich",
       "bountiful"
     ],
     "file": "game:worldgen/deposits/metalore/malachite.json"
   },
   {
     "op": "add",
-	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_stained_tan",
     "value": [
       "poor",
       "medium",
-      "rich",
       "bountiful"
     ],
     "file": "game:worldgen/deposits/metalore/malachite.json"
   },
   {
     "op": "add",
-	"side": "server",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone_tan",
     "value": [
       "poor",
       "medium",
-      "rich",
       "bountiful"
     ],
     "file": "game:worldgen/deposits/metalore/malachite.json"
   },
   {
     "op": "add",
-	"side": "server",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marble_green",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/malachite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marble_red",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/malachite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marble_rough",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/malachite.json"
+  },
+  {
+    "op": "add",
     "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marble_rough_dark",
     "value": [
       "poor",
       "medium",
       "rich"
     ],
+    "file": "game:worldgen/deposits/metalore/malachite.json"
+  },
+  {
+    "op": "add",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-marble_white",
+    "value": [
+      "poor",
+      "medium",
+      "rich"
+    ],
+    "file": "game:worldgen/deposits/metalore/malachite.json"
+  },
+  {
+    "op": "remove",
+    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-limestone/2",
     "file": "game:worldgen/deposits/metalore/malachite.json"
   }
 ]
