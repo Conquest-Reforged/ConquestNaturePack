@@ -1,0 +1,50 @@
+[
+    {
+        "file": "game:blocktypes/soil/termitemound.json",
+        "op": "add",
+        "path": "/skipVariants",
+        "side": "server",
+        "value": [
+            "*-quartzite_pink-*",
+            "*-schist_green-*",
+            "*-schist_blue-*",
+            "*-graywacke-*",
+            "*-serpentinite-*"
+        ]
+        },
+        {
+            "file": "game:blocktypes/soil/termitemound.json",
+            "op": "add",
+            "path": "/texturesByType",
+            "side": "server",
+            "value": {
+                "@.*-(tuff|limestone_light|mudstone_light|dacite)-.*": {
+                    "material": { "base": "conquestnaturepack:block/topography/termitemound/tan/*" }
+                },
+                "@.*-(mudstone_brown|mudstone_lightbrown|mudstone_orange)-.*": {
+                    "material": { "base": "conquestnaturepack:block/topography/termitemound/orange/*" }
+                },
+                "@.*-(granite_red|mudstone_red|sandstone_red)-.*": {
+                    "material": { "base": "conquestnaturepack:block/topography/termitemound/red/*" }
+                },
+                "@.*-(limestone_boulders_light|anorthosite_rough)-.*": {
+                    "material": { "base": "conquestnaturepack:block/topography/termitemound/light_tan/*" }
+                },
+                "@.*-(sandstone_brown|mudstone|sandstone_tan|limestone_pink|limestone_tan)-.*": {
+                    "material": { "base": "conquestnaturepack:block/topography/termitemound/light/*" }
+                },
+                "@.*-(dolomite|mudstone_umbre)-.*": {
+                    "material": { "base": "conquestnaturepack:block/topography/termitemound/medium/*" }
+                },
+                "@.*-(quartzite_yellow|mudstone_yellow|sandstone_orange)-.*": {
+                    "material": { "base": "conquestnaturepack:block/topography/termitemound/ochre/*" }
+                },
+                "@.*-(quartzite_gray|gneiss|rhyolite|sandstone_warped)-.*": {
+                    "material": { "base": "conquestnaturepack:block/topography/termitemound/gray/*" }
+                },
+                "*": {
+                    "material": { "base": "game:block/stone/termitemound/{rock}*" }
+                }
+            }
+        }
+]
