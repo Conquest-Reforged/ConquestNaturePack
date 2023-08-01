@@ -1,0 +1,55 @@
+[
+	{
+		"file": "game:worldgen/deposits/rock/flint.json",
+		"op": "replace",
+		"side": "server",
+		"path": "/0/attributes",
+		"value": {
+			"inblock": {
+				"code": "rock-*",
+				"name": "rock",
+				"allowedVariants": [
+					"sandstone",
+					"shale",
+					"claystone",
+					"chert",
+					"limestone",
+					"limestone_boulders_light",
+					"limestone_boulders_mossy_light",
+					"limestone_icy",
+					"limestone_light",
+					"limestone_mossy",
+					"limestone_pink",
+					"limestone_stained_tan",
+					"limestone_tan",
+					"sandstone_brown",
+					"sandstone_costal_red",
+					"sandstone_mossy_red",
+					"sandstone_orange",
+					"sandstone_red",
+					"sandstone_tan",
+					"sandstone_warped",
+					"chalk_layered"
+				]
+			},
+			"placeblock": { "code": "ore-flint-{rock}" },
+			"surfaceBlock": { "code": "looseflints-{rock}-free" },
+			"surfaceBlockChance": 0.1,
+			"radius": {
+				"dist": "uniform",
+				"avg": 3.5,
+				"var": 2
+			},
+			"yPosRel": {
+				"dist": "uniform",
+				"avg": 0.97,
+				"var": 0.03
+			},
+			"thickness": {
+				"dist": "stronginvexp",
+				"avg": 1,
+				"var": 1
+			}
+		}
+	}
+]
