@@ -2,1506 +2,240 @@
   {
     "op": "replace",
 	"side": "server",
-    "path": "/allowedVariants/0",
-    "value": "ore-poor-bismuthinite-andesite**",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/1",
-    "value": "ore-medium-bismuthinite-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/2",
-    "value": "ore-rich-bismuthinite-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "value": "ore-poor-bismuthinite-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/4",
-    "value": "ore-medium-bismuthinite-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/5",
-    "value": "ore-rich-bismuthinite-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/6",
-    "value": "ore-poor-bismuthinite-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/7",
-    "value": "ore-medium-bismuthinite-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/8",
-    "value": "ore-rich-bismuthinite-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/9",
-    "value": "ore-bountiful-bismuthinite-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/15",
-    "value": "ore-poor-bismuthinite-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/16",
-    "value": "ore-medium-bismuthinite-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/17",
-    "value": "ore-poor-cassiterite-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/18",
-    "value": "ore-medium-cassiterite-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/19",
-    "value": "ore-poor-cassiterite-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/20",
-    "value": "ore-medium-cassiterite-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/21",
-    "value": "ore-rich-cassiterite-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/22",
-    "value": "ore-bountiful-cassiterite-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/23",
-    "value": "ore-poor-cassiterite-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/24",
-    "value": "ore-medium-cassiterite-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/29",
-    "value": "ore-poor-cassiterite-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/30",
-    "value": "ore-medium-cassiterite-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/31",
-    "value": "ore-poor-sphalerite-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/32",
-    "value": "ore-medium-sphalerite-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/33",
-    "value": "ore-poor-sphalerite-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/34",
-    "value": "ore-medium-sphalerite-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/35",
-    "value": "ore-poor-sphalerite-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/36",
-    "value": "ore-medium-sphalerite-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/42",
-    "value": "ore-poor-sphalerite-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/43",
-    "value": "ore-medium-sphalerite-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/44",
-    "value": "ore-rich-sphalerite-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/48",
-    "value": "ore-poor-sphalerite-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/49",
-    "value": "ore-medium-sphalerite-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/50",
-    "value": "ore-rich-sphalerite-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/51",
-    "value": "ore-poor-sphalerite-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/52",
-    "value": "ore-medium-sphalerite-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/53",
-    "value": "ore-rich-sphalerite-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/64",
-    "value": "ore-poor-sphalerite-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/65",
-    "value": "ore-medium-sphalerite-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/66",
-    "value": "ore-rich-sphalerite-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/67",
-    "value": "ore-bountiful-sphalerite-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/68",
-    "value": "ore-poor-nativecopper-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/69",
-    "value": "ore-medium-nativecopper-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/70",
-    "value": "ore-rich-nativecopper-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/71",
-    "value": "ore-poor-nativecopper-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/72",
-    "value": "ore-medium-nativecopper-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/73",
-    "value": "ore-rich-nativecopper-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/74",
-    "value": "ore-bountiful-nativecopper-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/75",
-    "value": "ore-poor-nativecopper-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/76",
-    "value": "ore-medium-nativecopper-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/77",
-    "value": "ore-rich-nativecopper-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/78",
-    "value": "ore-poor-nativecopper-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/79",
-    "value": "ore-medium-nativecopper-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/80",
-    "value": "ore-rich-nativecopper-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/86",
-    "value": "ore-poor-nativecopper-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/87",
-    "value": "ore-medium-nativecopper-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/90",
-    "value": "ore-poor-nativecopper-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/91",
-    "value": "ore-medium-nativecopper-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/99",
-    "value": "ore-poor-malachite-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/100",
-    "value": "ore-medium-malachite-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/101",
-    "value": "ore-rich-malachite-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/102",
-    "value": "ore-bountiful-malachite-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/115",
-    "value": "ore-poor-galena-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/116",
-    "value": "ore-medium-galena-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/117",
-    "value": "ore-rich-galena-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/122",
-    "value": "ore-poor-galena-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/123",
-    "value": "ore-medium-galena-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/124",
-    "value": "ore-poor-galena-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/125",
-    "value": "ore-medium-galena-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/134",
-    "value": "ore-poor-galena_nativesilver-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/135",
-    "value": "ore-medium-galena_nativesilver-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/138",
-    "value": "ore-poor-galena_nativesilver-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/139",
-    "value": "ore-medium-galena_nativesilver-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/140",
-    "value": "ore-poor-galena_nativesilver-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/141",
-    "value": "ore-medium-galena_nativesilver-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/146",
-    "value": "ore-poor-quartz_nativesilver-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/147",
-    "value": "ore-medium-quartz_nativesilver-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/148",
-    "value": "ore-rich-quartz_nativesilver-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/149",
-    "value": "ore-bountiful-quartz_nativesilver-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/150",
-    "value": "ore-poor-quartz_nativesilver-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/151",
-    "value": "ore-medium-quartz_nativesilver-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/152",
-    "value": "ore-rich-quartz_nativesilver-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/153",
-    "value": "ore-bountiful-quartz_nativesilver-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/154",
-    "value": "ore-poor-quartz_nativesilver-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/155",
-    "value": "ore-medium-quartz_nativesilver-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/156",
-    "value": "ore-rich-quartz_nativesilver-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/157",
-    "value": "ore-bountiful-quartz_nativesilver-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/166",
-    "value": "ore-poor-quartz_nativesilver-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/167",
-    "value": "ore-medium-quartz_nativesilver-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/168",
-    "value": "ore-rich-quartz_nativesilver-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/169",
-    "value": "ore-bountiful-quartz_nativesilver-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/174",
-    "value": "ore-poor-quartz_nativesilver-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/175",
-    "value": "ore-medium-quartz_nativesilver-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/176",
-    "value": "ore-rich-quartz_nativesilver-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/177",
-    "value": "ore-bountiful-quartz_nativesilver-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/178",
-    "value": "ore-poor-quartz_nativesilver-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/179",
-    "value": "ore-medium-quartz_nativesilver-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/180",
-    "value": "ore-rich-quartz_nativesilver-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/181",
-    "value": "ore-bountiful-quartz_nativesilver-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/194",
-    "value": "ore-poor-quartz_nativesilver-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/195",
-    "value": "ore-medium-quartz_nativesilver-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/196",
-    "value": "ore-rich-quartz_nativesilver-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/197",
-    "value": "ore-bountiful-quartz_nativesilver-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/198",
-    "value": "ore-poor-quartz_nativegold-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/199",
-    "value": "ore-medium-quartz_nativegold-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/200",
-    "value": "ore-rich-quartz_nativegold-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/201",
-    "value": "ore-bountiful-quartz_nativegold-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/202",
-    "value": "ore-poor-quartz_nativegold-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/203",
-    "value": "ore-medium-quartz_nativegold-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/204",
-    "value": "ore-rich-quartz_nativegold-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/205",
-    "value": "ore-bountiful-quartz_nativegold-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/206",
-    "value": "ore-poor-quartz_nativegold-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/207",
-    "value": "ore-medium-quartz_nativegold-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/208",
-    "value": "ore-rich-quartz_nativegold-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/209",
-    "value": "ore-bountiful-quartz_nativegold-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/218",
-    "value": "ore-poor-quartz_nativegold-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/219",
-    "value": "ore-medium-quartz_nativegold-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/220",
-    "value": "ore-rich-quartz_nativegold-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/221",
-    "value": "ore-bountiful-quartz_nativegold-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/226",
-    "value": "ore-poor-quartz_nativegold-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/227",
-    "value": "ore-medium-quartz_nativegold-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/228",
-    "value": "ore-rich-quartz_nativegold-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/229",
-    "value": "ore-bountiful-quartz_nativegold-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/230",
-    "value": "ore-poor-quartz_nativegold-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/231",
-    "value": "ore-medium-quartz_nativegold-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/232",
-    "value": "ore-rich-quartz_nativegold-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/233",
-    "value": "ore-bountiful-quartz_nativegold-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/246",
-    "value": "ore-poor-quartz_nativegold-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/247",
-    "value": "ore-medium-quartz_nativegold-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/248",
-    "value": "ore-rich-quartz_nativegold-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/249",
-    "value": "ore-bountiful-quartz_nativegold-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/250",
-    "value": "ore-poor-limonite-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/251",
-    "value": "ore-medium-limonite-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/260",
-    "value": "ore-poor-hematite-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/261",
-    "value": "ore-medium-hematite-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/262",
-    "value": "ore-rich-hematite-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/263",
-    "value": "ore-bountiful-hematite-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/268",
-    "value": "ore-poor-hematite-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/269",
-    "value": "ore-medium-hematite-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/270",
-    "value": "ore-rich-hematite-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/271",
-    "value": "ore-poor-hematite-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/272",
-    "value": "ore-medium-hematite-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/273",
-    "value": "ore-rich-hematite-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/276",
-    "value": "ore-poor-magnetite-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/277",
-    "value": "ore-medium-magnetite-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/278",
-    "value": "ore-rich-magnetite-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/281",
-    "value": "ore-poor-magnetite-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/282",
-    "value": "ore-medium-magnetite-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/285",
-    "value": "ore-poor-magnetite-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/286",
-    "value": "ore-medium-magnetite-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/287",
-    "value": "ore-rich-magnetite-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/288",
-    "value": "ore-bountiful-magnetite-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/289",
-    "value": "ore-poor-chromite-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/290",
-    "value": "ore-medium-chromite-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/291",
-    "value": "ore-poor-chromite-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/292",
-    "value": "ore-medium-chromite-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/293",
-    "value": "ore-poor-chromite-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/294",
-    "value": "ore-medium-chromite-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/295",
-    "value": "ore-rich-chromite-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/306",
-    "value": "ore-poor-rhodochrosite-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/307",
-    "value": "ore-medium-rhodochrosite-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/308",
-    "value": "ore-rich-rhodochrosite-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/312",
-    "value": "ore-poor-rhodochrosite-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/313",
-    "value": "ore-medium-rhodochrosite-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/314",
-    "value": "ore-poor-rhodochrosite-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/315",
-    "value": "ore-medium-rhodochrosite-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/325",
-    "value": "ore-poor-rhodochrosite-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/326",
-    "value": "ore-medium-rhodochrosite-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/327",
-    "value": "ore-rich-rhodochrosite-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/328",
-    "value": "ore-bountiful-rhodochrosite-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/329",
-    "value": "ore-poor-ilmenite-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/330",
-    "value": "ore-medium-ilmenite-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/331",
-    "value": "ore-poor-ilmenite-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/332",
-    "value": "ore-medium-ilmenite-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/333",
-    "value": "ore-poor-ilmenite-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/334",
-    "value": "ore-medium-ilmenite-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/335",
-    "value": "ore-rich-ilmenite-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/346",
-    "value": "ore-poor-ilmenite-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/347",
-    "value": "ore-medium-ilmenite-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/348",
-    "value": "ore-rich-ilmenite-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/349",
-    "value": "ore-poor-stibnite-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/350",
-    "value": "ore-medium-stibnite-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/351",
-    "value": "ore-poor-stibnite-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/352",
-    "value": "ore-medium-stibnite-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/353",
-    "value": "ore-rich-stibnite-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/354",
-    "value": "ore-poor-stibnite-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/355",
-    "value": "ore-medium-stibnite-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/356",
-    "value": "ore-rich-stibnite-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/357",
-    "value": "ore-bountiful-stibnite-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/358",
-    "value": "ore-poor-uranium-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/359",
-    "value": "ore-medium-uranium-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/360",
-    "value": "ore-rich-uranium-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/361",
-    "value": "ore-poor-uranium-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/362",
-    "value": "ore-medium-uranium-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/363",
-    "value": "ore-rich-uranium-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/364",
-    "value": "ore-poor-uranium-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/365",
-    "value": "ore-medium-uranium-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/374",
-    "value": "ore-poor-uranium-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/375",
-    "value": "ore-medium-uranium-sandstone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/378",
-    "value": "ore-poor-uranium-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/379",
-    "value": "ore-medium-uranium-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/380",
-    "value": "ore-rich-uranium-chalk*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/381",
-    "value": "ore-poor-uranium-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/382",
-    "value": "ore-medium-uranium-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/383",
-    "value": "ore-rich-uranium-limestone*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/393",
-    "value": "ore-poor-uranium-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/394",
-    "value": "ore-medium-uranium-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/395",
-    "value": "ore-rich-uranium-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/396",
-    "value": "ore-bountiful-uranium-slate*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/397",
-    "value": "ore-poor-pentlandite-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/398",
-    "value": "ore-medium-pentlandite-andesite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/399",
-    "value": "ore-poor-pentlandite-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/400",
-    "value": "ore-medium-pentlandite-granite*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/401",
-    "value": "ore-poor-pentlandite-basalt*",
-    "file": "game:blocktypes/stone/ore-graded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants/402",
-    "value": "ore-medium-pentlandite-basalt*",
+    "path": "/allowedVariants",
+    "value": [
+      "@ore-(poor|medium|rich)-bismuthinite-andesite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-bismuthinite-basalt(.*)",
+      "@ore-(poor|medium)-bismuthinite-dacite(.*)",
+      "@ore-(poor|medium)-bismuthinite-rhyolite(.*)",
+      "@ore-(poor|medium)-bismuthinite-anorthosite(.*)",
+      "@ore-(poor|medium|rich)-bismuthinite-granite(.*)",
+      "@ore-(poor|medium|rich)-bismuthinite-peridotite(.*)",
+      "@ore-(poor|medium)-bismuthinite-gneiss(.*)",
+      "@ore-(poor|medium)-bismuthinite-phyllite(.*)",
+      "@ore-(poor|medium)-bismuthinite-slate(.*)",
+      "@ore-(poor|medium|rich)-cassiterite-andesite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-cassiterite-basalt(.*)",
+      "@ore-(poor|medium)-cassiterite-dacite(.*)",
+      "@ore-(poor|medium)-cassiterite-rhyolite(.*)",
+      "@ore-(poor|medium)-cassiterite-anorthosite(.*)",
+      "@ore-(poor|medium|rich)-cassiterite-granite(.*)",
+      "@ore-(poor|medium|rich)-cassiterite-peridotite(.*)",
+      "@ore-(poor|medium)-cassiterite-gneiss(.*)",
+      "@ore-(poor|medium)-cassiterite-phyllite(.*)",
+      "@ore-(poor|medium)-cassiterite-schist(.*)",
+      "@ore-(poor|medium)-cassiterite-slate(.*)",
+      "@ore-(poor|medium)-chromite-andesite(.*)",
+      "@ore-(poor|medium|rich)-chromite-basalt(.*)",
+      "@ore-(poor|medium)-chromite-dacite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-chromite-kimberlite(.*)",
+      "@ore-(poor|medium)-chromite-rhyolite(.*)",
+      "@ore-(poor|medium)-chromite-anorthosite(.*)",
+      "@ore-(poor|medium)-chromite-granite(.*)",
+      "@ore-(poor|medium|rich)-chromite-peridotite(.*)",
+      "@ore-(poor|medium|rich)-chromite-serpentinite(.*)",
+      "@ore-(poor|medium)-galena-chalk(.*)",
+      "@ore-(poor|medium|rich|bountiful)-galena-chert(.*)",
+      "@ore-(poor|medium|rich)-galena-claystone(.*)",
+      "@ore-(poor|medium)-galena-conglomerate(.*)",
+      "@ore-(poor|medium|rich)-galena-dolomite(.*)",
+      "@ore-(poor|medium)-galena-graywacke(.*)",
+      "@ore-(poor|medium)-galena-limestone(.*)",
+      "@ore-(poor|medium|rich)-galena-mudstone(.*)",
+      "@ore-(poor|medium|rich)-galena-sandstone(.*)",
+      "@ore-(poor|medium|rich|bountiful)-galena-shale(.*)",
+      "@ore-(poor|medium)-galena_nativesilver-chalk(.*)",
+      "@ore-(poor|medium)-galena_nativesilver-chert(.*)",
+      "@ore-(poor|medium)-galena_nativesilver-claystone(.*)",
+      "@ore-(poor|medium)-galena_nativesilver-conglomerate(.*)",
+      "@ore-(poor|medium)-galena_nativesilver-dolomite(.*)",
+      "@ore-(poor|medium)-galena_nativesilver-graywacke(.*)",
+      "@ore-(poor|medium)-galena_nativesilver-limestone(.*)",
+      "@ore-(poor|medium)-galena_nativesilver-mudstone(.*)",
+      "@ore-(poor|medium)-galena_nativesilver-sandstone(.*)",
+      "@ore-(poor|medium)-galena_nativesilver-shale(.*)",
+      "@ore-(poor|medium)-ilmenite-andesite(.*)",
+      "@ore-(poor|medium|rich)-ilmenite-basalt(.*)",
+      "@ore-(poor|medium)-ilmenite-dacite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-ilmenite-kimberlite(.*)",
+      "@ore-(poor|medium)-ilmenite-rhyolite(.*)",
+      "@ore-(poor|medium)-ilmenite-granite(.*)",
+      "@ore-(poor|medium)-ilmenite-peridotite(.*)",
+      "@ore-(poor|medium)-ilmenite-gneiss(.*)",
+      "@ore-(poor|medium|rich)-ilmenite-phyllite(.*)",
+      "@ore-(poor|medium)-ilmenite-schist(.*)",
+      "@ore-(poor|medium|rich)-ilmenite-slate(.*)",
+      "@ore-(poor|medium)-limonite-basalt(.*)",
+      "@ore-(poor|medium)-limonite-dacite(.*)",
+      "@ore-(poor|medium)-limonite-rhyolite(.*)",
+      "@ore-(poor|medium)-limonite-anorthosite(.*)",
+      "@ore-(poor|medium)-limonite-serpentinite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-limonite-chert(.*)",
+      "@ore-(poor|medium|rich|bountiful)-limonite-shale(.*)",
+      "@ore-(poor|medium|rich|bountiful)-hematite-rhyolite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-hematite-granite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-hematite-peridotite(.*)",
+      "@ore-(poor|medium)-hematite-gneiss(.*)",
+      "@ore-(poor|medium)-hematite-phyllite(.*)",
+      "@ore-(poor|medium|rich)-hematite-dolomite(.*)",
+      "@ore-(poor|medium)-hematite-graywacke(.*)",
+      "@ore-(poor|medium|rich)-hematite-limestone(.*)",
+      "@ore-(poor|medium|rich)-magnetite-andesite(.*)",
+      "@ore-(poor|medium|rich)-magnetite-dacite(.*)",
+      "@ore-(poor|medium)-magnetite-quartzite(.*)",
+      "@ore-(poor|medium)-magnetite-slate(.*)",
+      "@ore-(poor|medium)-magnetite-chalk(.*)",
+      "@ore-(poor|medium)-magnetite-claystone(.*)",
+      "@ore-(poor|medium)-magnetite-conglomerate(.*)",
+      "@ore-(poor|medium)-magnetite-mudstone(.*)",
+      "@ore-(poor|medium|rich)-malachite-greenmarble(.*)",
+      "@ore-(poor|medium|rich)-malachite-redmarble(.*)",
+      "@ore-(poor|medium|rich)-malachite-marble(.*)",
+      "@ore-(poor|medium|rich)-malachite-whitemarble(.*)",
+      "@ore-(poor)-malachite-calcite(.*)",
+      "@ore-(poor|medium|rich)-malachite-dolomite(.*)",
+      "@ore-(poor|medium)-malachite-graywacke(.*)",
+      "@ore-(poor|medium|rich|bountiful)-malachite-limestone(.*)",
+      "@ore-(poor|medium)-nativecopper-andesite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-nativecopper-basalt(.*)",
+      "@ore-(poor|medium|rich)-nativecopper-granite(.*)",
+      "@ore-(poor|medium)-nativecopper-peridotite(.*)",
+      "@ore-(poor|medium)-nativecopper-phyllite(.*)",
+      "@ore-(poor|medium)-nativecopper-chalk(.*)",
+      "@ore-(poor|medium)-nativecopper-chert(.*)",
+      "@ore-(poor|medium)-nativecopper-claystone(.*)",
+      "@ore-(poor|medium)-nativecopper-conglomerate(.*)",
+      "@ore-(poor|medium|rich|bountiful)-nativecopper-dolomite(.*)",
+      "@ore-(poor|medium|rich)-nativecopper-graywacke(.*)",
+      "@ore-(poor|medium)-nativecopper-mudstone(.*)",
+      "@ore-(poor|medium)-nativecopper-sandstone(.*)",
+      "@ore-(poor|medium)-nativecopper-shale(.*)",
+      "@ore-(poor|medium)-pentlandite-andesite(.*)",
+      "@ore-(poor|medium)-pentlandite-basalt(.*)",
+      "@ore-(poor|medium)-pentlandite-dacite(.*)",
+      "@ore-(poor|medium)-pentlandite-rhyolite(.*)",
+      "@ore-(poor|medium)-pentlandite-anorthosite(.*)",
+      "@ore-(poor|medium)-pentlandite-granite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-pentlandite-peridotite(.*)",
+      "@ore-(poor|medium)-pentlandite-gneiss(.*)",
+      "@ore-(poor|medium)-pentlandite-schist(.*)",
+      "@ore-(poor|medium|rich)-pentlandite-serpentinite(.*)",
+      "@ore-(poor|medium)-rhodochrosite-anorthosite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-rhodochrosite-phyllite(.*)",
+      "@ore-(poor|medium)-rhodochrosite-serpentinite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-rhodochrosite-slate(.*)",
+      "@ore-(poor|medium)-rhodochrosite-chalk(.*)",
+      "@ore-(poor|medium)-rhodochrosite-chert(.*)",
+      "@ore-(poor|medium|rich)-rhodochrosite-claystone(.*)",
+      "@ore-(poor|medium|rich)-rhodochrosite-conglomerate(.*)",
+      "@ore-(poor|medium)-rhodochrosite-limestone(.*)",
+      "@ore-(poor|medium|rich)-rhodochrosite-mudstone(.*)",
+      "@ore-(poor|medium|rich)-rhodochrosite-sandstone(.*)",
+      "@ore-(poor|medium|rich)-rhodochrosite-shale(.*)",
+      "@ore-(poor|medium)-sphalerite-andesite(.*)",
+      "@ore-(poor|medium)-sphalerite-basalt(.*)",
+      "@ore-(poor|medium)-sphalerite-dacite(.*)",
+      "@ore-(poor|medium)-sphalerite-rhyolite(.*)",
+      "@ore-(poor|medium)-sphalerite-anorthosite(.*)",
+      "@ore-(poor|medium)-sphalerite-granite(.*)",
+      "@ore-(poor|medium)-sphalerite-peridotite(.*)",
+      "@ore-(poor|medium)-sphalerite-gneiss(.*)",
+      "@ore-(poor|medium|rich|bountiful)-sphalerite-phyllite(.*)",
+      "@ore-(poor|medium)-sphalerite-serpentinite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-sphalerite-slate(.*)",
+      "@ore-(poor|medium|rich)-sphalerite-chalk(.*)",
+      "@ore-(poor|medium|rich)-sphalerite-chert(.*)",
+      "@ore-(poor|medium|rich)-sphalerite-claystone(.*)",
+      "@ore-(poor|medium|rich)-sphalerite-conglomerate(.*)",
+      "@ore-(poor|medium|rich)-sphalerite-dolomite(.*)",
+      "@ore-(poor|medium|rich)-sphalerite-limestone(.*)",
+      "@ore-(poor|medium|rich)-sphalerite-sandstone(.*)",
+      "@ore-(poor|medium|rich)-sphalerite-shale(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativesilver-andesite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativesilver-basalt(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativesilver-dacite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativesilver-rhyolite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativesilver-granite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativesilver-peridotite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativesilver-phyllite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativesilver-quartzite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativesilver-slate(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativesilver-chalk(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativesilver-chert(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativesilver-claystone(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativesilver-conglomerate(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativesilver-graywacke(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativesilver-limestone(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativesilver-mudstone(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativesilver-sandstone(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativesilver-shale(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativegold-andesite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativegold-basalt(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativegold-dacite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativegold-rhyolite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativegold-granite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativegold-peridotite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativegold-phyllite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativegold-quartzite(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativegold-slate(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativegold-chalk(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativegold-chert(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativegold-claystone(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativegold-conglomerate(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativegold-graywacke(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativegold-limestone(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativegold-mudstone(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativegold-sandstone(.*)",
+      "@ore-(poor|medium|rich|bountiful)-quartz_nativegold-shale(.*)",
+      "ore-poor-stibnite-andesite",
+      "ore-medium-stibnite-andesite",
+      "ore-poor-stibnite-granite",
+      "ore-medium-stibnite-granite",
+      "ore-rich-stibnite-granite",
+      "ore-poor-stibnite-basalt",
+      "ore-medium-stibnite-basalt",
+      "ore-rich-stibnite-basalt",
+      "ore-bountiful-stibnite-basalt",
+      "ore-poor-uranium-andesite",
+      "ore-medium-uranium-andesite",
+      "ore-rich-uranium-andesite",
+      "ore-poor-uranium-granite",
+      "ore-medium-uranium-granite",
+      "ore-rich-uranium-granite",
+      "ore-poor-uranium-basalt",
+      "ore-medium-uranium-basalt",
+      "ore-poor-uranium-peridotite",
+      "ore-medium-uranium-peridotite",
+      "ore-poor-uranium-kimberlite",
+      "ore-medium-uranium-kimberlite",
+      "ore-rich-uranium-kimberlite",
+      "ore-bountiful-uranium-kimberlite",
+      "ore-poor-uranium-claystone",
+      "ore-medium-uranium-claystone",
+      "ore-poor-uranium-sandstone",
+      "ore-medium-uranium-sandstone",
+      "ore-poor-uranium-shale",
+      "ore-medium-uranium-shale",
+      "ore-poor-uranium-chalk",
+      "ore-medium-uranium-chalk",
+      "ore-rich-uranium-chalk",
+      "ore-poor-uranium-limestone",
+      "ore-medium-uranium-limestone",
+      "ore-rich-uranium-limestone",
+      "ore-poor-uranium-chert",
+      "ore-medium-uranium-chert",
+      "ore-rich-uranium-chert",
+      "ore-poor-uranium-conglomerate",
+      "ore-medium-uranium-conglomerate",
+      "ore-poor-uranium-phyllite",
+      "ore-medium-uranium-phyllite",
+      "ore-rich-uranium-phyllite",
+      "ore-bountiful-uranium-phyllite",
+      "ore-poor-uranium-slate",
+      "ore-medium-uranium-slate",
+      "ore-rich-uranium-slate",
+      "ore-bountiful-uranium-slate"
+    ],
     "file": "game:blocktypes/stone/ore-graded.json"
   }
 ]

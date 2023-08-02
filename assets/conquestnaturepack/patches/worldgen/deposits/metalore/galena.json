@@ -4,12 +4,6 @@
 	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants",
     "value": [
-      "basalt",
-      "basalt_columnar",
-      "basalt_columnar_light",
-      "basalt_porous",
-      "basalt_smooth",
-      "basalt_weathered",
       "chalk",
       "chalk_layered",
       "chert",
@@ -43,60 +37,6 @@
       "sandstone_tan",
       "sandstone_warped",
       "shale"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt",
-    "value": [
-      "poor"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_columnar",
-    "value": [
-      "poor"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_columnar_light",
-    "value": [
-      "poor"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_porous",
-    "value": [
-      "poor"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_smooth",
-    "value": [
-      "poor"
-    ],
-    "file": "game:worldgen/deposits/metalore/galena.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/0/attributes/placeblock/allowedVariantsByInBlock/rock-basalt_weathered",
-    "value": [
-      "poor"
     ],
     "file": "game:worldgen/deposits/metalore/galena.json"
   },
