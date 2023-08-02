@@ -1,199 +1,37 @@
 [
   {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/0",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/0",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/0",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/0",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/0",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/0",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/0",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/0",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/0",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/0",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/0",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/0",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/0",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
     "op": "replace",
 	"side": "server",
-    "path": "/allowedVariants/0",
-    "value": "ore-low-emerald-basalt*",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/1",
-    "value": "ore-medium-emerald-basalt*",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/2",
-    "value": "ore-low-emerald-peridotite",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "value": "ore-medium-emerald-peridotite",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/4",
-    "value": "ore-low-emerald-shale",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/5",
-    "value": "ore-medium-emerald-shale",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/6",
-    "value": "ore-high-emerald-shale",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/7",
-    "value": "ore-low-emerald-limestone*",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/8",
-    "value": "ore-medium-emerald-limestone*",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/9",
-    "value": "ore-high-emerald-limestone*",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/10",
-    "value": "ore-low-emerald-phyllite",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/11",
-    "value": "ore-medium-emerald-phyllite",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/12",
-    "value": "ore-low-emerald-schist*",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/13",
-    "value": "ore-medium-emerald-schist*",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/14",
-    "value": "ore-high-emerald-schist*",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/15",
-    "value": "ore-low-emerald-slate*",
-    "file": "game:blocktypes/stone/ore-gem.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/16",
-    "value": "ore-medium-emerald-slate*",
+    "path": "/allowedVariants",
+    "value": [
+      "ore-low-emerald-basalt*",
+      "ore-medium-emerald-basalt*",
+      "ore-low-emerald-peridotite",
+      "ore-medium-emerald-peridotite",
+      "ore-low-emerald-shale",
+      "ore-medium-emerald-shale",
+      "ore-high-emerald-shale",
+      "ore-low-emerald-limestone*",
+      "ore-medium-emerald-limestone*",
+      "ore-high-emerald-limestone*",
+      "ore-low-emerald-phyllite",
+      "ore-medium-emerald-phyllite",
+      "ore-low-emerald-schist*",
+      "ore-medium-emerald-schist*",
+      "ore-high-emerald-schist*",
+      "ore-low-emerald-slate*",
+      "ore-medium-emerald-slate*",
+      "ore-low-diamond-kimberlite",
+      "ore-medium-diamond-kimberlite",
+      "ore-high-diamond-kimberlite",
+      "ore-low-diamond-suevite",
+      "ore-low-olivine_peridot-peridotite",
+      "ore-medium-olivine_peridot-peridotite",
+      "ore-high-olivine_peridot-peridotite",
+      "ore-low-olivine_peridot-serpentinite*",
+      "ore-medium-olivine_peridot-serpentinite*",
+      "ore-high-olivine_peridot-serpentinite*"
+    ],
     "file": "game:blocktypes/stone/ore-gem.json"
   }
 ]

@@ -701,3010 +701,952 @@
     "op": "replace",
 	"side": "server",
     "path": "/allowedVariants/1",
-    "value": "ore-alum-chalk",
+    "value": "ore-alum-chalk*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/2",
-    "value": "ore-alum-chalk_layered",
+    "value": "ore-alum-chert*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/3",
-    "value": "ore-alum-chert",
+    "value": "ore-alum-claystone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/4",
-    "value": "ore-alum-claystone",
+    "value": "ore-alum-conglomerate*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/5",
-    "value": "ore-alum-conglomerate",
+    "value": "ore-alum-dolomite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/6",
-    "value": "ore-alum-dolomite",
+    "value": "ore-alum-graywacke*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/7",
-    "value": "ore-alum-graywacke",
+    "value": "ore-alum-limestone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/8",
-    "value": "ore-alum-limestone",
+    "value": "ore-alum-mudstone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/9",
-    "value": "ore-alum-limestone_boulders_light",
+    "value": "ore-alum-sandstone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/10",
-    "value": "ore-alum-limestone_boulders_mossy_light",
+    "value": "ore-alum-shale*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/11",
-    "value": "ore-alum-limestone_icy",
+    "value": "ore-borax-chalk*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/12",
-    "value": "ore-alum-limestone_light",
+    "value": "ore-borax-chert*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/13",
-    "value": "ore-alum-limestone_mossy",
+    "value": "ore-borax-claystone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/14",
-    "value": "ore-alum-limestone_pink",
+    "value": "ore-borax-conglomerate*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/15",
-    "value": "ore-alum-limestone_stained_tan",
+    "value": "ore-borax-dolomite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/16",
-    "value": "ore-alum-limestone_tan",
+    "value": "ore-borax-graywacke*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/17",
-    "value": "ore-alum-sandstone",
+    "value": "ore-borax-limestone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/18",
-    "value": "ore-alum-sandstone_brown",
+    "value": "ore-borax-mudstone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/19",
-    "value": "ore-alum-sandstone_costal_red",
+    "value": "ore-borax-sandstone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/20",
-    "value": "ore-alum-sandstone_mossy_red",
+    "value": "ore-borax-shale*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/21",
-    "value": "ore-alum-sandstone_orange",
+    "value": "ore-cinnabar-andesite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/22",
-    "value": "ore-alum-sandstone_red",
+    "value": "ore-cinnabar-basalt*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/23",
-    "value": "ore-alum-sandstone_tan",
+    "value": "ore-cinnabar-dacite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/24",
-    "value": "ore-alum-sandstone_warped",
+    "value": "ore-cinnabar-rhyolite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/25",
-    "value": "ore-alum-shale",
+    "value": "ore-cinnabar-anorthosite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/26",
-    "value": "ore-borax-chalk",
+    "value": "ore-cinnabar-granite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/27",
-    "value": "ore-borax-chalk_layered",
+    "value": "ore-cinnabar-peridotite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/28",
-    "value": "ore-borax-chert",
+    "value": "ore-cinnabar-gneiss*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/29",
-    "value": "ore-borax-claystone",
+    "value": "ore-cinnabar-phyllite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/30",
-    "value": "ore-borax-conglomerate",
+    "value": "ore-cinnabar-quartzite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/31",
-    "value": "ore-borax-dolomite",
+    "value": "ore-cinnabar-schist*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/32",
-    "value": "ore-borax-graywacke",
+    "value": "ore-cinnabar-serpentinite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/33",
-    "value": "ore-borax-limestone",
+    "value": "ore-cinnabar-slate*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/34",
-    "value": "ore-borax-limestone_boulders_light",
+    "value": "ore-corundum-peridotite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/35",
-    "value": "ore-borax-limestone_boulders_mossy_light",
+    "value": "ore-corundum-greenmarble*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/36",
-    "value": "ore-borax-limestone_icy",
+    "value": "ore-corundum-redmarble*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/37",
-    "value": "ore-borax-limestone_light",
+    "value": "ore-corundum-marble*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/38",
-    "value": "ore-borax-limestone_mossy",
+    "value": "ore-corundum-whitemarble*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/39",
-    "value": "ore-borax-limestone_pink",
+    "value": "ore-corundum-phyllite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/40",
-    "value": "ore-borax-limestone_stained_tan",
+    "value": "ore-corundum-slate*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/41",
-    "value": "ore-borax-limestone_tan",
+    "value": "ore-fluorite-chalk*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/42",
-    "value": "ore-borax-mudstone",
+    "value": "ore-fluorite-chert*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/43",
-    "value": "ore-borax-mudstone_brown",
+    "value": "ore-fluorite-claystone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/44",
-    "value": "ore-borax-mudstone_light",
+    "value": "ore-fluorite-conglomerate*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/45",
-    "value": "ore-borax-mudstone_lightbrown",
+    "value": "ore-fluorite-graywacke*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/46",
-    "value": "ore-borax-mudstone_orange",
+    "value": "ore-fluorite-limestone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/47",
-    "value": "ore-borax-mudstone_red",
+    "value": "ore-fluorite-mudstone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/48",
-    "value": "ore-borax-mudstone_umbre",
+    "value": "ore-fluorite-sandstone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/49",
-    "value": "ore-borax-mudstone_yellow",
+    "value": "ore-fluorite-shale*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/50",
-    "value": "ore-borax-sandstone",
+    "value": "ore-graphite-greenmarble*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/51",
-    "value": "ore-borax-sandstone_brown",
+    "value": "ore-graphite-redmarble*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/52",
-    "value": "ore-borax-sandstone_costal_red",
+    "value": "ore-graphite-marble*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/53",
-    "value": "ore-borax-sandstone_mossy_red",
+    "value": "ore-graphite-whitemarble*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/54",
-    "value": "ore-borax-sandstone_orange",
+    "value": "ore-graphite-phyllite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/55",
-    "value": "ore-borax-sandstone_red",
+    "value": "ore-graphite-slate*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/56",
-    "value": "ore-borax-sandstone_tan",
+    "value": "ore-graphite-graywacke*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/57",
-    "value": "ore-borax-sandstone_warped",
+    "value": "ore-kernite-chalk*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/58",
-    "value": "ore-borax-shale",
+    "value": "ore-kernite-chert*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/59",
-    "value": "ore-cinnabar-andesite",
+    "value": "ore-kernite-claystone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/60",
-    "value": "ore-cinnabar-andesite_columnar",
+    "value": "ore-kernite-conglomerate*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/61",
-    "value": "ore-cinnabar-andesite_porous",
+    "value": "ore-kernite-limestone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/62",
-    "value": "ore-cinnabar-andesite_weathered",
+    "value": "ore-kernite-mudstone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/63",
-    "value": "ore-cinnabar-basalt",
+    "value": "ore-kernite-sandstone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/64",
-    "value": "ore-cinnabar-basalt_columnar",
+    "value": "ore-kernite-shale*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/65",
-    "value": "ore-cinnabar-basalt_columnar_light",
+    "value": "ore-lapislazuli-greenmarble*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/66",
-    "value": "ore-cinnabar-basalt_porous",
+    "value": "ore-lapislazuli-redmarble*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/67",
-    "value": "ore-cinnabar-basalt_smooth",
+    "value": "ore-lapislazuli-marble*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/68",
-    "value": "ore-cinnabar-basalt_weathered",
+    "value": "ore-lapislazuli-whitemarble*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/69",
-    "value": "ore-cinnabar-dacite",
+    "value": "ore-lapislazuli-graywacke*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/70",
-    "value": "ore-cinnabar-dacite_columnar",
+    "value": "ore-lapislazuli-limestone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/71",
-    "value": "ore-cinnabar-dacite_porous",
+    "value": "ore-olivine-peridotite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/72",
-    "value": "ore-cinnabar-dacite_weathered",
+    "value": "ore-olivine-serpentinite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/73",
-    "value": "ore-cinnabar-rhyolite",
+    "value": "ore-phosphorite-chalk*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/74",
-    "value": "ore-cinnabar-rhyolite_columnar",
+    "value": "ore-phosphorite-chert*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/75",
-    "value": "ore-cinnabar-rhyolite_porous",
+    "value": "ore-phosphorite-claystone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/76",
-    "value": "ore-cinnabar-rhyolite_weathered",
+    "value": "ore-phosphorite-conglomerate*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/77",
-    "value": "ore-cinnabar-anorthosite_rough",
+    "value": "ore-phosphorite-dolomite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/78",
-    "value": "ore-cinnabar-anorthosite_smooth",
+    "value": "ore-phosphorite-graywacke*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/79",
-    "value": "ore-cinnabar-anorthosite_weathered",
+    "value": "ore-phosphorite-limestone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/80",
-    "value": "ore-cinnabar-granite",
+    "value": "ore-phosphorite-mudstone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/81",
-    "value": "ore-cinnabar-granite_red",
+    "value": "ore-phosphorite-sandstone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/82",
-    "value": "ore-cinnabar-granite_smooth",
+    "value": "ore-phosphorite-shale*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/83",
-    "value": "ore-cinnabar-granite_smooth_red",
+    "value": "ore-quartz-andesite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/84",
-    "value": "ore-cinnabar-granite_snowy",
+    "value": "ore-quartz-basalt*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/85",
-    "value": "ore-cinnabar-peridotite",
+    "value": "ore-quartz-dacite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/86",
-    "value": "ore-cinnabar-gneiss",
+    "value": "ore-quartz-rhyolite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/87",
-    "value": "ore-cinnabar-gneiss_eroded",
+    "value": "ore-quartz-granite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/88",
-    "value": "ore-cinnabar-phyllite",
+    "value": "ore-quartz-peridotite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/89",
-    "value": "ore-cinnabar-quartzite_gray",
+    "value": "ore-quartz-phyllite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/90",
-    "value": "ore-cinnabar-quartzite_pink",
+    "value": "ore-quartz-quartzite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/91",
-    "value": "ore-cinnabar-quartzite_yellow",
+    "value": "ore-quartz-slate*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/92",
-    "value": "ore-cinnabar-schist_blue",
+    "value": "ore-quartz-chalk*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/93",
-    "value": "ore-cinnabar-schist_green",
+    "value": "ore-quartz-chert*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/94",
-    "value": "ore-cinnabar-schist_lichen_blue",
+    "value": "ore-quartz-claystone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/95",
-    "value": "ore-cinnabar-schist_mossy_blue",
+    "value": "ore-quartz-conglomerate*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/96",
-    "value": "ore-cinnabar-schist_weathered_blue",
+    "value": "ore-quartz-graywacke*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/97",
-    "value": "ore-cinnabar-serpentinite",
+    "value": "ore-quartz-limestone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/98",
-    "value": "ore-cinnabar-serpentinite_smooth",
+    "value": "ore-quartz-mudstone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/99",
-    "value": "ore-cinnabar-slate",
+    "value": "ore-quartz-sandstone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/100",
-    "value": "ore-cinnabar-slate_warped",
+    "value": "ore-quartz-shale*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/101",
-    "value": "ore-cinnabar-slate_warped_costal",
+    "value": "ore-stibnite-limestone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/102",
-    "value": "ore-cinnabar-slate_wet",
+    "value": "ore-sulfur-chalk*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/103",
-    "value": "ore-corundum-peridotite",
+    "value": "ore-sulfur-chert*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/104",
-    "value": "ore-corundum-marble_green",
+    "value": "ore-sulfur-claystone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/105",
-    "value": "ore-corundum-marble_red",
+    "value": "ore-sulfur-conglomerate*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/106",
-    "value": "ore-corundum-marble_rough",
+    "value": "ore-sulfur-dolomite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/107",
-    "value": "ore-corundum-marble_rough_dark",
+    "value": "ore-sulfur-graywacke*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/108",
-    "value": "ore-corundum-marble_white",
+    "value": "ore-sulfur-limestone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/109",
-    "value": "ore-corundum-phyllite",
+    "value": "ore-sulfur-mudstone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/110",
-    "value": "ore-corundum-slate",
+    "value": "ore-sulfur-sandstone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/111",
-    "value": "ore-corundum-slate_warped",
+    "value": "ore-sulfur-shale*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/112",
-    "value": "ore-corundum-slate_warped_costal",
+    "value": "ore-sylvite-halite*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/113",
-    "value": "ore-corundum-slate_wet",
+    "value": "ore-anthracite-chalk*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/114",
-    "value": "ore-fluorite-chalk",
+    "value": "ore-anthracite-chert*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/115",
-    "value": "ore-fluorite-chalk_layered",
+    "value": "ore-anthracite-claystone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/116",
-    "value": "ore-fluorite-chert",
+    "value": "ore-anthracite-conglomerate*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/117",
-    "value": "ore-fluorite-claystone",
+    "value": "ore-anthracite-limestone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/118",
-    "value": "ore-fluorite-conglomerate",
+    "value": "ore-anthracite-mudstone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/119",
-    "value": "ore-fluorite-graywacke",
+    "value": "ore-anthracite-sandstone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/120",
-    "value": "ore-fluorite-limestone",
+    "value": "ore-anthracite-shale*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/121",
-    "value": "ore-fluorite-limestone_boulders_light",
+    "value": "ore-bituminouscoal-chalk*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/122",
-    "value": "ore-fluorite-limestone_boulders_mossy_light",
+    "value": "ore-bituminouscoal-chert*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/123",
-    "value": "ore-fluorite-limestone_icy",
+    "value": "ore-bituminouscoal-claystone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/124",
-    "value": "ore-fluorite-limestone_light",
+    "value": "ore-bituminouscoal-conglomerate*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/125",
-    "value": "ore-fluorite-limestone_mossy",
+    "value": "ore-bituminouscoal-limestone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/126",
-    "value": "ore-fluorite-limestone_pink",
+    "value": "ore-bituminouscoal-mudstone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/127",
-    "value": "ore-fluorite-limestone_stained_tan",
+    "value": "ore-bituminouscoal-sandstone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/128",
-    "value": "ore-fluorite-limestone_tan",
+    "value": "ore-bituminouscoal-shale*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/129",
-    "value": "ore-fluorite-sandstone",
+    "value": "ore-lignite-chalk*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/130",
-    "value": "ore-fluorite-sandstone_brown",
+    "value": "ore-lignite-chert*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/131",
-    "value": "ore-fluorite-sandstone_costal_red",
+    "value": "ore-lignite-claystone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/132",
-    "value": "ore-fluorite-sandstone_mossy_red",
+    "value": "ore-lignite-conglomerate*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/133",
-    "value": "ore-fluorite-sandstone_orange",
+    "value": "ore-lignite-limestone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/134",
-    "value": "ore-fluorite-sandstone_red",
+    "value": "ore-lignite-mudstone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/135",
-    "value": "ore-fluorite-sandstone_tan",
+    "value": "ore-lignite-sandstone*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
     "op": "add",
 	"side": "server",
     "path": "/allowedVariants/136",
-    "value": "ore-fluorite-sandstone_warped",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/137",
-    "value": "ore-fluorite-shale",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/138",
-    "value": "ore-graphite-marble_green",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/139",
-    "value": "ore-graphite-marble_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/140",
-    "value": "ore-graphite-marble_rough",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/141",
-    "value": "ore-graphite-marble_rough_dark",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/142",
-    "value": "ore-graphite-marble_white",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/143",
-    "value": "ore-graphite-phyllite",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/144",
-    "value": "ore-graphite-slate",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/145",
-    "value": "ore-graphite-slate_warped",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/146",
-    "value": "ore-graphite-slate_warped_costal",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/147",
-    "value": "ore-graphite-slate_wet",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/148",
-    "value": "ore-graphite-graywacke",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/149",
-    "value": "ore-kernite-chalk",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/150",
-    "value": "ore-kernite-chalk_layered",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/151",
-    "value": "ore-kernite-chert",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/152",
-    "value": "ore-kernite-claystone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/153",
-    "value": "ore-kernite-conglomerate",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/154",
-    "value": "ore-kernite-limestone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/155",
-    "value": "ore-kernite-limestone_boulders_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/156",
-    "value": "ore-kernite-limestone_boulders_mossy_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/157",
-    "value": "ore-kernite-limestone_icy",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/158",
-    "value": "ore-kernite-limestone_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/159",
-    "value": "ore-kernite-limestone_mossy",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/160",
-    "value": "ore-kernite-limestone_pink",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/161",
-    "value": "ore-kernite-limestone_stained_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/162",
-    "value": "ore-kernite-limestone_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/163",
-    "value": "ore-kernite-mudstone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/164",
-    "value": "ore-kernite-mudstone_brown",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/165",
-    "value": "ore-kernite-mudstone_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/166",
-    "value": "ore-kernite-mudstone_lightbrown",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/167",
-    "value": "ore-kernite-mudstone_orange",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/168",
-    "value": "ore-kernite-mudstone_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/169",
-    "value": "ore-kernite-mudstone_umbre",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/170",
-    "value": "ore-kernite-mudstone_yellow",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/171",
-    "value": "ore-kernite-sandstone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/172",
-    "value": "ore-kernite-sandstone_brown",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/173",
-    "value": "ore-kernite-sandstone_costal_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/174",
-    "value": "ore-kernite-sandstone_mossy_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/175",
-    "value": "ore-kernite-sandstone_orange",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/176",
-    "value": "ore-kernite-sandstone_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/177",
-    "value": "ore-kernite-sandstone_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/178",
-    "value": "ore-kernite-sandstone_warped",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/179",
-    "value": "ore-kernite-shale",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/180",
-    "value": "ore-lapislazuli-marble_green",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/181",
-    "value": "ore-lapislazuli-marble_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/182",
-    "value": "ore-lapislazuli-marble_rough",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/183",
-    "value": "ore-lapislazuli-marble_rough_dark",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/184",
-    "value": "ore-lapislazuli-marble_white",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/185",
-    "value": "ore-lapislazuli-graywacke",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/186",
-    "value": "ore-lapislazuli-limestone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/187",
-    "value": "ore-lapislazuli-limestone_boulders_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/188",
-    "value": "ore-lapislazuli-limestone_boulders_mossy_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/189",
-    "value": "ore-lapislazuli-limestone_icy",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/190",
-    "value": "ore-lapislazuli-limestone_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/191",
-    "value": "ore-lapislazuli-limestone_mossy",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/192",
-    "value": "ore-lapislazuli-limestone_pink",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/193",
-    "value": "ore-lapislazuli-limestone_stained_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/194",
-    "value": "ore-lapislazuli-limestone_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/195",
-    "value": "ore-olivine-peridotite",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/196",
-    "value": "ore-olivine-serpentinite",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/197",
-    "value": "ore-olivine-serpentinite_smooth",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/198",
-    "value": "ore-phosphorite-chalk",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/199",
-    "value": "ore-phosphorite-chalk_layered",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/200",
-    "value": "ore-phosphorite-chert",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/201",
-    "value": "ore-phosphorite-claystone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/202",
-    "value": "ore-phosphorite-conglomerate",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/203",
-    "value": "ore-phosphorite-dolomite",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/204",
-    "value": "ore-phosphorite-graywacke",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/205",
-    "value": "ore-phosphorite-limestone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/206",
-    "value": "ore-phosphorite-limestone_boulders_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/207",
-    "value": "ore-phosphorite-limestone_boulders_mossy_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/208",
-    "value": "ore-phosphorite-limestone_icy",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/209",
-    "value": "ore-phosphorite-limestone_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/210",
-    "value": "ore-phosphorite-limestone_mossy",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/211",
-    "value": "ore-phosphorite-limestone_pink",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/212",
-    "value": "ore-phosphorite-limestone_stained_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/213",
-    "value": "ore-phosphorite-limestone_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/214",
-    "value": "ore-phosphorite-mudstone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/215",
-    "value": "ore-phosphorite-mudstone_brown",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/216",
-    "value": "ore-phosphorite-mudstone_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/217",
-    "value": "ore-phosphorite-mudstone_lightbrown",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/218",
-    "value": "ore-phosphorite-mudstone_orange",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/219",
-    "value": "ore-phosphorite-mudstone_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/220",
-    "value": "ore-phosphorite-mudstone_umbre",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/221",
-    "value": "ore-phosphorite-mudstone_yellow",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/222",
-    "value": "ore-phosphorite-sandstone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/223",
-    "value": "ore-phosphorite-sandstone_brown",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/224",
-    "value": "ore-phosphorite-sandstone_costal_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/225",
-    "value": "ore-phosphorite-sandstone_mossy_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/226",
-    "value": "ore-phosphorite-sandstone_orange",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/227",
-    "value": "ore-phosphorite-sandstone_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/228",
-    "value": "ore-phosphorite-sandstone_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/229",
-    "value": "ore-phosphorite-sandstone_warped",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/230",
-    "value": "ore-phosphorite-shale",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/231",
-    "value": "ore-quartz-andesite",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/232",
-    "value": "ore-quartz-andesite_columnar",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/233",
-    "value": "ore-quartz-andesite_porous",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/234",
-    "value": "ore-quartz-andesite_weathered",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/235",
-    "value": "ore-quartz-basalt",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/236",
-    "value": "ore-quartz-basalt_columnar",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/237",
-    "value": "ore-quartz-basalt_columnar_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/238",
-    "value": "ore-quartz-basalt_porous",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/239",
-    "value": "ore-quartz-basalt_smooth",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/240",
-    "value": "ore-quartz-basalt_weathered",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/241",
-    "value": "ore-quartz-dacite",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/242",
-    "value": "ore-quartz-dacite_columnar",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/243",
-    "value": "ore-quartz-dacite_porous",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/244",
-    "value": "ore-quartz-dacite_weathered",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/245",
-    "value": "ore-quartz-rhyolite",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/246",
-    "value": "ore-quartz-rhyolite_columnar",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/247",
-    "value": "ore-quartz-rhyolite_porous",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/248",
-    "value": "ore-quartz-rhyolite_weathered",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/249",
-    "value": "ore-quartz-granite",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/250",
-    "value": "ore-quartz-granite_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/251",
-    "value": "ore-quartz-granite_smooth",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/252",
-    "value": "ore-quartz-granite_smooth_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/253",
-    "value": "ore-quartz-granite_snowy",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/254",
-    "value": "ore-quartz-peridotite",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/255",
-    "value": "ore-quartz-phyllite",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/256",
-    "value": "ore-quartz-quartzite_gray",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/257",
-    "value": "ore-quartz-quartzite_pink",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/258",
-    "value": "ore-quartz-quartzite_yellow",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/259",
-    "value": "ore-quartz-slate",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/260",
-    "value": "ore-quartz-slate_warped",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/261",
-    "value": "ore-quartz-slate_warped_costal",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/262",
-    "value": "ore-quartz-slate_wet",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/263",
-    "value": "ore-quartz-chalk",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/264",
-    "value": "ore-quartz-chalk_layered",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/265",
-    "value": "ore-quartz-chert",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/266",
-    "value": "ore-quartz-claystone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/267",
-    "value": "ore-quartz-conglomerate",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/268",
-    "value": "ore-quartz-graywacke",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/269",
-    "value": "ore-quartz-limestone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/270",
-    "value": "ore-quartz-limestone_boulders_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/271",
-    "value": "ore-quartz-limestone_boulders_mossy_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/272",
-    "value": "ore-quartz-limestone_icy",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/273",
-    "value": "ore-quartz-limestone_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/274",
-    "value": "ore-quartz-limestone_mossy",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/275",
-    "value": "ore-quartz-limestone_pink",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/276",
-    "value": "ore-quartz-limestone_stained_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/277",
-    "value": "ore-quartz-limestone_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/278",
-    "value": "ore-quartz-mudstone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/279",
-    "value": "ore-quartz-mudstone_brown",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/280",
-    "value": "ore-quartz-mudstone_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/281",
-    "value": "ore-quartz-mudstone_lightbrown",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/282",
-    "value": "ore-quartz-mudstone_orange",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/283",
-    "value": "ore-quartz-mudstone_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/284",
-    "value": "ore-quartz-mudstone_umbre",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/285",
-    "value": "ore-quartz-mudstone_yellow",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/286",
-    "value": "ore-quartz-sandstone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/287",
-    "value": "ore-quartz-sandstone_brown",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/288",
-    "value": "ore-quartz-sandstone_costal_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/289",
-    "value": "ore-quartz-sandstone_mossy_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/290",
-    "value": "ore-quartz-sandstone_orange",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/291",
-    "value": "ore-quartz-sandstone_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/292",
-    "value": "ore-quartz-sandstone_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/293",
-    "value": "ore-quartz-sandstone_warped",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/294",
-    "value": "ore-quartz-shale",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/295",
-    "value": "ore-stibnite-limestone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/296",
-    "value": "ore-stibnite-limestone_boulders_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/297",
-    "value": "ore-stibnite-limestone_boulders_mossy_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/298",
-    "value": "ore-stibnite-limestone_icy",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/299",
-    "value": "ore-stibnite-limestone_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/300",
-    "value": "ore-stibnite-limestone_mossy",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/301",
-    "value": "ore-stibnite-limestone_pink",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/302",
-    "value": "ore-stibnite-limestone_stained_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/303",
-    "value": "ore-stibnite-limestone_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/304",
-    "value": "ore-sulfur-chalk",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/305",
-    "value": "ore-sulfur-chalk_layered",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/306",
-    "value": "ore-sulfur-chert",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/307",
-    "value": "ore-sulfur-claystone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/308",
-    "value": "ore-sulfur-conglomerate",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/309",
-    "value": "ore-sulfur-dolomite",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/310",
-    "value": "ore-sulfur-graywacke",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/311",
-    "value": "ore-sulfur-limestone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/312",
-    "value": "ore-sulfur-limestone_boulders_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/313",
-    "value": "ore-sulfur-limestone_boulders_mossy_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/314",
-    "value": "ore-sulfur-limestone_icy",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/315",
-    "value": "ore-sulfur-limestone_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/316",
-    "value": "ore-sulfur-limestone_mossy",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/317",
-    "value": "ore-sulfur-limestone_pink",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/318",
-    "value": "ore-sulfur-limestone_stained_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/319",
-    "value": "ore-sulfur-limestone_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/320",
-    "value": "ore-sulfur-mudstone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/321",
-    "value": "ore-sulfur-mudstone_brown",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/322",
-    "value": "ore-sulfur-mudstone_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/323",
-    "value": "ore-sulfur-mudstone_lightbrown",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/324",
-    "value": "ore-sulfur-mudstone_orange",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/325",
-    "value": "ore-sulfur-mudstone_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/326",
-    "value": "ore-sulfur-mudstone_umbre",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/327",
-    "value": "ore-sulfur-mudstone_yellow",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/328",
-    "value": "ore-sulfur-sandstone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/329",
-    "value": "ore-sulfur-sandstone_brown",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/330",
-    "value": "ore-sulfur-sandstone_costal_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/331",
-    "value": "ore-sulfur-sandstone_mossy_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/332",
-    "value": "ore-sulfur-sandstone_orange",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/333",
-    "value": "ore-sulfur-sandstone_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/334",
-    "value": "ore-sulfur-sandstone_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/335",
-    "value": "ore-sulfur-sandstone_warped",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/336",
-    "value": "ore-sulfur-shale",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/337",
-    "value": "ore-sylvite-halite",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/338",
-    "value": "ore-anthracite-chalk",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/339",
-    "value": "ore-anthracite-chalk_layered",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/340",
-    "value": "ore-anthracite-chert",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/341",
-    "value": "ore-anthracite-claystone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/342",
-    "value": "ore-anthracite-conglomerate",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/343",
-    "value": "ore-anthracite-limestone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/344",
-    "value": "ore-anthracite-limestone_boulders_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/345",
-    "value": "ore-anthracite-limestone_boulders_mossy_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/346",
-    "value": "ore-anthracite-limestone_icy",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/347",
-    "value": "ore-anthracite-limestone_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/348",
-    "value": "ore-anthracite-limestone_mossy",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/349",
-    "value": "ore-anthracite-limestone_pink",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/350",
-    "value": "ore-anthracite-limestone_stained_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/351",
-    "value": "ore-anthracite-limestone_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/352",
-    "value": "ore-anthracite-mudstone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/353",
-    "value": "ore-anthracite-mudstone_brown",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/354",
-    "value": "ore-anthracite-mudstone_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/355",
-    "value": "ore-anthracite-mudstone_lightbrown",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/356",
-    "value": "ore-anthracite-mudstone_orange",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/357",
-    "value": "ore-anthracite-mudstone_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/358",
-    "value": "ore-anthracite-mudstone_umbre",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/359",
-    "value": "ore-anthracite-mudstone_yellow",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/360",
-    "value": "ore-anthracite-sandstone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/361",
-    "value": "ore-anthracite-sandstone_brown",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/362",
-    "value": "ore-anthracite-sandstone_costal_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/363",
-    "value": "ore-anthracite-sandstone_mossy_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/364",
-    "value": "ore-anthracite-sandstone_orange",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/365",
-    "value": "ore-anthracite-sandstone_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/366",
-    "value": "ore-anthracite-sandstone_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/367",
-    "value": "ore-anthracite-sandstone_warped",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/368",
-    "value": "ore-anthracite-shale",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/369",
-    "value": "ore-bituminouscoal-chalk",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/370",
-    "value": "ore-bituminouscoal-chalk_layered",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/371",
-    "value": "ore-bituminouscoal-chert",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/372",
-    "value": "ore-bituminouscoal-claystone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/373",
-    "value": "ore-bituminouscoal-conglomerate",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/374",
-    "value": "ore-bituminouscoal-limestone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/375",
-    "value": "ore-bituminouscoal-limestone_boulders_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/376",
-    "value": "ore-bituminouscoal-limestone_boulders_mossy_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/377",
-    "value": "ore-bituminouscoal-limestone_icy",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/378",
-    "value": "ore-bituminouscoal-limestone_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/379",
-    "value": "ore-bituminouscoal-limestone_mossy",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/380",
-    "value": "ore-bituminouscoal-limestone_pink",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/381",
-    "value": "ore-bituminouscoal-limestone_stained_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/382",
-    "value": "ore-bituminouscoal-limestone_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/383",
-    "value": "ore-bituminouscoal-mudstone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/384",
-    "value": "ore-bituminouscoal-mudstone_brown",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/385",
-    "value": "ore-bituminouscoal-mudstone_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/386",
-    "value": "ore-bituminouscoal-mudstone_lightbrown",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/387",
-    "value": "ore-bituminouscoal-mudstone_orange",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/388",
-    "value": "ore-bituminouscoal-mudstone_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/389",
-    "value": "ore-bituminouscoal-mudstone_umbre",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/390",
-    "value": "ore-bituminouscoal-mudstone_yellow",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/391",
-    "value": "ore-bituminouscoal-sandstone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/392",
-    "value": "ore-bituminouscoal-sandstone_brown",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/393",
-    "value": "ore-bituminouscoal-sandstone_costal_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/394",
-    "value": "ore-bituminouscoal-sandstone_mossy_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/395",
-    "value": "ore-bituminouscoal-sandstone_orange",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/396",
-    "value": "ore-bituminouscoal-sandstone_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/397",
-    "value": "ore-bituminouscoal-sandstone_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/398",
-    "value": "ore-bituminouscoal-sandstone_warped",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/399",
-    "value": "ore-bituminouscoal-shale",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/400",
-    "value": "ore-lignite-chalk",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/401",
-    "value": "ore-lignite-chalk_layered",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/402",
-    "value": "ore-lignite-chert",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/403",
-    "value": "ore-lignite-claystone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/404",
-    "value": "ore-lignite-conglomerate",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/405",
-    "value": "ore-lignite-limestone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/406",
-    "value": "ore-lignite-limestone_boulders_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/407",
-    "value": "ore-lignite-limestone_boulders_mossy_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/408",
-    "value": "ore-lignite-limestone_icy",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/409",
-    "value": "ore-lignite-limestone_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/410",
-    "value": "ore-lignite-limestone_mossy",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/411",
-    "value": "ore-lignite-limestone_pink",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/412",
-    "value": "ore-lignite-limestone_stained_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/413",
-    "value": "ore-lignite-limestone_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/414",
-    "value": "ore-lignite-mudstone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/415",
-    "value": "ore-lignite-mudstone_brown",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/416",
-    "value": "ore-lignite-mudstone_light",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/417",
-    "value": "ore-lignite-mudstone_lightbrown",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/418",
-    "value": "ore-lignite-mudstone_orange",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/419",
-    "value": "ore-lignite-mudstone_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/420",
-    "value": "ore-lignite-mudstone_umbre",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/421",
-    "value": "ore-lignite-mudstone_yellow",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/422",
-    "value": "ore-lignite-sandstone",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/423",
-    "value": "ore-lignite-sandstone_brown",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/424",
-    "value": "ore-lignite-sandstone_costal_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/425",
-    "value": "ore-lignite-sandstone_mossy_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/426",
-    "value": "ore-lignite-sandstone_orange",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/427",
-    "value": "ore-lignite-sandstone_red",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/428",
-    "value": "ore-lignite-sandstone_tan",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/429",
-    "value": "ore-lignite-sandstone_warped",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/430",
-    "value": "ore-lignite-shale",
+    "value": "ore-lignite-shale*",
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
   {
@@ -3712,84 +1654,39 @@
 	"side": "server",
     "path": "/skipVariants",
     "value": [
-      "ore-flint-andesite",
-      "ore-flint-granite",
-      "ore-flint-basalt",
-      "ore-flint-peridotite",
-      "ore-flint-phyllite",
-      "ore-flint-slate",
-      "ore-flint-obsidian",
-      "ore-flint-kimberlite",
-      "ore-flint-scoria",
-      "ore-flint-bauxite",
-      "ore-flint-halite",
-      "ore-flint-suevite",
-      "ore-flint-whitemarble",
-      "ore-flint-redmarble",
-      "ore-flint-greenmarble",
-      "ore-flint-andesite_columnar",
-      "ore-flint-andesite_porous",
-      "ore-flint-andesite_weathered",
-      "ore-flint-anorthosite_rough",
-      "ore-flint-anorthosite_smooth",
-      "ore-flint-anorthosite_weathered",
-      "ore-flint-basalt_columnar",
-      "ore-flint-basalt_columnar_light",
-      "ore-flint-basalt_porous",
-      "ore-flint-basalt_smooth",
-      "ore-flint-basalt_weathered",
-      "ore-flint-blackstone",
-      "ore-flint-dacite",
-      "ore-flint-dacite_columnar",
-      "ore-flint-dacite_porous",
-      "ore-flint-dacite_weathered",
-      "ore-flint-endstone_layered",
-      "ore-flint-endstone_rough",
-      "ore-flint-endstone_smooth",
-      "ore-flint-gneiss",
-      "ore-flint-gneiss_eroded",
-      "ore-flint-granite_red",
-      "ore-flint-granite_smooth",
-      "ore-flint-granite_smooth_red",
-      "ore-flint-granite_snowy",
-      "ore-flint-magma",
-      "ore-flint-marble_rough",
-      "ore-flint-marble_rough_dark",
-      "ore-flint-obsidian_crying",
-      "ore-flint-obsidian_light",
-      "ore-flint-obsidian_smooth",
-      "ore-flint-pahoehoe",
-      "ore-flint-quartzite_gray",
-      "ore-flint-quartzite_pink",
-      "ore-flint-quartzite_yellow",
-      "ore-flint-rhyolite",
-      "ore-flint-rhyolite_columnar",
-      "ore-flint-rhyolite_porous",
-      "ore-flint-rhyolite_weathered",
-      "ore-flint-salt_flats_blue",
-      "ore-flint-salt_flats_brown",
-      "ore-flint-salt_flats_pink",
-      "ore-flint-salt_flats_white",
-      "ore-flint-schist_blue",
-      "ore-flint-schist_green",
-      "ore-flint-schist_lichen_blue",
-      "ore-flint-schist_mossy_blue",
-      "ore-flint-schist_weathered_blue",
-      "ore-flint-serpentinite",
-      "ore-flint-serpentinite_smooth",
-      "ore-flint-silt_cave_gray",
-      "ore-flint-slate_warped",
-      "ore-flint-slate_warped_costal",
-      "ore-flint-slate_wet",
-      "ore-flint-tuff",
-      "ore-flint-tuff_light",
-      "ore-flint-tuff_smooth",
-      "ore-flint-calcite",
-      "ore-flint-calcite_limestone",
-      "ore-flint-calcite_rough",
-      "ore-flint-dripstone",
-      "ore-flint-dripstone_dark",
-      "ore-flint-alum"
+      "ore-flint-suevite*",
+      "ore-flint-halite*",
+      "ore-flint-andesite*",
+      "ore-flint-anorthosite*",
+      "ore-flint-basalt*",
+      "ore-flint-blackstone*",
+      "ore-flint-dacite*",
+      "ore-flint-endstone*",
+      "ore-flint-gneiss*",
+      "ore-flint-granite*",
+      "ore-flint-peridotite*",
+      "ore-flint-kimberlite*",
+      "ore-flint-magma*",
+      "ore-flint-greenmarble*",
+      "ore-flint-redmarble*",
+      "ore-flint-marble*",
+      "ore-flint-whitemarble*",
+      "ore-flint-obsidian*",
+      "ore-flint-pahoehoe*",
+      "ore-flint-phyllite*",
+      "ore-flint-quartzite*",
+      "ore-flint-rhyolite*",
+      "ore-flint-scoria*",
+      "ore-flint-salt_flats*",
+      "ore-flint-schist*",
+      "ore-flint-serpentinite*",
+      "ore-flint-slate*",
+      "ore-flint-silt_cave_gray*",
+      "ore-flint-tuff*",
+      "ore-flint-bauxite*",
+      "ore-flint-calcite*",
+      "ore-flint-dripstone*",
+      "ore-flint-alum*"
     ],
     "file": "game:blocktypes/stone/ore-ungraded.json"
   }

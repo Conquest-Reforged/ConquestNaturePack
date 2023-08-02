@@ -142,13 +142,6 @@
     "op": "add",
 	"side": "server",
     "path": "/0/attributes/inblock/allowedVariants/20",
-    "value": "sandstone_red",
-    "file": "game:worldgen/deposits/metalore/iron.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/0/attributes/inblock/allowedVariants/21",
     "value": "shale",
     "file": "game:worldgen/deposits/metalore/iron.json"
   },

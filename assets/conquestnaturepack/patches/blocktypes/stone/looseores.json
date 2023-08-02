@@ -1,3196 +1,360 @@
 [
   {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/allowedVariants/3",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
     "op": "replace",
-    "side": "server",
-    "path": "/allowedVariants/3",
-    "value": "looseores-alum-chalk*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
 	"side": "server",
-    "path": "/allowedVariants/4",
-    "value": "looseores-alum-limestone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/5",
-    "value": "looseores-alum-chert-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/6",
-    "value": "looseores-alum-conglomerate-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/7",
-    "value": "looseores-bismuthinite-andesite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/8",
-    "value": "looseores-bismuthinite-granite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/9",
-    "value": "looseores-bismuthinite-basalt*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/10",
-    "value": "looseores-bismuthinite-peridotite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/11",
-    "value": "looseores-bismuthinite-phyllite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/12",
-    "value": "looseores-bismuthinite-slate*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/13",
-    "value": "looseores-cassiterite-andesite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/14",
-    "value": "looseores-cassiterite-granite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/15",
-    "value": "looseores-cassiterite-basalt*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/16",
-    "value": "looseores-cassiterite-peridotite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/17",
-    "value": "looseores-cassiterite-phyllite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/18",
-    "value": "looseores-cassiterite-slate*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/19",
-    "value": "looseores-sphalerite-andesite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/20",
-    "value": "looseores-sphalerite-granite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/21",
-    "value": "looseores-sphalerite-basalt*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/22",
-    "value": "looseores-sphalerite-peridotite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/23",
-    "value": "looseores-sphalerite-claystone-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/24",
-    "value": "looseores-sphalerite-sandstone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/25",
-    "value": "looseores-sphalerite-shale-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/26",
-    "value": "looseores-sphalerite-chalk*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/27",
-    "value": "looseores-sphalerite-limestone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/28",
-    "value": "looseores-sphalerite-chert-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/29",
-    "value": "looseores-sphalerite-conglomerate-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/30",
-    "value": "looseores-sphalerite-phyllite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/31",
-    "value": "looseores-sphalerite-slate*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/32",
-    "value": "looseores-nativecopper-granite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/33",
-    "value": "looseores-nativecopper-basalt*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/34",
-    "value": "looseores-nativecopper-slate*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/35",
-    "value": "looseores-nativecopper-andesite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/36",
-    "value": "looseores-nativecopper-peridotite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/37",
-    "value": "looseores-nativecopper-claystone-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/38",
-    "value": "looseores-nativecopper-sandstone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/39",
-    "value": "looseores-nativecopper-shale-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/40",
-    "value": "looseores-nativecopper-chalk*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/41",
-    "value": "looseores-nativecopper-chert-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/42",
-    "value": "looseores-nativecopper-conglomerate-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/43",
-    "value": "looseores-nativecopper-phyllite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/44",
-    "value": "looseores-malachite-limestone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/45",
-    "value": "looseores-malachite-whitemarble-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/46",
-    "value": "looseores-malachite-redmarble-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/47",
-    "value": "looseores-malachite-greenmarble-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/48",
-    "value": "looseores-malachite-marble_rough_dark-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/49",
-    "value": "looseores-galena-claystone-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/50",
-    "value": "looseores-galena-sandstone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/51",
-    "value": "looseores-galena-shale-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/52",
-    "value": "looseores-galena-chalk*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/53",
-    "value": "looseores-galena-limestone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/54",
-    "value": "looseores-galena-chert-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/55",
-    "value": "looseores-galena-conglomerate-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/56",
-    "value": "looseores-quartz-andesite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/57",
-    "value": "looseores-quartz-granite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/58",
-    "value": "looseores-quartz-basalt*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/59",
-    "value": "looseores-quartz-peridotite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/60",
-    "value": "looseores-quartz-claystone-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/61",
-    "value": "looseores-quartz-sandstone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/62",
-    "value": "looseores-quartz-shale-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/63",
-    "value": "looseores-quartz-chalk*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/64",
-    "value": "looseores-quartz-limestone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/65",
-    "value": "looseores-quartz-chert-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/66",
-    "value": "looseores-quartz-conglomerate-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/67",
-    "value": "looseores-quartz-phyllite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/68",
-    "value": "looseores-quartz-slate*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/69",
-    "value": "looseores-galena_nativesilver-claystone-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/70",
-    "value": "looseores-galena_nativesilver-sandstone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/71",
-    "value": "looseores-galena_nativesilver-shale-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/72",
-    "value": "looseores-galena_nativesilver-chalk*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/73",
-    "value": "looseores-galena_nativesilver-limestone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/74",
-    "value": "looseores-galena_nativesilver-chert-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/75",
-    "value": "looseores-galena_nativesilver-conglomerate-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/76",
-    "value": "looseores-quartz_nativesilver-andesite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/77",
-    "value": "looseores-quartz_nativesilver-granite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/78",
-    "value": "looseores-quartz_nativesilver-basalt*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/79",
-    "value": "looseores-quartz_nativesilver-peridotite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/80",
-    "value": "looseores-quartz_nativesilver-claystone-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/81",
-    "value": "looseores-quartz_nativesilver-sandstone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/82",
-    "value": "looseores-quartz_nativesilver-shale-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/83",
-    "value": "looseores-quartz_nativesilver-chalk*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/84",
-    "value": "looseores-quartz_nativesilver-limestone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/85",
-    "value": "looseores-quartz_nativesilver-chert-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/86",
-    "value": "looseores-quartz_nativesilver-conglomerate-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/87",
-    "value": "looseores-quartz_nativesilver-phyllite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/88",
-    "value": "looseores-quartz_nativesilver-slate*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/89",
-    "value": "looseores-quartz_nativegold-andesite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/90",
-    "value": "looseores-quartz_nativegold-granite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/91",
-    "value": "looseores-quartz_nativegold-basalt*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/92",
-    "value": "looseores-quartz_nativegold-peridotite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/93",
-    "value": "looseores-quartz_nativegold-claystone-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/94",
-    "value": "looseores-quartz_nativegold-sandstone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/95",
-    "value": "looseores-quartz_nativegold-shale-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/96",
-    "value": "looseores-quartz_nativegold-chalk*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/97",
-    "value": "looseores-quartz_nativegold-limestone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/98",
-    "value": "looseores-quartz_nativegold-chert-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/99",
-    "value": "looseores-quartz_nativegold-conglomerate-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/100",
-    "value": "looseores-quartz_nativegold-phyllite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/101",
-    "value": "looseores-quartz_nativegold-slate*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/102",
-    "value": "looseores-limonite-basalt*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/103",
-    "value": "looseores-limonite-shale-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/104",
-    "value": "looseores-limonite-chert-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/105",
-    "value": "looseores-hematite-granite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/106",
-    "value": "looseores-hematite-peridotite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/107",
-    "value": "looseores-hematite-sandstone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/108",
-    "value": "looseores-hematite-limestone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/109",
-    "value": "looseores-hematite-phyllite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/110",
-    "value": "looseores-magnetite-andesite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/111",
-    "value": "looseores-magnetite-claystone-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/112",
-    "value": "looseores-magnetite-chalk*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/113",
-    "value": "looseores-magnetite-conglomerate-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/114",
-    "value": "looseores-magnetite-slate*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/115",
-    "value": "looseores-chromite-andesite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/116",
-    "value": "looseores-chromite-granite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/117",
-    "value": "looseores-chromite-basalt*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/118",
-    "value": "looseores-chromite-peridotite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/119",
-    "value": "looseores-chromite-kimberlite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/120",
-    "value": "looseores-rhodochrosite-claystone-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/121",
-    "value": "looseores-rhodochrosite-sandstone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/122",
-    "value": "looseores-rhodochrosite-shale-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/123",
-    "value": "looseores-rhodochrosite-chalk*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/124",
-    "value": "looseores-rhodochrosite-limestone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/125",
-    "value": "looseores-rhodochrosite-chert-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/126",
-    "value": "looseores-rhodochrosite-conglomerate-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/127",
-    "value": "looseores-rhodochrosite-phyllite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/128",
-    "value": "looseores-rhodochrosite-slate*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/129",
-    "value": "looseores-ilmenite-andesite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/130",
-    "value": "looseores-ilmenite-granite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/131",
-    "value": "looseores-ilmenite-basalt*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/132",
-    "value": "looseores-ilmenite-peridotite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/133",
-    "value": "looseores-ilmenite-kimberlite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/134",
-    "value": "looseores-ilmenite-phyllite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/135",
-    "value": "looseores-ilmenite-slate*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/136",
-    "value": "looseores-quartz_wolframite-granite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/137",
-    "value": "looseores-stibnite-andesite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/138",
-    "value": "looseores-stibnite-granite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/139",
-    "value": "looseores-stibnite-basalt*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/140",
-    "value": "looseores-stibnite-limestone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/141",
-    "value": "looseores-uranium-andesite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/142",
-    "value": "looseores-uranium-granite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/143",
-    "value": "looseores-uranium-basalt*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/144",
-    "value": "looseores-uranium-peridotite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/145",
-    "value": "looseores-uranium-kimberlite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/146",
-    "value": "looseores-uranium-claystone-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/147",
-    "value": "looseores-uranium-sandstone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/148",
-    "value": "looseores-uranium-shale-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/149",
-    "value": "looseores-uranium-chalk*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/150",
-    "value": "looseores-uranium-limestone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/151",
-    "value": "looseores-uranium-chert-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/152",
-    "value": "looseores-uranium-conglomerate-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/153",
-    "value": "looseores-uranium-phyllite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/154",
-    "value": "looseores-uranium-slate*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/155",
-    "value": "looseores-lignite-claystone-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/156",
-    "value": "looseores-lignite-sandstone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/157",
-    "value": "looseores-lignite-shale-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/158",
-    "value": "looseores-lignite-chalk*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/159",
-    "value": "looseores-lignite-limestone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/160",
-    "value": "looseores-lignite-chert-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/161",
-    "value": "looseores-lignite-conglomerate-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/162",
-    "value": "looseores-bituminouscoal-claystone-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/163",
-    "value": "looseores-bituminouscoal-sandstone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/164",
-    "value": "looseores-bituminouscoal-shale-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/165",
-    "value": "looseores-bituminouscoal-chalk*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/166",
-    "value": "looseores-bituminouscoal-limestone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/167",
-    "value": "looseores-bituminouscoal-chert-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/168",
-    "value": "looseores-bituminouscoal-conglomerate-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/169",
-    "value": "looseores-anthracite-claystone-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/170",
-    "value": "looseores-anthracite-sandstone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/171",
-    "value": "looseores-anthracite-shale-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/172",
-    "value": "looseores-anthracite-chalk*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/173",
-    "value": "looseores-anthracite-limestone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/174",
-    "value": "looseores-anthracite-chert-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/175",
-    "value": "looseores-anthracite-conglomerate-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/176",
-    "value": "looseores-sulfur-claystone-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/177",
-    "value": "looseores-sulfur-sandstone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/178",
-    "value": "looseores-sulfur-shale-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/179",
-    "value": "looseores-sulfur-chalk*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/180",
-    "value": "looseores-sulfur-limestone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/181",
-    "value": "looseores-sulfur-chert-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/182",
-    "value": "looseores-sulfur-conglomerate-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/183",
-    "value": "looseores-sylvite-halite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/184",
-    "value": "looseores-borax-claystone-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/185",
-    "value": "looseores-borax-sandstone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/186",
-    "value": "looseores-borax-shale-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/187",
-    "value": "looseores-borax-chalk*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/188",
-    "value": "looseores-borax-limestone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/189",
-    "value": "looseores-borax-chert-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/190",
-    "value": "looseores-borax-conglomerate-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/191",
-    "value": "looseores-kernite-claystone-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/192",
-    "value": "looseores-kernite-sandstone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/193",
-    "value": "looseores-kernite-shale-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/194",
-    "value": "looseores-kernite-chalk*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/195",
-    "value": "looseores-kernite-limestone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/196",
-    "value": "looseores-kernite-chert-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/197",
-    "value": "looseores-kernite-conglomerate-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/198",
-    "value": "looseores-graphite-phyllite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/199",
-    "value": "looseores-graphite-slate*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/200",
-    "value": "looseores-graphite-whitemarble-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/201",
-    "value": "looseores-graphite-redmarble-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/202",
-    "value": "looseores-graphite-greenmarble-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/203",
-    "value": "looseores-graphite-marble_rough_dark-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/204",
-    "value": "looseores-cinnabar-andesite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/205",
-    "value": "looseores-cinnabar-granite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/206",
-    "value": "looseores-cinnabar-basalt*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/207",
-    "value": "looseores-cinnabar-peridotite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/208",
-    "value": "looseores-cinnabar-phyllite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/209",
-    "value": "looseores-cinnabar-slate*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/210",
-    "value": "looseores-corundum-peridotite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/211",
-    "value": "looseores-corundum-phyllite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/212",
-    "value": "looseores-corundum-slate*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/213",
-    "value": "looseores-corundum-whitemarble-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/214",
-    "value": "looseores-corundum-redmarble-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/215",
-    "value": "looseores-corundum-greenmarble-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/216",
-    "value": "looseores-corundum-marble_rough_dark-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/217",
-    "value": "looseores-lapislazuli-limestone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/218",
-    "value": "looseores-lapislazuli-bauxite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/219",
-    "value": "looseores-lapislazuli-whitemarble-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/220",
-    "value": "looseores-lapislazuli-redmarble-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/221",
-    "value": "looseores-lapislazuli-greenmarble-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/222",
-    "value": "looseores-lapislazuli-marble_rough_dark-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/223",
-    "value": "looseores-emerald-basalt*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/224",
-    "value": "looseores-emerald-peridotite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/225",
-    "value": "looseores-emerald-shale-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/226",
-    "value": "looseores-emerald-limestone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/227",
-    "value": "looseores-emerald-phyllite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/228",
-    "value": "looseores-emerald-slate*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/229",
-    "value": "looseores-diamond-kimberlite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/230",
-    "value": "looseores-diamond-suevite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/231",
-    "value": "looseores-olivine-peridotite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/232",
-    "value": "looseores-olivine_peridot-peridotite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/233",
-    "value": "looseores-pentlandite-andesite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/234",
-    "value": "looseores-pentlandite-granite*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/235",
-    "value": "looseores-pentlandite-basalt*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/236",
-    "value": "looseores-pentlandite-peridotite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/237",
-    "value": "looseores-fluorite-claystone-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/238",
-    "value": "looseores-fluorite-sandstone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/239",
-    "value": "looseores-fluorite-shale-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/240",
-    "value": "looseores-fluorite-chalk*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/241",
-    "value": "looseores-fluorite-limestone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/242",
-    "value": "looseores-fluorite-chert-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/243",
-    "value": "looseores-fluorite-conglomerate-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/244",
-    "value": "looseores-fluorite-phyllite-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/245",
-    "value": "looseores-fluorite-slate*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/246",
-    "value": "looseores-phosphorite-claystone-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/247",
-    "value": "looseores-phosphorite-sandstone*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/248",
-    "value": "looseores-phosphorite-shale-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/249",
-    "value": "looseores-phosphorite-chalk*-free",
-    "file": "game:blocktypes/stone/looseores.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/allowedVariants/250",
-    "value": "looseores-phosphorite-limestone*-free",
+    "path": "/allowedVariants",
+    "value": [
+      "looseores-bismuthinite-andesite*-free",
+      "looseores-bismuthinite-basalt*-free",
+      "looseores-bismuthinite-dacite*-free",
+      "looseores-bismuthinite-rhyolite*-free",
+      "looseores-bismuthinite-anorthosite*-free",
+      "looseores-bismuthinite-granite*-free",
+      "looseores-bismuthinite-peridotite*-free",
+      "looseores-bismuthinite-gneiss*-free",
+      "looseores-bismuthinite-phyllite*-free",
+      "looseores-bismuthinite-slate*-free",
+      "looseores-cassiterite-andesite*-free",
+      "looseores-cassiterite-basalt*-free",
+      "looseores-cassiterite-dacite*-free",
+      "looseores-cassiterite-rhyolite*-free",
+      "looseores-cassiterite-anorthosite*-free",
+      "looseores-cassiterite-granite*-free",
+      "looseores-cassiterite-peridotite*-free",
+      "looseores-cassiterite-gneiss*-free",
+      "looseores-cassiterite-phyllite*-free",
+      "looseores-cassiterite-schist*-free",
+      "looseores-cassiterite-slate*-free",
+      "looseores-chromite-andesite*-free",
+      "looseores-chromite-basalt*-free",
+      "looseores-chromite-dacite*-free",
+      "looseores-chromite-kimberlite*-free",
+      "looseores-chromite-rhyolite*-free",
+      "looseores-chromite-anorthosite*-free",
+      "looseores-chromite-granite*-free",
+      "looseores-chromite-peridotite*-free",
+      "looseores-chromite-serpentinite*-free",
+      "looseores-galena-chalk*-free",
+      "looseores-galena-chert*-free",
+      "looseores-galena-claystone*-free",
+      "looseores-galena-conglomerate*-free",
+      "looseores-galena-dolomite*-free",
+      "looseores-galena-graywacke*-free",
+      "looseores-galena-limestone*-free",
+      "looseores-galena-mudstone*-free",
+      "looseores-galena-sandstone*-free",
+      "looseores-galena-shale*-free",
+      "looseores-galena_nativesilver-chalk*-free",
+      "looseores-galena_nativesilver-chert*-free",
+      "looseores-galena_nativesilver-claystone*-free",
+      "looseores-galena_nativesilver-conglomerate*-free",
+      "looseores-galena_nativesilver-dolomite*-free",
+      "looseores-galena_nativesilver-graywacke*-free",
+      "looseores-galena_nativesilver-limestone*-free",
+      "looseores-galena_nativesilver-mudstone*-free",
+      "looseores-galena_nativesilver-sandstone*-free",
+      "looseores-galena_nativesilver-shale*-free",
+      "looseores-ilmenite-andesite*-free",
+      "looseores-ilmenite-basalt*-free",
+      "looseores-ilmenite-dacite*-free",
+      "looseores-ilmenite-kimberlite*-free",
+      "looseores-ilmenite-rhyolite*-free",
+      "looseores-ilmenite-granite*-free",
+      "looseores-ilmenite-peridotite*-free",
+      "looseores-ilmenite-gneiss*-free",
+      "looseores-ilmenite-phyllite*-free",
+      "looseores-ilmenite-schist*-free",
+      "looseores-ilmenite-slate*-free",
+      "looseores-limonite-basalt*-free",
+      "looseores-limonite-dacite*-free",
+      "looseores-limonite-rhyolite*-free",
+      "looseores-limonite-anorthosite*-free",
+      "looseores-limonite-serpentinite*-free",
+      "looseores-limonite-chert*-free",
+      "looseores-limonite-shale*-free",
+      "looseores-hematite-rhyolite*-free",
+      "looseores-hematite-granite*-free",
+      "looseores-hematite-peridotite*-free",
+      "looseores-hematite-gneiss*-free",
+      "looseores-hematite-phyllite*-free",
+      "looseores-hematite-dolomite*-free",
+      "looseores-hematite-graywacke*-free",
+      "looseores-hematite-limestone*-free",
+      "looseores-magnetite-andesite*-free",
+      "looseores-magnetite-dacite*-free",
+      "looseores-magnetite-quartzite*-free",
+      "looseores-magnetite-slate*-free",
+      "looseores-magnetite-chalk*-free",
+      "looseores-magnetite-claystone*-free",
+      "looseores-magnetite-conglomerate*-free",
+      "looseores-magnetite-mudstone*-free",
+      "looseores-malachite-greenmarble*-free",
+      "looseores-malachite-redmarble*-free",
+      "looseores-malachite-marble*-free",
+      "looseores-malachite-whitemarble*-free",
+      "looseores-malachite-calcite*-free",
+      "looseores-malachite-dolomite*-free",
+      "looseores-malachite-graywacke*-free",
+      "looseores-malachite-limestone*-free",
+      "looseores-nativecopper-andesite*-free",
+      "looseores-nativecopper-basalt*-free",
+      "looseores-nativecopper-granite*-free",
+      "looseores-nativecopper-peridotite*-free",
+      "looseores-nativecopper-phyllite*-free",
+      "looseores-nativecopper-slate*-free",
+      "looseores-nativecopper-chalk*-free",
+      "looseores-nativecopper-chert*-free",
+      "looseores-nativecopper-claystone*-free",
+      "looseores-nativecopper-conglomerate*-free",
+      "looseores-nativecopper-dolomite*-free",
+      "looseores-nativecopper-graywacke*-free",
+      "looseores-nativecopper-mudstone*-free",
+      "looseores-nativecopper-sandstone*-free",
+      "looseores-nativecopper-shale*-free",
+      "looseores-pentlandite-andesite*-free",
+      "looseores-pentlandite-basalt*-free",
+      "looseores-pentlandite-dacite*-free",
+      "looseores-pentlandite-rhyolite*-free",
+      "looseores-pentlandite-anorthosite*-free",
+      "looseores-pentlandite-granite*-free",
+      "looseores-pentlandite-peridotite*-free",
+      "looseores-pentlandite-gneiss*-free",
+      "looseores-pentlandite-schist*-free",
+      "looseores-pentlandite-serpentinite*-free",
+      "looseores-rhodochrosite-anorthosite*-free",
+      "looseores-rhodochrosite-phyllite*-free",
+      "looseores-rhodochrosite-serpentinite*-free",
+      "looseores-rhodochrosite-slate*-free",
+      "looseores-rhodochrosite-chalk*-free",
+      "looseores-rhodochrosite-chert*-free",
+      "looseores-rhodochrosite-claystone*-free",
+      "looseores-rhodochrosite-conglomerate*-free",
+      "looseores-rhodochrosite-limestone*-free",
+      "looseores-rhodochrosite-mudstone*-free",
+      "looseores-rhodochrosite-sandstone*-free",
+      "looseores-rhodochrosite-shale*-free",
+      "looseores-sphalerite-andesite*-free",
+      "looseores-sphalerite-basalt*-free",
+      "looseores-sphalerite-dacite*-free",
+      "looseores-sphalerite-rhyolite*-free",
+      "looseores-sphalerite-anorthosite*-free",
+      "looseores-sphalerite-granite*-free",
+      "looseores-sphalerite-peridotite*-free",
+      "looseores-sphalerite-gneiss*-free",
+      "looseores-sphalerite-phyllite*-free",
+      "looseores-sphalerite-serpentinite*-free",
+      "looseores-sphalerite-slate*-free",
+      "looseores-sphalerite-chalk*-free",
+      "looseores-sphalerite-chert*-free",
+      "looseores-sphalerite-claystone*-free",
+      "looseores-sphalerite-conglomerate*-free",
+      "looseores-sphalerite-dolomite*-free",
+      "looseores-sphalerite-limestone*-free",
+      "looseores-sphalerite-mudstone*-free",
+      "looseores-sphalerite-sandstone*-free",
+      "looseores-sphalerite-shale*-free",
+      "looseores-alum-chalk*-free",
+      "looseores-alum-chert*-free",
+      "looseores-alum-claystone*-free",
+      "looseores-alum-conglomerate*-free",
+      "looseores-alum-dolomite*-free",
+      "looseores-alum-graywacke*-free",
+      "looseores-alum-limestone*-free",
+      "looseores-alum-mudstone*-free",
+      "looseores-alum-sandstone*-free",
+      "looseores-alum-shale*-free",
+      "looseores-borax-chalk*-free",
+      "looseores-borax-chert*-free",
+      "looseores-borax-claystone*-free",
+      "looseores-borax-conglomerate*-free",
+      "looseores-borax-dolomite*-free",
+      "looseores-borax-graywacke*-free",
+      "looseores-borax-limestone*-free",
+      "looseores-borax-mudstone*-free",
+      "looseores-borax-sandstone*-free",
+      "looseores-borax-shale*-free",
+      "looseores-cinnabar-andesite*-free",
+      "looseores-cinnabar-basalt*-free",
+      "looseores-cinnabar-dacite*-free",
+      "looseores-cinnabar-rhyolite*-free",
+      "looseores-cinnabar-anorthosite*-free",
+      "looseores-cinnabar-granite*-free",
+      "looseores-cinnabar-peridotite*-free",
+      "looseores-cinnabar-gneiss*-free",
+      "looseores-cinnabar-phyllite*-free",
+      "looseores-cinnabar-quartzite*-free",
+      "looseores-cinnabar-schist*-free",
+      "looseores-cinnabar-serpentinite*-free",
+      "looseores-cinnabar-slate*-free",
+      "looseores-corundum-peridotite*-free",
+      "looseores-corundum-greenmarble*-free",
+      "looseores-corundum-redmarble*-free",
+      "looseores-corundum-marble*-free",
+      "looseores-corundum-whitemarble*-free",
+      "looseores-corundum-phyllite*-free",
+      "looseores-corundum-slate*-free",
+      "looseores-fluorite-chalk*-free",
+      "looseores-fluorite-chert*-free",
+      "looseores-fluorite-claystone*-free",
+      "looseores-fluorite-conglomerate*-free",
+      "looseores-fluorite-graywacke*-free",
+      "looseores-fluorite-limestone*-free",
+      "looseores-fluorite-mudstone*-free",
+      "looseores-fluorite-sandstone*-free",
+      "looseores-fluorite-shale*-free",
+      "looseores-graphite-greenmarble*-free",
+      "looseores-graphite-redmarble*-free",
+      "looseores-graphite-marble*-free",
+      "looseores-graphite-whitemarble*-free",
+      "looseores-graphite-phyllite*-free",
+      "looseores-graphite-slate*-free",
+      "looseores-graphite-graywacke*-free",
+      "looseores-kernite-chalk*-free",
+      "looseores-kernite-chert*-free",
+      "looseores-kernite-claystone*-free",
+      "looseores-kernite-conglomerate*-free",
+      "looseores-kernite-limestone*-free",
+      "looseores-kernite-mudstone*-free",
+      "looseores-kernite-sandstone*-free",
+      "looseores-kernite-shale*-free",
+      "looseores-lapislazuli-greenmarble*-free",
+      "looseores-lapislazuli-redmarble*-free",
+      "looseores-lapislazuli-marble*-free",
+      "looseores-lapislazuli-whitemarble*-free",
+      "looseores-lapislazuli-graywacke*-free",
+      "looseores-lapislazuli-limestone*-free",
+      "looseores-olivine-peridotite-free",
+	  "looseores-olivine-serpentinite*-free",
+      "looseores-olivine_peridot-peridotite-free",
+	  "looseores-olivine_peridot-serpentinite*-free",
+      "looseores-phosphorite-chalk*-free",
+      "looseores-phosphorite-chert*-free",
+      "looseores-phosphorite-claystone*-free",
+      "looseores-phosphorite-conglomerate*-free",
+      "looseores-phosphorite-dolomite*-free",
+      "looseores-phosphorite-graywacke*-free",
+      "looseores-phosphorite-limestone*-free",
+      "looseores-phosphorite-mudstone*-free",
+      "looseores-phosphorite-sandstone*-free",
+      "looseores-phosphorite-shale*-free",
+      "looseores-quartz-andesite*-free",
+      "looseores-quartz-basalt*-free",
+      "looseores-quartz-dacite*-free",
+      "looseores-quartz-rhyolite*-free",
+      "looseores-quartz-granite*-free",
+      "looseores-quartz-peridotite*-free",
+      "looseores-quartz-phyllite*-free",
+      "looseores-quartz-quartzite*-free",
+      "looseores-quartz-slate*-free",
+      "looseores-quartz-chalk*-free",
+      "looseores-quartz-chert*-free",
+      "looseores-quartz-claystone*-free",
+      "looseores-quartz-conglomerate*-free",
+      "looseores-quartz-graywacke*-free",
+      "looseores-quartz-limestone*-free",
+      "looseores-quartz-mudstone*-free",
+      "looseores-quartz-sandstone*-free",
+      "looseores-quartz-shale*-free",
+      "looseores-quartz_nativesilver-andesite*-free",
+      "looseores-quartz_nativesilver-basalt*-free",
+      "looseores-quartz_nativesilver-dacite*-free",
+      "looseores-quartz_nativesilver-rhyolite*-free",
+      "looseores-quartz_nativesilver-granite*-free",
+      "looseores-quartz_nativesilver-peridotite*-free",
+      "looseores-quartz_nativesilver-phyllite*-free",
+      "looseores-quartz_nativesilver-quartzite*-free",
+      "looseores-quartz_nativesilver-slate*-free",
+      "looseores-quartz_nativesilver-chalk*-free",
+      "looseores-quartz_nativesilver-chert*-free",
+      "looseores-quartz_nativesilver-claystone*-free",
+      "looseores-quartz_nativesilver-conglomerate*-free",
+      "looseores-quartz_nativesilver-graywacke*-free",
+      "looseores-quartz_nativesilver-limestone*-free",
+      "looseores-quartz_nativesilver-mudstone*-free",
+      "looseores-quartz_nativesilver-sandstone*-free",
+      "looseores-quartz_nativesilver-shale*-free",
+      "looseores-quartz_nativegold-andesite*-free",
+      "looseores-quartz_nativegold-basalt*-free",
+      "looseores-quartz_nativegold-dacite*-free",
+      "looseores-quartz_nativegold-rhyolite*-free",
+      "looseores-quartz_nativegold-granite*-free",
+      "looseores-quartz_nativegold-peridotite*-free",
+      "looseores-quartz_nativegold-phyllite*-free",
+      "looseores-quartz_nativegold-quartzite*-free",
+      "looseores-quartz_nativegold-slate*-free",
+      "looseores-quartz_nativegold-chalk*-free",
+      "looseores-quartz_nativegold-chert*-free",
+      "looseores-quartz_nativegold-claystone*-free",
+      "looseores-quartz_nativegold-conglomerate*-free",
+      "looseores-quartz_nativegold-graywacke*-free",
+      "looseores-quartz_nativegold-limestone*-free",
+      "looseores-quartz_nativegold-mudstone*-free",
+      "looseores-quartz_nativegold-sandstone*-free",
+      "looseores-quartz_nativegold-shale*-free",
+      "looseores-quartz_wolframite-granite*-free",
+      "looseores-stibnite-andesite*-free",
+      "looseores-stibnite-granite*-free",
+      "looseores-stibnite-basalt*-free",
+      "looseores-stibnite-limestone*-free",
+      "looseores-sulfur-chalk*-free",
+      "looseores-sulfur-chert*-free",
+      "looseores-sulfur-claystone*-free",
+      "looseores-sulfur-conglomerate*-free",
+      "looseores-sulfur-dolomite*-free",
+      "looseores-sulfur-graywacke*-free",
+      "looseores-sulfur-limestone*-free",
+      "looseores-sulfur-mudstone*-free",
+      "looseores-sulfur-sandstone*-free",
+      "looseores-sulfur-shale*-free",
+      "looseores-sylvite-halite-free",
+      "looseores-uranium-andesite-free",
+      "looseores-uranium-granite-free",
+      "looseores-uranium-basalt-free",
+      "looseores-uranium-peridotite-free",
+      "looseores-uranium-kimberlite-free",
+      "looseores-uranium-claystone-free",
+      "looseores-uranium-sandstone-free",
+      "looseores-uranium-shale-free",
+      "looseores-uranium-chalk-free",
+      "looseores-uranium-limestone-free",
+      "looseores-uranium-chert-free",
+      "looseores-uranium-conglomerate-free",
+      "looseores-uranium-phyllite-free",
+      "looseores-uranium-slate-free",
+      "looseores-anthracite-chalk*-free",
+      "looseores-anthracite-chert*-free",
+      "looseores-anthracite-claystone*-free",
+      "looseores-anthracite-conglomerate*-free",
+      "looseores-anthracite-limestone*-free",
+      "looseores-anthracite-mudstone*-free",
+      "looseores-anthracite-sandstone*-free",
+      "looseores-anthracite-shale*-free",
+      "looseores-bituminouscoal-chalk*-free",
+      "looseores-bituminouscoal-chert*-free",
+      "looseores-bituminouscoal-claystone*-free",
+      "looseores-bituminouscoal-conglomerate*-free",
+      "looseores-bituminouscoal-limestone*-free",
+      "looseores-bituminouscoal-mudstone*-free",
+      "looseores-bituminouscoal-sandstone*-free",
+      "looseores-bituminouscoal-shale*-free",
+      "looseores-lignite-chalk*-free",
+      "looseores-lignite-chert*-free",
+      "looseores-lignite-claystone*-free",
+      "looseores-lignite-conglomerate*-free",
+      "looseores-lignite-limestone*-free",
+      "looseores-lignite-mudstone*-free",
+      "looseores-lignite-sandstone*-free",
+      "looseores-lignite-shale*-free",
+      "looseores-diamond-kimberlite-free",
+      "looseores-diamond-suevite-free",
+      "looseores-emerald-basalt*-free",
+      "looseores-emerald-peridotite*-free",
+      "looseores-emerald-phyllite*-free",
+      "looseores-emerald-schist*-free",
+      "looseores-emerald-slate*-free",
+      "looseores-emerald-limestone*-free",
+      "looseores-emerald-shale*-free"
+    ],
     "file": "game:blocktypes/stone/looseores.json"
   }
 ]
