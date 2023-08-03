@@ -1,0 +1,41 @@
+[
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/skipVariants",
+    "value": [
+      "*-dacite",
+      "*-rhyolite",
+      "*-tuff",
+      "*-anorthosite_rough",
+      "*-granite_red",
+      "*-gneiss",
+      "*-quartzite_gray",
+      "*-quartzite_pink",
+      "*-quartzite_yellow",
+      "*-schist_blue",
+      "*-schist_green",
+      "*-serpentinite",
+      "*-dolomite",
+      "*-graywacke",
+      "*-limestone_boulders_light",
+      "*-limestone_light",
+      "*-limestone_pink",
+      "*-limestone_tan",
+      "*-mudstone",
+      "*-mudstone_brown",
+      "*-mudstone_light",
+      "*-mudstone_lightbrown",
+      "*-mudstone_orange",
+      "*-mudstone_red",
+      "*-mudstone_umbre",
+      "*-mudstone_yellow",
+      "*-sandstone_brown",
+      "*-sandstone_orange",
+      "*-sandstone_red",
+      "*-sandstone_tan",
+      "*-sandstone_warped"
+    ],
+    "file": "game:blocktypes/stone/polished/mossypolished.json"
+  }
+]
