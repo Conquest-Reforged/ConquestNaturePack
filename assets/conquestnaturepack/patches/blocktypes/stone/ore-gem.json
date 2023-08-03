@@ -1,37 +1,139 @@
 [
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants",
-    "value": [
-      "ore-low-emerald-basalt*",
-      "ore-medium-emerald-basalt*",
-      "ore-low-emerald-peridotite",
-      "ore-medium-emerald-peridotite",
-      "ore-low-emerald-shale",
-      "ore-medium-emerald-shale",
-      "ore-high-emerald-shale",
-      "ore-low-emerald-limestone*",
-      "ore-medium-emerald-limestone*",
-      "ore-high-emerald-limestone*",
-      "ore-low-emerald-phyllite",
-      "ore-medium-emerald-phyllite",
-      "ore-low-emerald-schist*",
-      "ore-medium-emerald-schist*",
-      "ore-high-emerald-schist*",
-      "ore-low-emerald-slate*",
-      "ore-medium-emerald-slate*",
-      "ore-low-diamond-kimberlite",
-      "ore-medium-diamond-kimberlite",
-      "ore-high-diamond-kimberlite",
-      "ore-low-diamond-suevite",
-      "ore-low-olivine_peridot-peridotite",
-      "ore-medium-olivine_peridot-peridotite",
-      "ore-high-olivine_peridot-peridotite",
-      "ore-low-olivine_peridot-serpentinite*",
-      "ore-medium-olivine_peridot-serpentinite*",
-      "ore-high-olivine_peridot-serpentinite*"
-    ],
-    "file": "game:blocktypes/stone/ore-gem.json"
-  }
+    {
+        "op": "remove",
+        "side": "server",
+        "path": "/textures",
+        "file": "game:blocktypes/stone/ore-gem.json"
+    },
+    {
+        "file": "game:blocktypes/stone/ore-gem.json",
+        "op": "add",
+        "side": "server",
+        "path": "/texturesByType",
+        "value": {
+            "@.*-(andesite|basalt|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite)": {
+                "all": {
+                    "base": "game:block/stone/rock/{rock}1",
+                    "overlays": [
+                        "game:block/stone/ore/{type}1"
+                    ],
+                    "alternates": [
+                        {
+                            "base": "game:block/stone/rock/{rock}1",
+                            "overlays": [
+                                "game:block/stone/ore/{type}2"
+                            ]
+                        },
+                        {
+                            "base": "game:block/stone/rock/{rock}1",
+                            "overlays": [
+                                "game:block/stone/ore/{type}3"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "@.*-(graywacke|limestone_boulders_mossy_light|limestone_icy|limestone_mossy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan)": {
+                "all": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
+                    "overlays": [
+                        "conquestnaturepack:block/topography/ore/{type}1"
+                    ],
+                    "alternates": [
+                        {
+                            "base": "conquestnaturepack:block/topography/rock/{rock}/sides/2",
+                            "overlays": [
+                                "conquestnaturepack:block/topography/ore/{type}2"
+                            ]
+                        },
+                        {
+                            "base": "conquestnaturepack:block/topography/rock/{rock}/sides/3",
+                            "overlays": [
+                                "conquestnaturepack:block/topography/ore/{type}3"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "@.*-(andesite_columnar|basalt_columnar|basalt_columnar_light|granite_red|slate_warped_costal|dacite_columnar|rhyolite_columnar|schist_blue|schist_green|calcite_rough)": {
+                "all": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
+                    "overlays": [
+                        "conquestnaturepack:block/topography/ore/{type}1"
+                    ],
+                    "alternates": [
+                        {
+                            "base": "conquestnaturepack:block/topography/rock/{rock}/sides/2",
+                            "overlays": [
+                                "conquestnaturepack:block/topography/ore/{type}2"
+                            ]
+                        },
+                        {
+                            "base": "conquestnaturepack:block/topography/rock/{rock}/sides/3",
+                            "overlays": [
+                                "conquestnaturepack:block/topography/ore/{type}3"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "*": {
+                "all": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/1",
+                    "overlays": [
+                        "conquestnaturepack:block/topography/ore/{type}1"
+                    ],
+                    "alternates": [
+                        {
+                            "base": "conquestnaturepack:block/topography/rock/{rock}/2",
+                            "overlays": [
+                                "conquestnaturepack:block/topography/ore/{type}2"
+                            ]
+                        },
+                        {
+                            "base": "conquestnaturepack:block/topography/rock/{rock}/3",
+                            "overlays": [
+                                "conquestnaturepack:block/topography/ore/{type}3"
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "op": "replace",
+        "side": "server",
+        "path": "/allowedVariants",
+        "value": [
+            "ore-low-emerald-basalt*",
+            "ore-medium-emerald-basalt*",
+            "ore-low-emerald-peridotite",
+            "ore-medium-emerald-peridotite",
+            "ore-low-emerald-shale",
+            "ore-medium-emerald-shale",
+            "ore-high-emerald-shale",
+            "ore-low-emerald-limestone*",
+            "ore-medium-emerald-limestone*",
+            "ore-high-emerald-limestone*",
+            "ore-low-emerald-phyllite",
+            "ore-medium-emerald-phyllite",
+            "ore-low-emerald-schist*",
+            "ore-medium-emerald-schist*",
+            "ore-high-emerald-schist*",
+            "ore-low-emerald-slate*",
+            "ore-medium-emerald-slate*",
+            "ore-low-diamond-kimberlite",
+            "ore-medium-diamond-kimberlite",
+            "ore-high-diamond-kimberlite",
+            "ore-low-diamond-suevite",
+            "ore-low-olivine_peridot-peridotite",
+            "ore-medium-olivine_peridot-peridotite",
+            "ore-high-olivine_peridot-peridotite",
+            "ore-low-olivine_peridot-serpentinite*",
+            "ore-medium-olivine_peridot-serpentinite*",
+            "ore-high-olivine_peridot-serpentinite*"
+        ],
+        "file": "game:blocktypes/stone/ore-gem.json"
+    }
 ]

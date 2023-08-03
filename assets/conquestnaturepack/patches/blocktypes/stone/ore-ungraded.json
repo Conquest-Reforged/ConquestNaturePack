@@ -10,72 +10,72 @@
 	"side": "server",
     "path": "/texturesByType",
     "value": {
-      "@.*-(andesite|basalt|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite)": {
-        "all": {
-          "base": "game:block/stone/rock/{rock}1",
-          "overlays": [
-            "game:block/stone/ore/{type}1"
-          ],
-          "alternates": [
-            {
-              "base": "game:block/stone/rock/{rock}1",
-              "overlays": [
-                "game:block/stone/ore/{type}2"
-              ]
-            },
-            {
-              "base": "game:block/stone/rock/{rock}1",
-              "overlays": [
-                "game:block/stone/ore/{type}3"
-              ]
+        "@.*-(andesite|basalt|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite)": {
+            "all": {
+                "base": "game:block/stone/rock/{rock}1",
+                "overlays": [
+                    "game:block/stone/ore/{type}1"
+                ],
+                "alternates": [
+                    {
+                        "base": "game:block/stone/rock/{rock}1",
+                        "overlays": [
+                            "game:block/stone/ore/{type}2"
+                        ]
+                    },
+                    {
+                        "base": "game:block/stone/rock/{rock}1",
+                        "overlays": [
+                            "game:block/stone/ore/{type}3"
+                        ]
+                    }
+                ]
             }
-          ]
-        }
-      },
-      "@.*-(graywacke|limestone_boulders_mossy_light|limestone_icy|limestone_mossy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan)": {
-        "all": {
-          "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
-          "overlays": [
-            "conquestnaturepack:block/topography/ore/{type}1"
-          ],
-          "alternates": [
-            {
-              "base": "conquestnaturepack:block/topography/rock/{rock}/sides/2",
-              "overlays": [
-                "conquestnaturepack:block/topography/ore/{type}2"
-              ]
-            },
-            {
-              "base": "conquestnaturepack:block/topography/rock/{rock}/sides/3",
-              "overlays": [
-                "conquestnaturepack:block/topography/ore/{type}3"
-              ]
+        },
+        "@.*-(graywacke|limestone_boulders_mossy_light|limestone_icy|limestone_mossy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan|slate_warped_costal|andesite_columnar|basalt_columnar|granite_red|basalt_columnar_light|dacite_columnar|rhyolite_columnar|schist_blue|schist_green)": {
+            "all": {
+                "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
+                "overlays": [
+                    "conquestnaturepack:block/topography/ore/{type}1"
+                ],
+                "alternates": [
+                    {
+                        "base": "conquestnaturepack:block/topography/rock/{rock}/sides/2",
+                        "overlays": [
+                            "conquestnaturepack:block/topography/ore/{type}2"
+                        ]
+                    },
+                    {
+                        "base": "conquestnaturepack:block/topography/rock/{rock}/sides/3",
+                        "overlays": [
+                            "conquestnaturepack:block/topography/ore/{type}3"
+                        ]
+                    }
+                ]
             }
-          ]
-        }
-      },
-      "*": {
-        "all": {
-          "base": "conquestnaturepack:block/topography/rock/{rock}/1",
-          "overlays": [
-            "conquestnaturepack:block/topography/ore/{type}1"
-          ],
-          "alternates": [
-            {
-              "base": "conquestnaturepack:block/topography/rock/{rock}/2",
-              "overlays": [
-                "conquestnaturepack:block/topography/ore/{type}2"
-              ]
-            },
-            {
-              "base": "conquestnaturepack:block/topography/rock/{rock}/3",
-              "overlays": [
-                "conquestnaturepack:block/topography/ore/{type}3"
-              ]
+        },
+        "*": {
+            "all": {
+                "base": "conquestnaturepack:block/topography/rock/{rock}/1",
+                "overlays": [
+                    "conquestnaturepack:block/topography/ore/{type}1"
+                ],
+                "alternates": [
+                    {
+                        "base": "conquestnaturepack:block/topography/rock/{rock}/2",
+                        "overlays": [
+                            "conquestnaturepack:block/topography/ore/{type}2"
+                        ]
+                    },
+                    {
+                        "base": "conquestnaturepack:block/topography/rock/{rock}/3",
+                        "overlays": [
+                            "conquestnaturepack:block/topography/ore/{type}3"
+                        ]
+                    }
+                ]
             }
-          ]
         }
-      }
     },
     "file": "game:blocktypes/stone/ore-ungraded.json"
   },
