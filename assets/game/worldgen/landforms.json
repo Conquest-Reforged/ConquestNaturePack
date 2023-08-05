@@ -1,5 +1,5 @@
 {
-	code: "landforms",
+	"code": "landforms",
 	"variants": 
 	[
 		{
@@ -310,7 +310,7 @@
 			"weight": 1,
 			"terrainOctaves":        [0, 0.81, 0.729, 0.6561, 0, 0.531441, 0.4, 0.2, 0],
 			"terrainYKeyPositions":  [0, 0.43,   0.5,   0.6, 0.62,  0.68,  0.7,  0.8, 0.84, 0.9],
-			"terrainYKeyThresholds": [1,  1,  0.41,   0.3, 0.30,   0.2, 0.20, 0.08, 0.08, 0.0],
+			"terrainYKeyThresholds": [1,  1,  0.41,   0.3, 0.30,   0.2, 0.20, 0.08, 0.08, 0.0]
 		},
 		{
 			"code":  "flathillvalley",
