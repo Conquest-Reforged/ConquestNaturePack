@@ -2,128 +2,67 @@
   {
     "op": "add",
 	"side": "server",
-    "path": "/0/_comment",
-    "value": "Obsidian rock deposits.",
+    "path": "/0/attributes/inblock/allowedVariants",
+    "value": [
+      "basalt",
+      "basalt_columnar",
+      "basalt_porous",
+      "basalt_weathered"
+    ],
+    "file": "game:worldgen/deposits/rock/obsidian.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/0/attributes/inblock/name",
+    "value": "rock",
     "file": "game:worldgen/deposits/rock/obsidian.json"
   },
   {
     "op": "replace",
 	"side": "server",
     "path": "/0/attributes/inblock/code",
-    "value": "rock-basalt*",
-    "file": "game:worldgen/deposits/rock/obsidian.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/0/attributes/placeblock/allowedVariants",
-    "value": [
-      "obsidian",
-      "obsidian_light",
-      "obsidian_smooth"
-    ],
-    "file": "game:worldgen/deposits/rock/obsidian.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/0/attributes/placeblock/name",
-    "value": "rock",
-    "file": "game:worldgen/deposits/rock/obsidian.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/0/attributes/placeblock/code",
     "value": "rock-*",
     "file": "game:worldgen/deposits/rock/obsidian.json"
   },
   {
-    "op": "replace",
+    "op": "add",
 	"side": "server",
-    "path": "/0/attributes/radius/avg",
-    "value": 2500,
-    "file": "game:worldgen/deposits/rock/obsidian.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/0/attributes/radius/var",
-    "value": 2500,
+    "path": "/0",
+    "value": {
+        code: "rock-obsidianlight",
+        triesPerChunk: 12,
+        generator: "disc-followsealevel",
+        attributes: {    
+            inblock: { code: "rock-*", name: "rock", allowedVariants: ["basalt", "basalt_columnar", "basalt_porous", "basalt_weathered"] },
+            placeblock: { code: "rock-obsidian_light" },
+            surfaceBlock: { code: "loosestones-obsidian_light-free" },
+            surfaceBlockChance: 0.15,
+            radius: { dist: "gaussian", avg: 5, var: 2 },
+            yPosRel: {dist: "uniform", avg: 0.8, var: 0.25 },
+            thickness: { dist: "uniform", avg: 1, var: 0 }
+        }
+    },
     "file": "game:worldgen/deposits/rock/obsidian.json"
   },
   {
     "op": "add",
 	"side": "server",
-    "path": "/0/attributes/surfaceBlock/allowedVariants",
-    "value": [
-      "obsidian",
-      "obsidian_light",
-      "obsidian_smooth"
-    ],
-    "file": "game:worldgen/deposits/rock/obsidian.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/0/attributes/surfaceBlock/name",
-    "value": "rock",
-    "file": "game:worldgen/deposits/rock/obsidian.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/0/attributes/surfaceBlock/code",
-    "value": "loosestones-*-free",
-    "file": "game:worldgen/deposits/rock/obsidian.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/0/attributes/surfaceBlockChance",
-    "value": 0.015,
-    "file": "game:worldgen/deposits/rock/obsidian.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/0/attributes/thickness/avg",
-    "value": 1.625,
-    "file": "game:worldgen/deposits/rock/obsidian.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/0/attributes/thickness/dist",
-    "value": "invexp",
-    "file": "game:worldgen/deposits/rock/obsidian.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/0/attributes/thickness/var",
-    "value": 3.75,
-    "file": "game:worldgen/deposits/rock/obsidian.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/0/attributes/yPosRel/avg",
-    "value": 0.5,
-    "file": "game:worldgen/deposits/rock/obsidian.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/0/attributes/yPosRel/var",
-    "value": 0.5,
-    "file": "game:worldgen/deposits/rock/obsidian.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/0/triesPerChunk",
-    "value": 1.5,
+    "path": "/0",
+    "value": {
+        code: "rock-obsidiansmooth",
+        triesPerChunk: 12,
+        generator: "disc-followsealevel",
+        attributes: {    
+            inblock: { code: "rock-*", name: "rock", allowedVariants: ["basalt", "basalt_columnar", "basalt_porous", "basalt_weathered"] },
+            placeblock: { code: "rock-obsidian_smooth" },
+            surfaceBlock: { code: "loosestones-obsidian_smooth-free" },
+            surfaceBlockChance: 0.15,
+            radius: { dist: "gaussian", avg: 5, var: 2 },
+            yPosRel: {dist: "uniform", avg: 0.8, var: 0.25 },
+            thickness: { dist: "uniform", avg: 1, var: 0 }
+        }
+    },
     "file": "game:worldgen/deposits/rock/obsidian.json"
   }
 ]
