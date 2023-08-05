@@ -1,11 +1,13 @@
 [
   {
     "op": "remove",
+	"side": "server",
     "path": "/client/textures",
-    "file": "game:entities/thrownboulder.json"
+    "file": "game:entities/thrownstone.json"
   },
   {
     "op": "add",
+	"side": "server",
     "path": "/client/texturesByType",
     "value": {
       "@.*-(andesite|basalt|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite)": {
@@ -24,6 +26,6 @@
         }
       }
     },
-    "file": "game:entities/thrownboulder.json"
+    "file": "game:entities/thrownstone.json"
   }
 ]
