@@ -317,8 +317,8 @@
 			"comment": "Flat lands with occasional hills and valleys. (Edited)",
 			"hexcolor": "#84A878",
 			"weight": 10,
-			"terrainOctaves":          [0.25, 0.5, 0.5, 0.25, 0.45, 0.26, 0.23, 0.1, 0.15],
-			"terrainOctaveThresholds": [0.2, 0.2, 0, 0.3, 0.3, 0.3, 0.45, 0, 0.85],
+			"terrainOctaves":          [0, 0.25, 0.5, 0.5, 0.1, 0.1, 0, 0.01, 0.01],
+			"terrainOctaveThresholds": [0, 0, 0.25, 0.5, 0, 0, 0, 0, 0],
             "terrainYKeyPositions":    [0.433, 0.440, 0.445, 0.450, 0.455, 0.460, 0.468, 0.486, 0.515, 0.553, 0.577, 0.595, 0.616, 0.640, 0.647, 0.655, 0.660],
             "terrainYKeyThresholds":   [1.000, 0.793, 0.680, 0.595, 0.552, 0.497, 0.445, 0.400, 0.347, 0.318, 0.290, 0.255, 0.227, 0.165, 0.117, 0.060, 0.000]
 		},
