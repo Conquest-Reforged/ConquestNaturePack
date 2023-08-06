@@ -1,0 +1,35 @@
+[
+	{
+		"ingredientPattern": "SRS,RRR",
+		"ingredients": {
+			"S": { "type": "item", "code": "stick" },
+			"R": { "type": "block", "code": "rock-*", "name": "rock", "allowedVariants": ["andesite_columnar", "andesite_porous", "andesite_weathered"]  }
+		},
+		"name": "quern",
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "quern-andesite"  }
+	},
+	{
+		"ingredientPattern": "SRS,RRR",
+		"ingredients": {
+			"S": { "type": "item", "code": "stick" },
+			"R": { "type": "block", "code": "rock-*", "name": "rock", "allowedVariants": ["basalt_columnar", "basalt_columnar_light", "basalt_porous", "basalt_weathered"]  }
+		},
+		"name": "quern",
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "quern-basalt"  }
+	},
+	{
+		"ingredientPattern": "SRS,RRR",
+		"ingredients": {
+			"S": { "type": "item", "code": "stick" },
+			"R": { "type": "block", "code": "rock-*", "name": "rock", "allowedVariants": ["granite_red", "granite_smooth", "granite_smooth_red", "granite_snowy"]  }
+		},
+		"name": "quern",
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "quern-granite"  }
+	}
+]

@@ -1,0 +1,70 @@
+[
+	{
+		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["andesite_columnar", "andesite_porous", "andesite_weathered"] },
+		"pattern": [[
+			"___####___",
+			"__######__",
+			"__######__",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_"
+		]],
+		"name": "Stone shovel",
+		"output": { "type": "item", "code": "shovelhead-andesite"  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["basalt_columnar", "basalt_columnar_light", "basalt_porous", "basalt_weathered"] },
+		"pattern": [[
+			"___####___",
+			"__######__",
+			"__######__",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_"
+		]],
+		"name": "Stone shovel",
+		"output": { "type": "item", "code": "shovelhead-basalt"  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["granite_red", "granite_smooth", "granite_smooth_red", "granite_snowy"] },
+		"pattern": [[
+			"___####___",
+			"__######__",
+			"__######__",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_"
+		]],
+		"name": "Stone shovel",
+		"output": { "type": "item", "code": "shovelhead-granite"  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["obsidian_light", "obsidian_smooth"] },
+		"pattern": [[
+			"___####___",
+			"__######__",
+			"__######__",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_",
+			"_########_"
+		]],
+		"name": "Stone shovel",
+		"output": { "type": "item", "code": "shovelhead-obsidian"  }
+	}
+]

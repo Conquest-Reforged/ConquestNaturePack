@@ -1,0 +1,70 @@
+[
+	{
+		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["andesite_columnar", "andesite_porous", "andesite_weathered"] },
+		"pattern": [[
+			"____##____",
+			"____##____",
+			"___####___",
+			"___####___",
+			"___####___",
+			"__######__",
+			"__######__",
+			"__######__",
+			"__######__",
+			"___####___"
+		]],
+		"name": "Stone spear",
+		"output": { "type": "item", "code": "spearhead-andesite"  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["basalt_columnar", "basalt_columnar_light", "basalt_porous", "basalt_weathered"] },
+		"pattern": [[
+			"____##____",
+			"____##____",
+			"___####___",
+			"___####___",
+			"___####___",
+			"__######__",
+			"__######__",
+			"__######__",
+			"__######__",
+			"___####___"
+		]],
+		"name": "Stone spear",
+		"output": { "type": "item", "code": "spearhead-basalt"  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["granite_red", "granite_smooth", "granite_smooth_red", "granite_snowy"] },
+		"pattern": [[
+			"____##____",
+			"____##____",
+			"___####___",
+			"___####___",
+			"___####___",
+			"__######__",
+			"__######__",
+			"__######__",
+			"__######__",
+			"___####___"
+		]],
+		"name": "Stone spear",
+		"output": { "type": "item", "code": "spearhead-granite"  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["obsidian_light", "obsidian_smooth"] },
+		"pattern": [[
+			"____##____",
+			"____##____",
+			"___####___",
+			"___####___",
+			"___####___",
+			"__######__",
+			"__######__",
+			"__######__",
+			"__######__",
+			"___####___"
+		]],
+		"name": "Stone spear",
+		"output": { "type": "item", "code": "spearhead-obsidian"  }
+	}
+]

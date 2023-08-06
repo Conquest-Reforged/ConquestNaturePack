@@ -1,0 +1,99 @@
+[
+  {
+    "op": "remove",
+	"side": "server",
+    "path": "/0/ingredients/R/allowedVariants/1",
+    "file": "game:recipes/grid/mechpowerblocks-pulverizer.json"
+  },
+  {
+    "op": "replace",
+	"side": "server",
+    "path": "/0/ingredients/R/allowedVariants/1",
+    "value": "andesite_columnar",
+    "file": "game:recipes/grid/mechpowerblocks-pulverizer.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/0/ingredients/R/allowedVariants/2",
+    "value": "andesite_porous",
+    "file": "game:recipes/grid/mechpowerblocks-pulverizer.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/0/ingredients/R/allowedVariants/3",
+    "value": "andesite_weathered",
+    "file": "game:recipes/grid/mechpowerblocks-pulverizer.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/0/ingredients/R/allowedVariants/4",
+    "value": "granite",
+    "file": "game:recipes/grid/mechpowerblocks-pulverizer.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/0/ingredients/R/allowedVariants/5",
+    "value": "granite_red",
+    "file": "game:recipes/grid/mechpowerblocks-pulverizer.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/0/ingredients/R/allowedVariants/6",
+    "value": "granite_smooth",
+    "file": "game:recipes/grid/mechpowerblocks-pulverizer.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/0/ingredients/R/allowedVariants/7",
+    "value": "granite_smooth_red",
+    "file": "game:recipes/grid/mechpowerblocks-pulverizer.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/0/ingredients/R/allowedVariants/8",
+    "value": "granite_snowy",
+    "file": "game:recipes/grid/mechpowerblocks-pulverizer.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/0/ingredients/R/allowedVariants/9",
+    "value": "basalt",
+    "file": "game:recipes/grid/mechpowerblocks-pulverizer.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/0/ingredients/R/allowedVariants/10",
+    "value": "basalt_columnar",
+    "file": "game:recipes/grid/mechpowerblocks-pulverizer.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/0/ingredients/R/allowedVariants/11",
+    "value": "basalt_columnar_light",
+    "file": "game:recipes/grid/mechpowerblocks-pulverizer.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/0/ingredients/R/allowedVariants/12",
+    "value": "basalt_porous",
+    "file": "game:recipes/grid/mechpowerblocks-pulverizer.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/0/ingredients/R/allowedVariants/13",
+    "value": "basalt_weathered",
+    "file": "game:recipes/grid/mechpowerblocks-pulverizer.json"
+  }
+]

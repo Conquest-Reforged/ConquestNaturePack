@@ -1,25 +1,261 @@
 [
-	{
-		"file": "game:itemtypes/resource/stone.json",
-		"op": "remove",
-		"path": "/textures",
-		"side": "server",
-		"value": {
-		}
-	},
-	{
-		"file": "game:itemtypes/resource/stone.json",
-		"op": "add",
-		"path": "/texturesByType",
-		"side": "server",
-		"value": {
-			"@.*-(andesite|chalk|chert|conglomerate|limestone|claystone|granite|sandstone|shale|basalt|peridotite|phyllite|slate|obsidian|kimberlite|scoria|tuff|bauxite|halite|suevite|whitemarble|redmarble|greenmarble|meteorite-iron)": {
-				"material": { "base": "game:block/stone/rock/{rock}1" }
-			},
-			"*": {
-				"material": { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
-			}
-		}
-	}
+  {
+    "op": "remove",
+	"side": "server",
+    "path": "/textures",
+    "file": "game:itemtypes/resource/stone.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/texturesByType",
+    "value": {
+      "@.*-(andesite|chalk|chert|conglomerate|limestone|claystone|granite|sandstone|shale|basalt|peridotite|phyllite|slate|obsidian|kimberlite|scoria|tuff|bauxite|halite|suevite|whitemarble|redmarble|greenmarble|meteorite-iron)": {
+        "material": {
+          "base": "game:block/stone/rock/{rock}1"
+        }
+      },
+      "*": {
+        "material": {
+          "base": "conquestnaturepack:block/topography/rock/{rock}/*"
+        }
+      }
+    },
+    "file": "game:itemtypes/resource/stone.json"
+  },
+  {
+    "op": "remove",
+	"side": "server",
+    "path": "/attributesByType/stone-andesite",
+    "file": "game:itemtypes/resource/stone.json"
+  },
+  {
+    "op": "remove",
+	"side": "server",
+    "path": "/attributesByType/stone-basalt",
+    "file": "game:itemtypes/resource/stone.json"
+  },
+  {
+    "op": "remove",
+	"side": "server",
+    "path": "/attributesByType/stone-chalk",
+    "file": "game:itemtypes/resource/stone.json"
+  },
+  {
+    "op": "remove",
+	"side": "server",
+    "path": "/attributesByType/stone-granite",
+    "file": "game:itemtypes/resource/stone.json"
+  },
+  {
+    "op": "remove",
+	"side": "server",
+    "path": "/attributesByType/stone-limestone",
+    "file": "game:itemtypes/resource/stone.json"
+  },
+  {
+    "op": "remove",
+	"side": "server",
+    "path": "/attributesByType/stone-obsidian",
+    "file": "game:itemtypes/resource/stone.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/attributesByType/stone-andesite*",
+    "value": {
+      "knappable": true,
+      "reinforcementStrength": 50,
+      "displaycaseable": true,
+      "shelvable": true
+    },
+    "file": "game:itemtypes/resource/stone.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/attributesByType/stone-basalt*",
+    "value": {
+      "knappable": true,
+      "reinforcementStrength": 50,
+      "displaycaseable": true,
+      "shelvable": true
+    },
+    "file": "game:itemtypes/resource/stone.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/attributesByType/stone-chalk*",
+    "value": {
+      "pigment": {
+        "name": "Chalk white",
+        "color": {
+          "red": 237,
+          "green": 237,
+          "blue": 237
+        }
+      },
+      "displaycaseable": true,
+      "shelvable": true,
+      "handbook": {
+        "extraSections": [
+          {
+            "title": "handbook-drawing",
+            "text": "handbook-chalk-drawing"
+          }
+        ]
+      }
+    },
+    "file": "game:itemtypes/resource/stone.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/attributesByType/stone-granite*",
+    "value": {
+      "knappable": true,
+      "reinforcementStrength": 50,
+      "displaycaseable": true,
+      "shelvable": true
+    },
+    "file": "game:itemtypes/resource/stone.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/attributesByType/stone-limestone*",
+    "value": {
+      "pigment": {
+        "name": "Lime white",
+        "color": {
+          "red": 221,
+          "green": 216,
+          "blue": 199
+        }
+      },
+      "displaycaseable": true,
+      "shelvable": true
+    },
+    "file": "game:itemtypes/resource/stone.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/attributesByType/stone-obsidian*",
+    "value": {
+      "knappable": true,
+      "reinforcementStrength": 50,
+      "displaycaseable": true,
+      "shelvable": true
+    },
+    "file": "game:itemtypes/resource/stone.json"
+  },
+  {
+    "op": "remove",
+	"side": "server",
+    "path": "/behaviorsByType/*-chalk",
+    "file": "game:itemtypes/resource/stone.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/behaviorsByType/*-chalk*",
+    "value": [
+      {
+        "name": "ArtPigment",
+        "properties": {
+          "decorBlockCodes": [
+            "caveart-chalk-1-*"
+          ],
+          "paintableOnBlockMaterials": [
+            "Stone",
+            "Wood",
+            "Brick",
+            "Ceramic",
+            "Metal",
+            "Meta"
+          ]
+        }
+      }
+    ],
+    "file": "game:itemtypes/resource/stone.json"
+  },
+  {
+    "op": "remove",
+	"side": "server",
+    "path": "/grindingPropsByType/*-chalk",
+    "file": "game:itemtypes/resource/stone.json"
+  },
+  {
+    "op": "remove",
+	"side": "server",
+    "path": "/grindingPropsByType/*-limestone",
+    "file": "game:itemtypes/resource/stone.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/grindingPropsByType/*-chalk*",
+    "value": {
+      "grindedStack": {
+        "type": "item",
+        "code": "lime",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/resource/stone.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/grindingPropsByType/*-conglomerate",
+    "value": {
+      "grindedStack": {
+        "type": "item",
+        "code": "lime",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/resource/stone.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/grindingPropsByType/*-dolomite",
+    "value": {
+      "grindedStack": {
+        "type": "item",
+        "code": "lime",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/resource/stone.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/grindingPropsByType/*-limestone*",
+    "value": {
+      "grindedStack": {
+        "type": "item",
+        "code": "lime",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/resource/stone.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/grindingPropsByType/*-salt_flats*",
+    "value": {
+      "grindedStack": {
+        "type": "item",
+        "code": "salt",
+        "stacksize": 2
+      }
+    },
+    "file": "game:itemtypes/resource/stone.json"
+  }
 ]
-

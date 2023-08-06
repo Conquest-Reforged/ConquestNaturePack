@@ -1,0 +1,70 @@
+[
+	{
+		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["andesite_columnar", "andesite_porous", "andesite_weathered"] },
+		"pattern": [[
+			"_____#____",
+			"_____#____",
+			"____##____",
+			"____##____",
+			"____##____",
+			"___###____",
+			"___###____",
+			"___###____",
+			"___###____",
+			"___###____"
+		]],
+		"name": "Stone knife",
+		"output": { "type": "item", "code": "knifeblade-andesite", "stacksize": 1  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["basalt_columnar", "basalt_columnar_light", "basalt_porous", "basalt_weathered"] },
+		"pattern": [[
+			"_____#____",
+			"_____#____",
+			"____##____",
+			"____##____",
+			"____##____",
+			"___###____",
+			"___###____",
+			"___###____",
+			"___###____",
+			"___###____"
+		]],
+		"name": "Stone knife",
+		"output": { "type": "item", "code": "knifeblade-basalt", "stacksize": 1  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["granite_red", "granite_smooth", "granite_smooth_red", "granite_snowy"] },
+		"pattern": [[
+			"_____#____",
+			"_____#____",
+			"____##____",
+			"____##____",
+			"____##____",
+			"___###____",
+			"___###____",
+			"___###____",
+			"___###____",
+			"___###____"
+		]],
+		"name": "Stone knife",
+		"output": { "type": "item", "code": "knifeblade-granite", "stacksize": 1  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["obsidian_light", "obsidian_smooth"] },
+		"pattern": [[
+			"_____#____",
+			"_____#____",
+			"____##____",
+			"____##____",
+			"____##____",
+			"___###____",
+			"___###____",
+			"___###____",
+			"___###____",
+			"___###____"
+		]],
+		"name": "Stone knife",
+		"output": { "type": "item", "code": "knifeblade-obsidian", "stacksize": 1  }
+	}
+]

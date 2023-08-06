@@ -1,0 +1,35 @@
+[
+	{
+		"ingredientPattern": "_H_,SCS,_S_",
+		"ingredients": {
+			"H": { "type": "item", "code": "hammer-*", "isTool": true },
+			"C": { "type": "item", "code": "chisel-*", "isTool": true },
+			"S": { "type": "block", "code": "rock-*", "name": "rock", "allowedVariants": ["andesite_columnar", "andesite_porous", "andesite_weathered"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "stonecoffinsection-andesite-north", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "_H_,SCS,_S_",
+		"ingredients": {
+			"H": { "type": "item", "code": "hammer-*", "isTool": true },
+			"C": { "type": "item", "code": "chisel-*", "isTool": true },
+			"S": { "type": "block", "code": "rock-*", "name": "rock", "allowedVariants": ["basalt_columnar", "basalt_columnar_light", "basalt_porous", "basalt_weathered"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "stonecoffinsection-basalt-north", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "_H_,SCS,_S_",
+		"ingredients": {
+			"H": { "type": "item", "code": "hammer-*", "isTool": true },
+			"C": { "type": "item", "code": "chisel-*", "isTool": true },
+			"S": { "type": "block", "code": "rock-*", "name": "rock", "allowedVariants": ["granite_red", "granite_smooth", "granite_smooth_red", "granite_snowy"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "stonecoffinsection-granite-north", "quantity": 1 }
+	}
+]

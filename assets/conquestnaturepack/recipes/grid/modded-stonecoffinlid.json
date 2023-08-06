@@ -1,0 +1,38 @@
+[
+	{
+		"ingredientPattern": "_H_,_C_,_SF",
+		"ingredients": {
+			"H": { "type": "item", "code": "hammer-*", "isTool": true },
+			"C": { "type": "item", "code": "chisel-*", "isTool": true },
+			"S": { "type": "block", "code": "rock-*", "name": "rock", "allowedVariants": ["andesite_columnar", "andesite_porous", "andesite_weathered"] },
+			"F": { "type": "item", "code": "powderedborax" }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "stonecoffinlid-andesite", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "_H_,_C_,_SF",
+		"ingredients": {
+			"H": { "type": "item", "code": "hammer-*", "isTool": true },
+			"C": { "type": "item", "code": "chisel-*", "isTool": true },
+			"S": { "type": "block", "code": "rock-*", "name": "rock", "allowedVariants": ["basalt_columnar", "basalt_columnar_light", "basalt_porous", "basalt_weathered"] },
+			"F": { "type": "item", "code": "powderedborax" }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "stonecoffinlid-basalt", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "_H_,_C_,_SF",
+		"ingredients": {
+			"H": { "type": "item", "code": "hammer-*", "isTool": true },
+			"C": { "type": "item", "code": "chisel-*", "isTool": true },
+			"S": { "type": "block", "code": "rock-*", "name": "rock", "allowedVariants": ["granite_red", "granite_smooth", "granite_smooth_red", "granite_snowy"] },
+			"F": { "type": "item", "code": "powderedborax" }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "stonecoffinlid-granite", "quantity": 1 }
+	}
+]

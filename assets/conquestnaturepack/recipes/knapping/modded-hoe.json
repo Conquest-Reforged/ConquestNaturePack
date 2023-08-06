@@ -1,0 +1,54 @@
+[
+	{
+		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["andesite_columnar", "andesite_porous", "andesite_weathered"] },
+		"pattern": [[
+			"___###___",
+			"__#####__",
+			"__#####__",
+			"__#####__",
+			"__#####__",
+			"__#####__"
+		]],
+		"name": "Hoe",
+		"output": { "type": "item", "code": "hoehead-andesite"  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["basalt_columnar", "basalt_columnar_light", "basalt_porous", "basalt_weathered"] },
+		"pattern": [[
+			"___###___",
+			"__#####__",
+			"__#####__",
+			"__#####__",
+			"__#####__",
+			"__#####__"
+		]],
+		"name": "Hoe",
+		"output": { "type": "item", "code": "hoehead-basalt"  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["granite_red", "granite_smooth", "granite_smooth_red", "granite_snowy"] },
+		"pattern": [[
+			"___###___",
+			"__#####__",
+			"__#####__",
+			"__#####__",
+			"__#####__",
+			"__#####__"
+		]],
+		"name": "Hoe",
+		"output": { "type": "item", "code": "hoehead-granite"  }
+	},
+	{
+		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["obsidian_light", "obsidian_smooth"] },
+		"pattern": [[
+			"___###___",
+			"__#####__",
+			"__#####__",
+			"__#####__",
+			"__#####__",
+			"__#####__"
+		]],
+		"name": "Hoe",
+		"output": { "type": "item", "code": "hoehead-obsidian"  }
+	}
+]
