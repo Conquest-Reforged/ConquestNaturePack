@@ -1,116 +1,41 @@
 [
-    {
-        "file": "game:blocktypes/stone/looseflints.json",
-        "op": "add",
-        "path": "/skipVariants",
-        "side": "server",
-        "value": [
-            "*-andesite-*",
-            "*-granite-*",
-            "*-basalt-*",
-            "*-peridotite-*",
-            "*-phyllite-*",
-            "*-slate-*",
-            "*-obsidian-*",
-            "*-kimberlite-*",
-            "*-scoria-*",
-            "*-bauxite-*",
-            "*-halite-*",
-            "*-suevite-*",
-            "*-whitemarble-*",
-            "*-redmarble-*",
-            "*-greenmarble-*",
-            "*-andesite_columnar-*",
-            "*-andesite_porous-*",
-            "*-andesite_weathered-*",
-            "*-anorthosite_rough-*",
-            "*-anorthosite_smooth-*",
-            "*-anorthosite_weathered-*",
-            "*-basalt_columnar-*",
-            "*-basalt_columnar_light-*",
-            "*-basalt_porous-*",
-            "*-basalt_smooth-*",
-            "*-basalt_weathered-*",
-            "*-blackstone-*",
-            "*-dacite-*",
-            "*-dacite_columnar-*",
-            "*-dacite_porous-*",
-            "*-dacite_weathered-*",
-            "*-endstone_layered-*",
-            "*-endstone_rough-*",
-            "*-endstone_smooth-*",
-            "*-gneiss-*",
-            "*-gneiss_eroded-*",
-            "*-granite_red-*",
-            "*-granite_smooth-*",
-            "*-granite_smooth_red-*",
-            "*-granite_snowy-*",
-            "*-magma-*",
-            "*-marble_rough-*",
-            "*-marble_rough_dark-*",
-            "*-obsidian_crying-*",
-            "*-obsidian_light-*",
-            "*-obsidian_smooth-*",
-            "*-pahoehoe-*",
-            "*-quartzite_gray-*",
-            "*-quartzite_pink-*",
-            "*-quartzite_yellow-*",
-            "*-rhyolite-*",
-            "*-rhyolite_columnar-*",
-            "*-rhyolite_porous-*",
-            "*-rhyolite_weathered-*",
-            "*-salt_flats_blue-*",
-            "*-salt_flats_brown-*",
-            "*-salt_flats_pink-*",
-            "*-salt_flats_white-*",
-            "*-schist_blue-*",
-            "*-schist_green-*",
-            "*-schist_lichen_blue-*",
-            "*-schist_mossy_blue-*",
-            "*-schist_weathered_blue-*",
-            "*-serpentinite-*",
-            "*-serpentinite_smooth-*",
-            "*-silt_cave_gray-*",
-            "*-slate_warped-*",
-            "*-slate_warped_costal-*",
-            "*-slate_wet-*",
-            "*-tuff-*",
-            "*-tuff_light-*",
-            "*-tuff_smooth-*"
-        ]
-    },
-    {
-        "file": "game:blocktypes/stone/looseflints.json",
-        "op": "remove",
-        "path": "/textures",
-        "side": "server",
-        "value": {
+  {
+    "op": "remove",
+	"side": "server",
+    "path": "/textures",
+    "file": "game:blocktypes/stone/looseflints.json"
+  },
+  {
+    "op": "add",
+	"side": "server",
+    "path": "/texturesByType",
+    "value": {
+      "@.*-(andesite|basalt|kimberlite|obsidian|scoria|suevite|tuff|granite|peridotite|greenmarble|redmarble|whitemarble|phyllite|slate|bauxite|chalk|chert|claystone|conglomerate|halite|limestone|sandstone|shale)-free": {
+        "rock": {
+          "base": "game:block/stone/rock/{rockwithdeposit}1"
         }
-    },
-
-    {
-        "file": "game:blocktypes/stone/looseflints.json",
-        "op": "add",
-        "path": "/texturesByType",
-        "side": "server",
-        "value": {
-            "@.*-(chalk|chert|conglomerate|limestone|claystone|sandstone|shale)-free": {
-                "rock": { "base": "game:block/stone/rock/{rockwithdeposit}1" }
-            },
-            "@.*-(chalk|chert|conglomerate|limestone|claystone|sandstone|shale)-water": {
-                "rock": { "base": "game:block/stone/rock/{rockwithdeposit}1" }
-            },
-            "@.*-(chalk|chert|conglomerate|limestone|claystone|sandstone|shale)-ice": {
-                "rock": { "base": "game:block/stone/rock/{rockwithdeposit}1" }
-            },
-            "@.*-(chalk|chert|conglomerate|limestone|claystone|sandstone|shale)-snow": {
-                "rock": { "base": "game:block/stone/rock/{rockwithdeposit}1" }
-            },
-
-            "*": {
-                "rock": { "base": "conquestnaturepack:block/topography/rock/{rockwithdeposit}/*" }
-            }
-
+      },
+      "@.*-(andesite|basalt|kimberlite|obsidian|scoria|suevite|tuff|granite|peridotite|greenmarble|redmarble|whitemarble|phyllite|slate|bauxite|chalk|chert|claystone|conglomerate|halite|limestone|sandstone|shale)-water": {
+        "rock": {
+          "base": "game:block/stone/rock/{rockwithdeposit}1"
         }
-    }
+      },
+      "@.*-(andesite|basalt|kimberlite|obsidian|scoria|suevite|tuff|granite|peridotite|greenmarble|redmarble|whitemarble|phyllite|slate|bauxite|chalk|chert|claystone|conglomerate|halite|limestone|sandstone|shale)-ice": {
+        "rock": {
+          "base": "game:block/stone/rock/{rockwithdeposit}1"
+        }
+      },
+      "@.*-(andesite|basalt|kimberlite|obsidian|scoria|suevite|tuff|granite|peridotite|greenmarble|redmarble|whitemarble|phyllite|slate|bauxite|chalk|chert|claystone|conglomerate|halite|limestone|sandstone|shale)-snow": {
+        "rock": {
+          "base": "game:block/stone/rock/{rockwithdeposit}1"
+        }
+      },
+      "*": {
+        "rock": {
+          "base": "conquestnaturepack:block/topography/rock/{rockwithdeposit}/*"
+        }
+      }
+    },
+    "file": "game:blocktypes/stone/looseflints.json"
+  }
 ]

@@ -1,6 +1,6 @@
 [
 	{
-		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["andesite_columnar", "andesite_porous", "andesite_weathered"] },
+		"ingredient": { "type": "item", "code": "game:stone-andesite_*"},
 		"pattern": [[
 			"___###___",
 			"__#####__",
@@ -10,10 +10,10 @@
 			"__#####__"
 		]],
 		"name": "Hoe",
-		"output": { "type": "item", "code": "hoehead-andesite"  }
+		"output": { "type": "item", "code": "game:hoehead-andesite"  }
 	},
 	{
-		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["basalt_columnar", "basalt_columnar_light", "basalt_porous", "basalt_weathered"] },
+		"ingredient": { "type": "item", "code": "game:stone-basalt_*"},
 		"pattern": [[
 			"___###___",
 			"__#####__",
@@ -23,10 +23,10 @@
 			"__#####__"
 		]],
 		"name": "Hoe",
-		"output": { "type": "item", "code": "hoehead-basalt"  }
+		"output": { "type": "item", "code": "game:hoehead-basalt"  }
 	},
 	{
-		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["granite_red", "granite_smooth", "granite_smooth_red", "granite_snowy"] },
+		"ingredient": { "type": "item", "code": "game:stone-granite_*"},
 		"pattern": [[
 			"___###___",
 			"__#####__",
@@ -36,10 +36,10 @@
 			"__#####__"
 		]],
 		"name": "Hoe",
-		"output": { "type": "item", "code": "hoehead-granite"  }
+		"output": { "type": "item", "code": "game:hoehead-granite"  }
 	},
 	{
-		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["obsidian_light", "obsidian_smooth"] },
+		"ingredient": { "type": "item", "code": "game:stone-obsidian_*"},
 		"pattern": [[
 			"___###___",
 			"__#####__",
@@ -49,6 +49,6 @@
 			"__#####__"
 		]],
 		"name": "Hoe",
-		"output": { "type": "item", "code": "hoehead-obsidian"  }
+		"output": { "type": "item", "code": "game:hoehead-obsidian"  }
 	}
 ]

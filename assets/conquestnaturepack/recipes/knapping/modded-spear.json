@@ -1,6 +1,6 @@
 [
 	{
-		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["andesite_columnar", "andesite_porous", "andesite_weathered"] },
+		"ingredient": { "type": "item", "code": "game:stone-andesite_*"},
 		"pattern": [[
 			"____##____",
 			"____##____",
@@ -14,10 +14,10 @@
 			"___####___"
 		]],
 		"name": "Stone spear",
-		"output": { "type": "item", "code": "spearhead-andesite"  }
+		"output": { "type": "item", "code": "game:spearhead-andesite"  }
 	},
 	{
-		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["basalt_columnar", "basalt_columnar_light", "basalt_porous", "basalt_weathered"] },
+		"ingredient": { "type": "item", "code": "game:stone-basalt_*"},
 		"pattern": [[
 			"____##____",
 			"____##____",
@@ -31,10 +31,10 @@
 			"___####___"
 		]],
 		"name": "Stone spear",
-		"output": { "type": "item", "code": "spearhead-basalt"  }
+		"output": { "type": "item", "code": "game:spearhead-basalt"  }
 	},
 	{
-		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["granite_red", "granite_smooth", "granite_smooth_red", "granite_snowy"] },
+		"ingredient": { "type": "item", "code": "game:stone-granite_*"},
 		"pattern": [[
 			"____##____",
 			"____##____",
@@ -48,10 +48,10 @@
 			"___####___"
 		]],
 		"name": "Stone spear",
-		"output": { "type": "item", "code": "spearhead-granite"  }
+		"output": { "type": "item", "code": "game:spearhead-granite"  }
 	},
 	{
-		"ingredient": { "type": "item", "code": "stone-*", "name": "rock", "allowedVariants": ["obsidian_light", "obsidian_smooth"] },
+		"ingredient": { "type": "item", "code": "game:stone-obsidian_*"},
 		"pattern": [[
 			"____##____",
 			"____##____",
@@ -65,6 +65,6 @@
 			"___####___"
 		]],
 		"name": "Stone spear",
-		"output": { "type": "item", "code": "spearhead-obsidian"  }
+		"output": { "type": "item", "code": "game:spearhead-obsidian"  }
 	}
 ]
