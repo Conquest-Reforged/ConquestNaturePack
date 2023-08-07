@@ -669,7 +669,7 @@
         "path": "/variants/52",
         "value": {
             "Code": "limestone_boulders_light",
-            "Weight": "70",
+            "Weight": "40",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
@@ -682,7 +682,7 @@
         "path": "/variants/53",
         "value": {
             "Code": "limestone_boulders_mossy_light",
-            "Weight": "70",
+            "Weight": "40",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
@@ -695,7 +695,7 @@
         "path": "/variants/54",
         "value": {
             "Code": "limestone_icy",
-            "Weight": "70",
+            "Weight": "40",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
@@ -708,7 +708,7 @@
         "path": "/variants/55",
         "value": {
             "Code": "limestone_light",
-            "Weight": "70",
+            "Weight": "40",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
@@ -721,7 +721,7 @@
         "path": "/variants/56",
         "value": {
             "Code": "limestone_mossy",
-            "Weight": "70",
+            "Weight": "40",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
@@ -734,7 +734,7 @@
         "path": "/variants/57",
         "value": {
             "Code": "limestone_pink",
-            "Weight": "70",
+            "Weight": "40",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
@@ -747,7 +747,7 @@
         "path": "/variants/58",
         "value": {
             "Code": "limestone_stained_tan",
-            "Weight": "70",
+            "Weight": "40",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
@@ -760,7 +760,7 @@
         "path": "/variants/59",
         "value": {
             "Code": "limestone_tan",
-            "Weight": "70",
+            "Weight": "40",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"

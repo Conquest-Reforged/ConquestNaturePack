@@ -247,6 +247,19 @@
   },
   {
     "op": "add",
+    "side": "server",
+    "path": "/grindingPropsByType/*-calcite*",
+    "value": {
+      "grindedStack": {
+        "type": "item",
+        "code": "lime",
+        "stacksize": 1
+      }
+    },
+    "file": "game:itemtypes/resource/stone.json"
+  },
+  {
+    "op": "add",
 	"side": "server",
     "path": "/grindingPropsByType/*-salt_flats*",
     "value": {

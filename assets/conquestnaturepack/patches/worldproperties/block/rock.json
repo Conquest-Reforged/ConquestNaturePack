@@ -187,7 +187,7 @@
         "path": "/variants/15",
         "value": {
             "Code": "limestone_boulders_light",
-            "Weight": "70",
+            "Weight": "40",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
@@ -200,7 +200,7 @@
         "path": "/variants/16",
         "value": {
             "Code": "limestone_light",
-            "Weight": "70",
+            "Weight": "40",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
@@ -213,7 +213,7 @@
         "path": "/variants/17",
         "value": {
             "Code": "limestone_pink",
-            "Weight": "70",
+            "Weight": "40",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
@@ -226,7 +226,7 @@
         "path": "/variants/18",
         "value": {
             "Code": "limestone_tan",
-            "Weight": "70",
+            "Weight": "40",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
