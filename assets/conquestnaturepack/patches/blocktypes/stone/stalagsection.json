@@ -9,6 +9,8 @@
             {
                 "code": "rock",
                 "states": [
+				    "andesite",
+				    "granite",
                     "limestone",
                     "limestone_icy",
                     "limestone_light",
@@ -44,6 +46,12 @@
         "path": "/texturesByType",
         "side": "server",
         "value": {
+            "*-andesite-*": {
+                "all": { "base": "game:block/stone/rock/{rock}*" }
+            },
+            "*-granite-*": {
+                "all": { "base": "game:block/stone/rock/{rock}*" }
+            },
             "*-limestone-*": {
                 "all": { "base": "game:block/stone/rock/{rock}*" }
             },
