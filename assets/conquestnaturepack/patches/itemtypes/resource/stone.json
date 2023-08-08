@@ -1,274 +1,493 @@
 [
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/textures",
-    "file": "game:itemtypes/resource/stone.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/texturesByType",
-    "value": {
-      "@.*-(andesite|chalk|chert|conglomerate|limestone|claystone|granite|sandstone|shale|basalt|peridotite|phyllite|slate|obsidian|kimberlite|scoria|tuff|bauxite|halite|suevite|whitemarble|redmarble|greenmarble|meteorite-iron)": {
-        "material": {
-          "base": "game:block/stone/rock/{rock}1"
+    {
+        "op": "remove",
+        "side": "server",
+        "path": "/textures",
+        "file": "game:itemtypes/resource/stone.json"
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/texturesByType",
+        "value": {
+            "@.*-(andesite|chalk|chert|conglomerate|limestone|claystone|granite|sandstone|shale|basalt|peridotite|phyllite|slate|obsidian|kimberlite|scoria|tuff|bauxite|halite|suevite|whitemarble|redmarble|greenmarble|meteorite-iron)": {
+                "material": {
+                    "base": "game:block/stone/rock/{rock}1"
+                }
+            },
+            "*": {
+                "material": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/*"
+                }
+            }
+        },
+        "file": "game:itemtypes/resource/stone.json"
+    },
+    {
+        "file": "game:itemtypes/resource/stone.json",
+        "op": "replace",
+        "side": "server",
+        "path": "/attributesByType",
+        "value": {
+            "stone-andesite_columnar": {
+                "knappable": true,
+                "reinforcementStrength": 50,
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-andesite_porous": {
+                "knappable": true,
+                "reinforcementStrength": 50,
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-andesite_weathered": {
+                "knappable": true,
+                "reinforcementStrength": 50,
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-basalt_columnar": {
+                "knappable": true,
+                "reinforcementStrength": 50,
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-basalt_columnar_light": {
+                "knappable": true,
+                "reinforcementStrength": 50,
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-basalt_porous": {
+                "knappable": true,
+                "reinforcementStrength": 50,
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-basalt_smooth": {
+                "knappable": true,
+                "reinforcementStrength": 50,
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-basalt_weathered": {
+                "knappable": true,
+                "reinforcementStrength": 50,
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-granite_red": {
+                "knappable": true,
+                "reinforcementStrength": 50,
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-granite_smooth": {
+                "knappable": true,
+                "reinforcementStrength": 50,
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-granite_smooth_red": {
+                "knappable": true,
+                "reinforcementStrength": 50,
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-granite_snowy": {
+                "knappable": true,
+                "reinforcementStrength": 50,
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-obsidian_light": {
+                "knappable": true,
+                "reinforcementStrength": 50,
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-obsidian_smooth": {
+                "knappable": true,
+                "reinforcementStrength": 50,
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-chert": {
+                "knappable": true,
+                "reinforcementStrength": 50,
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-granite": {
+                "knappable": true,
+                "reinforcementStrength": 50,
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-peridotite": {
+                "knappable": true,
+                "reinforcementStrength": 50,
+                "displaycaseable": true,
+                "shelvable": true,
+                "crushedOutput": {
+                    "type": "item",
+                    "code": "crushed-peridotite",
+                    "stacksize": 1,
+                    "attributes": { "crushingtier": "tinbronze" }
+                }
+            },
+            "stone-andesite": {
+                "knappable": true,
+                "reinforcementStrength": 50,
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-basalt": {
+                "knappable": true,
+                "reinforcementStrength": 50,
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-obsidian": {
+                "knappable": true,
+                "reinforcementStrength": 50,
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-chalk": {
+                "pigment": {
+                    "name": "Chalk white",
+                    "color": {
+                        "red": 237,
+                        "green": 237,
+                        "blue": 237
+                    }
+                },
+                "displaycaseable": true,
+                "shelvable": true,
+                "handbook": {
+                    "extraSections": [
+                        {
+                            "title": "handbook-drawing",
+                            "text": "handbook-chalk-drawing"
+                        }
+                    ]
+                }
+            },
+            "stone-chalk_layered": {
+                "pigment": {
+                    "name": "Chalk white",
+                    "color": {
+                        "red": 237,
+                        "green": 237,
+                        "blue": 237
+                    }
+                },
+                "displaycaseable": true,
+                "shelvable": true,
+                "handbook": {
+                    "extraSections": [
+                        {
+                            "title": "handbook-drawing",
+                            "text": "handbook-chalk-drawing"
+                        }
+                    ]
+                }
+            },
+            "stone-limestone": {
+                "pigment": {
+                    "name": "Lime white",
+                    "color": {
+                        "red": 221,
+                        "green": 216,
+                        "blue": 199
+                    }
+                },
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-limestone_boulders_light": {
+                "pigment": {
+                    "name": "Lime white",
+                    "color": {
+                        "red": 221,
+                        "green": 216,
+                        "blue": 199
+                    }
+                },
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-limestone_boulders_mossy_light": {
+                "pigment": {
+                    "name": "Lime white",
+                    "color": {
+                        "red": 221,
+                        "green": 216,
+                        "blue": 199
+                    }
+                },
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-limestone_icy": {
+                "pigment": {
+                    "name": "Lime white",
+                    "color": {
+                        "red": 221,
+                        "green": 216,
+                        "blue": 199
+                    }
+                },
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-limestone_light": {
+                "pigment": {
+                    "name": "Lime white",
+                    "color": {
+                        "red": 221,
+                        "green": 216,
+                        "blue": 199
+                    }
+                },
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-limestone_mossy": {
+                "pigment": {
+                    "name": "Lime white",
+                    "color": {
+                        "red": 221,
+                        "green": 216,
+                        "blue": 199
+                    }
+                },
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-limestone_pink": {
+                "pigment": {
+                    "name": "Lime white",
+                    "color": {
+                        "red": 221,
+                        "green": 216,
+                        "blue": 199
+                    }
+                },
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-limestone_stained_tan": {
+                "pigment": {
+                    "name": "Lime white",
+                    "color": {
+                        "red": 221,
+                        "green": 216,
+                        "blue": 199
+                    }
+                },
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "stone-limestone_tan": {
+                "pigment": {
+                    "name": "Lime white",
+                    "color": {
+                        "red": 221,
+                        "green": 216,
+                        "blue": 199
+                    }
+                },
+                "displaycaseable": true,
+                "shelvable": true
+            },
+            "*": {
+                "displaycaseable": true,
+                "shelvable": true
+            }
         }
-      },
-      "*": {
-        "material": {
-          "base": "conquestnaturepack:block/topography/rock/{rock}/*"
+    },
+    {
+        "file": "game:itemtypes/resource/stone.json",
+        "op": "replace",
+        "side": "server",
+        "path": "/behaviorsByType",
+        "value": {
+            "*-chalk": [
+                {
+                    "name": "ArtPigment",
+                    "properties": {
+                        "decorBlockCodes": [ "caveart-chalk-1-*" ],
+                        "paintableOnBlockMaterials": [ "Stone", "Wood", "Brick", "Ceramic", "Metal", "Meta" ]
+                    }
+                }
+            ],
+            "*-chalk_layered": [
+                {
+                    "name": "ArtPigment",
+                    "properties": {
+                        "decorBlockCodes": [ "caveart-chalk-1-*" ],
+                        "paintableOnBlockMaterials": [ "Stone", "Wood", "Brick", "Ceramic", "Metal", "Meta" ]
+                    }
+                }
+            ]
         }
-      }
     },
-    "file": "game:itemtypes/resource/stone.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/attributesByType/stone-andesite",
-    "file": "game:itemtypes/resource/stone.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/attributesByType/stone-basalt",
-    "file": "game:itemtypes/resource/stone.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/attributesByType/stone-chalk",
-    "file": "game:itemtypes/resource/stone.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/attributesByType/stone-granite",
-    "file": "game:itemtypes/resource/stone.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/attributesByType/stone-limestone",
-    "file": "game:itemtypes/resource/stone.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/attributesByType/stone-obsidian",
-    "file": "game:itemtypes/resource/stone.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/attributesByType/stone-andesite*",
-    "value": {
-      "knappable": true,
-      "reinforcementStrength": 50,
-      "displaycaseable": true,
-      "shelvable": true
-    },
-    "file": "game:itemtypes/resource/stone.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/attributesByType/stone-basalt*",
-    "value": {
-      "knappable": true,
-      "reinforcementStrength": 50,
-      "displaycaseable": true,
-      "shelvable": true
-    },
-    "file": "game:itemtypes/resource/stone.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/attributesByType/stone-chalk*",
-    "value": {
-      "pigment": {
-        "name": "Chalk white",
-        "color": {
-          "red": 237,
-          "green": 237,
-          "blue": 237
+    {
+        "file": "game:itemtypes/resource/stone.json",
+        "op": "replace",
+        "side": "server",
+        "path": "/grindingPropsByType",
+        "value": {
+            "*-halite": {
+                "grindedStack": {
+                    "type": "item",
+                    "code": "salt",
+                    "stacksize": 2
+                }
+            },
+            "*-limestone": {
+                "grindedStack": {
+                    "type": "item",
+                    "code": "lime",
+                    "stacksize": 1
+                }
+            },
+            "*-chalk": {
+                "grindedStack": {
+                    "type": "item",
+                    "code": "lime",
+                    "stacksize": 1
+                }
+            },
+            "*marble*": {
+                "grindedStack": {
+                    "type": "item",
+                    "code": "lime",
+                    "stacksize": 1
+                }
+            },
+            "*conglomerate*": {
+                "grindedStack": {
+                    "type": "item",
+                    "code": "lime",
+                    "stacksize": 1
+                }
+            },
+            "*dolomite*": {
+                "grindedStack": {
+                    "type": "item",
+                    "code": "lime",
+                    "stacksize": 1
+                }
+            },
+            "*limestone_boulders_light*": {
+                "grindedStack": {
+                    "type": "item",
+                    "code": "lime",
+                    "stacksize": 1
+                }
+            },
+            "*limestone_boulders_mossy_light*": {
+                "grindedStack": {
+                    "type": "item",
+                    "code": "lime",
+                    "stacksize": 1
+                }
+            },
+            "*limestone_icy*": {
+                "grindedStack": {
+                    "type": "item",
+                    "code": "lime",
+                    "stacksize": 1
+                }
+            },
+            "*limestone_light*": {
+                "grindedStack": {
+                    "type": "item",
+                    "code": "lime",
+                    "stacksize": 1
+                }
+            },
+            "*limestone_mossy*": {
+                "grindedStack": {
+                    "type": "item",
+                    "code": "lime",
+                    "stacksize": 1
+                }
+            },
+            "*limestone_pink*": {
+                "grindedStack": {
+                    "type": "item",
+                    "code": "lime",
+                    "stacksize": 1
+                }
+            },
+            "*limestone_stained_tan*": {
+                "grindedStack": {
+                    "type": "item",
+                    "code": "lime",
+                    "stacksize": 1
+                }
+            },
+            "*limestone_tan*": {
+                "grindedStack": {
+                    "type": "item",
+                    "code": "lime",
+                    "stacksize": 1
+                }
+            },
+            "*calcite_limestone*": {
+                "grindedStack": {
+                    "type": "item",
+                    "code": "lime",
+                    "stacksize": 1
+                }
+            },
+            "*calcite_rough*": {
+                "grindedStack": {
+                    "type": "item",
+                    "code": "lime",
+                    "stacksize": 1
+                }
+            },
+            "*calcite*": {
+                "grindedStack": {
+                    "type": "item",
+                    "code": "lime",
+                    "stacksize": 1
+                }
+            },
+            "*salt_flats_blue*": {
+                "grindedStack": {
+                    "type": "item",
+                    "code": "lime",
+                    "stacksize": 1
+                }
+            },
+            "*salt_flats_brown*": {
+                "grindedStack": {
+                    "type": "item",
+                    "code": "lime",
+                    "stacksize": 1
+                }
+            },
+            "*salt_flats_pink*": {
+                "grindedStack": {
+                    "type": "item",
+                    "code": "lime",
+                    "stacksize": 1
+                }
+            },
+            "*salt_flats_white*": {
+                "grindedStack": {
+                    "type": "item",
+                    "code": "lime",
+                    "stacksize": 1
+                }
+            }
         }
-      },
-      "displaycaseable": true,
-      "shelvable": true,
-      "handbook": {
-        "extraSections": [
-          {
-            "title": "handbook-drawing",
-            "text": "handbook-chalk-drawing"
-          }
-        ]
-      }
-    },
-    "file": "game:itemtypes/resource/stone.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/attributesByType/stone-granite*",
-    "value": {
-      "knappable": true,
-      "reinforcementStrength": 50,
-      "displaycaseable": true,
-      "shelvable": true
-    },
-    "file": "game:itemtypes/resource/stone.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/attributesByType/stone-limestone*",
-    "value": {
-      "pigment": {
-        "name": "Lime white",
-        "color": {
-          "red": 221,
-          "green": 216,
-          "blue": 199
-        }
-      },
-      "displaycaseable": true,
-      "shelvable": true
-    },
-    "file": "game:itemtypes/resource/stone.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/attributesByType/stone-obsidian*",
-    "value": {
-      "knappable": true,
-      "reinforcementStrength": 50,
-      "displaycaseable": true,
-      "shelvable": true
-    },
-    "file": "game:itemtypes/resource/stone.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/behaviorsByType/*-chalk",
-    "file": "game:itemtypes/resource/stone.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/behaviorsByType/*-chalk*",
-    "value": [
-      {
-        "name": "ArtPigment",
-        "properties": {
-          "decorBlockCodes": [
-            "caveart-chalk-1-*"
-          ],
-          "paintableOnBlockMaterials": [
-            "Stone",
-            "Wood",
-            "Brick",
-            "Ceramic",
-            "Metal",
-            "Meta"
-          ]
-        }
-      }
-    ],
-    "file": "game:itemtypes/resource/stone.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/grindingPropsByType/*-chalk",
-    "file": "game:itemtypes/resource/stone.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/grindingPropsByType/*-limestone",
-    "file": "game:itemtypes/resource/stone.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/grindingPropsByType/*-chalk*",
-    "value": {
-      "grindedStack": {
-        "type": "item",
-        "code": "lime",
-        "stacksize": 1
-      }
-    },
-    "file": "game:itemtypes/resource/stone.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/grindingPropsByType/*-conglomerate",
-    "value": {
-      "grindedStack": {
-        "type": "item",
-        "code": "lime",
-        "stacksize": 1
-      }
-    },
-    "file": "game:itemtypes/resource/stone.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/grindingPropsByType/*-dolomite",
-    "value": {
-      "grindedStack": {
-        "type": "item",
-        "code": "lime",
-        "stacksize": 1
-      }
-    },
-    "file": "game:itemtypes/resource/stone.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/grindingPropsByType/*-limestone*",
-    "value": {
-      "grindedStack": {
-        "type": "item",
-        "code": "lime",
-        "stacksize": 1
-      }
-    },
-    "file": "game:itemtypes/resource/stone.json"
-  },
-  {
-    "op": "add",
-    "side": "server",
-    "path": "/grindingPropsByType/*-calcite*",
-    "value": {
-      "grindedStack": {
-        "type": "item",
-        "code": "lime",
-        "stacksize": 1
-      }
-    },
-    "file": "game:itemtypes/resource/stone.json"
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/grindingPropsByType/*-salt_flats*",
-    "value": {
-      "grindedStack": {
-        "type": "item",
-        "code": "salt",
-        "stacksize": 2
-      }
-    },
-    "file": "game:itemtypes/resource/stone.json"
-  }
+    }
 ]
