@@ -1,12 +1,6 @@
 [
     {
         "file": "game:blocktypes/stone/sand.json",
-        "op": "remove",
-        "path": "/textures",
-        "side": "server"
-    },
-    {
-        "file": "game:blocktypes/stone/sand.json",
         "op": "add",
         "path": "/texturesByType",
         "side": "server",
