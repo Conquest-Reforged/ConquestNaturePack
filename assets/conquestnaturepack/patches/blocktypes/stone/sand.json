@@ -3,10 +3,7 @@
         "file": "game:blocktypes/stone/sand.json",
         "op": "remove",
         "path": "/textures",
-        "side": "server",
-        "value": {
-
-        }
+        "side": "server"
     },
     {
         "file": "game:blocktypes/stone/sand.json",
