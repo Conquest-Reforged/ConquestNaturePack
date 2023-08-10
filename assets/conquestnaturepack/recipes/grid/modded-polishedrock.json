@@ -1,0 +1,79 @@
+[
+	{
+		"ingredientPattern": "H,C,S",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true },
+			"S": { "type": "block", "code": "game:rock-andesite_*"}
+		},
+		"width": 1,
+		"height": 3,
+		"output": { "type": "block", "code": "game:rockpolished-andesite", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "H,C,S",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true },
+			"S": { "type": "block", "code": "game:rock-basalt_*"}
+		},
+		"width": 1,
+		"height": 3,
+		"output": { "type": "block", "code": "game:rockpolished-basalt", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "H,C,S",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true },
+			"S": { "type": "block", "code": "game:rock-granite_*"}
+		},
+		"width": 1,
+		"height": 3,
+		"output": { "type": "block", "code": "game:rockpolished-granite", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "H,C,S",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true },
+			"S": { "type": "block", "code": "game:rock-slate_*"}
+		},
+		"width": 1,
+		"height": 3,
+		"output": { "type": "block", "code": "game:rockpolished-slate", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "H,C,S",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true },
+			"S": { "type": "block", "code": "game:rock-chalk_*"}
+		},
+		"width": 1,
+		"height": 3,
+		"output": { "type": "block", "code": "game:rockpolished-chalk", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "H,C,S",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true },
+			"S": { "type": "block", "code": "game:rock-limestone_*"}
+		},
+		"width": 1,
+		"height": 3,
+		"output": { "type": "block", "code": "game:rockpolished-limestone", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "H,C,S",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true },
+			"S": { "type": "block", "code": "game:rock-sandstone_*"}
+		},
+		"width": 1,
+		"height": 3,
+		"output": { "type": "block", "code": "game:rockpolished-sandstone", "quantity": 1 }
+	}
+]

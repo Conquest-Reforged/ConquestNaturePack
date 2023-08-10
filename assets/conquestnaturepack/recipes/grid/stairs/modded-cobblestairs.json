@@ -1,0 +1,72 @@
+[
+	{
+	"ingredientPattern": "_LL	LCL	LLL",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-*" },
+			"L": { "type": "item", "code": "game:stone-andesite_*"}
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:cobblestonestairs-andesite-up-north-free", "quantity": 2 }
+	},
+	{
+	"ingredientPattern": "_LL	LCL	LLL",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-*" },
+			"L": { "type": "item", "code": "game:stone-basalt_*"}
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:cobblestonestairs-basalt-up-north-free", "quantity": 2 }
+	},
+	{
+	"ingredientPattern": "_LL	LCL	LLL",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-*" },
+			"L": { "type": "item", "code": "game:stone-granite_*"}
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:cobblestonestairs-granite-up-north-free", "quantity": 2 }
+	},
+	{
+	"ingredientPattern": "_LL	LCL	LLL",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-*" },
+			"L": { "type": "item", "code": "game:stone-slate_*"}
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:cobblestonestairs-slate-up-north-free", "quantity": 2 }
+	},
+	{
+	"ingredientPattern": "_LL	LCL	LLL",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-*" },
+			"L": { "type": "item", "code": "game:stone-chalk_*"}
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:cobblestonestairs-chalk-up-north-free", "quantity": 2 }
+	},
+	{
+	"ingredientPattern": "_LL	LCL	LLL",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-*" },
+			"L": { "type": "item", "code": "game:stone-limestone_*"}
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:cobblestonestairs-limestone-up-north-free", "quantity": 2 }
+	},
+	{
+	"ingredientPattern": "_LL	LCL	LLL",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-*" },
+			"L": { "type": "item", "code": "game:stone-sandstone_*"}
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:cobblestonestairs-sandstone-up-north-free", "quantity": 2 }
+	}
+]

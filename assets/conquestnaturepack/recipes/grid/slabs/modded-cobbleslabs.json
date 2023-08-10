@@ -1,0 +1,72 @@
+[
+	{
+    	"ingredientPattern": "_C_	LLL",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-*" },
+			"L": { "type": "item", "code": "game:stone-andesite_*"}
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:cobblestoneslab-andesite-down-free", "quantity": 2 }
+	},
+	{
+    	"ingredientPattern": "_C_	LLL",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-*" },
+			"L": { "type": "item", "code": "game:stone-basalt_*"}
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:cobblestoneslab-basalt-down-free", "quantity": 2 }
+	},
+	{
+    	"ingredientPattern": "_C_	LLL",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-*" },
+			"L": { "type": "item", "code": "game:stone-granite_*"}
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:cobblestoneslab-granite-down-free", "quantity": 2 }
+	},
+	{
+    	"ingredientPattern": "_C_	LLL",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-*" },
+			"L": { "type": "item", "code": "game:stone-slate_*"}
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:cobblestoneslab-slate-down-free", "quantity": 2 }
+	},
+	{
+    	"ingredientPattern": "_C_	LLL",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-*" },
+			"L": { "type": "item", "code": "game:stone-chalk_*"}
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:cobblestoneslab-chalk-down-free", "quantity": 2 }
+	},
+	{
+    	"ingredientPattern": "_C_	LLL",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-*" },
+			"L": { "type": "item", "code": "game:stone-limestone_*"}
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:cobblestoneslab-limestone-down-free", "quantity": 2 }
+	},
+	{
+    	"ingredientPattern": "_C_	LLL",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-*" },
+			"L": { "type": "item", "code": "game:stone-sandstone_*"}
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:cobblestoneslab-sandstone-down-free", "quantity": 2 }
+	}
+]

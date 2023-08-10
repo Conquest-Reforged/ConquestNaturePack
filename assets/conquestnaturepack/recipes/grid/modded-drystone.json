@@ -1,0 +1,89 @@
+[
+	{
+	"ingredientPattern": "LLL	LCL	LLL",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:stone-andesite_*"},
+			"C": { "type": "item", "code": "game:stonebrick-*", "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:drystone-{rock}", "quantity": 1 }
+	},
+	{
+	"ingredientPattern": "LLL	LCL	LLL",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:stone-basalt_*"},
+			"C": { "type": "item", "code": "game:stonebrick-*", "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:drystone-{rock}", "quantity": 1 }
+	},
+	{
+	"ingredientPattern": "LLL	LCL	LLL",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:stone-granite_*"},
+			"C": { "type": "item", "code": "game:stonebrick-*", "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:drystone-{rock}", "quantity": 1 }
+	},
+	{
+	"ingredientPattern": "LLL	LCL	LLL",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:stone-slate_*"},
+			"C": { "type": "item", "code": "game:stonebrick-*", "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:drystone-{rock}", "quantity": 1 }
+	},
+	{
+	"ingredientPattern": "LLL	LCL	LLL",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:stone-chalk_*"},
+			"C": { "type": "item", "code": "game:stonebrick-*", "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:drystone-{rock}", "quantity": 1 }
+	},
+	{
+	"ingredientPattern": "LLL	LCL	LLL",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:stone-limestone_*"},
+			"C": { "type": "item", "code": "game:stonebrick-*", "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:drystone-{rock}", "quantity": 1 }
+	},
+	{
+	"ingredientPattern": "LLL	LCL	LLL",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:stone-sandstone_*"},
+			"C": { "type": "item", "code": "game:stonebrick-*", "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:drystone-{rock}", "quantity": 1 }
+	},	
+	{
+		"ingredientPattern": "ABC,DEF,GHI",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:stone-bauxite" },
+			"B": { "type": "item", "code": "game:stone-granite_*" },
+			"C": { "type": "item", "code": "game:stone-limestone_*" },
+			"D": { "type": "item", "code": "game:stone-conglomerate" },
+			"F": { "type": "item", "code": "game:stone-andesite_*" },
+			"G": { "type": "item", "code": "game:stone-claystone" },
+			"H": { "type": "item", "code": "game:stone-chalk_*" },
+			"I": { "type": "item", "code": "game:stone-phyllite" },
+			"E": { "type": "item", "code": "game:stonebrick-*", "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite"] }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:drystone-mixed", "quantity": 1 }
+	}
+]

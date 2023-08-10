@@ -1,0 +1,92 @@
+[
+	{
+		"ingredientPattern": "LLL,LLL",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:stone-*", "name": "rock", "allowedVariants": ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble"] }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:drystonefence-{rock}-ew-free", "quantity": 1 }
+	},
+	
+	{
+		"ingredientPattern": "LLL,LLL",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:stone-andesite_*"}
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:drystonefence-andesite-ew-free", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "LLL,LLL",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:stone-basalt_*"}
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:drystonefence-basalt-ew-free", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "LLL,LLL",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:stone-granite_*"}
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:drystonefence-granite-ew-free", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "LLL,LLL",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:stone-slate_*"}
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:drystonefence-slate-ew-free", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "LLL,LLL",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:stone-chalk_*"}
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:drystonefence-chalk-ew-free", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "LLL,LLL",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:stone-limestone_*"}
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:drystonefence-limestone-ew-free", "quantity": 1 }
+	},
+	{
+		"ingredientPattern": "LLL,LLL",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:stone-sandstone_*"}
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:drystonefence-sandstone-ew-free", "quantity": 1 }
+	},			
+	{
+		"ingredientPattern": "ABC	DEF	GHI",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:stone-bauxite" },
+			"B": { "type": "item", "code": "game:stone-granite_*" },
+			"C": { "type": "item", "code": "game:stone-limestone_*" },
+			"D": { "type": "item", "code": "game:stone-conglomerate" },
+			"F": { "type": "item", "code": "game:stone-andesite_*" },
+			"G": { "type": "item", "code": "game:stone-claystone" },
+			"H": { "type": "item", "code": "game:stone-chalk_*" },
+			"I": { "type": "item", "code": "game:stone-phyllite" },
+			"E": { "type": "item", "code": "game:plank-*", "name": "wood" }
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:drystonefence-mixed-ew-free", "quantity": 1 }
+	}
+]

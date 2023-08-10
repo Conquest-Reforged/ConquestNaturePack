@@ -7,7 +7,7 @@
     "side": "universal",
 	"RequiredOnClient": true,
     "RequiredOnServer": true,
-    "version": "0.0.2",
+    "version": "0.0.3",
     "textureSize" : 32,
     "website": "https://discord.gg/u52x8pGkXq"
 }

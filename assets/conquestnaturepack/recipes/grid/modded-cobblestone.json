@@ -1,0 +1,72 @@
+[
+	{
+	"ingredientPattern": "LLL	LCL	LLL",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-*" },
+			"L": { "type": "item", "code": "game:stone-andesite_*"}
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:cobblestone-andesite", "quantity": 2 }
+	},
+	{
+	"ingredientPattern": "LLL	LCL	LLL",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-*" },
+			"L": { "type": "item", "code": "game:stone-basalt_*"}
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:cobblestone-basalt", "quantity": 2 }
+	},
+	{
+	"ingredientPattern": "LLL	LCL	LLL",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-*" },
+			"L": { "type": "item", "code": "game:stone-granite_*"}
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:cobblestone-granite", "quantity": 2 }
+	},
+	{
+	"ingredientPattern": "LLL	LCL	LLL",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-*" },
+			"L": { "type": "item", "code": "game:stone-slate_*"}
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:cobblestone-slate", "quantity": 2 }
+	},
+	{
+	"ingredientPattern": "LLL	LCL	LLL",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-*" },
+			"L": { "type": "item", "code": "game:stone-chalk_*"}
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:cobblestone-chalk", "quantity": 2 }
+	},
+	{
+	"ingredientPattern": "LLL	LCL	LLL",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-*" },
+			"L": { "type": "item", "code": "game:stone-limestone_*"}
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:cobblestone-limestone", "quantity": 2 }
+	},
+	{
+	"ingredientPattern": "LLL	LCL	LLL",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:clay-*" },
+			"L": { "type": "item", "code": "game:stone-sandstone_*"}
+		},
+		"width": 3,
+		"height": 3,
+		"output": { "type": "block", "code": "game:cobblestone-sandstone", "quantity": 2 }
+	}
+]
