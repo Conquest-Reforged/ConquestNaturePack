@@ -103,12 +103,12 @@
                 "down": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" },
                 "sides": { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" }
             },
-            "@.*-(andesite|basalt|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale)": {
-                "all": { "base": "game:block/stone/rock/{rock}*" },
+            "@.*-(andesite|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale)": {
+                "sides": { "base": "game:block/stone/rock/{rock}*" },
                 "up": { "base": "game:block/stone/rock/top/{rock}*" },
                 "down": { "base": "game:block/stone/rock/top/{rock}*" }
             },
-            "@.*-(kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite)": {
+            "@.*-(basalt|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite)": {
                 "all": { "base": "game:block/stone/rock/{rock}*" }
 
             },
