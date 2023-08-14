@@ -1,0 +1,357 @@
+[
+    {
+        "op": "remove",
+        "side": "server",
+        "path": "/textures",
+        "file": "bonfires:blocktypes/cracked_ore-graded.json"
+    },
+    {
+         "file": "bonfires:blocktypes/cracked_ore-graded.json",
+        "op": "add",
+        "side": "server",
+        "path": "/texturesByType",
+        "value": {
+            "@.*-(andesite|basalt|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite)": {
+                "all": {
+                    "base": "game:block/stone/rock/{rock}1",
+                    "overlays": [
+                        "game:block/stone/ore/{type}1",
+                        "cracked1"
+                    ],
+                    "alternates": [
+                        {
+                            "base": "game:block/stone/rock/{rock}1",
+                            "overlays": [
+                                "game:block/stone/ore/{type}2",
+                                "cracked1"
+                            ]
+                        },
+                        {
+                            "base": "game:block/stone/rock/{rock}1",
+                            "overlays": [
+                                "game:block/stone/ore/{type}3",
+                                "cracked1"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "@.*-(graywacke|limestone_boulders_mossy_light|limestone_icy|limestone_mossy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan)": {
+                "all": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
+                    "overlays": [
+                        "conquestnaturepack:block/topography/ore/{type}1",
+                        "cracked1"
+                    ],
+                    "alternates": [
+                        {
+                            "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
+                            "overlays": [
+                                "conquestnaturepack:block/topography/ore/{type}2",
+                                "cracked1"
+                            ]
+                        },
+                        {
+                            "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
+                            "overlays": [
+                                "conquestnaturepack:block/topography/ore/{type}3",
+                                "cracked1"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "@.*-(andesite_columnar|basalt_columnar|basalt_columnar_light|granite_red|slate_warped_costal|dacite_columnar|rhyolite_columnar|schist_blue|schist_green|calcite_rough)": {
+                "all": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
+                    "overlays": [
+                        "conquestnaturepack:block/topography/ore/{type}1",
+                        "cracked1"
+                    ],
+                    "alternates": [
+                        {
+                            "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
+                            "overlays": [
+                                "conquestnaturepack:block/topography/ore/{type}2",
+                                "cracked1"
+                            ]
+                        },
+                        {
+                            "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
+                            "overlays": [
+                                "conquestnaturepack:block/topography/ore/{type}3",
+                                "cracked1"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "*": {
+                "all": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/1",
+                    "overlays": [
+                        "conquestnaturepack:block/topography/ore/{type}1",
+                        "cracked1"
+                    ],
+                    "alternates": [
+                        {
+                            "base": "conquestnaturepack:block/topography/rock/{rock}/1",
+                            "overlays": [
+                                "conquestnaturepack:block/topography/ore/{type}2",
+                                "cracked1"
+                            ]
+                        },
+                        {
+                            "base": "conquestnaturepack:block/topography/rock/{rock}/1",
+                            "overlays": [
+                                "conquestnaturepack:block/topography/ore/{type}3",
+                                "cracked1"
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "op": "replace",
+        "side": "server",
+        "path": "/allowedVariants",
+        "value": [
+            "@cracked_ore-(poor|medium|rich)-bismuthinite-andesite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-bismuthinite-basalt(.*)",
+            "@cracked_ore-(poor|medium)-bismuthinite-dacite(.*)",
+            "@cracked_ore-(poor|medium)-bismuthinite-rhyolite(.*)",
+            "@cracked_ore-(poor|medium)-bismuthinite-anorthosite(.*)",
+            "@cracked_ore-(poor|medium|rich)-bismuthinite-granite(.*)",
+            "@cracked_ore-(poor|medium|rich)-bismuthinite-peridotite(.*)",
+            "@cracked_ore-(poor|medium)-bismuthinite-gneiss(.*)",
+            "@cracked_ore-(poor|medium)-bismuthinite-phyllite(.*)",
+            "@cracked_ore-(poor|medium)-bismuthinite-slate(.*)",
+            "@cracked_ore-(poor|medium|rich)-cassiterite-andesite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-cassiterite-basalt(.*)",
+            "@cracked_ore-(poor|medium)-cassiterite-dacite(.*)",
+            "@cracked_ore-(poor|medium)-cassiterite-rhyolite(.*)",
+            "@cracked_ore-(poor|medium)-cassiterite-anorthosite(.*)",
+            "@cracked_ore-(poor|medium|rich)-cassiterite-granite(.*)",
+            "@cracked_ore-(poor|medium|rich)-cassiterite-peridotite(.*)",
+            "@cracked_ore-(poor|medium)-cassiterite-gneiss(.*)",
+            "@cracked_ore-(poor|medium)-cassiterite-phyllite(.*)",
+            "@cracked_ore-(poor|medium)-cassiterite-schist(.*)",
+            "@cracked_ore-(poor|medium)-cassiterite-slate(.*)",
+            "@cracked_ore-(poor|medium)-chromite-andesite(.*)",
+            "@cracked_ore-(poor|medium|rich)-chromite-basalt(.*)",
+            "@cracked_ore-(poor|medium)-chromite-dacite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-chromite-kimberlite(.*)",
+            "@cracked_ore-(poor|medium)-chromite-rhyolite(.*)",
+            "@cracked_ore-(poor|medium)-chromite-anorthosite(.*)",
+            "@cracked_ore-(poor|medium)-chromite-granite(.*)",
+            "@cracked_ore-(poor|medium|rich)-chromite-peridotite(.*)",
+            "@cracked_ore-(poor|medium|rich)-chromite-serpentinite(.*)",
+            "@cracked_ore-(poor|medium)-galena-chalk(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-galena-chert(.*)",
+            "@cracked_ore-(poor|medium|rich)-galena-claystone(.*)",
+            "@cracked_ore-(poor|medium)-galena-conglomerate(.*)",
+            "@cracked_ore-(poor|medium|rich)-galena-dolomite(.*)",
+            "@cracked_ore-(poor|medium)-galena-graywacke(.*)",
+            "@cracked_ore-(poor|medium)-galena-limestone(.*)",
+            "@cracked_ore-(poor|medium|rich)-galena-mudstone(.*)",
+            "@cracked_ore-(poor|medium|rich)-galena-sandstone(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-galena-shale(.*)",
+            "@cracked_ore-(poor|medium)-galena_nativesilver-chalk(.*)",
+            "@cracked_ore-(poor|medium)-galena_nativesilver-chert(.*)",
+            "@cracked_ore-(poor|medium)-galena_nativesilver-claystone(.*)",
+            "@cracked_ore-(poor|medium)-galena_nativesilver-conglomerate(.*)",
+            "@cracked_ore-(poor|medium)-galena_nativesilver-dolomite(.*)",
+            "@cracked_ore-(poor|medium)-galena_nativesilver-graywacke(.*)",
+            "@cracked_ore-(poor|medium)-galena_nativesilver-limestone(.*)",
+            "@cracked_ore-(poor|medium)-galena_nativesilver-mudstone(.*)",
+            "@cracked_ore-(poor|medium)-galena_nativesilver-sandstone(.*)",
+            "@cracked_ore-(poor|medium)-galena_nativesilver-shale(.*)",
+            "@cracked_ore-(poor|medium)-ilmenite-andesite(.*)",
+            "@cracked_ore-(poor|medium|rich)-ilmenite-basalt(.*)",
+            "@cracked_ore-(poor|medium)-ilmenite-dacite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-ilmenite-kimberlite(.*)",
+            "@cracked_ore-(poor|medium)-ilmenite-rhyolite(.*)",
+            "@cracked_ore-(poor|medium)-ilmenite-granite(.*)",
+            "@cracked_ore-(poor|medium)-ilmenite-peridotite(.*)",
+            "@cracked_ore-(poor|medium)-ilmenite-gneiss(.*)",
+            "@cracked_ore-(poor|medium|rich)-ilmenite-phyllite(.*)",
+            "@cracked_ore-(poor|medium)-ilmenite-schist(.*)",
+            "@cracked_ore-(poor|medium|rich)-ilmenite-slate(.*)",
+            "@cracked_ore-(poor|medium)-limonite-basalt(.*)",
+            "@cracked_ore-(poor|medium)-limonite-dacite(.*)",
+            "@cracked_ore-(poor|medium)-limonite-rhyolite(.*)",
+            "@cracked_ore-(poor|medium)-limonite-anorthosite(.*)",
+            "@cracked_ore-(poor|medium)-limonite-serpentinite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-limonite-chert(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-limonite-shale(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-hematite-rhyolite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-hematite-granite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-hematite-peridotite(.*)",
+            "@cracked_ore-(poor|medium)-hematite-gneiss(.*)",
+            "@cracked_ore-(poor|medium)-hematite-phyllite(.*)",
+            "@cracked_ore-(poor|medium|rich)-hematite-dolomite(.*)",
+            "@cracked_ore-(poor|medium)-hematite-graywacke(.*)",
+            "@cracked_ore-(poor|medium|rich)-hematite-limestone(.*)",
+            "@cracked_ore-(poor|medium|rich)-magnetite-andesite(.*)",
+            "@cracked_ore-(poor|medium|rich)-magnetite-dacite(.*)",
+            "@cracked_ore-(poor|medium)-magnetite-quartzite(.*)",
+            "@cracked_ore-(poor|medium)-magnetite-slate(.*)",
+            "@cracked_ore-(poor|medium)-magnetite-chalk(.*)",
+            "@cracked_ore-(poor|medium)-magnetite-claystone(.*)",
+            "@cracked_ore-(poor|medium)-magnetite-conglomerate(.*)",
+            "@cracked_ore-(poor|medium)-magnetite-mudstone(.*)",
+            "@cracked_ore-(poor|medium|rich)-malachite-greenmarble(.*)",
+            "@cracked_ore-(poor|medium|rich)-malachite-redmarble(.*)",
+            "@cracked_ore-(poor|medium|rich)-malachite-marble(.*)",
+            "@cracked_ore-(poor|medium|rich)-malachite-whitemarble(.*)",
+            "@cracked_ore-(poor)-malachite-calcite(.*)",
+            "@cracked_ore-(poor|medium|rich)-malachite-dolomite(.*)",
+            "@cracked_ore-(poor|medium)-malachite-graywacke(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-malachite-limestone(.*)",
+            "@cracked_ore-(poor|medium)-nativecopper-andesite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-nativecopper-basalt(.*)",
+            "@cracked_ore-(poor|medium|rich)-nativecopper-granite(.*)",
+            "@cracked_ore-(poor|medium)-nativecopper-peridotite(.*)",
+            "@cracked_ore-(poor|medium)-nativecopper-phyllite(.*)",
+            "@cracked_ore-(poor|medium|rich)-nativecopper-slate(.*)",
+            "@cracked_ore-(poor|medium)-nativecopper-chalk(.*)",
+            "@cracked_ore-(poor|medium)-nativecopper-chert(.*)",
+            "@cracked_ore-(poor|medium)-nativecopper-claystone(.*)",
+            "@cracked_ore-(poor|medium)-nativecopper-conglomerate(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-nativecopper-dolomite(.*)",
+            "@cracked_ore-(poor|medium|rich)-nativecopper-graywacke(.*)",
+            "@cracked_ore-(poor|medium)-nativecopper-mudstone(.*)",
+            "@cracked_ore-(poor|medium)-nativecopper-sandstone(.*)",
+            "@cracked_ore-(poor|medium)-nativecopper-shale(.*)",
+            "@cracked_ore-(poor|medium)-pentlandite-andesite(.*)",
+            "@cracked_ore-(poor|medium)-pentlandite-basalt(.*)",
+            "@cracked_ore-(poor|medium)-pentlandite-dacite(.*)",
+            "@cracked_ore-(poor|medium)-pentlandite-rhyolite(.*)",
+            "@cracked_ore-(poor|medium)-pentlandite-anorthosite(.*)",
+            "@cracked_ore-(poor|medium)-pentlandite-granite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-pentlandite-peridotite(.*)",
+            "@cracked_ore-(poor|medium)-pentlandite-gneiss(.*)",
+            "@cracked_ore-(poor|medium)-pentlandite-schist(.*)",
+            "@cracked_ore-(poor|medium|rich)-pentlandite-serpentinite(.*)",
+            "@cracked_ore-(poor|medium)-rhodochrosite-anorthosite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-rhodochrosite-phyllite(.*)",
+            "@cracked_ore-(poor|medium)-rhodochrosite-serpentinite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-rhodochrosite-slate(.*)",
+            "@cracked_ore-(poor|medium)-rhodochrosite-chalk(.*)",
+            "@cracked_ore-(poor|medium)-rhodochrosite-chert(.*)",
+            "@cracked_ore-(poor|medium|rich)-rhodochrosite-claystone(.*)",
+            "@cracked_ore-(poor|medium|rich)-rhodochrosite-conglomerate(.*)",
+            "@cracked_ore-(poor|medium)-rhodochrosite-limestone(.*)",
+            "@cracked_ore-(poor|medium|rich)-rhodochrosite-mudstone(.*)",
+            "@cracked_ore-(poor|medium|rich)-rhodochrosite-sandstone(.*)",
+            "@cracked_ore-(poor|medium|rich)-rhodochrosite-shale(.*)",
+            "@cracked_ore-(poor|medium)-sphalerite-andesite(.*)",
+            "@cracked_ore-(poor|medium)-sphalerite-basalt(.*)",
+            "@cracked_ore-(poor|medium)-sphalerite-dacite(.*)",
+            "@cracked_ore-(poor|medium)-sphalerite-rhyolite(.*)",
+            "@cracked_ore-(poor|medium)-sphalerite-anorthosite(.*)",
+            "@cracked_ore-(poor|medium)-sphalerite-granite(.*)",
+            "@cracked_ore-(poor|medium)-sphalerite-peridotite(.*)",
+            "@cracked_ore-(poor|medium)-sphalerite-gneiss(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-sphalerite-phyllite(.*)",
+            "@cracked_ore-(poor|medium)-sphalerite-serpentinite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-sphalerite-slate(.*)",
+            "@cracked_ore-(poor|medium|rich)-sphalerite-chalk(.*)",
+            "@cracked_ore-(poor|medium|rich)-sphalerite-chert(.*)",
+            "@cracked_ore-(poor|medium|rich)-sphalerite-claystone(.*)",
+            "@cracked_ore-(poor|medium|rich)-sphalerite-conglomerate(.*)",
+            "@cracked_ore-(poor|medium|rich)-sphalerite-dolomite(.*)",
+            "@cracked_ore-(poor|medium|rich)-sphalerite-limestone(.*)",
+            "@cracked_ore-(poor|medium|rich)-sphalerite-mudstone(.*)",
+            "@cracked_ore-(poor|medium|rich)-sphalerite-sandstone(.*)",
+            "@cracked_ore-(poor|medium|rich)-sphalerite-shale(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativesilver-andesite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativesilver-basalt(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativesilver-dacite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativesilver-rhyolite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativesilver-granite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativesilver-peridotite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativesilver-phyllite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativesilver-quartzite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativesilver-slate(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativesilver-chalk(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativesilver-chert(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativesilver-claystone(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativesilver-conglomerate(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativesilver-graywacke(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativesilver-limestone(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativesilver-mudstone(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativesilver-sandstone(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativesilver-shale(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativegold-andesite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativegold-basalt(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativegold-dacite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativegold-rhyolite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativegold-granite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativegold-peridotite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativegold-phyllite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativegold-quartzite(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativegold-slate(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativegold-chalk(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativegold-chert(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativegold-claystone(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativegold-conglomerate(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativegold-graywacke(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativegold-limestone(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativegold-mudstone(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativegold-sandstone(.*)",
+            "@cracked_ore-(poor|medium|rich|bountiful)-quartz_nativegold-shale(.*)",
+            "cracked_ore-poor-stibnite-andesite",
+            "cracked_ore-medium-stibnite-andesite",
+            "cracked_ore-poor-stibnite-granite",
+            "cracked_ore-medium-stibnite-granite",
+            "cracked_ore-rich-stibnite-granite",
+            "cracked_ore-poor-stibnite-basalt",
+            "cracked_ore-medium-stibnite-basalt",
+            "cracked_ore-rich-stibnite-basalt",
+            "cracked_ore-bountiful-stibnite-basalt",
+            "cracked_ore-poor-uranium-andesite",
+            "cracked_ore-medium-uranium-andesite",
+            "cracked_ore-rich-uranium-andesite",
+            "cracked_ore-poor-uranium-granite",
+            "cracked_ore-medium-uranium-granite",
+            "cracked_ore-rich-uranium-granite",
+            "cracked_ore-poor-uranium-basalt",
+            "cracked_ore-medium-uranium-basalt",
+            "cracked_ore-poor-uranium-peridotite",
+            "cracked_ore-medium-uranium-peridotite",
+            "cracked_ore-poor-uranium-kimberlite",
+            "cracked_ore-medium-uranium-kimberlite",
+            "cracked_ore-rich-uranium-kimberlite",
+            "cracked_ore-bountiful-uranium-kimberlite",
+            "cracked_ore-poor-uranium-claystone",
+            "cracked_ore-medium-uranium-claystone",
+            "cracked_ore-poor-uranium-sandstone",
+            "cracked_ore-medium-uranium-sandstone",
+            "cracked_ore-poor-uranium-shale",
+            "cracked_ore-medium-uranium-shale",
+            "cracked_ore-poor-uranium-chalk",
+            "cracked_ore-medium-uranium-chalk",
+            "cracked_ore-rich-uranium-chalk",
+            "cracked_ore-poor-uranium-limestone",
+            "cracked_ore-medium-uranium-limestone",
+            "cracked_ore-rich-uranium-limestone",
+            "cracked_ore-poor-uranium-chert",
+            "cracked_ore-medium-uranium-chert",
+            "cracked_ore-rich-uranium-chert",
+            "cracked_ore-poor-uranium-conglomerate",
+            "cracked_ore-medium-uranium-conglomerate",
+            "cracked_ore-poor-uranium-phyllite",
+            "cracked_ore-medium-uranium-phyllite",
+            "cracked_ore-rich-uranium-phyllite",
+            "cracked_ore-bountiful-uranium-phyllite",
+            "cracked_ore-poor-uranium-slate",
+            "cracked_ore-medium-uranium-slate",
+            "cracked_ore-rich-uranium-slate",
+            "cracked_ore-bountiful-uranium-slate"
+        ],
+        "file": "bonfires:blocktypes/cracked_ore-graded.json"
+    }
+]
