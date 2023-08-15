@@ -1,0 +1,481 @@
+{
+    "code": "rock_vertical_corner",
+    "behaviors": [
+        {
+            "name": "HorizontalOrientable"
+        },
+        {
+            "name": "WrenchOrientable",
+            "properties": { "baseCode": "rock_vertical_corner-{rock}-*-{side}-{cover}" }
+        }
+    ],
+    "attributes": {
+        "handbook": {
+            "groupBy": [ "rock_vertical_corner-*-l8-south-free" ]
+        }
+    },
+    "variantgroups": [
+        {
+            "code": "rock",
+            "loadFromProperties": "block/rockwithdeposit"
+        },
+        {
+            "code": "layer",
+            "states": [ "l2", "l4", "l6", "l8", "l1" ]
+        },
+        {
+            "code": "side",
+            "loadFromProperties": "abstract/horizontalorientation"
+        },
+        {
+            "code": "cover",
+            "states": [ "free", "snow" ]
+        }
+    ],
+    "creativeinventory": {
+        "general": [ "*-l8-south-free" ]
+    },
+    "shapeByType": {
+        "*-l1-*-free": {
+            "base": "game:block/basic/cube"
+        },
+        "*-l2-north-free": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_6",
+            "rotateY": 180
+        },
+        "*-l2-south-free": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_6",
+            "rotateY": 0
+        },
+        "*-l2-east-free": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_6",
+            "rotateY": 90
+        },
+        "*-l2-west-free": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_6",
+            "rotateY": 270
+        },
+        "*-l4-north-free": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_4",
+            "rotateY": 180
+        },
+        "*-l4-south-free": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_4",
+            "rotateY": 0
+        },
+        "*-l4-east-free": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_4",
+            "rotateY": 90
+        },
+        "*-l4-west-free": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_4",
+            "rotateY": 270
+        },
+        "*-l6-north-free": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_2",
+            "rotateY": 180
+        },
+        "*-l6-south-free": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_2",
+            "rotateY": 0
+        },
+        "*-l6-east-free": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_2",
+            "rotateY": 90
+        },
+        "*-l6-west-free": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_2",
+            "rotateY": 270
+        },
+        "*-l8-north-free": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_1",
+            "rotateY": 180
+
+        },
+        "*-l8-south-free": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_1",
+            "rotateY": 0
+
+        },
+        "*-l8-east-free": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_1",
+            "rotateY": 90
+
+        },
+        "*-l8-west-free": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_1",
+            "rotateY": 270
+
+        },
+        "*-l1-*-snow": {
+            "base": "game:block/basic/cube"
+        },
+        "*-l2-north-snow": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_6_snow",
+            "rotateY": 180
+        },
+        "*-l2-south-snow": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_6_snow",
+            "rotateY": 0
+        },
+        "*-l2-east-snow": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_6_snow",
+            "rotateY": 90
+        },
+        "*-l2-west-snow": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_6_snow",
+            "rotateY": 270
+        },
+        "*-l4-north-snow": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_4_snow",
+            "rotateY": 180
+        },
+        "*-l4-south-snow": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_4_snow",
+            "rotateY": 0
+        },
+        "*-l4-east-snow": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_4_snow",
+            "rotateY": 90
+        },
+        "*-l4-west-snow": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_4_snow",
+            "rotateY": 270
+        },
+        "*-l6-north-snow": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_2_snow",
+            "rotateY": 180
+        },
+        "*-l6-south-snow": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_2_snow",
+            "rotateY": 0
+        },
+        "*-l6-east-snow": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_2_snow",
+            "rotateY": 90
+        },
+        "*-l6-west-snow": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_2_snow",
+            "rotateY": 270
+        },
+        "*-l8-north-snow": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_1_snow",
+            "rotateY": 180
+
+        },
+        "*-l8-south-snow": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_1_snow",
+            "rotateY": 0
+
+        },
+        "*-l8-east-snow": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_1_snow",
+            "rotateY": 90
+
+        },
+        "*-l8-west-snow": {
+            "base": "conquestnaturepack:block/vertical_corner/vertical_corner_1_snow",
+            "rotateY": 270
+
+        }
+    },
+    "blockmaterial": "Stone",
+    "replaceable": 90,
+    "requiredMiningTierByType": {
+        "*-chalk-*": 1,
+        "*-chalk_layered-*": 1,
+        "*-halite-*": 1,
+        "*-salt_flats_*-*": 1,
+        "*-sandstone-*": 1,
+        "*-sandstone_*-*": 1,
+        "*": 2
+    },
+    "resistanceByType": {
+        "*-andesite-*": 6.5,
+        "*-andesite_columnar-*": 7,
+        "*-andesite_porous-*": 6.5,
+        "*-andesite_weathered-*": 6.5,
+        "*-basalt-*": 6.5,
+        "*-basalt_columnar-*": 7,
+        "*-basalt_columnar_light-*": 7,
+        "*-basalt_porous-*": 6.5,
+        "*-basalt_smooth-*": 6.5,
+        "*-basalt_weathered-*": 6.5,
+        "*-blackstone-*": 7,
+        "*-dacite-*": 6.5,
+        "*-dacite_columnar-*": 7,
+        "*-dacite_porous-*": 6.5,
+        "*-dacite_weathered-*": 6.5,
+        "*-obsidian-*": 7,
+        "*-obsidian_crying-*": 7,
+        "*-obsidian_light-*": 7,
+        "*-obsidian_smooth-*": 7,
+        "*-rhyolite-*": 6.5,
+        "*-rhyolite_columnar-*": 7,
+        "*-rhyolite_porous-*": 6.5,
+        "*-rhyolite_weathered-*": 6.5,
+        "*-granite-*": 6.5,
+        "*-granite_red-*": 6.5,
+        "*-granite_smooth-*": 6.5,
+        "*-granite_smooth_red-*": 6.5,
+        "*-granite_snowy-*": 6.5,
+        "*-peridotite-*": 6.5,
+        "*-quartzite_gray-*": 6.5,
+        "*-quartzite_pink-*": 6.5,
+        "*-quartzite_yellow-*": 6.5,
+        "*-chalk-*": 4,
+        "*-chalk_layered-*": 4,
+        "*-chert-*": 6.5,
+        "*-halite-*": 5,
+        "*-mudstone": 5,
+        "*-mudstone_brown-*": 5,
+        "*-mudstone_light-*": 5,
+        "*-mudstone_lightbrown-*": 5,
+        "*-mudstone_orange-*": 5,
+        "*-mudstone_red-*": 5,
+        "*-mudstone_umbre-*": 5,
+        "*-mudstone_yellow-*": 5,
+        "*-salt_flats_blue-*": 5,
+        "*-salt_flats_brown-*": 5,
+        "*-salt_flats_pink-*": 5,
+        "*-salt_flats_white-*": 5,
+        "*-sandstone-*": 4,
+        "*-sandstone_brown-*": 4,
+        "*-sandstone_costal_red-*": 4,
+        "*-sandstone_mossy_red-*": 4,
+        "*-sandstone_orange-*": 4,
+        "*-sandstone_red-*": 4,
+        "*-sandstone_tan-*": 4,
+        "*-sandstone_warped-*": 4,
+        "*": 6
+    },
+    "fertility": 0,
+    "texturesBytype": {
+        "@.*-(|andesite_columnar|basalt_columnar|basalt_columnar_light|calcite_rough|dacite_columnar|rhyolite_columnar|granite_red|schist_blue|schist_green|slate_warped_costal|calcite_rough|dripstone|dripstone_dark|graywacke|limestone_boulders_mossy_light|limestone_mossy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan)-.*": {
+            "sides": { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" },
+            "up": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" },
+            "down": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
+
+        },
+        "@.*-(andesite|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale)-.*": {
+            "sides": { "base": "game:block/stone/rock/{rock}*" },
+            "up": { "base": "game:block/stone/rock/top/{rock}*" },
+            "down": { "base": "game:block/stone/rock/top/{rock}*" }
+
+        },
+        "@.*-(basalt|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite)-.*": {
+            "sides": { "base": "game:block/stone/rock/{rock}*" }
+
+        },
+        "*": {
+            "sides": { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
+        }
+    },
+    "sounds": {
+        "walk": "walk/stone",
+        "byTool": {
+            "Pickaxe": {
+                "hit": "block/rock-hit-pickaxe",
+                "break": "block/rock-break-pickaxe"
+            }
+        }
+    },
+    "sidesolid": { "all": false },
+    "sideopaque": { "all": false },
+    "lightAbsorption": 0,
+    "heldTpIdleAnimation": "holdbothhandslarge",
+    "heldTpUseAnimation": "twohandplaceblock",
+    "tpHandTransform": {
+        "translation": {
+            "x": -1.23,
+            "y": -0.91,
+            "z": -0.8
+        },
+        "rotation": {
+            "x": 22,
+            "y": -121,
+            "z": -16
+        },
+        "origin": {
+            "x": 0.38,
+            "y": 0.45,
+            "z": 0.65
+        },
+        "scale": 0.42
+    },
+    "fpHandTransform": {
+        "rotation": {
+            "x": 109,
+            "y": -59,
+            "z": 20
+        },
+        "origin": {
+            "x": -0.2,
+            "y": 0.8,
+            "z": 0.7
+        }
+    },
+    "guiTransform": {
+        "rotation": {
+            "x": -33,
+            "y": 56,
+            "z": -2
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.28,
+            "z": 0.93
+        },
+        "scale": 1.02
+    },
+    "selectionBoxes": [
+        {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0.5,
+            "x2": 1,
+            "y2": 1,
+            "z2": 1
+        },
+        {
+            "x1": 0.5,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 1,
+            "z2": 1
+        }
+    ],
+    "collisionselectionboxesbytype": {
+        "*-l8-*": [
+            {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0.875,
+                "x2": 1,
+                "y2": 1,
+                "z2": 1,
+                "rotateYByType": {
+                    "*-north-*": 180,
+                    "*-east-*": 90,
+                    "*-south-*": 0,
+                    "*-west-*": 270
+                }
+            },
+            {
+                "x1": 0.875,
+                "y1": 0,
+                "z1": 0,
+                "x2": 1,
+                "y2": 1,
+                "z2": 1,
+                "rotateYByType": {
+                    "*-north-*": 180,
+                    "*-east-*": 90,
+                    "*-south-*": 0,
+                    "*-west-*": 270
+                }
+            }
+        ],
+        "*-l6-*": [
+            {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0.75,
+                "x2": 1,
+                "y2": 1,
+                "z2": 1,
+                "rotateYByType": {
+                    "*-north-*": 180,
+                    "*-east-*": 90,
+                    "*-south-*": 0,
+                    "*-west-*": 270
+                }
+            },
+            {
+                "x1": 0.75,
+                "y1": 0,
+                "z1": 0,
+                "x2": 1,
+                "y2": 1,
+                "z2": 1,
+                "rotateYByType": {
+                    "*-north-*": 180,
+                    "*-east-*": 90,
+                    "*-south-*": 0,
+                    "*-west-*": 270
+                }
+            }
+        ],
+        "*-l4-*": [
+            {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0.5,
+                "x2": 1,
+                "y2": 1,
+                "z2": 1,
+                "rotateYByType": {
+                    "*-north-*": 180,
+                    "*-east-*": 90,
+                    "*-south-*": 0,
+                    "*-west-*": 270
+                }
+            },
+            {
+                "x1": 0.5,
+                "y1": 0,
+                "z1": 0,
+                "x2": 1,
+                "y2": 1,
+                "z2": 1,
+                "rotateYByType": {
+                    "*-north-*": 180,
+                    "*-east-*": 90,
+                    "*-south-*": 0,
+                    "*-west-*": 270
+                }
+            }
+        ],
+        "*-l2-*": [
+            {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0.25,
+                "x2": 1,
+                "y2": 1,
+                "z2": 1,
+                "rotateYByType": {
+                    "*-north-*": 180,
+                    "*-east-*": 90,
+                    "*-south-*": 0,
+                    "*-west-*": 270
+                }
+            },
+            {
+                "x1": 0.25,
+                "y1": 0,
+                "z1": 0,
+                "x2": 1,
+                "y2": 1,
+                "z2": 1,
+                "rotateYByType": {
+                    "*-north-*": 180,
+                    "*-east-*": 90,
+                    "*-south-*": 0,
+                    "*-west-*": 270
+                }
+            }
+        ],
+        "*-l1-*": [
+            {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0,
+                "x2": 1,
+                "y2": 1,
+                "z2": 1
+            }
+        ]
+    }
+}

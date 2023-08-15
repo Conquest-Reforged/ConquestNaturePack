@@ -1,0 +1,65 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"snow": "game:block/liquid/snow/normal1"
+	},
+	"elements": [
+		{
+			"name": "cube0",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 16.0, 4.0, 16.0 ],
+			"faces": {
+				"north": { "texture": "#north", "uv": [ 0.0, 12.0, 16.0, 16.0 ], "autoUv": false },
+				"east": { "texture": "#east", "uv": [ 0.0, 12.0, 16.0, 16.0 ], "autoUv": false },
+				"south": { "texture": "#south", "uv": [ 0.0, 12.0, 16.0, 16.0 ], "autoUv": false },
+				"west": { "texture": "#west", "uv": [ 0.0, 12.0, 16.0, 16.0 ], "autoUv": false },
+				"up": { "texture": "#up", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+				"down": { "texture": "#down", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "snow",
+			"from": [ 0.0, 4.0, 0.0 ],
+			"to": [ 16.0, 6.0, 16.0 ],
+			"rotationOrigin": [ 0.0, 4.0, 0.0 ],
+			"faces": {
+				"north": {
+					"texture": "#snow",
+					"uv": [ 0.0, 12.0, 16.0, 16.0 ],
+					"autoUv": false
+				},
+				"east": {
+					"texture": "#snow",
+					"uv": [ 0.0, 12.0, 16.0, 16.0 ],
+					"autoUv": false
+				},
+				"south": {
+					"texture": "#snow",
+					"uv": [ 0.0, 12.0, 16.0, 16.0 ],
+					"autoUv": false
+				},
+				"west": {
+					"texture": "#snow",
+					"uv": [ 0.0, 12.0, 16.0, 16.0 ],
+					"autoUv": false
+				},
+				"up": {
+					"texture": "#snow",
+					"uv": [ 0.0, 0.0, 16.0, 16.0 ],
+					"autoUv": false
+				},
+				"down": {
+					"texture": "#snow",
+					"uv": [ 0.0, 0.0, 16.0, 16.0 ],
+					"autoUv": false
+				}
+			}
+		}
+	]}

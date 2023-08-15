@@ -1,0 +1,326 @@
+{
+    "code": "rock_corner_slab",
+    "class": "BlockStairs",
+    "behaviors": [
+        {
+            "name": "WrenchOrientable",
+            "properties": { "baseCode": "rock_corner_slab-{rock}-*" }
+        }
+
+    ],
+
+    "variantgroups": [
+        {
+            "code": "rock",
+            "loadFromProperties": "block/rockwithdeposit"
+        },
+        { "loadFromProperties": "abstract/verticalorientation" },
+        { "loadFromProperties": "abstract/horizontalorientation" },
+        {
+            "code": "cover",
+            "states": [ "free", "snow" ]
+        }
+    ],
+
+    "attributes": {
+        "handbook": {
+            "groupBy": [ "rock_corner_slab-*-down-north-free" ]
+        }
+    },
+    "creativeinventory": {
+        "general": [ "*-up-north-free" ]
+    },
+    "shapeByType": {
+        "*-up-north-free": {
+            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom",
+            "rotateY": 0
+        },
+        "*-up-south-free": {
+            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom",
+            "rotateY": 180
+        },
+        "*-up-west-free": {
+            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom",
+            "rotateY": 90
+        },
+        "*-up-east-free": {
+            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom",
+            "rotateY": 270
+        },
+        "*-down-north-free": {
+            "base": "conquestnaturepack:block/corner_slab/corner_slab_top",
+            "rotateY": 270
+
+        },
+        "*-down-south-free": {
+            "base": "conquestnaturepack:block/corner_slab/corner_slab_top",
+            "rotateY": 90
+
+        },
+        "*-down-west-free": {
+            "base": "conquestnaturepack:block/corner_slab/corner_slab_top",
+            "rotateY": 0
+
+        },
+        "*-down-east-free": {
+            "base": "conquestnaturepack:block/corner_slab/corner_slab_top",
+            "rotateY": 180
+
+        },
+        "*-up-north-snow": {
+            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom_snow",
+            "rotateY": 0
+        },
+        "*-up-south-snow": {
+            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom_snow",
+            "rotateY": 180
+        },
+        "*-up-west-snow": {
+            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom_snow",
+            "rotateY": 90
+        },
+        "*-up-east-snow": {
+            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom_snow",
+            "rotateY": 270
+        },
+        "*-down-north-snow": {
+            "base": "conquestnaturepack:block/corner_slab/corner_slab_top_snow",
+            "rotateY": 270
+
+        },
+        "*-down-south-snow": {
+            "base": "conquestnaturepack:block/corner_slab/corner_slab_top_snow",
+            "rotateY": 90
+
+        },
+        "*-down-west-snow": {
+            "base": "conquestnaturepack:block/corner_slab/corner_slab_top_snow",
+            "rotateY": 0
+
+        },
+        "*-down-east-snow": {
+            "base": "conquestnaturepack:block/corner_slab/corner_slab_top_snow",
+            "rotateY": 180
+
+        }
+
+    },
+    "blockmaterial": "Stone",
+    "texturesBytype": {
+        "@.*-(|andesite_columnar|basalt_columnar|basalt_columnar_light|calcite_rough|dacite_columnar|rhyolite_columnar|granite_red|schist_blue|schist_green|slate_warped_costal|calcite_rough|dripstone|dripstone_dark|graywacke|limestone_boulders_mossy_light|limestone_mossy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan)-.*": {
+            "sides": { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" },
+            "up": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" },
+            "down": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
+
+        },
+        "@.*-(andesite|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale)-.*": {
+            "sides": { "base": "game:block/stone/rock/{rock}*" },
+            "up": { "base": "game:block/stone/rock/top/{rock}*" },
+            "down": { "base": "game:block/stone/rock/top/{rock}*" }
+
+        },
+        "@.*-(basalt|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite)-.*": {
+            "sides": { "base": "game:block/stone/rock/{rock}*" }
+
+        },
+        "*": {
+            "sides": { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
+        }
+    },
+    "requiredMiningTierByType": {
+        "*-chalk-*": 1,
+        "*-chalk_layered-*": 1,
+        "*-halite-*": 1,
+        "*-salt_flats_*-*": 1,
+        "*-sandstone-*": 1,
+        "*-sandstone_*-*": 1,
+        "*": 2
+    },
+    "resistanceByType": {
+        "*-andesite-*": 6.5,
+        "*-andesite_columnar-*": 7,
+        "*-andesite_porous-*": 6.5,
+        "*-andesite_weathered-*": 6.5,
+        "*-basalt-*": 6.5,
+        "*-basalt_columnar-*": 7,
+        "*-basalt_columnar_light-*": 7,
+        "*-basalt_porous-*": 6.5,
+        "*-basalt_smooth-*": 6.5,
+        "*-basalt_weathered-*": 6.5,
+        "*-blackstone-*": 7,
+        "*-dacite-*": 6.5,
+        "*-dacite_columnar-*": 7,
+        "*-dacite_porous-*": 6.5,
+        "*-dacite_weathered-*": 6.5,
+        "*-obsidian-*": 7,
+        "*-obsidian_crying-*": 7,
+        "*-obsidian_light-*": 7,
+        "*-obsidian_smooth-*": 7,
+        "*-rhyolite-*": 6.5,
+        "*-rhyolite_columnar-*": 7,
+        "*-rhyolite_porous-*": 6.5,
+        "*-rhyolite_weathered-*": 6.5,
+        "*-granite-*": 6.5,
+        "*-granite_red-*": 6.5,
+        "*-granite_smooth-*": 6.5,
+        "*-granite_smooth_red-*": 6.5,
+        "*-granite_snowy-*": 6.5,
+        "*-peridotite-*": 6.5,
+        "*-quartzite_gray-*": 6.5,
+        "*-quartzite_pink-*": 6.5,
+        "*-quartzite_yellow-*": 6.5,
+        "*-chalk-*": 4,
+        "*-chalk_layered-*": 4,
+        "*-chert-*": 6.5,
+        "*-halite-*": 5,
+        "*-mudstone": 5,
+        "*-mudstone_brown-*": 5,
+        "*-mudstone_light-*": 5,
+        "*-mudstone_lightbrown-*": 5,
+        "*-mudstone_orange-*": 5,
+        "*-mudstone_red-*": 5,
+        "*-mudstone_umbre-*": 5,
+        "*-mudstone_yellow-*": 5,
+        "*-salt_flats_blue-*": 5,
+        "*-salt_flats_brown-*": 5,
+        "*-salt_flats_pink-*": 5,
+        "*-salt_flats_white-*": 5,
+        "*-sandstone-*": 4,
+        "*-sandstone_brown-*": 4,
+        "*-sandstone_costal_red-*": 4,
+        "*-sandstone_mossy_red-*": 4,
+        "*-sandstone_orange-*": 4,
+        "*-sandstone_red-*": 4,
+        "*-sandstone_tan-*": 4,
+        "*-sandstone_warped-*": 4,
+        "*": 6
+    },
+    "replaceable": 90,
+    "fertility": 0,
+    "resistance": 2,
+    "sidesolid": { "all": false },
+    "sideopaque": { "all": false },
+    "lightAbsorption": 0,
+    "sounds": {
+        "walk": "walk/stone",
+        "byTool": {
+            "Pickaxe": {
+                "hit": "block/rock-hit-pickaxe",
+                "break": "block/rock-break-pickaxe"
+            }
+        }
+    },
+    "heldTpIdleAnimation": "holdbothhandslarge",
+    "heldTpUseAnimation": "twohandplaceblock",
+    "tpHandTransform": {
+        "translation": {
+            "x": -1.2,
+            "y": -0.91,
+            "z": -0.8
+        },
+        "rotation": {
+            "x": 4,
+            "y": 78,
+            "z": -85
+        },
+        "origin": {
+            "x": 0.33,
+            "y": 0.55,
+            "z": 0.68
+        },
+        "scale": 0.49
+    },
+    "fpHandTransform": {
+        "translation": {
+            "x": 0,
+            "y": -0.15,
+            "z": 0.8
+        },
+        "rotation": {
+            "x": -99,
+            "y": -20,
+            "z": 81
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.6,
+            "z": 0.3
+        },
+        "scale": 1.26
+    },
+    "guiTransform": {
+        "rotation": {
+            "x": -22.6,
+            "y": -45.3,
+            "z": -4
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.45,
+            "z": 0.5
+        }
+    },
+
+    "collisionSelectionBoxesByType": {
+        "*-up-*": [
+            {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0,
+                "x2": 0.5,
+                "y2": 0.5,
+                "z2": 1,
+                "rotateYByType": {
+                    "*-north-*": 0,
+                    "*-east-*": 270,
+                    "*-south-*": 180,
+                    "*-west-*": 90
+                }
+            },
+            {
+                "x1": 0.5,
+                "y1": 0,
+                "z1": 0,
+                "x2": 1,
+                "y2": 0.5,
+                "z2": 0.5,
+                "rotateYByType": {
+                    "*-north-*": 0,
+                    "*-east-*": 270,
+                    "*-south-*": 180,
+                    "*-west-*": 90
+                }
+            }
+        ],
+        "*-down-*": [
+            {
+                "x1": 0,
+                "y1": 0.5,
+                "z1": 0,
+                "x2": 1,
+                "y2": 1,
+                "z2": 0.5,
+                "rotateYByType": {
+                    "*-north-*": 0,
+                    "*-east-*": 270,
+                    "*-south-*": 180,
+                    "*-west-*": 90
+                }
+            },
+            {
+                "x1": 0,
+                "y1": 0.5,
+                "z1": 0.5,
+                "x2": 0.5,
+                "y2": 1,
+                "z2": 1,
+                "rotateYByType": {
+                    "*-north-*": 0,
+                    "*-east-*": 270,
+                    "*-south-*": 180,
+                    "*-west-*": 90
+                }
+            }
+        ]
+    }
+}
