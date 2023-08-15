@@ -264,7 +264,7 @@
             "rotateY": 270
         },
         "*-l6-*-north-snow": {
-            "base": "conquestnaturepackblock/block_layers_vertical/block_layers_vertical_6_snow",
+            "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_6_snow",
             "rotateY": 180
 
         },
