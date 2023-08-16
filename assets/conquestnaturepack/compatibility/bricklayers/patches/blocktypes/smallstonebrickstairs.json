@@ -1,0 +1,219 @@
+[
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-dacite-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-rhyolite-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-tuff-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-anorthosite_rough-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-granite_red-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-gneiss-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-quartzite_gray-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-quartzite_pink-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-quartzite_yellow-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-schist_blue-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-schist_green-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-serpentinite-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-dolomite-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-graywacke-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-limestone_boulders_light-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-limestone_light-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-limestone_pink-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-limestone_tan-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-mudstone-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-mudstone_brown-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-mudstone_light-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-mudstone_lightbrown-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-mudstone_orange-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-mudstone_red-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-mudstone_umbre-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-mudstone_yellow-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-sandstone_brown-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-sandstone_orange-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-sandstone_red-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-sandstone_tan-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "*-sandstone_warped-*",
+    "file": "bricklayers:blocktypes/stone/stonebrick/smallstonebrickstairs.json",
+    "side": "Server"
+  }
+]
