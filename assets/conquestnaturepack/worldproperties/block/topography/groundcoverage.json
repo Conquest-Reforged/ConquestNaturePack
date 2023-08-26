@@ -2,50 +2,68 @@
 	"__comment": "List of ground coverage variants.",
 	"code": "groundcoverage",
 	"variants": [
-		{
-			"Code": "autumnalforestfloorwithroots"
+	    {
+			"Code": "forest_floor_autumnal"
 		},
 		{
-			"Code": "brownsphagnummoss"
+			"Code": "forest_floor_autumnal_muddy"
 		},
 		{
-			"Code": "firforestfloor"
+			"Code": "forest_floor_autumnal_roots"
 		},
 		{
-			"Code": "greensphagnummoss"
+			"Code": "forest_floor_autumnal_vibrant"
 		},
 		{
-			"Code": "lightgreensphagnummoss"
+			"Code": "forest_floor_fir"
 		},
 		{
-			"Code": "lorienforestfloor"
+			"Code": "forest_floor_lorien"
 		},
 		{
-			"Code": "mossylorienforestfloor"
+			"Code": "forest_floor_lorien_mossy"
+		},
+		{
+			"Code": "forest_floor_mossy_roots"
+		},
+		{
+			"Code": "forest_floor_taiga"
+		},
+		{
+			"Code": "grass_clover"
 		},
 	    {
-			"Code": "muddyautumnalforestfloor"
+			"Code": "grass_taiga"
 		},
 		{
-			"Code": "redsphagnummoss"
+			"Code": "leaves_shredded"
 		},
 		{
-			"Code": "shreddedleaves"
+			"Code": "moss_thick"
 		},
 		{
-			"Code": "taigaforestfloor"
+			"Code": "mycelium"
 		},
 		{
-			"Code": "taigagrass"
+			"Code": "nylium_crimson"
 		},
 		{
-			"Code": "thickmoss"
+			"Code": "nylium_warped"
+		},
+		{
+			"Code": "sphagnum_moss_brown"
+		},
+		{
+			"Code": "sphagnum_moss_green"
+		},
+		{
+			"Code": "sphagnum_moss_green_light"
 		},
 	    {
-			"Code": "vibrantautumnalforestfloor"
+			"Code": "sphagnum_moss_red"
 		},
 		{
-			"Code": "yellowsphagnummoss"
+			"Code": "sphagnum_moss_yellow"
 		}
 	]
 }

@@ -3,19 +3,19 @@
 	"code": "debris",
 	"variants": [
 		{
-			"Code": "ancientdebris"
+			"Code": "debris_ancient"
 		},
 	    {
-			"Code": "mossysandstonedebris"
+			"Code": "debris_sandstone"
 		},
 		{
-			"Code": "mossyschistdebris"
+			"Code": "debris_sandstone_mossy"
 		},
 		{
-			"Code": "sandstonedebris"
+			"Code": "debris_schist"
 		},
 		{
-			"Code": "schistdebris"
+			"Code": "debris_schist_mossy"
 		}
 	]
 }

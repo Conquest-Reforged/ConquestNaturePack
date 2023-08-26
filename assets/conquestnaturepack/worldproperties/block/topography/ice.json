@@ -3,16 +3,19 @@
 	"code": "ice",
 	"variants": [
 	    {
-			"Code": "blueice"
-		},
-		{
-			"Code": "brightglacierice"
-		},
-		{
 			"Code": "cloud"
 		},
 		{
-			"Code": "icebricks"
+			"Code": "ice_blue"
+		},
+		{
+			"Code": "ice_glacier"
+		},
+		{
+			"Code": "ice_glacier_bright"
+		},
+		{
+			"Code": "ice_glacier_snowy_bright"
 		},
 		{
 			"Code": "snow"

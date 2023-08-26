@@ -3,19 +3,19 @@
 	"code": "crystal",
 	"variants": [
 		{
-			"Code": "warpedbluecalcitecrystal"
+			"Code": "calcite_crystal_warped_blue"
 		},
 	    {
-			"Code": "warpedgreencalcitecrystal"
+			"Code": "calcite_crystal_warped_green"
 		},
 		{
-			"Code": "warpedlightgreencalcitecrystal"
+			"Code": "calcite_crystal_warped_green_light"
 		},
 		{
-			"Code": "warpedpurplecalcitecrystal"
+			"Code": "calcite_crystal_warped_purple"
 		},
 		{
-			"Code": "warpedredcalcitecrystal"
+			"Code": "calcite_crystal_warped_red"
 		}
 	]
 }

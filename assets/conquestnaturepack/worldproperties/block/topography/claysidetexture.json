@@ -1,9 +1,0 @@
-{
-	"__comment": "List of clay variants with side/top textures.",
-	"code": "claysidetexture",
-	"variants": [
-	    {
-			"Code": "redclay"
-		}
-	]
-}

@@ -3,7 +3,10 @@
 	"code": "clay",
 	"variants": [
 		{
-			"Code": "grayclay"
+			"Code": "clay_gray"
+		},
+	    {
+			"Code": "clay_red"
 		}
 	]
 }

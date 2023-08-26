@@ -3,67 +3,64 @@
 	"code": "sand",
 	"variants": [
 		{
-			"Code": "dryriversand"
-		},
-		{
-			"Code": "graysand"
-		},
-		{
-			"Code": "limesand"
-		},
-		{
-			"Code": "pinksand"
-		},
-		{
-			"Code": "purplesand"
-		},
-		{
-			"Code": "redsand"
-		},
-		{
-			"Code": "redsandandgravel"
-		},
-		{
-			"Code": "redsandandvegetation"
-		},
-		{
 			"Code": "sand"
 		},
 		{
-			"Code": "sandandgravel"
+			"Code": "sand_gravel_mix"
 		},
 		{
-			"Code": "sandandvegetation"
+			"Code": "sand_gravel_mix_red"
 		},
 		{
-			"Code": "sulfurpools"
+			"Code": "sand_gravel_mix_wet"
 		},
 		{
-			"Code": "wetgraysand"
+			"Code": "sand_gray"
 		},
 		{
-			"Code": "wetlimesand"
+			"Code": "sand_lime"
 		},
 		{
-			"Code": "wetpinksand"
+			"Code": "sand_pink"
 		},
 		{
-			"Code": "wetpurplesand"
+			"Code": "sand_purple"
 		},
 		{
-			"Code": "wetriversand"
+			"Code": "sand_red"
 		},
 		{
-			"Code": "wetsand"
+			"Code": "sand_river_dry"
 		},
 		{
-			"Code": "wetsandandgravel"
+			"Code": "sand_vegetation_mix"
 		},
 		{
-			"Code": "wetsandandvegetation"
+			"Code": "sand_vegetation_mix_red"
 		},
 		{
-			"Code": "yellowsulfur"
+			"Code": "sand_vegetation_mix_wet"
+		},
+		{
+			"Code": "sand_wet"
+		},
+		{
+			"Code": "sand_wet_gray"
+		},
+		{
+			"Code": "sand_wet_lime"
+		},
+		{
+			"Code": "sand_wet_pink"
+		},
+		{
+			"Code": "sand_wet_purple"
+		},
+		{
+			"Code": "sand_wet_river"
+		},
+		{
+			"Code": "sulfur_yellow"
 		}
 	]
 }

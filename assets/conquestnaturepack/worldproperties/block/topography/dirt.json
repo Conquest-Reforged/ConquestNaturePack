@@ -3,67 +3,79 @@
 	"code": "dirt",
 	"variants": [
 		{
-			"Code": "antsonsoil"
+			"Code": "anthill"
 		},
 		{
-			"Code": "bluesoil"
+			"Code": "dirt_loamy_cobblestone"
 		},
 	    {
-			"Code": "brownearth"
+			"Code": "dirt_loamy_cushion_moss"
 		},
 		{
-			"Code": "burntsoil"
+			"Code": "dirt_loamy_frozen"
 		},
 		{
-			"Code": "chalkysoil"
+			"Code": "dirt_loamy_lichen"
 		},
 	    {
-			"Code": "clayrichmud"
+			"Code": "dirt_loamy_log"
 		},
 		{
-			"Code": "copperrichsoil"
+			"Code": "dirt_silty_lorien"
 		},
 		{
-			"Code": "cushionmosscoveredloamydirt"
+			"Code": "earth_brown"
 		},
 		{
-			"Code": "darksandysoil"
-		},
-		{
-			"Code": "frozenloamydirt"
-		},
-		{
-			"Code": "lichenloamydirt"
-		},
-		{
-			"Code": "lightsilt"
-		},
-		{
-			"Code": "mossysoil"
+			"Code": "earth_red"
 		},
 		{
 			"Code": "mud"
 		},
 		{
-			"Code": "redearth"
+			"Code": "mud_clay_rich"
 		},
 		{
-			"Code": "rockysandysoil"
+			"Code": "mud_thick"
 		},
 		{
-			"Code": "rockysoil"
+			"Code": "peat"
 		},
 		{
-			"Code": "siltyloriendirt"
+			"Code": "silt_light"
+		},
+		{
+			"Code": "soil_blue"
+		},
+		{
+			"Code": "soil_burnt"
+		},
+		{
+			"Code": "soil_chalky"
+		},
+		{
+			"Code": "soil_copper_rich"
+		},
+		{
+			"Code": "soil_mossy"
+		},
+		{
+			"Code": "soil_ochre"
+		},
+		{
+			"Code": "soil_rocky"
+		},
+		{
+			"Code": "soil_sandy_dark"
+		},
+		{
+			"Code": "soil_sandy_rocky"
 		},
 		{
 			"Code": "soulsand"
 		},
 		{
 			"Code": "soulsoil"
-		},
-		{
-			"Code": "thickmud"
 		}
 	]
 }

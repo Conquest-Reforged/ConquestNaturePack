@@ -1,9 +1,0 @@
-{
-	"__comment": "List of dirt variants with side/top textures.",
-	"code": "dirtsidetexture",
-	"variants": [
-		{
-			"Code": "ochresoil"
-		}
-	]
-}

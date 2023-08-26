@@ -6,22 +6,22 @@
 			"Code": "ash"
 		},
 		{
-			"Code": "browngravel"
+			"Code": "dirt_zen_garden"
 		},
 		{
 			"Code": "gravel"
 		},
 		{
+			"Code": "gravel_brown"
+		},
+		{
 			"Code": "netherrack"
 		},
 		{
-			"Code": "smallstones"
+			"Code": "pebbles_smooth"
 		},
 		{
-			"Code": "smoothpebbles"
-		},
-		{
-			"Code": "zengardendirt"
+			"Code": "stones_small"
 		}
 	]
 }
