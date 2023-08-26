@@ -1,6 +1,6 @@
 {
 	"__comment": "List of ground coverage variants.",
-	"code": "groundcoverage",
+	"code": "ground_coverage",
 	"variants": [
 	    {
 			"Code": "forest_floor_autumnal"
