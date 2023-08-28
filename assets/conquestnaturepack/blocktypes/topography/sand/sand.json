@@ -1,0 +1,42 @@
+{
+	"code": "sand",
+	"behaviors": [{"name": "UnstableFalling", "properties": { "fallSound": "game:effect/rockslide", "dustIntensity": 1, "fallSidewaysChance": 0.75 }}],
+	"variantgroups": [
+		{ "loadFromProperties": "conquestnaturepack:block/topography/sand", "code": "sand" }
+	],
+	"creativeinventory": { "general": ["*"], "terrain": ["*"] },
+	"shape": {
+		"base": "game:block/basic/cube",
+		"alternates": [
+			{ "base": "game:block/basic/cube", "rotateY": 90 },
+			{ "base": "game:block/basic/cube", "rotateY": 180 },
+			{ "base": "game:block/basic/cube", "rotateY": 270 }
+		]
+	},
+	"drawtype": "json",
+	"blockmaterial": "Sand",
+	"textures": {
+		"all": { "base": "conquestnaturepack:block/topography/sand/{sand}/*" }
+	},
+	"attributes": {
+		"pannable": true,
+		"pannedBlock": "sand-{sand}-7",
+		"preventsDecay": true,
+		"allowUnstablePlacement": true
+	},
+	"replaceable": 600,
+	"fertility": 10,
+	"resistance": 1.5,
+	"sounds": {
+		"place": "game:block/sand",
+		"break": "game:block/sand",
+		"hit": "game:block/sand",
+		"walk": "game:walk/sand"
+	},
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
+	"tpHandTransform": {
+		"translation": { "x": -1.23, "y": -0.91, "z": -0.8 },
+		"rotation": { "x": -2, "y": 25, "z": -78 },
+		"scale": 0.4
+	}
+}
