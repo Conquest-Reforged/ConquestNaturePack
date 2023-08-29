@@ -1,6 +1,6 @@
 {
 	"code": "gravel",
-	"behaviors": [{"name": "UnstableFalling", "properties": { "fallSound": "game:effect/rockslide", "dustIntensity": 1, "fallSidewaysChance": 0.75 }}],
+	"behaviors": [{"name": "UnstableFalling", "properties": { "fallSound": "effect/rockslide", "dustIntensity": 1, "fallSidewaysChance": 0.75 }}],
 	"variantgroups": [
 		{ "loadFromProperties": "conquestnaturepack:block/topography/gravel", "code": "gravel" }
 	],
@@ -8,9 +8,9 @@
 	"shape": {
 		"base": "block/basic/cube",
 		"alternates": [
-			{ "base": "game:block/basic/cube", "rotateY": 90 },
-			{ "base": "game:block/basic/cube", "rotateY": 180 },
-			{ "base": "game:block/basic/cube", "rotateY": 270 }
+			{ "base": "block/basic/cube", "rotateY": 90 },
+			{ "base": "block/basic/cube", "rotateY": 180 },
+			{ "base": "block/basic/cube", "rotateY": 270 }
 		]
 	},
 	"drawtype": "json",
@@ -28,10 +28,10 @@
 	"fertility": 5,
 	"resistance": 3,
 	"sounds": {
-		"place": "game:block/gravel",
-		"break": "game:block/gravel",
-		"hit": "game:block/gravel",
-		"walk": "game:walk/gravel"
+		"place": "block/gravel",
+		"break": "block/gravel",
+		"hit": "block/gravel",
+		"walk": "walk/gravel"
 	},
 	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
 	"tpHandTransform": {

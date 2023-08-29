@@ -1,30 +1,29 @@
 {
-	"code": "gravel",
+	"code": "sand",
 	"class": "BlockVariheight",
 	"attributes": {
 		"pannable": true,
 		"allowUnstablePlacement": true
 	},
-	"behaviors": [{"name": "UnstableFalling", "properties": { "fallSound": "game:effect/rockslide", "dustIntensity": 1 }}],
+	"behaviors": [{"name": "UnstableFalling", "properties": { "fallSound": "effect/rockslide", "dustIntensity": 1 }}],
 	"variantgroups": [
-		{ "loadFromProperties": "conquestnaturepack:block/topography/gravel", "code": "gravel" },
-		{ "code": "habitat", "states": ["land", "water", "ice"] },
+		{ "loadFromProperties": "conquestnaturepack:block/topography/sand", "code": "sand" },
 		{ "code": "layer", "states": ["1", "2", "3", "4", "5", "6", "7"] }
 	],
-	"creativeinventory": { "general": ["*-land-*"], "terrain": ["*-land-*"] },
+	"creativeinventory": { "general": [""], "terrain": [""] },
 	"shapebytype": {
-		"*-1": { "base": "game:block/basic/submersiblelayers/2voxel" },
-		"*-2": { "base": "game:block/basic/submersiblelayers/4voxel" },
-		"*-3": { "base": "game:block/basic/submersiblelayers/6voxel" },
-		"*-4": { "base": "game:block/basic/submersiblelayers/8voxel" },
-		"*-5": { "base": "game:block/basic/submersiblelayers/10voxel" },
-		"*-6": { "base": "game:block/basic/submersiblelayers/12voxel" },
-		"*-7": { "base": "game:block/basic/submersiblelayers/14voxel" }
+		"*-1": { "base": "block/basic/layers/2voxel" },
+		"*-2": { "base": "block/basic/layers/4voxel" },
+		"*-3": { "base": "block/basic/layers/6voxel" },
+		"*-4": { "base": "block/basic/layers/8voxel" },
+		"*-5": { "base": "block/basic/layers/10voxel" },
+		"*-6": { "base": "block/basic/layers/12voxel" },
+		"*-7": { "base": "block/basic/layers/14voxel" }
 	},
 	"faceCullMode": "Callback",
-	"blockmaterial": "Gravel",
+	"blockmaterial": "Sand",
 	"textures": {
-		"all": { "base": "conquestnaturepack:block/topography/gravel/{gravel}/*" }
+		"all": { "base": "conquestnaturepack:block/topography/sand/{sand}/*" }
 	},
 	"sidesolid": { "all": false, "down": true},
 	"sideopaque": { "all": false, "down": true},
@@ -40,14 +39,15 @@
 		"*-3": { "up": true, "all": false },
 		"*": { "all": true }
 	},
-	"fertility": 5,
-	"resistance": 3,
+	"replaceable": 6001,
+	"fertility": 10,
+	"resistance": 1.5,
 	"drops": [],
 	"sounds": {
-		"place": "game:block/gravel",
-		"break": "game:block/gravel",
-		"hit": "game:block/gravel",
-		"walk": "game:walk/gravel"
+		"place": "block/sand",
+		"break": "block/sand",
+		"hit": "block/sand",
+		"walk": "walk/sand"
 	},
 	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
 	"tpHandTransform": {
