@@ -11,7 +11,7 @@
 		{ "code": "habitat", "states": ["land", "water", "ice"] },
 		{ "code": "layer", "states": ["1", "2", "3", "4", "5", "6", "7"] }
 	],
-	"creativeinventory": { "general": ["*-land-*"], "terrain": ["*-land-*"] },
+	"creativeinventory": { "general": [""], "terrain": [""] },
 	"shapebytype": {
 		"*-1": { "base": "block/basic/submersiblelayers/2voxel" },
 		"*-2": { "base": "block/basic/submersiblelayers/4voxel" },

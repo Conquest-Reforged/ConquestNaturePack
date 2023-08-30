@@ -7,8 +7,6 @@
 		"value": {}
 
 	},
-
-
 	{
 		"file": "game:blocktypes/stone/gravel-layered.json",
 		"op": "add",
@@ -28,5 +26,19 @@
 				"material": { "base": "conquestnaturepack:block/topography/gravel/{rock}/*" }
 			}
 		}
-		}
+	},
+	{
+		"op": "replace",
+		"path": "/creativeinventory/general/0",
+		"value": "",
+		"file": "game:blocktypes/stone/gravel-layered.json",
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"path": "/creativeinventory/terrain/0",
+		"value": "",
+		"file": "game:blocktypes/stone/gravel-layered.json",
+		"side": "Server"
+	}
 ]
