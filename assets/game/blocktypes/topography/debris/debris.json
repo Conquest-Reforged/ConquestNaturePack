@@ -1,0 +1,42 @@
+{
+	"code": "debris",
+	"behaviors": [{"name": "UnstableFalling", "properties": { "fallSound": "effect/rockslide", "dustIntensity": 1, "fallSidewaysChance": 0.75 }}],
+	"variantgroups": [
+		{ "loadFromProperties": "conquestnaturepack:block/topography/debris", "code": "debris" }
+	],
+	"creativeinventory": { "general": ["*"], "terrain": ["*"] },
+	"shape": {
+		"base": "block/basic/cube",
+		"alternates": [
+			{ "base": "block/basic/cube", "rotateY": 90 },
+			{ "base": "block/basic/cube", "rotateY": 180 },
+			{ "base": "block/basic/cube", "rotateY": 270 }
+		]
+	},
+	"drawtype": "json",
+	"blockmaterial": "Gravel",
+	"textures": {
+		"all": { "base": "conquestnaturepack:block/topography/debris/{debris}/*" }
+	},
+	"attributes": {
+		"pannable": true,
+		"pannedBlock": "debris-{debris}-land-7",
+		"preventsDecay": true,
+		"allowUnstablePlacement": true
+	},
+	"replaceable": 400,
+	"fertility": 5,
+	"resistance": 3,
+	"sounds": {
+		"place": "block/gravel",
+		"break": "block/gravel",
+		"hit": "block/gravel",
+		"walk": "walk/gravel"
+	},
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
+	"tpHandTransform": {
+		"translation": { "x": -1.23, "y": -0.91, "z": -0.8 },
+		"rotation": { "x": -2, "y": 25, "z": -78 },
+		"scale": 0.4
+	}
+}
