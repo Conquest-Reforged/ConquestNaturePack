@@ -1,17 +1,19 @@
 {
-    "code": "rock_block_layers_vertical",
-    "class": "BlockStairs",
+    "code": "rock_layers_vertical",
+    "class": "BlockLayeredModCorrected",
     "behaviors": [
         {
-            "name": "WrenchOrientable",
-            "properties": { "baseCode": "rock_block_layers_vertical-{rock}-*-{verticalorientation}-{horizontalorientation}-{cover}" }
+            "name": "ModCorrectedHorizontalOrientableBehavior"
         }
-
     ],
-
     "attributes": {
+        "fullBlockCode": "rock_layers_vertical-{rock}-free-8-north",
+        "layerGroupCode": "amount",
+        "variantControlCode": "rock",
+        "canChisel": true,
+        "chiselShapeFromCollisionBox": true,
         "handbook": {
-            "groupBy": [ "rock_block_layers_vertical-*-down-north-free" ]
+            "groupBy": [ "rock_layers_vertical-*-free-1-north" ]
         }
     },
     "variantgroups": [
@@ -20,292 +22,312 @@
             "loadFromProperties": "block/rockwithdeposit"
         },
         {
-            "code": "layer",
-            "states": [ "l1", "l2", "l3", "l4", "l5", "l6", "l7", "l8" ]
-        },
-        { "loadFromProperties": "abstract/verticalorientation" },
-        { "loadFromProperties": "abstract/horizontalorientation" },
-
-        {
             "code": "cover",
             "states": [ "free", "snow" ]
+        },
+
+        {
+            "code": "amount",
+            "states": [ "1", "2", "3", "4", "5", "6", "7", "8" ]
+        },
+        {
+            "code": "side",
+            "loadFromProperties": "abstract/horizontalorientation"
         }
+
     ],
+    "drawtypebytype": {
+        "*-1": "BlockLayer_1",
+        "*-2": "BlockLayer_2",
+        "*-3": "BlockLayer_3",
+        "*-4": "BlockLayer_4",
+        "*-5": "BlockLayer_5",
+        "*-6": "BlockLayer_6",
+        "*-7": "BlockLayer_7",
+        "*-8": "Cube"
+    },
     "creativeinventory": {
-        "general": [ "*-l1-down-north-free" ]
+        "general": [ "*-free-1-north" ]
     },
     "shapeByType": {
-        "*-l1-*-north-free": {
+        "*-free-1-north": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_1",
             "rotateY": 180
 
         },
-        "*-l1-*-south-free": {
+        "*-free-1-south": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_1",
             "rotateY": 0
 
         },
-        "*-l1-*-east-free": {
+        "*-free-1-east": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_1",
             "rotateY": 90
 
         },
-        "*-l1-*-west-free": {
+        "*-free-1-west": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_1",
             "rotateY": 270
         },
-        "*-l2-*-north-free": {
+        "*-free-2-north": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_2",
             "rotateY": 180
 
         },
-        "*-l2-*-south-free": {
+        "*-free-2-south": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_2",
             "rotateY": 0
 
         },
-        "*-l2-*-east-free": {
+        "*-free-2-east": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_2",
             "rotateY": 90
 
         },
-        "*-l2-*-west-free": {
+        "*-free-2-west": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_2",
             "rotateY": 270
         },
-        "*-l3-*-north-free": {
+        "*-free-3-north": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_3",
             "rotateY": 180
 
         },
-        "*-l3-*-south-free": {
+        "*-free-3-south": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_3",
             "rotateY": 0
 
         },
-        "*-l3-*-east-free": {
+        "*-free-3-east": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_3",
             "rotateY": 90
 
         },
-        "*-l3-*-west-free": {
+        "*-free-3-west": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_3",
             "rotateY": 270
         },
-        "*-l4-*-north-free": {
+        "*-free-4-north": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_4",
             "rotateY": 180
 
         },
-        "*-l4-*-south-free": {
+        "*-free-4-south": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_4",
             "rotateY": 0
 
         },
-        "*-l4-*-east-free": {
+        "*-free-4-east": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_4",
             "rotateY": 90
 
         },
-        "*-l4-*-west-free": {
+        "*-free-4-west": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_4",
             "rotateY": 270
         },
-        "*-l5-*-north-free": {
+        "*-free-5-north": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_5",
             "rotateY": 180
 
         },
-        "*-l5-*-south-free": {
+        "*-free-5-south": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_5",
             "rotateY": 0
 
         },
-        "*-l5-*-east-free": {
+        "*-free-5-east": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_5",
             "rotateY": 90
 
         },
-        "*-l5-*-west-free": {
+        "*-free-5-west": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_5",
             "rotateY": 270
         },
-        "*-l6-*-north-free": {
+        "*-free-6-north": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_6",
             "rotateY": 180
 
         },
-        "*-l6-*-south-free": {
+        "*-free-6-south": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_6",
             "rotateY": 0
 
         },
-        "*-l6-*-east-free": {
+        "*-free-6-east": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_6",
             "rotateY": 90
 
         },
-        "*-l6-*-west-free": {
+        "*-free-6-west": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_6",
             "rotateY": 270
         },
-        "*-l7-*-north-free": {
+        "*-free-7-north": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_7",
             "rotateY": 180
 
         },
-        "*-l7-*-south-free": {
+        "*-free-7-south": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_7",
             "rotateY": 0
 
         },
-        "*-l7-*-east-free": {
+        "*-free-7-east": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_7",
             "rotateY": 90
 
         },
-        "*-l7-*-west-free": {
+        "*-free-7-west": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_7",
             "rotateY": 270
         },
-        "*-l1-*-north-snow": {
+        "*-snow-1-north": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_1_snow",
             "rotateY": 180
 
         },
-        "*-l1-*-south-snow": {
+        "*-snow-1-south": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_1_snow",
             "rotateY": 0
 
         },
-        "*-l1-*-east-snow": {
+        "*-snow-1-east": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_1_snow",
             "rotateY": 90
 
         },
-        "*-l1-*-west-snow": {
+        "*-snow-1-west": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_1_snow",
             "rotateY": 270
         },
-        "*-l2-*-north-snow": {
+        "*-snow-2-north": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_2_snow",
             "rotateY": 180
 
         },
-        "*-l2-*-south-snow": {
+        "*-snow-2-south": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_2_snow",
             "rotateY": 0
 
         },
-        "*-l2-*-east-snow": {
+        "*-snow-2-east": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_2_snow",
             "rotateY": 90
 
         },
-        "*-l2-*-west-snow": {
+        "*-snow-2-west": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_2_snow",
             "rotateY": 270
         },
-        "*-l3-*-north-snow": {
+        "*-snow-3-north": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_3_snow",
             "rotateY": 180
 
         },
-        "*-l3-*-south-snow": {
+        "*-snow-3-south": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_3_snow",
             "rotateY": 0
 
         },
-        "*-l3-*-east-snow": {
+        "*-snow-3-east": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_3_snow",
             "rotateY": 90
 
         },
-        "*-l3-*-west-snow": {
+        "*-snow-3-west": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_3_snow",
             "rotateY": 270
         },
-        "*-l4-*-north-snow": {
+        "*-snow-4-north": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_4_snow",
             "rotateY": 180
 
         },
-        "*-l4-*-south-snow": {
+        "*-snow-4-south": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_4_snow",
             "rotateY": 0
 
         },
-        "*-l4-*-east-snow": {
+        "*-snow-4-east": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_4_snow",
             "rotateY": 90
 
         },
-        "*-l4-*-west-snow": {
+        "*-snow-4-west": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_4_snow",
             "rotateY": 270
         },
-        "*-l5-*-north-snow": {
+        "*-snow-5-north": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_5_snow",
             "rotateY": 180
 
         },
-        "*-l5-*-south-snow": {
+        "*-snow-5-south": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_5_snow",
             "rotateY": 0
 
         },
-        "*-l5-*-east-snow": {
+        "*-snow-5-east": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_5_snow",
             "rotateY": 90
 
         },
-        "*-l5-*-west-snow": {
+        "*-snow-5-west": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_5_snow",
             "rotateY": 270
         },
-        "*-l6-*-north-snow": {
+        "*-snow-6-north": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_6_snow",
             "rotateY": 180
 
         },
-        "*-l6-*-south-snow": {
+        "*-snow-6-south": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_6_snow",
             "rotateY": 0
 
         },
-        "*-l6-*-east-snow": {
+        "*-snow-6-east": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_6_snow",
             "rotateY": 90
 
         },
-        "*-l6-*-west-snow": {
+        "*-snow-6-west": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_6_snow",
             "rotateY": 270
         },
-        "*-l7-*-north-snow": {
+        "*-snow-7-north": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_7_snow",
             "rotateY": 180
 
         },
-        "*-l7-*-south-snow": {
+        "*-snow-7-south": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_7_snow",
             "rotateY": 0
 
         },
-        "*-l7-*-east-snow": {
+        "*-snow-7-east": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_7_snow",
             "rotateY": 90
 
         },
-        "*-l7-*-west-snow": {
+        "*-snow-7-west": {
             "base": "conquestnaturepack:block/block_layers_vertical/block_layers_vertical_7_snow",
             "rotateY": 270
         },
 
-        "*-l8-*": {
+        "*-free-8-north": {
             "base": "game:block/basic/cube"
         }
     },
+    "drops": [
+        {
+            "type": "block",
+            "code": "rock_layers_vertical-{rock}-free-1-down",
+            "quantity": { "avg": 1 }
+        }
+    ],
     "blockmaterial": "Stone",
     "replaceable": 90,
     "requiredMiningTierByType": {
@@ -398,6 +420,7 @@
             "sides": { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
         }
     },
+  
     "sounds": {
         "walk": "walk/stone",
         "byTool": {
@@ -452,7 +475,7 @@
         "scale": 0.53
     },
     "collisionselectionboxbytype": {
-        "*-l8-*": {
+        "*-8-*": {
             "x1": 0,
             "y1": 0,
             "z1": 0,
@@ -460,13 +483,13 @@
             "y2": 1,
             "z2": 1,
             "rotateYByType": {
-                "*-north-*": 0,
-                "*-south-*": 180,
-                "*-east-*": 270,
-                "*-west-*": 90
+                "*-north": 0,
+                "*-south": 180,
+                "*-east": 270,
+                "*-west": 90
             }
         },
-        "*-l7-*": {
+        "*-7-*": {
             "x1": 0,
             "y1": 0,
             "z1": 0,
@@ -474,13 +497,13 @@
             "y2": 1,
             "z2": 0.875,
             "rotateYByType": {
-                "*-north-*": 0,
-                "*-south-*": 180,
-                "*-east-*": 270,
-                "*-west-*": 90
+                "*-north": 0,
+                "*-south": 180,
+                "*-east": 270,
+                "*-west": 90
             }
         },
-        "*-l6-*": {
+        "*-6-*": {
             "x1": 0,
             "y1": 0,
             "z1": 0,
@@ -488,13 +511,13 @@
             "y2": 1,
             "z2": 0.75,
             "rotateYByType": {
-                "*-north-*": 0,
-                "*-south-*": 180,
-                "*-east-*": 270,
-                "*-west-*": 90
+                "*-north": 0,
+                "*-south": 180,
+                "*-east": 270,
+                "*-west": 90
             }
         },
-        "*-l5-*": {
+        "*-5-*": {
             "x1": 0,
             "y1": 0,
             "z1": 0,
@@ -502,13 +525,13 @@
             "y2": 1,
             "z2": 0.625,
             "rotateYByType": {
-                "*-north-*": 0,
-                "*-south-*": 180,
-                "*-east-*": 270,
-                "*-west-*": 90
+                "*-north": 0,
+                "*-south": 180,
+                "*-east": 270,
+                "*-west": 90
             }
         },
-        "*-l4-*": {
+        "*-4-*": {
             "x1": 0,
             "y1": 0,
             "z1": 0,
@@ -516,13 +539,13 @@
             "y2": 1,
             "z2": 0.5,
             "rotateYByType": {
-                "*-north-*": 0,
-                "*-south-*": 180,
-                "*-east-*": 270,
-                "*-west-*": 90
+                "*-north": 0,
+                "*-south": 180,
+                "*-east": 270,
+                "*-west": 90
             }
         },
-        "*-l3-*": {
+        "*-3-*": {
             "x1": 0,
             "y1": 0,
             "z1": 0,
@@ -530,13 +553,13 @@
             "y2": 1,
             "z2": 0.375,
             "rotateYByType": {
-                "*-north-*": 0,
-                "*-south-*": 180,
-                "*-east-*": 270,
-                "*-west-*": 90
+                "*-north": 0,
+                "*-south": 180,
+                "*-east": 270,
+                "*-west": 90
             }
         },
-        "*-l2-*": {
+        "*-2-*": {
             "x1": 0,
             "y1": 0,
             "z1": 0,
@@ -544,13 +567,13 @@
             "y2": 1,
             "z2": 0.25,
             "rotateYByType": {
-                "*-north-*": 0,
-                "*-south-*": 180,
-                "*-east-*": 270,
-                "*-west-*": 90
+                "*-north": 0,
+                "*-south": 180,
+                "*-east": 270,
+                "*-west": 90
             }
         },
-        "*-l1-*": {
+        "*-1-*": {
             "x1": 0,
             "y1": 0,
             "z1": 0,
@@ -558,10 +581,10 @@
             "y2": 1,
             "z2": 0.125,
             "rotateYByType": {
-                "*-north-*": 0,
-                "*-south-*": 180,
-                "*-east-*": 270,
-                "*-west-*": 90
+                "*-north": 0,
+                "*-south": 180,
+                "*-east": 270,
+                "*-west": 90
             }
         }
     }

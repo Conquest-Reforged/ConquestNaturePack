@@ -1,0 +1,732 @@
+{
+    "code": "rock_wall",
+    "class": "BlockFenceStackAware",
+    "behaviors": [
+        {
+            "name": "CanAttach",
+            "properties": { "sides": [ "up", "down" ] }
+        }
+    ],
+    "attributes": {
+        "isFence": true,
+        "handbook": {
+            "groupBy": [ "rock_wall-*-w" ]
+        }
+    },
+    "variantgroups": [
+        {
+            "code": "rock",
+            "loadFromProperties": "block/rockwithdeposit"
+        },
+        {
+            "code": "type",
+            "states": [ "empty", "n", "e", "s", "w", "ne", "ns", "nw", "es", "ew", "sw", "nes", "new", "nsw", "esw", "nesw" ]
+        },
+        {
+            "code": "cover",
+            "states": [ "free" ]
+        }
+    ],
+    "creativeinventory": {
+        "general": [ "rock_wall-*-w-free" ]
+    },
+    "shapebytype": {
+        "*-empty-free": { "base": "conquestnaturepack:block/wall/empty-top" },
+        "*-n-free": {
+            "base": "conquestnaturepack:block/wall/w-top",
+            "rotateY": 0
+        },
+        "*-e-free": {
+            "base": "conquestnaturepack:block/wall/w-top",
+            "rotateY": 270
+        },
+        "*-s-free": {
+            "base": "conquestnaturepack:block/wall/w-top",
+            "rotateY": 180
+        },
+        "*-w-free": {
+            "base": "conquestnaturepack:block/wall/w-top",
+            "rotateY": 90
+        },
+
+        "*-ns-free": {
+            "base": "conquestnaturepack:block/wall/ew-top",
+            "rotateY": 0
+        },
+        "*-ew-free": {
+            "base": "conquestnaturepack:block/wall/ew-top",
+            "rotateY": 270
+        },
+
+        "*-ne-free": {
+            "base": "conquestnaturepack:block/wall/sw-top",
+            "rotateY": 0
+        },
+        "*-nw-free": {
+            "base": "conquestnaturepack:block/wall/sw-top",
+            "rotateY": 90
+        },
+        "*-es-free": {
+            "base": "conquestnaturepack:block/wall/sw-top",
+            "rotateY": 270
+        },
+        "*-sw-free": {
+            "base": "conquestnaturepack:block/wall/sw-top",
+            "rotateY": 180
+        },
+
+        "*-nes-free": {
+            "base": "conquestnaturepack:block/wall/nsw-top",
+            "rotateY": 0
+        },
+        "*-new-free": {
+            "base": "conquestnaturepack:block/wall/nsw-top",
+            "rotateY": 90
+        },
+        "*-nsw-free": {
+            "base": "conquestnaturepack:block/wall/nsw-top",
+            "rotateY": 180
+        },
+        "*-esw-free": {
+            "base": "conquestnaturepack:block/wall/nsw-top",
+            "rotateY": 270
+        },
+
+        "*-nesw-free": {
+            "base": "conquestnaturepack:block/wall/nesw-top",
+            "rotateY": 0
+        }
+    },
+    "drawtypeByType": {
+        "*-free": "JSON",
+        "*-snow": "JSONAndSnowLayer"
+    },
+    "blockmaterial": "Stone",
+    "texturesBytype": {
+        "@.*-(|andesite_columnar|basalt_columnar|basalt_columnar_light|calcite_rough|dacite_columnar|rhyolite_columnar|granite_red|schist_blue|schist_green|slate_warped_costal|calcite_rough|dripstone|dripstone_dark|graywacke|limestone_boulders_mossy_light|limestone_mossy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan)-.*": {
+            "wall": { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" }
+
+
+        },
+        "@.*-(andesite|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale)-.*": {
+            "wall": { "base": "game:block/stone/rock/{rock}*" }
+
+        },
+        "@.*-(basalt|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite)-.*": {
+            "wall": { "base": "game:block/stone/rock/{rock}*" }
+
+        },
+        "*": {
+            "wall": { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
+        }
+    },
+    "sidesolid": {
+        "all": false
+    },
+    "sideopaqueByType": {
+        "*-snow": {
+            "all": false,
+            "down": true
+        },
+        "*": { "all": false }
+    },
+    "resistance": 3,
+    "lightAbsorption": 0,
+    "sounds": {
+        "walk": "walk/stone",
+        "byTool": {
+            "Pickaxe": {
+                "hit": "block/rock-hit-pickaxe",
+                "break": "block/rock-break-pickaxe"
+            }
+        }
+    },
+    "collisionSelectionBoxByType": {
+        "*-ns-*": {
+            "x1": 0.3125,
+            "y1": 0,
+            "z1": 0,
+            "x2": 0.6875,
+            "y2": 1,
+            "z2": 1,
+            "rotateYByType": {
+                "*-ns-*": 0,
+                "*-ew-*": 270
+            }
+        },
+        "*-ew-*": {
+            "x1": 0.3125,
+            "y1": 0,
+            "z1": 0,
+            "x2": 0.6875,
+            "y2": 1,
+            "z2": 1,
+            "rotateYByType": {
+                "*-ns-*": 0,
+                "*-ew-*": 270
+            }
+        },
+        "*-empty-*": {
+            "x1": 0.375,
+            "y1": 0,
+            "z1": 0.375,
+            "x2": 0.625,
+            "y2": 1,
+            "z2": 0.625
+        }
+    },
+
+
+    "collisionSelectionBoxesByType": {
+
+        "*-n-*": [
+            {
+                "x1": 0.25,
+                "y1": 0,
+                "z1": 0.25,
+                "x2": 0.75,
+                "y2": 1,
+                "z2": 0.75,
+                "rotateYByType": {
+                    "*-n-*": 0,
+                    "*-e-*": 270,
+                    "*-s-*": 180,
+                    "*-w-*": 90
+                }
+            },
+            {
+                "x1": 0.3125,
+                "y1": 0,
+                "z1": 0,
+                "x2": 0.6875,
+                "y2": 1,
+                "z2": 0.25,
+                "rotateYByType": {
+                    "*-n-*": 0,
+                    "*-e-*": 270,
+                    "*-s-*": 180,
+                    "*-w-*": 90
+                }
+            }
+        ],
+        "*-s-*": [
+            {
+                "x1": 0.25,
+                "y1": 0,
+                "z1": 0.25,
+                "x2": 0.75,
+                "y2": 1,
+                "z2": 0.75,
+                "rotateYByType": {
+                    "*-n-*": 0,
+                    "*-e-*": 270,
+                    "*-s-*": 180,
+                    "*-w-*": 90
+                }
+            },
+            {
+                "x1": 0.3125,
+                "y1": 0,
+                "z1": 0,
+                "x2": 0.6875,
+                "y2": 1,
+                "z2": 0.25,
+                "rotateYByType": {
+                    "*-n-*": 0,
+                    "*-e-*": 270,
+                    "*-s-*": 180,
+                    "*-w-*": 90
+                }
+            }
+
+        ],
+        "*-w-*": [
+            {
+                "x1": 0.25,
+                "y1": 0,
+                "z1": 0.25,
+                "x2": 0.75,
+                "y2": 1,
+                "z2": 0.75,
+                "rotateYByType": {
+                    "*-n-*": 0,
+                    "*-e-*": 270,
+                    "*-s-*": 180,
+                    "*-w-*": 90
+                }
+            },
+            {
+                "x1": 0.3125,
+                "y1": 0,
+                "z1": 0,
+                "x2": 0.6875,
+                "y2": 1,
+                "z2": 0.25,
+                "rotateYByType": {
+                    "*-n-*": 0,
+                    "*-e-*": 270,
+                    "*-s-*": 180,
+                    "*-w-*": 90
+                }
+            }
+
+        ],
+        "*-e-*": [
+            {
+                "x1": 0.25,
+                "y1": 0,
+                "z1": 0.25,
+                "x2": 0.75,
+                "y2": 1,
+                "z2": 0.75,
+                "rotateYByType": {
+                    "*-n-*": 0,
+                    "*-e-*": 270,
+                    "*-s-*": 180,
+                    "*-w-*": 90
+                }
+            },
+            {
+                "x1": 0.3125,
+                "y1": 0,
+                "z1": 0,
+                "x2": 0.6875,
+                "y2": 1,
+                "z2": 0.25,
+                "rotateYByType": {
+                    "*-n-*": 0,
+                    "*-e-*": 270,
+                    "*-s-*": 180,
+                    "*-w-*": 90
+                }
+            }
+
+        ],
+        "*-ne-*": [
+            {
+                "x1": 0.25,
+                "y1": 0,
+                "z1": 0.25,
+                "x2": 0.75,
+                "y2": 1,
+                "z2": 0.75,
+                "rotateYByType": {
+                    "*-ne-*": 90
+
+                }
+            },
+            {
+                "x1": 0.3125,
+                "y1": 0,
+                "z1": 0.75,
+                "x2": 0.6875,
+                "y2": 1,
+                "z2": 1,
+                "rotateYByType": {
+                    "*-ne-*": 90
+
+                }
+            },
+            {
+                "x1": 0.75,
+                "y1": 0,
+                "z1": 0.3125,
+                "x2": 1,
+                "y2": 1,
+                "z2": 0.6875,
+                "rotateYByType": {
+                    "*-ne-*": 90
+
+                }
+            }
+        ],
+        "*-nw-*": [
+            {
+                "x1": 0.25,
+                "y1": 0,
+                "z1": 0.25,
+                "x2": 0.75,
+                "y2": 1,
+                "z2": 0.75,
+                "rotateYByType": {
+                    "*-nw-*": 180
+
+                }
+            },
+            {
+                "x1": 0.3125,
+                "y1": 0,
+                "z1": 0.75,
+                "x2": 0.6875,
+                "y2": 1,
+                "z2": 1,
+                "rotateYByType": {
+                    "*-nw-*": 180
+
+                }
+            },
+            {
+                "x1": 0.75,
+                "y1": 0,
+                "z1": 0.3125,
+                "x2": 1,
+                "y2": 1,
+                "z2": 0.6875,
+                "rotateYByType": {
+                    "*-nw-*": 180
+
+                }
+            }
+        ],
+        "*-es-*": [
+            {
+                "x1": 0.25,
+                "y1": 0,
+                "z1": 0.25,
+                "x2": 0.75,
+                "y2": 1,
+                "z2": 0.75,
+                "rotateYByType": {
+                    "*-es-*": 0
+
+                }
+            },
+            {
+                "x1": 0.3125,
+                "y1": 0,
+                "z1": 0.75,
+                "x2": 0.6875,
+                "y2": 1,
+                "z2": 1,
+                "rotateYByType": {
+                    "*-es-*": 0
+
+                }
+            },
+            {
+                "x1": 0.75,
+                "y1": 0,
+                "z1": 0.3125,
+                "x2": 1,
+                "y2": 1,
+                "z2": 0.6875,
+                "rotateYByType": {
+                    "*-es-*": 0
+
+                }
+            }
+        ],
+        "*-sw-*": [
+            {
+                "x1": 0.25,
+                "y1": 0,
+                "z1": 0.25,
+                "x2": 0.75,
+                "y2": 1,
+                "z2": 0.75,
+                "rotateYByType": {
+                    "*-sw-*": 270
+
+                }
+            },
+            {
+                "x1": 0.3125,
+                "y1": 0,
+                "z1": 0.75,
+                "x2": 0.6875,
+                "y2": 1,
+                "z2": 1,
+                "rotateYByType": {
+                    "*-sw-*": 270
+
+                }
+            },
+            {
+                "x1": 0.75,
+                "y1": 0,
+                "z1": 0.3125,
+                "x2": 1,
+                "y2": 1,
+                "z2": 0.6875,
+                "rotateYByType": {
+                    "*-sw-*": 270
+                }
+            }
+        ],
+        "*-nes-*": [
+            {
+                "x1": 0.25,
+                "y1": 0,
+                "z1": 0.25,
+                "x2": 0.75,
+                "y2": 1,
+                "z2": 0.75,
+                "rotateYByType": {
+                    "*-nes-*": 270
+                }
+            },
+            {
+                "x1": 0.75,
+                "y1": 0.0625,
+                "z1": 0.3125,
+                "x2": 1,
+                "y2": 1,
+                "z2": 0.6875,
+                "rotateYByType": {
+                    "*-nes-*": 270
+                }
+            },
+            {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0.3125,
+                "x2": 0.25,
+                "y2": 1,
+                "z2": 0.6875,
+                "rotateYByType": {
+                    "*-nes-*": 270
+                }
+            },
+            {
+                "x1": 0.6875,
+                "y1": 1,
+                "z1": 0.25,
+                "x2": 0.3125,
+                "y2": 0,
+                "z2": 0,
+                "rotateYByType": {
+                    "*-nes-*": 270
+                }
+            }
+        ],
+        "*-new-*": [
+            {
+                "x1": 0.25,
+                "y1": 0,
+                "z1": 0.25,
+                "x2": 0.75,
+                "y2": 1,
+                "z2": 0.75,
+                "rotateYByType": {
+                    "*-new-*": 0
+                }
+            },
+            {
+                "x1": 0.75,
+                "y1": 0.0625,
+                "z1": 0.3125,
+                "x2": 1,
+                "y2": 1,
+                "z2": 0.6875,
+                "rotateYByType": {
+                    "*-new-*": 0
+                }
+            },
+            {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0.3125,
+                "x2": 0.25,
+                "y2": 1,
+                "z2": 0.6875,
+                "rotateYByType": {
+                    "*-new-*": 0
+                }
+            },
+            {
+                "x1": 0.6875,
+                "y1": 1,
+                "z1": 0.25,
+                "x2": 0.3125,
+                "y2": 0,
+                "z2": 0,
+                "rotateYByType": {
+                    "*-new-*": 0
+                }
+            }
+        ],
+        "*-nsw-*": [
+            {
+                "x1": 0.25,
+                "y1": 0,
+                "z1": 0.25,
+                "x2": 0.75,
+                "y2": 1,
+                "z2": 0.75,
+                "rotateYByType": {
+                    "*-nsw-*": 90
+                }
+            },
+            {
+                "x1": 0.75,
+                "y1": 0.0625,
+                "z1": 0.3125,
+                "x2": 1,
+                "y2": 1,
+                "z2": 0.6875,
+                "rotateYByType": {
+                    "*-nsw-*": 90
+                }
+            },
+            {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0.3125,
+                "x2": 0.25,
+                "y2": 1,
+                "z2": 0.6875,
+                "rotateYByType": {
+                    "*-nsw-*": 90
+                }
+            },
+            {
+                "x1": 0.6875,
+                "y1": 1,
+                "z1": 0.25,
+                "x2": 0.3125,
+                "y2": 0,
+                "z2": 0,
+                "rotateYByType": {
+                    "*-nsw-*": 90
+                }
+            }
+        ],
+        "*-esw-*": [
+            {
+                "x1": 0.25,
+                "y1": 0,
+                "z1": 0.25,
+                "x2": 0.75,
+                "y2": 1,
+                "z2": 0.75,
+                "rotateYByType": {
+                    "*-esw-*": 180
+                }
+            },
+            {
+                "x1": 0.75,
+                "y1": 0.0625,
+                "z1": 0.3125,
+                "x2": 1,
+                "y2": 1,
+                "z2": 0.6875,
+                "rotateYByType": {
+                    "*-esw-*": 180
+                }
+            },
+            {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0.3125,
+                "x2": 0.25,
+                "y2": 1,
+                "z2": 0.6875,
+                "rotateYByType": {
+                    "*-esw-*": 180
+                }
+            },
+            {
+                "x1": 0.6875,
+                "y1": 1,
+                "z1": 0.25,
+                "x2": 0.3125,
+                "y2": 0,
+                "z2": 0,
+                "rotateYByType": {
+                    "*-esw-*": 180
+                }
+            }
+        ],
+        "*-nesw-*": [
+            {
+                "x1": 0.25,
+                "y1": 0,
+                "z1": 0.25,
+                "x2": 0.75,
+                "y2": 1,
+                "z2": 0.75
+            },
+            {
+                "x1": 0.75,
+                "y1": 0.0625,
+                "z1": 0.3125,
+                "x2": 1,
+                "y2": 1,
+                "z2": 0.6875
+            },
+            {
+                "x1": 0,
+                "y1": 0,
+                "z1": 0.3125,
+                "x2": 0.25,
+                "y2": 1,
+                "z2": 0.6875
+            },
+            {
+                "x1": 0.3125,
+                "y1": 0,
+                "z1": 0,
+                "x2": 0.6875,
+                "y2": 1,
+                "z2": 0.25
+            },
+            {
+                "x1": 0.3125,
+                "y1": 0,
+                "z1": 0.75,
+                "x2": 0.6875,
+                "y2": 1,
+                "z2": 1
+            }
+        ]
+
+    },
+    "fpHandTransform": {
+        "translation": {
+            "x": 0.4,
+            "y": -0.15,
+            "z": 0.5
+        },
+        "rotation": {
+            "x": -18,
+            "y": -127,
+            "z": -10
+        }
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -1.5,
+            "y": -1.6,
+            "z": -1.2
+        },
+        "rotation": {
+            "x": 5,
+            "y": -3,
+            "z": -96
+        },
+        "origin": {
+            "x": 0.6,
+            "y": 0.5,
+            "z": 0.47
+        },
+        "scale": 0.38
+    },
+    "groundTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0.05,
+            "z": 0
+        },
+        "rotation": {
+            "x": 90,
+            "y": -45,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+        },
+        "scale": 2.07
+    }
+}

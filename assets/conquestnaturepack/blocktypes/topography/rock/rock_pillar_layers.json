@@ -1,0 +1,394 @@
+{
+    "code": "rock_pillar_layers",
+    "class": "BlockLayeredModCorrected",
+
+    "attributes": {
+        "fullBlockCode": "rock_pillar_layers-{rock}-free-8-down",
+        "layerGroupCode": "amount",
+        "variantControlCode": "rock",
+        "canChisel": true,
+        "chiselShapeFromCollisionBox": true,
+        "handbook": {
+            "groupBy": [ "rock_pillar_layers-*-free-1-down" ]
+        }
+    },
+    "variantgroups": [
+        {
+            "code": "rock",
+            "loadFromProperties": "block/rockwithdeposit"
+        },
+        {
+            "code": "cover",
+            "states": [ "free", "snow" ]
+        },
+
+        {
+            "code": "amount",
+            "states": [ "1", "2", "3", "4", "5", "6", "7", "8" ]
+        },
+        {
+            "code": "part",
+            "states": [ "down", "up" ]
+        }
+
+    ],
+    "drawtypebytype": {
+        "*-1": "BlockLayer_1",
+        "*-2": "BlockLayer_2",
+        "*-3": "BlockLayer_3",
+        "*-4": "BlockLayer_4",
+        "*-5": "BlockLayer_5",
+        "*-6": "BlockLayer_6",
+        "*-7": "BlockLayer_7",
+        "*-8": "Cube"
+    },
+    "creativeinventory": {
+        "general": [ "*-free-1-down" ]
+    },
+    "shapeByType": {
+        "*-free-1-down": {
+            "base": "conquestnaturepack:block/pillar_layers/normal02"
+
+        },
+        "*-free-2-down": {
+            "base": "conquestnaturepack:block/pillar_layers/normal04"
+
+        },
+        "*-free-3-down": {
+            "base": "conquestnaturepack:block/pillar_layers/normal06"
+
+        },
+        "*-free-4-down": {
+            "base": "conquestnaturepack:block/pillar_layers/normal08"
+
+        },
+        "*-free-5-down": {
+            "base": "conquestnaturepack:block/pillar_layers/normal10"
+
+        },
+        "*-free-6-down": {
+            "base": "conquestnaturepack:block/pillar_layers/normal12"
+        },
+        "*-free-7-down": {
+            "base": "conquestnaturepack:block/pillar_layers/normal14"
+        },
+        "*-snow-1-down": {
+            "base": "conquestnaturepack:block/pillar_layers/normal02_snow"
+
+        },
+        "*-snow-2-down": {
+            "base": "conquestnaturepack:block/pillar_layers/normal04_snow"
+
+        },
+        "*-snow-3-down": {
+            "base": "conquestnaturepack:block/pillar_layers/normal06_snow"
+
+        },
+        "*-snow-4-down": {
+            "base": "conquestnaturepack:block/pillar_layers/normal08_snow"
+
+        },
+        "*-snow-5-down": {
+            "base": "conquestnaturepack:block/pillar_layers/normal10_snow"
+
+        },
+        "*-snow-6-down": {
+            "base": "conquestnaturepack:block/pillar_layers/normal12_snow"
+        },
+        "*-snow-7-down": {
+            "base": "conquestnaturepack:block/pillar_layers/normal14_snow"
+        },
+
+        "*-free-1-up": {
+            "base": "conquestnaturepack:block/pillar_layers/normal02",
+            "rotateY": 180
+
+        },
+        "*-free-2-up": {
+            "base": "conquestnaturepack:block/pillar_layers/normal04",
+            "rotateY": 180
+
+        },
+        "*-free-3-up": {
+            "base": "conquestnaturepack:block/pillar_layers/normal06",
+            "rotateY": 180
+
+        },
+        "*-free-4-up": {
+            "base": "conquestnaturepack:block/pillar_layers/normal08",
+            "rotateY": 180
+
+        },
+        "*-free-5-up": {
+            "base": "conquestnaturepack:block/pillar_layers/normal10",
+            "rotateY": 180
+
+        },
+        "*-free-6-up": {
+            "base": "conquestnaturepack:block/pillar_layers/normal12",
+            "rotateY": 180
+        },
+        "*-free-7-up": {
+            "base": "conquestnaturepack:block/pillar_layers/normal14",
+            "rotateY": 180
+        },
+        "*-8-*": {
+            "base": "conquestnaturepack:block/block_layers_down/block_layers_8"
+        }
+    },
+    "blockmaterial": "Stone",
+    "replaceable": 90,
+    "requiredMiningTierByType": {
+        "*-chalk-*": 1,
+        "*-chalk_layered-*": 1,
+        "*-halite-*": 1,
+        "*-salt_flats_*-*": 1,
+        "*-sandstone-*": 1,
+        "*-sandstone_*-*": 1,
+        "*": 2
+    },
+    "resistanceByType": {
+        "*-andesite-*": 6.5,
+        "*-andesite_columnar-*": 7,
+        "*-andesite_porous-*": 6.5,
+        "*-andesite_weathered-*": 6.5,
+        "*-basalt-*": 6.5,
+        "*-basalt_columnar-*": 7,
+        "*-basalt_columnar_light-*": 7,
+        "*-basalt_porous-*": 6.5,
+        "*-basalt_smooth-*": 6.5,
+        "*-basalt_weathered-*": 6.5,
+        "*-blackstone-*": 7,
+        "*-dacite-*": 6.5,
+        "*-dacite_columnar-*": 7,
+        "*-dacite_porous-*": 6.5,
+        "*-dacite_weathered-*": 6.5,
+        "*-obsidian-*": 7,
+        "*-obsidian_crying-*": 7,
+        "*-obsidian_light-*": 7,
+        "*-obsidian_smooth-*": 7,
+        "*-rhyolite-*": 6.5,
+        "*-rhyolite_columnar-*": 7,
+        "*-rhyolite_porous-*": 6.5,
+        "*-rhyolite_weathered-*": 6.5,
+        "*-granite-*": 6.5,
+        "*-granite_red-*": 6.5,
+        "*-granite_smooth-*": 6.5,
+        "*-granite_smooth_red-*": 6.5,
+        "*-granite_snowy-*": 6.5,
+        "*-peridotite-*": 6.5,
+        "*-quartzite_gray-*": 6.5,
+        "*-quartzite_pink-*": 6.5,
+        "*-quartzite_yellow-*": 6.5,
+        "*-chalk-*": 4,
+        "*-chalk_layered-*": 4,
+        "*-chert-*": 6.5,
+        "*-halite-*": 5,
+        "*-mudstone": 5,
+        "*-mudstone_brown-*": 5,
+        "*-mudstone_light-*": 5,
+        "*-mudstone_lightbrown-*": 5,
+        "*-mudstone_orange-*": 5,
+        "*-mudstone_red-*": 5,
+        "*-mudstone_umbre-*": 5,
+        "*-mudstone_yellow-*": 5,
+        "*-salt_flats_blue-*": 5,
+        "*-salt_flats_brown-*": 5,
+        "*-salt_flats_pink-*": 5,
+        "*-salt_flats_white-*": 5,
+        "*-sandstone-*": 4,
+        "*-sandstone_brown-*": 4,
+        "*-sandstone_costal_red-*": 4,
+        "*-sandstone_mossy_red-*": 4,
+        "*-sandstone_orange-*": 4,
+        "*-sandstone_red-*": 4,
+        "*-sandstone_tan-*": 4,
+        "*-sandstone_warped-*": 4,
+        "*": 6
+    },
+    "fertility": 0,
+    "texturesBytype": {
+        "@.*-(|andesite_columnar|basalt_columnar|basalt_columnar_light|calcite_rough|dacite_columnar|rhyolite_columnar|granite_red|schist_blue|schist_green|slate_warped_costal|calcite_rough|dripstone|dripstone_dark|graywacke|limestone_boulders_mossy_light|limestone_mossy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan)-.*": {
+
+            "sides": { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" },
+            "up": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" },
+            "down": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
+
+        },
+        "@.*-(andesite|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale)-.*": {
+            "sides": { "base": "game:block/stone/rock/{rock}*" },
+            "up": { "base": "game:block/stone/rock/top/{rock}*" },
+            "down": { "base": "game:block/stone/rock/top/{rock}*" }
+
+        },
+        "@.*-(basalt|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite)-.*": {
+            "sides": { "base": "game:block/stone/rock/{rock}*" }
+
+        },
+        "*": {
+            "sides": { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
+        }
+    },
+    "drops": [
+        {
+            "type": "block",
+            "code": "rock_pillar_layers-{rock}-free-1-down",
+            "quantity": { "avg": 1 }
+        }
+    ],
+    "sounds": {
+        "walk": "walk/stone",
+        "byTool": {
+            "Pickaxe": {
+                "hit": "block/rock-hit-pickaxe",
+                "break": "block/rock-break-pickaxe"
+            }
+        }
+    },
+    "sidesolid": { "all": false },
+    "sideopaque": { "all": false },
+    "lightAbsorption": 0,
+    "heldTpIdleAnimation": "holdbothhandslarge",
+    "heldTpUseAnimation": "twohandplaceblock",
+    "tpHandTransform": {
+        "translation": {
+            "x": -1.23,
+            "y": -0.91,
+            "z": -0.8
+        },
+        "rotation": {
+            "x": -1,
+            "y": -78,
+            "z": -75
+        },
+        "origin": {
+            "x": 0.88,
+            "y": 0.37,
+            "z": 0.73
+        },
+        "scale": 0.66
+    },
+    "fpHandTransform": {
+        "rotation": {
+            "x": -68,
+            "y": -48,
+            "z": 12
+        },
+        "origin": {
+            "x": 2.3,
+            "y": 1.2,
+            "z": 0.2
+        },
+        "scale": 1.53
+    },
+    "guiTransform": {
+        "origin": {
+            "x": 0.5,
+            "y": 0.55,
+            "z": 0.4
+        },
+        "scale": 1.53
+    },
+    "collisionselectionboxbytype": {
+        "*-8-*": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 1,
+            "z2": 1
+
+        },
+
+        "*-7-*": {
+            "x1": 0.0625,
+            "y1": 0,
+            "z1": 0.0625,
+            "x2": 0.9375,
+            "y2": 1,
+            "z2": 0.9375,
+            "rotateZByType": {
+                "*-up": 0,
+                "*-down": 180
+            }
+        },
+
+        "*-6-*": {
+            "x1": 0.125,
+            "y1": 0,
+            "z1": 0.125,
+            "x2": 0.875,
+            "y2": 1,
+            "z2": 0.875,
+            "rotateZByType": {
+                "*-up": 0,
+                "*-down": 180
+            }
+        },
+
+        "*-5-*": {
+            "x1": 0.1875,
+            "y1": 0,
+            "z1": 0.1875,
+            "x2": 0.8125,
+            "y2": 1,
+            "z2": 0.8125,
+            "rotateZByType": {
+                "*-up": 0,
+                "*-down": 180
+            }
+        },
+
+        "*-4-*": {
+            "x1": 0.25,
+            "y1": 0,
+            "z1": 0.25,
+            "x2": 0.75,
+            "y2": 1,
+            "z2": 0.75,
+            "rotateZByType": {
+                "*-up": 0,
+                "*-down": 180
+            }
+        },
+
+        "*-3-*": {
+            "x1": 0.3125,
+            "y1": 0,
+            "z1": 0.3125,
+            "x2": 0.6875,
+            "y2": 1,
+            "z2": 0.6875,
+            "rotateZByType": {
+                "*-up": 0,
+                "*-down": 180
+            }
+        },
+
+        "*-2-*": {
+            "x1": 0.375,
+            "y1": 0,
+            "z1": 0.375,
+            "x2": 0.625,
+            "y2": 1,
+            "z2": 0.625,
+            "rotateZByType": {
+                "*-up": 0,
+                "*-down": 180
+            }
+        },
+        "*-1-*": {
+            "x1": 0.4375,
+            "y1": 0,
+            "z1": 0.4375,
+            "x2": 0.5625,
+            "y2": 1,
+            "z2": 0.5625,
+            "rotateZByType": {
+                "*-up": 0,
+                "*-down": 180
+            }
+        }
+
+    }
+}

@@ -1,0 +1,145 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Anvil base0",
+			"from": [ 2.0, 0.0, 2.0 ],
+			"to": [ 14.0, 4.0, 14.0 ],
+			"faces": {
+				"north": { "texture": "#north", "uv": [ 2.0, 12.0, 14.0, 16.0 ], "autoUv": false },
+				"east": {
+					"texture": "#east",
+					"uv": [ 2.0, 12.0, 14.0, 16.0 ],
+					"autoUv": false
+				},
+				"south": {
+					"texture": "#south",
+					"uv": [ 2.0, 12.0, 14.0, 16.0 ],
+					"autoUv": false
+				},
+				"west": {
+					"texture": "#west",
+					"uv": [ 2.0, 12.0, 14.0, 16.0 ],
+					"autoUv": false
+				},
+				"up": {
+					"texture": "#up",
+					"uv": [ 2.0, 2.0, 14.0, 14.0 ],
+					"autoUv": false
+				},
+				"down": {
+					"texture": "#down",
+					"uv": [ 2.0, 2.0, 14.0, 14.0 ],
+					"autoUv": false
+				}
+			}
+		},
+		{
+			"name": "Lower narrow portion1",
+			"from": [ 4.0, 4.0, 3.0 ],
+			"to": [ 12.0, 5.0, 13.0 ],
+			"faces": {
+				"north": { "texture": "#north", "uv": [ 4.0, 11.0, 12.0, 12.0 ], "autoUv": false },
+				"east": {
+					"texture": "#east",
+					"uv": [ 3.0, 11.0, 13.0, 12.0 ],
+					"autoUv": false
+				},
+				"south": {
+					"texture": "#south",
+					"uv": [ 4.0, 11.0, 12.0, 12.0 ],
+					"autoUv": false
+				},
+				"west": {
+					"texture": "#west",
+					"uv": [ 3.0, 11.0, 13.0, 12.0 ],
+					"autoUv": false
+				},
+				"up": {
+					"texture": "#up",
+					"uv": [ 4.0, 3.0, 12.0, 13.0 ],
+					"autoUv": false
+				},
+				"down": {
+					"texture": "#down",
+					"uv": [ 0.0, 0.0, 0.0, 0.0 ],
+					"autoUv": false
+				}
+			}
+		},
+		{
+			"name": "Wider section beneath top portion2",
+			"from": [ 6.0, 5.0, 4.0 ],
+			"to": [ 10.0, 10.0, 12.0 ],
+			"faces": {
+				"north": { "texture": "#north", "uv": [ 6.0, 6.0, 10.0, 11.0 ], "autoUv": false },
+				"east": {
+					"texture": "#east",
+					"uv": [ 4.0, 6.0, 12.0, 11.0 ],
+					"autoUv": false
+				},
+				"south": {
+					"texture": "#south",
+					"uv": [ 6.0, 6.0, 10.0, 11.0 ],
+					"autoUv": false
+				},
+				"west": {
+					"texture": "#west",
+					"uv": [ 4.0, 6.0, 12.0, 11.0 ],
+					"autoUv": false
+				},
+				"up": {
+					"texture": "#up",
+					"uv": [ 0.0, 0.0, 0.0, 0.0 ],
+					"autoUv": false
+				},
+				"down": {
+					"texture": "#down",
+					"uv": [ 0.0, 0.0, 0.0, 0.0 ],
+					"autoUv": false
+				}
+			}
+		},
+		{
+			"name": "Anvil top3",
+			"from": [ 3.0, 10.0, 0.0 ],
+			"to": [ 13.0, 16.0, 16.0 ],
+			"faces": {
+				"north": { "texture": "#north", "uv": [ 3.0, 0.0, 13.0, 6.0 ], "autoUv": false },
+				"east": {
+					"texture": "#east",
+					"uv": [ 0.0, 0.0, 16.0, 6.0 ],
+					"autoUv": false
+				},
+				"south": {
+					"texture": "#south",
+					"uv": [ 3.0, 0.0, 13.0, 6.0 ],
+					"autoUv": false
+				},
+				"west": {
+					"texture": "#west",
+					"uv": [ 0.0, 0.0, 16.0, 6.0 ],
+					"autoUv": false
+				},
+				"up": {
+					"texture": "#up",
+					"uv": [ 3.0, 0.0, 13.0, 16.0 ],
+					"autoUv": false
+				},
+				"down": {
+					"texture": "#down",
+					"uv": [ 3.0, 0.0, 13.0, 16.0 ],
+					"autoUv": false
+				}
+			}
+		}
+	]}

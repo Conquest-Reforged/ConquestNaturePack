@@ -1,11 +1,11 @@
 {
-    "code": "rock_corner_slab",
-    "class": "BlockStairs",
+    "code": "rock_sphere",
     "behaviors": [
         {
             "name": "WrenchOrientable",
-            "properties": { "baseCode": "rock_corner_slab-{rock}-{verticalorientation}-*-{cover}" }
-        }
+            "properties": { "baseCode": "rock_sphere-{rock}-*" }
+        },
+        { "name": "ModCorrectedSlab" }
 
     ],
 
@@ -14,101 +14,42 @@
             "code": "rock",
             "loadFromProperties": "block/rockwithdeposit"
         },
-        { "loadFromProperties": "abstract/verticalorientation" },
-        { "loadFromProperties": "abstract/horizontalorientation" },
         {
-            "code": "cover",
-            "states": [ "free", "snow" ]
+            "code": "part",
+            "states": [ "down", "up" ]
         }
+
     ],
 
     "attributes": {
         "canChisel": true,
         "chiselShapeFromCollisionBox": true,
         "handbook": {
-            "groupBy": [ "rock_corner_slab-*-down-north-free" ]
+            "groupBy": [ "rock_sphere-*-down" ]
         }
     },
     "creativeinventory": {
-        "general": [ "*-up-north-free" ]
+        "general": [ "*-down" ]
     },
     "drawtype": "json",
     "shapeByType": {
-        "*-up-north-free": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom",
+        "*-down": {
+            "base": "conquestnaturepack:block/sphere/sphere",
             "rotateY": 0
         },
-        "*-up-south-free": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom",
+        "*-up": {
+            "base": "conquestnaturepack:block/sphere/sphere",
             "rotateY": 180
-        },
-        "*-up-west-free": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom",
-            "rotateY": 90
-        },
-        "*-up-east-free": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom",
-            "rotateY": 270
-        },
-        "*-down-north-free": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_top",
-            "rotateY": 270
-
-        },
-        "*-down-south-free": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_top",
-            "rotateY": 90
-
-        },
-        "*-down-west-free": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_top",
-            "rotateY": 0
-
-        },
-        "*-down-east-free": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_top",
-            "rotateY": 180
-
-        },
-        "*-up-north-snow": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom_snow",
-            "rotateY": 0
-        },
-        "*-up-south-snow": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom_snow",
-            "rotateY": 180
-        },
-        "*-up-west-snow": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom_snow",
-            "rotateY": 90
-        },
-        "*-up-east-snow": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom_snow",
-            "rotateY": 270
-        },
-        "*-down-north-snow": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_top_snow",
-            "rotateY": 270
-
-        },
-        "*-down-south-snow": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_top_snow",
-            "rotateY": 90
-
-        },
-        "*-down-west-snow": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_top_snow",
-            "rotateY": 0
-
-        },
-        "*-down-east-snow": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_top_snow",
-            "rotateY": 180
-
         }
-
     },
     "blockmaterial": "Stone",
+    "drops": [
+        {
+            "type": "block",
+            "code": "rock_sphere-{rock}-down",
+            "quantity": { "avg": 1 }
+        }
+    ],
     "texturesBytype": {
         "@.*-(|andesite_columnar|basalt_columnar|basalt_columnar_light|calcite_rough|dacite_columnar|rhyolite_columnar|granite_red|schist_blue|schist_green|slate_warped_costal|calcite_rough|dripstone|dripstone_dark|graywacke|limestone_boulders_mossy_light|limestone_mossy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan)-.*": {
             "sides": { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" },
@@ -222,16 +163,16 @@
             "z": -0.8
         },
         "rotation": {
-            "x": 4,
-            "y": 78,
-            "z": -85
+            "x": 18,
+            "y": -81,
+            "z": 83
         },
         "origin": {
-            "x": 0.33,
-            "y": 0.55,
-            "z": 0.68
+            "x": 0.55,
+            "y": 0.54,
+            "z": 0.63
         },
-        "scale": 0.49
+        "scale": 0.44
     },
     "fpHandTransform": {
         "translation": {
@@ -240,89 +181,96 @@
             "z": 0.8
         },
         "rotation": {
-            "x": -99,
-            "y": -20,
-            "z": 81
+            "x": -39,
+            "y": 60,
+            "z": -174
         },
         "origin": {
-            "x": 0.5,
-            "y": 0.6,
-            "z": 0.3
+            "x": 1.2,
+            "y": 0.84,
+            "z": 1.1
         },
-        "scale": 1.26
+        "scale": 1.12
     },
     "guiTransform": {
         "rotation": {
-            "x": -22.6,
-            "y": -45.3,
-            "z": -4
+            "x": -24,
+            "y": -153,
+            "z": -1
         },
         "origin": {
             "x": 0.5,
-            "y": 0.45,
+            "y": 0.55,
             "z": 0.5
         }
     },
-
     "collisionSelectionBoxesByType": {
-        "*-up-*": [
+        "*-down": [
             {
-                "x1": 0,
+                "x1": 0.25,
                 "y1": 0,
-                "z1": 0,
-                "x2": 0.5,
-                "y2": 0.5,
-                "z2": 1,
-                "rotateYByType": {
-                    "*-north-*": 0,
-                    "*-east-*": 270,
-                    "*-south-*": 180,
-                    "*-west-*": 90
-                }
+                "z1": 0.25,
+                "x2": 0.75,
+                "y2": 1,
+                "z2": 0.75
             },
             {
-                "x1": 0.5,
-                "y1": 0,
+                "x1": 0.1008,
+                "y1": 0.0993,
+                "z1": 0.1124,
+                "x2": 0.8939,
+                "y2": 0.8934,
+                "z2": 0.9002
+            },
+            {
+                "x1": 0.25,
+                "y1": 0.25,
                 "z1": 0,
+                "x2": 0.75,
+                "y2": 0.75,
+                "z2": 1
+            },
+            {
+                "x1": 0,
+                "y1": 0.25,
+                "z1": 0.25,
                 "x2": 1,
-                "y2": 0.5,
-                "z2": 0.5,
-                "rotateYByType": {
-                    "*-north-*": 0,
-                    "*-east-*": 270,
-                    "*-south-*": 180,
-                    "*-west-*": 90
-                }
+                "y2": 0.75,
+                "z2": 0.75
             }
         ],
-        "*-down-*": [
+        "*-up": [
             {
-                "x1": 0,
-                "y1": 0.5,
-                "z1": 0,
-                "x2": 1,
+                "x1": 0.25,
+                "y1": 0,
+                "z1": 0.25,
+                "x2": 0.75,
                 "y2": 1,
-                "z2": 0.5,
-                "rotateYByType": {
-                    "*-north-*": 0,
-                    "*-east-*": 270,
-                    "*-south-*": 180,
-                    "*-west-*": 90
-                }
+                "z2": 0.75
+            },
+            {
+                "x1": 0.1008,
+                "y1": 0.0993,
+                "z1": 0.1124,
+                "x2": 0.8939,
+                "y2": 0.8934,
+                "z2": 0.9002
+            },
+            {
+                "x1": 0.25,
+                "y1": 0.25,
+                "z1": 0,
+                "x2": 0.75,
+                "y2": 0.75,
+                "z2": 1
             },
             {
                 "x1": 0,
-                "y1": 0.5,
-                "z1": 0.5,
-                "x2": 0.5,
-                "y2": 1,
-                "z2": 1,
-                "rotateYByType": {
-                    "*-north-*": 0,
-                    "*-east-*": 270,
-                    "*-south-*": 180,
-                    "*-west-*": 90
-                }
+                "y1": 0.25,
+                "z1": 0.25,
+                "x2": 1,
+                "y2": 0.75,
+                "z2": 0.75
             }
         ]
     }

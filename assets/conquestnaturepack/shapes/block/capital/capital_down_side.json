@@ -1,0 +1,52 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Element0",
+			"from": [ 4.0, 6.0, 4.0 ],
+			"to": [ 12.0, 12.0, 12.0 ],
+			"faces": {
+				"north": { "texture": "#north", "uv": [ 4.0, 4.0, 12.0, 10.0 ], "autoUv": false },
+				"east": { "texture": "#east", "uv": [ 4.0, 4.0, 12.0, 10.0 ], "autoUv": false },
+				"south": { "texture": "#south", "uv": [ 4.0, 4.0, 12.0, 10.0 ], "autoUv": false },
+				"west": { "texture": "#west", "uv": [ 4.0, 4.0, 12.0, 10.0 ], "autoUv": false },
+				"up": { "texture": "#up", "uv": [ 4.0, 4.0, 12.0, 12.0 ], "autoUv": false },
+				"down": { "texture": "#down", "uv": [ 0.0, 0.0, 0.0, 0.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Element1",
+			"from": [ 6.0, 6.0, 0.0 ],
+			"to": [ 10.0, 12.0, 4.0 ],
+			"faces": {
+				"north": { "texture": "#north", "uv": [ 6.0, 4.0, 10.0, 8.0 ], "autoUv": false },
+				"east": { "texture": "#east", "uv": [ 12.0, 4.0, 16.0, 8.0 ], "autoUv": false },
+				"south": { "texture": "#south", "uv": [ 0.0, 0.0, 0.0, 0.0 ], "autoUv": false },
+				"west": { "texture": "#west", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "autoUv": false },
+				"up": { "texture": "#up", "uv": [ 6.0, 0.0, 10.0, 4.0 ], "autoUv": false },
+				"down": { "texture": "#down", "uv": [ 0.0, 0.0, 0.0, 0.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Element2",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 16.0, 6.0, 16.0 ],
+			"faces": {
+				"north": { "texture": "#north", "uv": [ 0.0, 10.0, 16.0, 16.0 ], "autoUv": false },
+				"east": { "texture": "#east", "uv": [ 0.0, 10.0, 16.0, 16.0 ], "autoUv": false },
+				"south": { "texture": "#south", "uv": [ 0.0, 10.0, 16.0, 16.0 ], "autoUv": false },
+				"west": { "texture": "#west", "uv": [ 0.0, 10.0, 16.0, 16.0 ], "autoUv": false },
+				"up": { "texture": "#up", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+				"down": { "texture": "#down", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false }
+			}
+		}
+	]}

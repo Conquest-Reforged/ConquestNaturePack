@@ -1,11 +1,11 @@
 {
-    "code": "rock_corner_slab",
-    "class": "BlockStairs",
+    "code": "rock_arch_small_half",
     "behaviors": [
         {
             "name": "WrenchOrientable",
-            "properties": { "baseCode": "rock_corner_slab-{rock}-{verticalorientation}-*-{cover}" }
-        }
+            "properties": { "baseCode": "rock_arch_small_half-{rock}-*" }
+        },
+        { "name": "HorizontalOrientable" }
 
     ],
 
@@ -14,97 +14,39 @@
             "code": "rock",
             "loadFromProperties": "block/rockwithdeposit"
         },
-        { "loadFromProperties": "abstract/verticalorientation" },
-        { "loadFromProperties": "abstract/horizontalorientation" },
         {
-            "code": "cover",
-            "states": [ "free", "snow" ]
+            "loadFromProperties": "abstract/horizontalorientation"
         }
+
     ],
 
     "attributes": {
         "canChisel": true,
         "chiselShapeFromCollisionBox": true,
         "handbook": {
-            "groupBy": [ "rock_corner_slab-*-down-north-free" ]
+            "groupBy": [ "rock_arch_small_half-*-north" ]
         }
     },
     "creativeinventory": {
-        "general": [ "*-up-north-free" ]
+        "general": [ "*-north" ]
     },
     "drawtype": "json",
     "shapeByType": {
-        "*-up-north-free": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom",
-            "rotateY": 0
-        },
-        "*-up-south-free": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom",
+        "*-north": {
+            "base": "conquestnaturepack:block/arch_small/small_arch_half",
             "rotateY": 180
         },
-        "*-up-west-free": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom",
-            "rotateY": 90
-        },
-        "*-up-east-free": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom",
-            "rotateY": 270
-        },
-        "*-down-north-free": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_top",
-            "rotateY": 270
-
-        },
-        "*-down-south-free": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_top",
-            "rotateY": 90
-
-        },
-        "*-down-west-free": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_top",
-            "rotateY": 0
-
-        },
-        "*-down-east-free": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_top",
-            "rotateY": 180
-
-        },
-        "*-up-north-snow": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom_snow",
+        "*-south": {
+            "base": "conquestnaturepack:block/arch_small/small_arch_half",
             "rotateY": 0
         },
-        "*-up-south-snow": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom_snow",
-            "rotateY": 180
-        },
-        "*-up-west-snow": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom_snow",
-            "rotateY": 90
-        },
-        "*-up-east-snow": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_bottom_snow",
+        "*-west": {
+            "base": "conquestnaturepack:block/arch_small/small_arch_half",
             "rotateY": 270
         },
-        "*-down-north-snow": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_top_snow",
-            "rotateY": 270
-
-        },
-        "*-down-south-snow": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_top_snow",
+        "*-east": {
+            "base": "conquestnaturepack:block/arch_small/small_arch_half",
             "rotateY": 90
-
-        },
-        "*-down-west-snow": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_top_snow",
-            "rotateY": 0
-
-        },
-        "*-down-east-snow": {
-            "base": "conquestnaturepack:block/corner_slab/corner_slab_top_snow",
-            "rotateY": 180
-
         }
 
     },
@@ -222,16 +164,16 @@
             "z": -0.8
         },
         "rotation": {
-            "x": 4,
-            "y": 78,
-            "z": -85
+            "x": 6,
+            "y": -77,
+            "z": 7
         },
         "origin": {
-            "x": 0.33,
-            "y": 0.55,
-            "z": 0.68
+            "x": 0.52,
+            "y": 0.53,
+            "z": 0.58
         },
-        "scale": 0.49
+        "scale": 0.45
     },
     "fpHandTransform": {
         "translation": {
@@ -240,90 +182,87 @@
             "z": 0.8
         },
         "rotation": {
-            "x": -99,
-            "y": -20,
-            "z": 81
+            "x": 107,
+            "y": -7,
+            "z": 14
         },
         "origin": {
-            "x": 0.5,
-            "y": 0.6,
-            "z": 0.3
+            "x": 1.2,
+            "y": 0.5,
+            "z": 1.1
         },
-        "scale": 1.26
+        "scale": 1.13
     },
     "guiTransform": {
         "rotation": {
-            "x": -22.6,
-            "y": -45.3,
-            "z": -4
+            "x": -24,
+            "y": -138,
+            "z": -1
         },
         "origin": {
-            "x": 0.5,
-            "y": 0.45,
-            "z": 0.5
-        }
+            "x": 0.2,
+            "y": 0.65,
+            "z": 0.6
+        },
+        "scale": 0.94
     },
+    "collisionselectionboxbytype": {
+        "*-north": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 1,
+            "z2": 0.5,
+            "rotateYByType": {
+                "*-north": 0,
+                "*-east": 270,
+                "*-south": 180,
+                "*-west": 90
+            }
+        },
+        "*-south": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 1,
+            "z2": 0.5,
+            "rotateYByType": {
+                "*-north": 0,
+                "*-east": 270,
+                "*-south": 180,
+                "*-west": 90
+            }
+        },
+        "*-east": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 1,
+            "z2": 0.5,
+            "rotateYByType": {
+                "*-north": 0,
+                "*-east": 270,
+                "*-south": 180,
+                "*-west": 90
+            }
+        },
+        "*-west": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 1,
+            "z2": 0.5,
+            "rotateYByType": {
+                "*-north": 0,
+                "*-east": 270,
+                "*-south": 180,
+                "*-west": 90
+            }
+        }
 
-    "collisionSelectionBoxesByType": {
-        "*-up-*": [
-            {
-                "x1": 0,
-                "y1": 0,
-                "z1": 0,
-                "x2": 0.5,
-                "y2": 0.5,
-                "z2": 1,
-                "rotateYByType": {
-                    "*-north-*": 0,
-                    "*-east-*": 270,
-                    "*-south-*": 180,
-                    "*-west-*": 90
-                }
-            },
-            {
-                "x1": 0.5,
-                "y1": 0,
-                "z1": 0,
-                "x2": 1,
-                "y2": 0.5,
-                "z2": 0.5,
-                "rotateYByType": {
-                    "*-north-*": 0,
-                    "*-east-*": 270,
-                    "*-south-*": 180,
-                    "*-west-*": 90
-                }
-            }
-        ],
-        "*-down-*": [
-            {
-                "x1": 0,
-                "y1": 0.5,
-                "z1": 0,
-                "x2": 1,
-                "y2": 1,
-                "z2": 0.5,
-                "rotateYByType": {
-                    "*-north-*": 0,
-                    "*-east-*": 270,
-                    "*-south-*": 180,
-                    "*-west-*": 90
-                }
-            },
-            {
-                "x1": 0,
-                "y1": 0.5,
-                "z1": 0.5,
-                "x2": 0.5,
-                "y2": 1,
-                "z2": 1,
-                "rotateYByType": {
-                    "*-north-*": 0,
-                    "*-east-*": 270,
-                    "*-south-*": 180,
-                    "*-west-*": 90
-                }
-            }
-        ]
     }
 }
