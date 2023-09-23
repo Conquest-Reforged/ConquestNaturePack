@@ -324,7 +324,7 @@
     "drops": [
         {
             "type": "block",
-            "code": "rock_layers_vertical-{rock}-free-1-down",
+            "code": "rock_layers_vertical-{rock}-free-1-north",
             "quantity": { "avg": 1 }
         }
     ],
