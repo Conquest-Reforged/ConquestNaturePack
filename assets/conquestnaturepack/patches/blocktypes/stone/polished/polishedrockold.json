@@ -1,0 +1,436 @@
+[
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-dacite",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-rhyolite",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-tuff",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-anorthosite_rough",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-granite_red",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-gneiss",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-quartzite_gray",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-quartzite_pink",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-quartzite_yellow",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-schist_blue",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-schist_green",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-serpentinite",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-dolomite",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-graywacke",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-limestone_boulders_light",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-limestone_light",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-limestone_pink",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-limestone_tan",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-mudstone",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-mudstone_brown",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-mudstone_light",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-mudstone_lightbrown",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-mudstone_orange",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-mudstone_red",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-mudstone_umbre",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-mudstone_yellow",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-sandstone_brown",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-sandstone_orange",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-sandstone_red",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-sandstone_tan",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-full-sandstone_warped",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-dacite",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-rhyolite",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-tuff",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-anorthosite_rough",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-granite_red",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-gneiss",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-quartzite_gray",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-quartzite_pink",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-quartzite_yellow",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-schist_blue",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-schist_green",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-serpentinite",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-dolomite",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-graywacke",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-limestone_boulders_light",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-limestone_light",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-limestone_pink",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-limestone_tan",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-mudstone",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-mudstone_brown",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-mudstone_light",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-mudstone_lightbrown",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-mudstone_orange",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-mudstone_red",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-mudstone_umbre",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-mudstone_yellow",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-sandstone_brown",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-sandstone_orange",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-sandstone_red",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-sandstone_tan",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/skipVariants/-",
+    "value": "polishedrockold-cobbled-sandstone_warped",
+    "file": "game:blocktypes/stone/polished/polishedrockold.json",
+    "side": "Server"
+  }
+]
