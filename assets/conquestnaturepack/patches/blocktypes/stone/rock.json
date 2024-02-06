@@ -1,6 +1,41 @@
 [
     {
         "file": "game:blocktypes/stone/rock.json",
+        "op": "replace",
+        "path": "/behaviors",
+        "side": "server",
+        "value": [
+            { "name": "BreakIfFloating" },
+            {
+                "name": "UnstableRock",
+                "propertiesByType": {
+                    "@rock-(claystone|sandstone|shale|conglomerate|limestone|chert|chalk|sandstone_warped|sandstone_tan|sandstone_red|sandstone_orange|sandstone_mossy_red|sandstone_costal_red|sandstone_brown|mudstone|mudstone_brown|mudstone_light|mudstone_lightbrown|mudstone_orange|mudstone_red|mudstone_umbre|mudstone_yellow|chalk_layered)": {
+                        "collapsedBlock": "game:crackedrock-{rock}",
+                        "collapseChance": 0.5,
+                        "maxSupportDistance": 2,
+                        "maxCollapseDistance": 1,
+                        "impactDamageMul": 6
+                    },
+                    "@rock-(bauxite|slate|phyllite|slate_wet|slate_warped_costal|slate_warped|graywacke)": {
+                        "collapsedBlock": "game:crackedrock-{rock}",
+                        "collapseChance": 0.25,
+                        "maxSupportDistance": 4,
+                        "maxCollapseDistance": 2,
+                        "impactDamageMul": 6
+                    },
+                    "*": {
+                        "collapsedBlock": "game:crackedrock-{rock}",
+                        "collapseChance": 0.2,
+                        "maxSupportDistance": 6,
+                        "maxCollapseDistance": 3,
+                        "impactDamageMul": 6
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "file": "game:blocktypes/stone/rock.json",
         "op": "remove",
         "side": "server",
         "path": "/requiredMiningTier"
@@ -85,36 +120,272 @@
             "*": 6
         }
     },
-
     {
         "file": "game:blocktypes/stone/rock.json",
-        "op": "remove",
-        "path": "/texturesByType",
-        "side": "server"
-    },
-    {
-        "file": "game:blocktypes/stone/rock.json",
-        "op": "add",
+        "op": "replace",
         "path": "/texturesByType",
         "side": "server",
         "value": {
-            "@.*-(|andesite_columnar|basalt_columnar|basalt_columnar_light|calcite_rough|dacite_columnar|rhyolite_columnar|granite_red|schist_blue|schist_green|slate_warped_costal|calcite_rough|dripstone|dripstone_dark|graywacke|limestone_boulders_mossy_light|limestone_mossy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan)": {
+            "@.*-(magma|mudstone_brown|mudstone_light|mudstone_lightbrown|mudstone_orange|mudstone_red|mudstone_umbre|mudstone_yellow|pahoehoe|silt_cave_gray|slate_wet)": {
+                "all": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
+                    ],
+                    "tilesWidth": 2
+                }
+            },
+            "@.*-(calcite)": {
+                "sides": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "up": {
+                    "base": "conquestnaturepack:block/topography/rock/dripstone/top/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/dripstone/top/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "down": {
+                    "base": "conquestnaturepack:block/topography/rock/dripstone/top/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/dripstone/top/*" }
+                    ],
+                    "tilesWidth": 2
+                }
+            },
+            "@.*-(blackstone|obsidian_crying|obsidian_light|sandstone_warped|slate_warped)": {
+                "all": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
+                    ],
+                    "tilesWidth": 3
+                }
+            },
+            "@.*-(slate_warped_costal)": {
+                "sides": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 3
+                },
+                "up": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 3
+                },
+                "down": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 3
+                }
+            },
+            "@.*-(calcite_rough)": {
+                "sides": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 3
+                },
+                "up": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "down": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                }
+            },
+            "@.*-(andesite_porous|andesite_weathered|anorthosite_rough|anorthosite_smooth|anorthosite_weathered|basalt_porous|basalt_smooth|basalt_weathered|chalk_layered|dacite|dacite_porous|dacite_weathered|gneiss_eroded|limestone_boulders_light|marble_rough|marble_rough_dark|obsidian_smooth|rhyolite|rhyolite_porous|rhyolite_weathered|salt_flats_blue|salt_flats_brown|salt_flats_pink|salt_flats_white|schist_lichen_blue|schist_mossy_blue|schist_weathered_blue|serpentinite|serpentinite_smooth|tuff_light|tuff_smooth)": {
+                "all": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
+                    ],
+                    "tilesWidth": 4
+                }
+            },
+            "@.*-(graywacke|limestone_boulders_mossy_light|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan|schist_blue)": {
+                "sides": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 4
+                },
+                "up": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 4
+                },
+                "down": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 4
+                }
+            },
+            "@.*-(schist_green)": {
+                "sides": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 4
+                },
+                "up": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 3
+                },
+                "down": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 3
+                }
+            },
+            "@.*-(mudstone)": {
+                "sides": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 4
+                },
+                "up": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "down": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                }
+            },
+            "@.*-(quartzite_gray|quartzite_pink|quartzite_yellow)": {
+                "all": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
+                    ],
+                    "tilesWidth": 6
+                }
+            },
+            "@.*-(calcite_limestone|dolomite|endstone_layered|endstone_rough|endstone_smooth|gneiss|granite_smooth|granite_smooth_red|granite_snowy|limestone_light|limestone_pink|limestone_stained_tan|limestone_tan)": {
+                "all": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
+                    ],
+                    "tilesWidth": 8
+                }
+            },
+            "@.*-(andesite_columnar|basalt_columnar|basalt_columnar_light|dacite_columnar|granite_red|rhyolite_columnar)": {
+                "sides": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 8
+                },
+                "up": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 8
+                },
+                "down": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 8
+                }
+            },
+            "@.*-(limestone_icy)": {
+                "sides": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 8
+                },
+                "up": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 4
+                },
+                "down": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 4
+                }
+            },
+            "@.*-(limestone_mossy)": {
+                "sides": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 8
+                },
+                "up": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                },
+                "down": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 2
+                }
+            },
+            "@.*-(dripstone|dripstone_dark)": {
                 "up": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" },
                 "down": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" },
                 "sides": { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" }
-            },
-            "@.*-(andesite|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale)": {
-                "sides": { "base": "game:block/stone/rock/{rock}*" },
-                "up": { "base": "game:block/stone/rock/top/{rock}*" },
-                "down": { "base": "game:block/stone/rock/top/{rock}*" }
-            },
-            "@.*-(basalt|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite)": {
-                "all": { "base": "game:block/stone/rock/{rock}*" }
-
-            },
-            "*": {
-                "all": { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
             }
+        },
+        "*": {
+            "all": { "base": "game:block/stone/rock/{rock}*" }
         }
     }
 ]

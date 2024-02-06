@@ -13,11 +13,11 @@
         "path": "/texturesByType",
         "side": "server",
         "value": {
-            "@.*-(andesite|basalt|bauxite|chalk|chert|claystone|conglomerate|granite|limestone|peridotite|phyllite|sandstone|shale|slate)-*": {
-                "all": { "base": "game:block/stone/sand/{rock}" }
+            "@.*-(anorthosite_rough|dacite|dolomite|gneiss|granite_red|graywacke|limestone_boulders_light|limestone_light|limestone_pink|limestone_tan|mudstone|mudstone_brown|mudstone_light|mudstone_lightbrown|mudstone_orange|mudstone_red|mudstone_umbre|mudstone_yellow|quartzite_gray|quartzite_pink|quartzite_yellow|rhyolite|sandstone_brown|sandstone_orange|sandstone_red|sandstone_tan|sandstone_warped|schist_blue|schist_green|serpentinite|tuff)-.*": {
+                "all": { "base": "conquestnaturepack:block/topography/sand/{rock}/*" }
             },
             "*": {
-                "all": { "base": "conquestnaturepack:block/topography/sand/{rock}/*" }
+                "all": { "base": "game:block/stone/sand/{rock}" }
             }
         }
     }

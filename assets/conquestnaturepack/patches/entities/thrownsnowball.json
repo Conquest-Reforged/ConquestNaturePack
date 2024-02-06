@@ -1,0 +1,28 @@
+[
+	{
+		"file": "game:entities/thrownsnowball.json",
+		"op": "replace",
+		"path": "/client/texturesByType",
+		"side": "server",
+		"value": {
+			"*-snow": {
+				"normal2": { "base": "game:block/liquid/snow/normal1" }
+			},
+			"@.*-(andesite|basalt|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite|meteorite-iron)": {
+				"normal2": {
+					"base": "game:block/stone/rock/{rock}1"
+				}
+			},
+			"@.*-(andesite_columnar|basalt_columnar|basalt_columnar_light|calcite_rough|dacite_columnar|rhyolite_columnar|granite_red|schist_blue|schist_green|slate_warped_costal|calcite_rough|dripstone|dripstone_dark|graywacke|limestone_boulders_mossy_light|limestone_mossy|limestone_icy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan|calcite)": {
+				"normal2": {
+					"base": "conquestnaturepack:block/topography/rock/{rock}/sides/1"
+				}
+			},
+			"*": {
+				"normal2": {
+					"base": "conquestnaturepack:block/topography/rock/{rock}/1"
+				}
+			}
+		}
+	}
+]

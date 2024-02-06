@@ -17,7 +17,7 @@
                     "overlays": [ "inherit" ]
                 }
             },
-            "@.*-(graywacke|limestone_boulders_mossy_light|limestone_icy|limestone_mossy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan)": {
+            "@.*-(graywacke|limestone_boulders_mossy_light|limestone_icy|limestone_mossy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan|calcite)": {
                 "ore": {
                     "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
                     "overlays": [

@@ -27,7 +27,7 @@
                     ]
                 }
             },
-            "@.*-(andesite_columnar|basalt_columnar|basalt_columnar_light|granite_red|slate_warped_costal|dacite_columnar|rhyolite_columnar|schist_blue|schist_green|calcite_rough)-.*": {
+            "@.*-(andesite_columnar|basalt_columnar|basalt_columnar_light|granite_red|slate_warped_costal|dacite_columnar|rhyolite_columnar|schist_blue|schist_green|calcite_rough|calcite)-.*": {
                 "rock": {
                     "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
                     "overlays": [

@@ -6,22 +6,27 @@
         "file": "game:itemtypes/resource/stone.json"
     },
     {
+        "file": "game:itemtypes/resource/stone.json",
         "op": "add",
         "side": "server",
         "path": "/texturesByType",
         "value": {
-            "@.*-(andesite|chalk|chert|conglomerate|limestone|claystone|granite|sandstone|shale|basalt|peridotite|phyllite|slate|obsidian|kimberlite|scoria|tuff|bauxite|halite|suevite|whitemarble|redmarble|greenmarble|meteorite-iron)": {
+            "@.*-(andesite|basalt|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite|meteorite-iron)": {
                 "material": {
                     "base": "game:block/stone/rock/{rock}1"
                 }
             },
+            "@.*-(andesite_columnar|basalt_columnar|basalt_columnar_light|calcite_rough|dacite_columnar|rhyolite_columnar|granite_red|schist_blue|schist_green|slate_warped_costal|calcite_rough|dripstone|dripstone_dark|graywacke|limestone_boulders_mossy_light|limestone_mossy|limestone_icy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan|calcite)": {
+                "material": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1"
+                }
+            },
             "*": {
                 "material": {
-                    "base": "conquestnaturepack:block/topography/rock/{rock}/*"
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/1"
                 }
             }
-        },
-        "file": "game:itemtypes/resource/stone.json"
+        }
     },
     {
         "file": "game:itemtypes/resource/stone.json",
@@ -342,147 +347,147 @@
         "path": "/grindingPropsByType",
         "value": {
             "*-halite": {
-                "grindedStack": {
+                "groundStack": {
                     "type": "item",
                     "code": "salt",
                     "stacksize": 2
                 }
             },
             "*-limestone": {
-                "grindedStack": {
+                "groundStack": {
                     "type": "item",
                     "code": "lime",
                     "stacksize": 1
                 }
             },
             "*-chalk": {
-                "grindedStack": {
+                "groundStack": {
                     "type": "item",
                     "code": "lime",
                     "stacksize": 1
                 }
             },
             "*marble*": {
-                "grindedStack": {
+                "groundStack": {
                     "type": "item",
                     "code": "lime",
                     "stacksize": 1
                 }
             },
-            "*conglomerate*": {
-                "grindedStack": {
+            "*-conglomerate": {
+                "groundStack": {
                     "type": "item",
                     "code": "lime",
                     "stacksize": 1
                 }
             },
-            "*dolomite*": {
-                "grindedStack": {
+            "*-dolomite": {
+                "groundStack": {
                     "type": "item",
                     "code": "lime",
                     "stacksize": 1
                 }
             },
-            "*limestone_boulders_light*": {
-                "grindedStack": {
+            "*-limestone_boulders_light": {
+                "groundStack": {
                     "type": "item",
                     "code": "lime",
                     "stacksize": 1
                 }
             },
-            "*limestone_boulders_mossy_light*": {
-                "grindedStack": {
+            "*-limestone_boulders_mossy_light": {
+                "groundStack":  {
                     "type": "item",
                     "code": "lime",
                     "stacksize": 1
                 }
             },
-            "*limestone_icy*": {
-                "grindedStack": {
+            "*-limestone_icy": {
+                "groundStack": {
                     "type": "item",
                     "code": "lime",
                     "stacksize": 1
                 }
             },
-            "*limestone_light*": {
-                "grindedStack": {
+            "*-limestone_light": {
+                "groundStack": {
                     "type": "item",
                     "code": "lime",
                     "stacksize": 1
                 }
             },
-            "*limestone_mossy*": {
-                "grindedStack": {
+            "*-limestone_mossy": {
+                "groundStack": {
                     "type": "item",
                     "code": "lime",
                     "stacksize": 1
                 }
             },
-            "*limestone_pink*": {
-                "grindedStack": {
+            "*-limestone_pink": {
+                "groundStack": {
                     "type": "item",
                     "code": "lime",
                     "stacksize": 1
                 }
             },
-            "*limestone_stained_tan*": {
-                "grindedStack": {
+            "*-limestone_stained_tan": {
+                "groundStack": {
                     "type": "item",
                     "code": "lime",
                     "stacksize": 1
                 }
             },
-            "*limestone_tan*": {
-                "grindedStack": {
+            "*-limestone_tan": {
+                "groundStack": {
                     "type": "item",
                     "code": "lime",
                     "stacksize": 1
                 }
             },
-            "*calcite_limestone*": {
-                "grindedStack": {
+            "*-calcite_limestone": {
+                "groundStack": {
                     "type": "item",
                     "code": "lime",
                     "stacksize": 1
                 }
             },
-            "*calcite_rough*": {
-                "grindedStack": {
+            "*-calcite_rough": {
+                "groundStack": {
                     "type": "item",
                     "code": "lime",
                     "stacksize": 1
                 }
             },
-            "*calcite*": {
-                "grindedStack": {
+            "*-calcite": {
+                "groundStack": {
                     "type": "item",
                     "code": "lime",
                     "stacksize": 1
                 }
             },
-            "*salt_flats_blue*": {
-                "grindedStack": {
+            "*-salt_flats_blue": {
+                "groundStack": {
                     "type": "item",
                     "code": "lime",
                     "stacksize": 1
                 }
             },
-            "*salt_flats_brown*": {
-                "grindedStack": {
+            "*-salt_flats_brown": {
+                "groundStack": {
                     "type": "item",
                     "code": "lime",
                     "stacksize": 1
                 }
             },
-            "*salt_flats_pink*": {
-                "grindedStack": {
+            "*-salt_flats_pink": {
+                "groundStack": {
                     "type": "item",
                     "code": "lime",
                     "stacksize": 1
                 }
             },
-            "*salt_flats_white*": {
-                "grindedStack": {
+            "*-salt_flats_white": {
+                "groundStack": {
                     "type": "item",
                     "code": "lime",
                     "stacksize": 1
