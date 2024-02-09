@@ -2,7 +2,7 @@
 
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/1",
         "value": {
             "Code": "andesite_columnar",
@@ -15,7 +15,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/2",
         "value": {
             "Code": "andesite_porous",
@@ -28,7 +28,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/3",
         "value": {
             "Code": "andesite_weathered",
@@ -41,7 +41,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/4",
         "value": {
             "Code": "basalt_columnar",
@@ -54,7 +54,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/5",
         "value": {
             "Code": "basalt_columnar_light",
@@ -67,7 +67,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/6",
         "value": {
             "Code": "basalt_porous",
@@ -80,7 +80,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/7",
         "value": {
             "Code": "basalt_smooth",
@@ -93,7 +93,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/8",
         "value": {
             "Code": "basalt_weathered",
@@ -106,7 +106,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/9",
         "value": {
             "Code": "blackstone",
@@ -119,7 +119,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/10",
         "value": {
             "Code": "dacite",
@@ -132,7 +132,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/11",
         "value": {
             "Code": "dacite_columnar",
@@ -145,7 +145,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/12",
         "value": {
             "Code": "dacite_porous",
@@ -158,7 +158,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/13",
         "value": {
             "Code": "dacite_weathered",
@@ -171,7 +171,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/14",
         "value": {
             "Code": "obsidian_crying",
@@ -184,7 +184,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/15",
         "value": {
             "Code": "obsidian_light",
@@ -197,7 +197,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/16",
         "value": {
             "Code": "obsidian_smooth",
@@ -210,7 +210,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/17",
         "value": {
             "Code": "rhyolite",
@@ -223,7 +223,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/18",
         "value": {
             "Code": "rhyolite_columnar",
@@ -236,7 +236,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/19",
         "value": {
             "Code": "rhyolite_porous",
@@ -249,7 +249,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/20",
         "value": {
             "Code": "rhyolite_weathered",
@@ -262,7 +262,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/21",
         "value": {
             "Code": "tuff_light",
@@ -275,7 +275,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/22",
         "value": {
             "Code": "tuff_smooth",
@@ -288,7 +288,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/23",
         "value": {
             "Code": "magma",
@@ -301,7 +301,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/24",
         "value": {
             "Code": "pahoehoe",
@@ -314,7 +314,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/25",
         "value": {
             "Code": "anorthosite_rough",
@@ -327,7 +327,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/26",
         "value": {
             "Code": "anorthosite_smooth",
@@ -340,7 +340,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/27",
         "value": {
             "Code": "anorthosite_weathered",
@@ -353,7 +353,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/28",
         "value": {
             "Code": "granite_red",
@@ -366,7 +366,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/29",
         "value": {
             "Code": "granite_smooth",
@@ -379,7 +379,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/30",
         "value": {
             "Code": "granite_smooth_red",
@@ -392,7 +392,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/31",
         "value": {
             "Code": "granite_snowy",
@@ -405,7 +405,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/32",
         "value": {
             "Code": "gneiss",
@@ -418,7 +418,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/33",
         "value": {
             "Code": "gneiss_eroded",
@@ -431,7 +431,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/34",
         "value": {
             "Code": "marble_rough",
@@ -444,7 +444,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/35",
         "value": {
             "Code": "marble_rough_dark",
@@ -457,7 +457,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/36",
         "value": {
             "Code": "quartzite_gray",
@@ -470,7 +470,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/37",
         "value": {
             "Code": "quartzite_pink",
@@ -483,7 +483,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/38",
         "value": {
             "Code": "quartzite_yellow",
@@ -496,7 +496,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/39",
         "value": {
             "Code": "schist_blue",
@@ -509,7 +509,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/40",
         "value": {
             "Code": "schist_green",
@@ -522,7 +522,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/41",
         "value": {
             "Code": "schist_lichen_blue",
@@ -535,7 +535,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/42",
         "value": {
             "Code": "schist_mossy_blue",
@@ -548,7 +548,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/43",
         "value": {
             "Code": "schist_weathered_blue",
@@ -561,7 +561,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/44",
         "value": {
             "Code": "serpentinite",
@@ -574,7 +574,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/45",
         "value": {
             "Code": "serpentinite_smooth",
@@ -587,7 +587,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/46",
         "value": {
             "Code": "slate_warped",
@@ -600,7 +600,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/47",
         "value": {
             "Code": "slate_warped_costal",
@@ -613,7 +613,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/48",
         "value": {
             "Code": "slate_wet",
@@ -626,7 +626,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/49",
         "value": {
             "Code": "chalk_layered",
@@ -639,7 +639,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/50",
         "value": {
             "Code": "dolomite",
@@ -652,7 +652,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/51",
         "value": {
             "Code": "graywacke",
@@ -665,7 +665,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/52",
         "value": {
             "Code": "limestone_boulders_light",
@@ -678,7 +678,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/53",
         "value": {
             "Code": "limestone_boulders_mossy_light",
@@ -691,7 +691,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/54",
         "value": {
             "Code": "limestone_icy",
@@ -704,7 +704,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/55",
         "value": {
             "Code": "limestone_light",
@@ -717,7 +717,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/56",
         "value": {
             "Code": "limestone_mossy",
@@ -730,7 +730,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/57",
         "value": {
             "Code": "limestone_pink",
@@ -743,7 +743,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/58",
         "value": {
             "Code": "limestone_stained_tan",
@@ -756,7 +756,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/59",
         "value": {
             "Code": "limestone_tan",
@@ -769,7 +769,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/60",
         "value": {
             "Code": "mudstone",
@@ -782,7 +782,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/61",
         "value": {
             "Code": "mudstone_brown",
@@ -795,7 +795,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/62",
         "value": {
             "Code": "mudstone_light",
@@ -808,7 +808,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/63",
         "value": {
             "Code": "mudstone_lightbrown",
@@ -821,7 +821,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/64",
         "value": {
             "Code": "mudstone_orange",
@@ -834,7 +834,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/65",
         "value": {
             "Code": "mudstone_red",
@@ -847,7 +847,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/66",
         "value": {
             "Code": "mudstone_umbre",
@@ -860,7 +860,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/67",
         "value": {
             "Code": "mudstone_yellow",
@@ -873,7 +873,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/68",
         "value": {
             "Code": "sandstone_brown",
@@ -886,7 +886,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/69",
         "value": {
             "Code": "sandstone_costal_red",
@@ -899,7 +899,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/70",
         "value": {
             "Code": "sandstone_mossy_red",
@@ -912,7 +912,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/71",
         "value": {
             "Code": "sandstone_orange",
@@ -925,7 +925,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/72",
         "value": {
             "Code": "sandstone_red",
@@ -938,7 +938,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/73",
         "value": {
             "Code": "sandstone_tan",
@@ -951,7 +951,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/74",
         "value": {
             "Code": "sandstone_warped",
@@ -964,7 +964,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/75",
         "value": {
             "Code": "silt_cave_gray",
@@ -977,7 +977,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/76",
         "value": {
             "Code": "calcite",
@@ -990,7 +990,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/77",
         "value": {
             "Code": "calcite_limestone",
@@ -1003,7 +1003,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/78",
         "value": {
             "Code": "calcite_rough",
@@ -1016,7 +1016,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/79",
         "value": {
             "Code": "dripstone",
@@ -1029,7 +1029,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/80",
         "value": {
             "Code": "dripstone_dark",
@@ -1042,7 +1042,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/81",
         "value": {
             "Code": "endstone_layered",
@@ -1055,7 +1055,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/82",
         "value": {
             "Code": "endstone_rough",
@@ -1068,7 +1068,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/83",
         "value": {
             "Code": "endstone_smooth",
@@ -1081,7 +1081,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/84",
         "value": {
             "Code": "salt_flats_blue",
@@ -1094,7 +1094,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/85",
         "value": {
             "Code": "salt_flats_brown",
@@ -1107,7 +1107,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/86",
         "value": {
             "Code": "salt_flats_pink",
@@ -1120,7 +1120,7 @@
     },
     {
         "op": "add",
-	"side": "server",
+	"side": "universal",
         "path": "/variants/87",
         "value": {
             "Code": "salt_flats_white",
