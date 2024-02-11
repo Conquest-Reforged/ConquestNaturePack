@@ -395,14 +395,14 @@
         }
     },
     {
-        "file": "conquesttexturepack:patches/blocktypes/stone/rock.json",
+        "file": "conquest:patches/blocktypes/stone/rock.json",
         "op": "add",
         "path": "/0/enabled",
         "value": false,
         "side": "server",
         "dependsOn": [
             {
-                "modid": "conquesttexturepack"
+                "modid": "conquest"
             }
         ]
     },
@@ -413,7 +413,7 @@
         "side": "server",
         "dependsOn": [
             {
-                "modid": "conquesttexturepack"
+                "modid": "conquest"
             }
         ],
         "value": {
