@@ -5,7 +5,7 @@
 			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
 			"C": { "type": "item", "code": "game:chisel-*", "isTool": true },
 			"S": { "type": "block", "code": "game:rock-andesite_*"},
-			"F": { "type": "item", "code": "game:powderedborax" }
+			"F": { "type": "item", "code": "game:powder-borax" }
 		},
 		"width": 3,
 		"height": 3,
@@ -17,7 +17,7 @@
 			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
 			"C": { "type": "item", "code": "game:chisel-*", "isTool": true },
 			"S": { "type": "block", "code": "game:rock-basalt_*"},
-			"F": { "type": "item", "code": "game:powderedborax" }
+			"F": { "type": "item", "code": "game:powder-borax" }
 		},
 		"width": 3,
 		"height": 3,
@@ -29,7 +29,7 @@
 			"H": { "type": "item", "code": "game:hammer-*", "isTool": true },
 			"C": { "type": "item", "code": "game:chisel-*", "isTool": true },
 			"S": { "type": "block", "code": "game:rock-granite_*"},
-			"F": { "type": "item", "code": "game:powderedborax" }
+			"F": { "type": "item", "code": "game:powder-borax" }
 		},
 		"width": 3,
 		"height": 3,

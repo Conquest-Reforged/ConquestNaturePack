@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/output/code",
+    "value": "snowball-granite",
+    "file": "game:recipes/grid/snowballvariants.json",
+    "side": "Server"
+  }
+]

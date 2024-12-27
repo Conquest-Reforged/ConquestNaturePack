@@ -561,6 +561,8 @@
 	"game:item-stone-tuff_light": "Light tuff stone",
 	"game:item-stone-tuff_smooth": "Smooth tuff stone",
 
+	"game:item-snowball-granite": "Stone in snowball",
+
 	"game:item-creature-thrownboulder*": "Thrown boulder",
 
 	"game:item-creature-thrownstone*": "Thrown stone",
