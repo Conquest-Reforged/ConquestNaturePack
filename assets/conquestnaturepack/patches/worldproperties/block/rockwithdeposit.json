@@ -1,1134 +1,619 @@
 [
-
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/1",
-        "value": {
+  {
+    "op": "addeach",
+	"path": "/variants/1",
+    "side": "universal",
+    "file": "game:worldproperties/block/rockwithdeposit.json",
+    "value": [
+      {
             "Code": "andesite_columnar",
             "Weight": "40",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/2",
-        "value": {
+      },
+      {
             "Code": "andesite_porous",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/3",
-        "value": {
+      },
+	  {
             "Code": "andesite_weathered",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/4",
-        "value": {
+	  },
+	  {
             "Code": "basalt_columnar",
             "Weight": "40",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/5",
-        "value": {
+	  },
+	  {
             "Code": "basalt_columnar_light",
             "Weight": "40",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/6",
-        "value": {
+	  },
+	  {
             "Code": "basalt_porous",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/7",
-        "value": {
+	  },
+	  {
             "Code": "basalt_smooth",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/8",
-        "value": {
+	  },
+	  {
             "Code": "basalt_weathered",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/9",
-        "value": {
+	  },
+	  {
             "Code": "blackstone",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/10",
-        "value": {
+	  },
+	  {
             "Code": "dacite",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/11",
-        "value": {
+	  },
+	  {
             "Code": "dacite_columnar",
             "Weight": "40",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/12",
-        "value": {
+	  },
+	  {
             "Code": "dacite_porous",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/13",
-        "value": {
+	  },
+	  {
             "Code": "dacite_weathered",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/14",
-        "value": {
+	  },
+	  {
             "Code": "obsidian_crying",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/15",
-        "value": {
+	  },
+	  {
             "Code": "obsidian_light",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/16",
-        "value": {
+	  },
+	  {
             "Code": "obsidian_smooth",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/17",
-        "value": {
+	  },
+	  {
             "Code": "rhyolite",
             "Weight": "80",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/18",
-        "value": {
+	  },
+	  {
             "Code": "rhyolite_columnar",
             "Weight": "40",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/19",
-        "value": {
+	  },
+	  {
             "Code": "rhyolite_porous",
             "Weight": "80",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/20",
-        "value": {
+	  },
+	  {
             "Code": "rhyolite_weathered",
             "Weight": "80",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/21",
-        "value": {
+	  },
+	  {
             "Code": "tuff_light",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/22",
-        "value": {
+	  },
+	  {
             "Code": "tuff_smooth",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/23",
-        "value": {
+	  },
+	  {
             "Code": "magma",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/24",
-        "value": {
+	  },
+	  {
             "Code": "pahoehoe",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/25",
-        "value": {
+	  },
+	  {
             "Code": "anorthosite_rough",
             "Weight": "80",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/26",
-        "value": {
+	  },
+	  {
             "Code": "anorthosite_smooth",
             "Weight": "80",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/27",
-        "value": {
+	  },
+	  {
             "Code": "anorthosite_weathered",
             "Weight": "80",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "igneous_extrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/28",
-        "value": {
+	  },
+	  {
             "Code": "granite_red",
             "Weight": "80",
             "SoilpH": "7.3",
             "WeatheringFactor": "0.7",
             "RockGroup": "igneous_intrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/29",
-        "value": {
+	  },
+	  {
             "Code": "granite_smooth",
             "Weight": "80",
             "SoilpH": "7.3",
             "WeatheringFactor": "0.7",
             "RockGroup": "igneous_intrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/30",
-        "value": {
+	  },
+	  {
             "Code": "granite_smooth_red",
             "Weight": "80",
             "SoilpH": "7.3",
             "WeatheringFactor": "0.7",
             "RockGroup": "igneous_intrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/31",
-        "value": {
+	  },
+	  {
             "Code": "granite_snowy",
             "Weight": "80",
             "SoilpH": "7.3",
             "WeatheringFactor": "0.7",
             "RockGroup": "igneous_intrusive"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/32",
-        "value": {
+	  },
+      {
             "Code": "gneiss",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "metamorphic"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/33",
-        "value": {
+      },
+      {
             "Code": "gneiss_eroded",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "metamorphic"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/34",
-        "value": {
+      },
+	  {
             "Code": "marble_rough",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "metamorphic"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/35",
-        "value": {
+	  },
+	  {
             "Code": "marble_rough_dark",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "metamorphic"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/36",
-        "value": {
+	  },
+	  {
             "Code": "quartzite_gray",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "metamorphic"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/37",
-        "value": {
+	  },
+	  {
             "Code": "quartzite_pink",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "metamorphic"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/38",
-        "value": {
+	  },
+	  {
             "Code": "quartzite_yellow",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "metamorphic"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/39",
-        "value": {
+	  },
+	  {
             "Code": "schist_blue",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "metamorphic"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/40",
-        "value": {
+	  },
+	  {
             "Code": "schist_green",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "metamorphic"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/41",
-        "value": {
+	  },
+	  {
             "Code": "schist_lichen_blue",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "metamorphic"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/42",
-        "value": {
+	  },
+	  {
             "Code": "schist_mossy_blue",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "metamorphic"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/43",
-        "value": {
+	  },
+	  {
             "Code": "schist_weathered_blue",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "metamorphic"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/44",
-        "value": {
+	  },
+	  {
             "Code": "serpentinite",
             "Weight": "60",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "metamorphic"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/45",
-        "value": {
+	  },
+	  {
             "Code": "serpentinite_smooth",
             "Weight": "60",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "metamorphic"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/46",
-        "value": {
+	  },
+	  {
             "Code": "slate_warped",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "metamorphic"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/47",
-        "value": {
+	  },
+	  {
             "Code": "slate_warped_costal",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "metamorphic"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/48",
-        "value": {
+	  },
+	  {
             "Code": "slate_wet",
             "Weight": "80",
             "SoilpH": "6.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "metamorphic"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/49",
-        "value": {
+	  },
+	  {
             "Code": "chalk_layered",
             "Weight": "40",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/50",
-        "value": {
+	  },
+	  {
             "Code": "dolomite",
             "Weight": "60",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/51",
-        "value": {
+	  },
+	  {
             "Code": "graywacke",
             "Weight": "80",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/52",
-        "value": {
+	  },
+	  {
             "Code": "limestone_boulders_light",
             "Weight": "40",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/53",
-        "value": {
+	  },
+	  {
             "Code": "limestone_boulders_mossy_light",
             "Weight": "40",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/54",
-        "value": {
+	  },
+	  {
             "Code": "limestone_icy",
             "Weight": "40",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/55",
-        "value": {
+	  },
+	  {
             "Code": "limestone_light",
             "Weight": "40",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/56",
-        "value": {
+	  },
+	  {
             "Code": "limestone_mossy",
             "Weight": "40",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/57",
-        "value": {
+	  },
+	  {
             "Code": "limestone_pink",
             "Weight": "40",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/58",
-        "value": {
+	  },
+	  {
             "Code": "limestone_stained_tan",
             "Weight": "40",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/59",
-        "value": {
+	  },
+	  {
             "Code": "limestone_tan",
             "Weight": "40",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/60",
-        "value": {
+	  },
+	  {
             "Code": "mudstone",
             "Weight": "70",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/61",
-        "value": {
+	  },
+	  {
             "Code": "mudstone_brown",
             "Weight": "70",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/62",
-        "value": {
+	  },
+	  {
             "Code": "mudstone_light",
             "Weight": "70",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/63",
-        "value": {
+	  },
+      {
             "Code": "mudstone_lightbrown",
             "Weight": "70",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/64",
-        "value": {
+      },
+      {
             "Code": "mudstone_orange",
             "Weight": "70",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/65",
-        "value": {
+      },
+	  {
             "Code": "mudstone_red",
             "Weight": "70",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/66",
-        "value": {
+	  },
+	  {
             "Code": "mudstone_umbre",
             "Weight": "70",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/67",
-        "value": {
+	  },
+	  {
             "Code": "mudstone_yellow",
             "Weight": "70",
             "SoilpH": "7.5",
             "WeatheringFactor": "0.7",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/68",
-        "value": {
+	  },
+	  {
             "Code": "sandstone_brown",
             "Weight": "40",
             "SoilpH": "5.5",
             "WeatheringFactor": "1.2",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/69",
-        "value": {
+	  },
+	  {
             "Code": "sandstone_costal_red",
             "Weight": "40",
             "SoilpH": "5.5",
             "WeatheringFactor": "1.2",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/70",
-        "value": {
+	  },
+	  {
             "Code": "sandstone_mossy_red",
             "Weight": "40",
             "SoilpH": "5.5",
             "WeatheringFactor": "1.2",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/71",
-        "value": {
+	  },
+	  {
             "Code": "sandstone_orange",
             "Weight": "40",
             "SoilpH": "5.5",
             "WeatheringFactor": "1.2",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/72",
-        "value": {
+	  },
+	  {
             "Code": "sandstone_red",
             "Weight": "40",
             "SoilpH": "5.5",
             "WeatheringFactor": "1.2",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/73",
-        "value": {
+	  },
+	  {
             "Code": "sandstone_tan",
             "Weight": "40",
             "SoilpH": "5.5",
             "WeatheringFactor": "1.2",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/74",
-        "value": {
+	  },
+	  {
             "Code": "sandstone_warped",
             "Weight": "40",
             "SoilpH": "5.5",
             "WeatheringFactor": "1.2",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/75",
-        "value": {
+	  },
+	  {
             "Code": "silt_cave_gray",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/76",
-        "value": {
+	  },
+	  {
             "Code": "calcite",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/77",
-        "value": {
+	  },
+	  {
             "Code": "calcite_limestone",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/78",
-        "value": {
+	  },
+	  {
             "Code": "calcite_rough",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/79",
-        "value": {
+	  },
+	  {
             "Code": "dripstone",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/80",
-        "value": {
+	  },
+	  {
             "Code": "dripstone_dark",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/81",
-        "value": {
+	  },
+	  {
             "Code": "endstone_layered",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/82",
-        "value": {
+	  },
+	  {
             "Code": "endstone_rough",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/83",
-        "value": {
+	  },
+	  {
             "Code": "endstone_smooth",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/84",
-        "value": {
+	  },
+	  {
             "Code": "salt_flats_blue",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/85",
-        "value": {
+	  },
+	  {
             "Code": "salt_flats_brown",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/86",
-        "value": {
+	  },
+	  {
             "Code": "salt_flats_pink",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    },
-    {
-        "op": "add",
-	"side": "universal",
-        "path": "/variants/87",
-        "value": {
+	  },
+	  {
             "Code": "salt_flats_white",
             "Weight": "50",
             "SoilpH": "6",
             "WeatheringFactor": "1",
             "RockGroup": "sedimentary"
-        },
-        "file": "game:worldproperties/block/rockwithdeposit.json"
-    }
+	  }
+    ]
+  }
 ]
