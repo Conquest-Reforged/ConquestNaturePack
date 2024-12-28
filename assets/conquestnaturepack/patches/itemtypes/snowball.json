@@ -1,1398 +1,183 @@
 [
     {
+        "op": "remove",
+        "path": "/attributes/damageByType/*",
         "file": "game:itemtypes/snowball.json",
-        "op": "replace",
-        "side": "server",
-        "path": "/texturesByType",
-        "value": {
-            "snowball-snow": {
-                "normal2": { "base": "game:block/liquid/snow/normal1" }
-            },
-            "snowball-beenade": {
-                "normal2": { "base": "game:block/reed/beehive/beenade" }
-            },
-            "@.*-(andesite|basalt|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite)": {
-                "normal2": {
-                    "base": "game:block/stone/rock/{rock}*"
-                }
-            },
-            "@.*-(andesite_columnar|basalt_columnar|basalt_columnar_light|calcite_rough|dacite_columnar|rhyolite_columnar|granite_red|schist_blue|schist_green|slate_warped_costal|calcite_rough|dripstone|dripstone_dark|graywacke|limestone_boulders_mossy_light|limestone_mossy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan)": {
-                "normal2": {
-                    "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*"
-                }
-            },
-            "*": {
-                "normal2": {
-                    "base": "conquestnaturepack:block/topography/rock/{rock}/*"
-                }
-            }
-
-        }
+        "side": "Server"
     },
     {
-
+        "op": "add",
+        "path": "/attributes/damageByType/*-granite",
+        "value": 1,
         "file": "game:itemtypes/snowball.json",
-        "op": "replace",
-        "side": "server",
-        "path": "/transitionablePropsByType",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/texturesByType/snowball-*",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/snowball-granite",
         "value": {
-            "snowball-snow": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "slush"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-beenade": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "beenade-closed"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-meteorite-iron": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-meteorite-iron"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-andesite": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-andesite"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-chalk": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-chalk"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-chert": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-chert"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-conglomerate": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-conglomerate"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-limestone": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-limestone"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-claystone": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-claystone"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-granite": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-granite"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-sandstone": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-sandstone"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-shale": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-shale"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-basalt": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-basalt"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-peridotite": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-peridotite"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-phyllite": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-phyllite"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-slate": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-slate"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-obsidian": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-obsidian"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-kimberlite": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-kimberlite"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-scoria": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-scoria"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-tuff": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-tuff"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-bauxite": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-bauxite"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-halite": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 1 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-halite"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-suevite": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-suevite"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-whitemarble": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-whitemarble"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-redmarble": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-redmarble"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-greenmarble": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-greenmarble"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-andesite_columnar": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-andesite_columnar"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-andesite_porous": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-andesite_porous"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-andesite_weathered": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-andesite_weathered"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-anorthosite_rough": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-anorthosite_rough"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-anorthosite_smooth": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-anorthosite_smooth"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-anorthosite_weathered": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-anorthosite_weathered"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-basalt_columnar": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-basalt_columnar"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-basalt_columnar_light": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-basalt_columnar_light"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-basalt_porous": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-basalt_porous"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-basalt_smooth": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-basalt_smooth"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-basalt_weathered": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-basalt_weathered"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-blackstone": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-blackstone"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-calcite": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-calcite"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-calcite_limestone": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-calcite_limestone"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-calcite_rough": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-calcite_rough"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-chalk_layered": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-chalk_layered"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-dacite": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-dacite"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-dacite_columnar": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-dacite_columnar"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-dacite_porous": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-dacite_porous"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-dacite_weathered": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-dacite_weathered"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-dolomite": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-dolomite"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-dripstone": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-dripstone"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-dripstone_dark": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-dripstone_dark"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-endstone_layered": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-endstone_layered"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-endstone_rough": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-endstone_rough"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-endstone_smooth": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-endstone_smooth"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-gneiss": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-gneiss"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-gneiss_eroded": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-gneiss_eroded"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-granite_red": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-granite_red"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-granite_smooth": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-granite_smooth"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-granite_smooth_red": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-granite_smooth_red"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-granite_snowy": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-granite_snowy"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-graywacke": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-graywacke"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-limestone_boulders_light": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-limestone_boulders_light"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-limestone_boulders_mossy_light": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-limestone_boulders_mossy_light"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-limestone_icy": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-limestone_icy"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-limestone_light": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-limestone_light"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-limestone_mossy": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-limestone_mossy"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-limestone_pink": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-limestone_pink"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-limestone_stained_tan": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-limestone_stained_tan"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-limestone_tan": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-limestone_tan"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-magma": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-magma"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-marble_rough": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-marble_rough"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-marble_rough_dark": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-marble_rough_dark"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-mudstone": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-mudstone"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-mudstone_brown": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-mudstone_brown"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-mudstone_light": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-mudstone_light"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-mudstone_lightbrown": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-mudstone_lightbrown"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-mudstone_orange": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-mudstone_orange"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-mudstone_red": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-mudstone_red"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-mudstone_umbre": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-mudstone_umbre"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-mudstone_yellow": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-mudstone_yellow"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-obsidian_crying": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-obsidian_crying"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-obsidian_light": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-obsidian_light"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-obsidian_smooth": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-obsidian_smooth"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-pahoehoe": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-pahoehoe"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-quartzite_gray": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-quartzite_gray"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-quartzite_pink": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-quartzite_pink"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-quartzite_yellow": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-quartzite_yellow"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-rhyolite": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-rhyolite"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-rhyolite_columnar": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-rhyolite_columnar"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-rhyolite_porous": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-rhyolite_porous"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-rhyolite_weathered": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-rhyolite_weathered"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-salt_flats_blue": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-salt_flats_blue"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-salt_flats_brown": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-salt_flats_brown"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-salt_flats_pink": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-salt_flats_pink"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-salt_flats_white": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-salt_flats_white"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-sandstone_brown": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-sandstone_brown"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-sandstone_costal_red": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-sandstone_costal_red"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-sandstone_mossy_red": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-sandstone_mossy_red"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-sandstone_orange": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-sandstone_orange"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-sandstone_red": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-sandstone_red"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-sandstone_tan": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-sandstone_tan"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-sandstone_warped": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-sandstone_warped"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-schist_blue": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-schist_blue"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-schist_green": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-schist_green"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-schist_lichen_blue": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-schist_lichen_blue"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-schist_mossy_blue": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-schist_mossy_blue"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-schist_weathered_blue": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-schist_weathered_blue"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-serpentinite": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-serpentinite"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-serpentinite_smooth": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-serpentinite_smooth"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-silt_cave_gray": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-silt_cave_gray"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-slate_warped": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-slate_warped"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-slate_warped_costal": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-slate_warped_costal"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-slate_wet": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-slate_wet"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-tuff_light": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-tuff_light"
-                    },
-                    "transitionRatio": 1
-                }
-            ],
-            "snowball-tuff_smooth": [
-                {
-                    "type": "Melt",
-                    "freshHours": { "avg": 0 },
-                    "transitionHours": { "avg": 3 },
-                    "transitionedStack": {
-                        "type": "item",
-                        "code": "stone-tuff_smooth"
-                    },
-                    "transitionRatio": 1
-                }
-            ]
-        }
-
+            "normal2": {
+                "base": "block/stone/rock/granite1"
+            }
+        },
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/transitionablePropsByType/snowball-andesite",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/transitionablePropsByType/snowball-basalt",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/transitionablePropsByType/snowball-bauxite",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/transitionablePropsByType/snowball-chalk",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/transitionablePropsByType/snowball-chert",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/transitionablePropsByType/snowball-claystone",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/transitionablePropsByType/snowball-conglomerate",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/transitionablePropsByType/snowball-greenmarble",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/transitionablePropsByType/snowball-halite",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/transitionablePropsByType/snowball-kimberlite",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/transitionablePropsByType/snowball-limestone",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/transitionablePropsByType/snowball-meteorite-iron",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/transitionablePropsByType/snowball-obsidian",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/transitionablePropsByType/snowball-peridotite",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/transitionablePropsByType/snowball-phyllite",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/transitionablePropsByType/snowball-redmarble",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/transitionablePropsByType/snowball-sandstone",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/transitionablePropsByType/snowball-scoria",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/transitionablePropsByType/snowball-shale",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/transitionablePropsByType/snowball-slate",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/transitionablePropsByType/snowball-suevite",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/transitionablePropsByType/snowball-tuff",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/transitionablePropsByType/snowball-whitemarble",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "remove",
+        "path": "/variantgroups/0/loadFromProperties",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
+    },
+    {
+        "op": "replace",
+        "path": "/variantgroups/0/states/0",
+        "value": "granite",
+        "file": "game:itemtypes/snowball.json",
+        "side": "Server"
     }
 ]
