@@ -1,7 +1,7 @@
 [
   {
-    "op": "addeach",
-	"path": "/variants/1",
+    "op": "addmerge",
+	"path": "/variants",
     "side": "universal",
     "file": "game:worldproperties/block/rockwithdeposit.json",
     "value": [
