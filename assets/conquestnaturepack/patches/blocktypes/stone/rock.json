@@ -395,7 +395,7 @@
         }
     },
     {
-        "file": "conquest:patches/blocktypes/stone/rock.json",
+        "file": "conquest:patches/survival/blocktypes/stone/rock.json",
         "op": "add",
         "path": "/0/enabled",
         "value": false,
