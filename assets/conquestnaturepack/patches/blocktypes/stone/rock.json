@@ -683,7 +683,7 @@
                     "tilesWidth": 2
                 }
             },
-            "@.*-(andesite|basalt|chalk|claystone|kimberlite|obsidian|peridotite|scoria|suevite|tuff|greenmarble|redmarble|whitemarble)": {
+            "@.*-(andesite|basalt|chalk|kimberlite|obsidian|peridotite|scoria|suevite|tuff|greenmarble|redmarble|whitemarble)": {
                 "all": {
                     "base": "game:block/stone/rock/{rock}/1",
                     "tiles": [
@@ -754,6 +754,29 @@
                         { "base": "game:block/stone/rock/{rock}/top/*" }
                     ],
                     "tilesWidth": 8
+                }
+            },
+            "@.*-(claystone)": {
+                "sides": {
+                    "base": "game:block/stone/rock/{rock}/sides/1",
+                    "tiles": [
+                        { "base": "game:block/stone/rock/{rock}/sides/*" }
+                    ],
+                    "tilesWidth": 4
+                },
+                "up": {
+                    "base": "game:block/stone/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "game:block/stone/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 3
+                },
+                "down": {
+                    "base": "game:block/stone/rock/{rock}/top/1",
+                    "tiles": [
+                        { "base": "game:block/stone/rock/{rock}/top/*" }
+                    ],
+                    "tilesWidth": 3
                 }
             },
             "*-limestone": {

@@ -11,49 +11,83 @@
             "*-graywacke-*",
             "*-serpentinite-*"
         ]
-        },
-        {
-            "file": "game:blocktypes/soil/termitemound-harvested.json",
-            "op": "add",
-            "path": "/texturesByType",
-            "side": "server",
-            "value": {
-                "@.*-(tuff|limestone_light|mudstone_light|dacite)-.*": {
-                    "exterior": { "base": "conquestnaturepack:block/topography/termitemound/tan/*" },
-                    "interior": { "base": "conquestnaturepack:block/topography/termitemound/tan/*" }
-                },
-                "@.*-(mudstone_brown|mudstone_lightbrown|mudstone_orange)-.*": {
-                    "exterior": { "base": "conquestnaturepack:block/topography/termitemound/orange/*" },
-                    "interior": { "base": "conquestnaturepack:block/topography/termitemound/orange/*" }
-                },
-                "@.*-(granite_red|mudstone_red|sandstone_red)-.*": {
-                    "exterior": { "base": "conquestnaturepack:block/topography/termitemound/red/*" },
-                    "interior": { "base": "conquestnaturepack:block/topography/termitemound/red/*" }
-                },
-                "@.*-(limestone_boulders_light|anorthosite_rough)-.*": {
-                    "exterior": { "base": "conquestnaturepack:block/topography/termitemound/light_tan/*" },
-                    "interior": { "base": "conquestnaturepack:block/topography/termitemound/light_tan/*" }
-                },
-                "@.*-(sandstone_brown|mudstone|sandstone_tan|limestone_pink|limestone_tan)-.*": {
-                    "exterior": { "base": "conquestnaturepack:block/topography/termitemound/light/*" },
-                    "interior": { "base": "conquestnaturepack:block/topography/termitemound/light/*" }
-                },
-                "@.*-(dolomite|mudstone_umbre)-.*": {
-                    "exterior": { "base": "conquestnaturepack:block/topography/termitemound/medium/*" },
-                    "interior": { "base": "conquestnaturepack:block/topography/termitemound/medium/*" }
-                },
-                "@.*-(quartzite_yellow|mudstone_yellow|sandstone_orange)-.*": {
-                    "exterior": { "base": "conquestnaturepack:block/topography/termitemound/ochre/*" },
-                    "interior": { "base": "conquestnaturepack:block/topography/termitemound/ochre/*" }
-                },
-                "@.*-(quartzite_gray|gneiss|rhyolite|sandstone_warped)-.*": {
-                    "exterior": { "base": "conquestnaturepack:block/topography/termitemound/gray/*" },
-                    "interior": { "base": "conquestnaturepack:block/topography/termitemound/gray/*" }
-                },
-                "*": {
-                    "exterior": { "base": "game:block/stone/termitemound/{rock}*" },
-                    "interior": { "base": "game:block/stone/termitemound/{rock}*" }
+    },
+    {
+        "file": "game:blocktypes/soil/termitemound-harvested.json",
+        "op": "remove",
+        "path": "/textures",
+        "side": "server",
+        "value": {}
+    },
+    {
+        "file": "game:blocktypes/soil/termitemound-harvested.json",
+        "op": "add",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "@.*-(tuff|limestone_light|mudstone_light|dacite)-.*": {
+                "exterior": { "base": "conquestnaturepack:block/topography/termitemound/tan/*" },
+                "interior": {
+                    "base": "conquestnaturepack:block/topography/termitemound/tan/*",
+                    "overlays": [ "conquestnaturepack:block/topography/termitemound/overlay/chambers" ]
+                }
+            },
+            "@.*-(mudstone_brown|mudstone_lightbrown|mudstone_orange)-.*": {
+                "exterior": { "base": "conquestnaturepack:block/topography/termitemound/orange/*" },
+                "interior": {
+                    "base": "conquestnaturepack:block/topography/termitemound/orange/*",
+                    "overlays": [ "conquestnaturepack:block/topography/termitemound/overlay/chambers" ]
+                }
+            },
+            "@.*-(granite_red|mudstone_red|sandstone_red)-.*": {
+                "exterior": { "base": "conquestnaturepack:block/topography/termitemound/red/*" },
+                "interior": {
+                    "base": "conquestnaturepack:block/topography/termitemound/red/*",
+                    "overlays": [ "conquestnaturepack:block/topography/termitemound/overlay/chambers" ]
+                }
+            },
+            "@.*-(limestone_boulders_light|anorthosite_rough)-.*": {
+                "exterior": { "base": "conquestnaturepack:block/topography/termitemound/light_tan/*" },
+                "interior": {
+                    "base": "conquestnaturepack:block/topography/termitemound/light_tan/*",
+                    "overlays": [ "conquestnaturepack:block/topography/termitemound/overlay/chambers" ]
+                }
+            },
+            "@.*-(sandstone_brown|mudstone|sandstone_tan|limestone_pink|limestone_tan)-.*": {
+                "exterior": { "base": "conquestnaturepack:block/topography/termitemound/light/*" },
+                "interior": {
+                    "base": "conquestnaturepack:block/topography/termitemound/light/*",
+                    "overlays": [ "conquestnaturepack:block/topography/termitemound/overlay/chambers" ]
+                }
+            },
+            "@.*-(dolomite|mudstone_umbre)-.*": {
+                "exterior": { "base": "conquestnaturepack:block/topography/termitemound/medium/*" },
+                "interior": {
+                    "base": "conquestnaturepack:block/topography/termitemound/medium/*",
+                    "overlays": [ "conquestnaturepack:block/topography/termitemound/overlay/chambers" ]
+                }
+            },
+            "@.*-(quartzite_yellow|mudstone_yellow|sandstone_orange)-.*": {
+                "exterior": { "base": "conquestnaturepack:block/topography/termitemound/ochre/*" },
+                "interior": {
+                    "base": "conquestnaturepack:block/topography/termitemound/ochre/*",
+                    "overlays": [ "conquestnaturepack:block/topography/termitemound/overlay/chambers" ]
+                }
+            },
+            "@.*-(quartzite_gray|gneiss|rhyolite|sandstone_warped)-.*": {
+                "exterior": { "base": "conquestnaturepack:block/topography/termitemound/gray/*" },
+                "interior": {
+                    "base": "conquestnaturepack:block/topography/termitemound/gray/*",
+                    "overlays": [ "conquestnaturepack:block/topography/termitemound/overlay/chambers" ]
+                }
+            },
+            "*": {
+                "exterior": { "base": "game:block/stone/termitemound/{rock}*" },
+                "interior": {
+                    "base": "game:block/stone/termitemound/{rock}*",
+                    "overlays": [ "game:block/stone/termitemound/chambers" ]
                 }
             }
         }
+    }
 ]
