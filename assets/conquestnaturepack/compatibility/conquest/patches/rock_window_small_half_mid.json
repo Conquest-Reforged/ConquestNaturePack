@@ -1,0 +1,29 @@
+[
+    {
+        "file": "conquestnaturepack:blocktypes/topography/rock/rock_window_small_half_mid.json",
+        "op": "replace",
+        "path": "/texturesByType",
+        "side": "server",
+        "value": {
+            "@.*-(andesite_columnar|basalt_columnar|basalt_columnar_light|calcite_rough|dacite_columnar|rhyolite_columnar|granite_red|schist_blue|schist_green|slate_warped_costal|calcite_rough|dripstone|dripstone_dark|graywacke|limestone_boulders_mossy_light|limestone_mossy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan)-.*": {
+                "sides": { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" },
+                "up": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" },
+                "down": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
+
+            },
+            "@.*-(granite|chert|conglomerate|sandstone|shale)-.*": {
+                "sides": { "base": "game:block/stone/rock/{rock}/sides/*" },
+                "up": { "base": "game:block/stone/rock/{rock}/top/*" },
+                "down": { "base": "game:block/stone/rock/{rock}/top/*" }
+
+            },
+            "@.*-(andesite|basalt|claystone|kimberlite|obsidian|phyllite|scoria|slate|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite)-.*": {
+                "all": { "base": "game:block/stone/rock/{rock}/*" }
+
+            },
+            "*": {
+                "sides": { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
+            }
+        }
+    }
+]

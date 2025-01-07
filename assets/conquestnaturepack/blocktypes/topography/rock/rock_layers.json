@@ -172,17 +172,15 @@
 
         },
         "@.*-(andesite|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale)-.*": {
-            "sides": { "base": "game:block/stone/rock/{rock}*" },
-            "up": { "base": "game:block/stone/rock/top/{rock}*" },
-            "down": { "base": "game:block/stone/rock/top/{rock}*" }
+            "all": { "base": "game:block/stone/rock/{rock}*" }
 
         },
         "@.*-(basalt|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite)-.*": {
-            "sides": { "base": "game:block/stone/rock/{rock}*" }
+            "all": { "base": "game:block/stone/rock/{rock}*" }
 
         },
         "*": {
-            "sides": { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
+            "all": { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
         }
     },
     "lightabsorption": 0,
