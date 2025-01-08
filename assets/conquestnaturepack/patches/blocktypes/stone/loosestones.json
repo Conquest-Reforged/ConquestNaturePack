@@ -18,6 +18,12 @@
         "op": "add",
         "path": "/texturesByType",
         "side": "server",
+        "dependsOn": [
+            {
+                "modid": "conquest",
+                "invert": true
+            }
+        ],
         "value": {
             "@.*-(meteorite-iron|andesite|chalk|chert|conglomerate|limestone|claystone|granite|sandstone|shale|basalt|peridotite|phyllite|slate|obsidian|kimberlite|scoria|tuff|bauxite|halite|suevite|whitemarble|redmarble|greenmarble)-free": {
                 "rock": { "base": "game:block/stone/rock/{rock}1" }
@@ -37,5 +43,34 @@
             }
 
         }
+    },
+    {
+        "file": "game:blocktypes/stone/loosestones.json",
+        "op": "add",
+        "path": "/texturesByType",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "conquest"
+            }
+        ],
+        "value": {
+            "@.*-(andesite|basalt|chalk|kimberlite|obsidian|peridotite|phyllite|scoria|suevite|slate|greenmarble|redmarble|whitemarble|meteorite-iron)-.*": {
+                "rock": {
+                    "base": "game:block/stone/rock/{rock}/1"
+                }
+            },
+            "@.*-(bauxite|chert|claystone|conglomerate|granite|limestone|sandstone|shale)-.*": {
+                "rock": {
+                    "base": "game:block/stone/rock/{rock}/sides/1"
+                }
+            },
+
+            "*": {
+                "rock": { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
+            }
+
+        }
     }
 ]
+
