@@ -3,7 +3,13 @@
         "op": "remove",
         "side": "server",
         "path": "/textures",
-        "file": "game:itemtypes/resource/ore-graded.json"
+        "file": "game:itemtypes/resource/ore-graded.json",
+        "dependsOn": [
+            {
+                "modid": "conquest",
+                "invert": true
+            }
+        ]
     },
     {
         "file": "game:itemtypes/resource/ore-graded.json",

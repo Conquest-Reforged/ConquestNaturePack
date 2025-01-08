@@ -3,7 +3,13 @@
         "op": "remove",
         "side": "server",
         "path": "/textures",
-        "file": "game:blocktypes/stone/looseflints.json"
+        "file": "game:blocktypes/stone/looseflints.json",
+        "dependsOn": [
+            {
+                "modid": "conquest",
+                "invert": true
+            }
+        ]
     },
     {
         "op": "add",

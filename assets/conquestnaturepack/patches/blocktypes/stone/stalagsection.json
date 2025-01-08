@@ -37,8 +37,13 @@
         "op": "remove",
         "path": "/textures",
         "side": "server",
-        "value": {}
-
+        "value": {},
+        "dependsOn": [
+            {
+                "modid": "conquest",
+                "invert": true
+            }
+        ]
     },
     {
         "file": "game:blocktypes/stone/stalagsection.json",

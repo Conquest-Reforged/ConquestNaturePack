@@ -9,7 +9,13 @@
     "op": "remove",
 	"side": "server",
     "path": "/textures",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
+    "file": "game:blocktypes/stone/ore-ungraded.json",
+    "dependsOn": [
+      {
+        "modid": "conquest",
+        "invert": true
+      }
+    ]
   },
   {
     "op": "add",

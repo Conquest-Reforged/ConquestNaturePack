@@ -3,7 +3,13 @@
         "op": "remove",
         "side": "server",
         "path": "/textures",
-        "file": "game:itemtypes/resource/stone.json"
+        "file": "game:itemtypes/resource/stone.json",
+        "dependsOn": [
+            {
+                "modid": "conquest",
+                "invert": true
+            }
+        ]
     },
     {
         "file": "game:itemtypes/resource/stone.json",
