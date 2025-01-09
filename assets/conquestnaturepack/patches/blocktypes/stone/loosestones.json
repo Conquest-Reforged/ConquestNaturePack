@@ -1,16 +1,18 @@
 [
+
+
     {
         "file": "game:blocktypes/stone/loosestones.json",
         "op": "remove",
         "path": "/textures",
         "side": "server",
-        "value": {},
         "dependsOn": [
             {
                 "modid": "conquest",
                 "invert": true
             }
-        ]
+        ],
+        "value": {}
     },
 
     {
@@ -25,25 +27,70 @@
             }
         ],
         "value": {
-            "@.*-(meteorite-iron|andesite|chalk|chert|conglomerate|limestone|claystone|granite|sandstone|shale|basalt|peridotite|phyllite|slate|obsidian|kimberlite|scoria|tuff|bauxite|halite|suevite|whitemarble|redmarble|greenmarble)-free": {
+            "@.*-(meteorite-iron|andesite|chalk|chert|conglomerate|limestone|claystone|granite|sandstone|shale|basalt|peridotite|phyllite|slate|obsidian|kimberlite|scoria|tuff|bauxite|halite|suevite|whitemarble|redmarble|greenmarble|tuff|halite)-free": {
                 "rock": { "base": "game:block/stone/rock/{rock}1" }
             },
-            "@.*-(meteorite-iron|andesite|chalk|chert|conglomerate|limestone|claystone|granite|sandstone|shale|basalt|peridotite|phyllite|slate|obsidian|kimberlite|scoria|tuff|bauxite|halite|suevite|whitemarble|redmarble|greenmarble)-water": {
+            "@.*-(meteorite-iron|andesite|chalk|chert|conglomerate|limestone|claystone|granite|sandstone|shale|basalt|peridotite|phyllite|slate|obsidian|kimberlite|scoria|tuff|bauxite|halite|suevite|whitemarble|redmarble|greenmarble|tuff|halite)-water": {
                 "rock": { "base": "game:block/stone/rock/{rock}1" }
             },
-            "@.*-(meteorite-iron|andesite|chalk|chert|conglomerate|limestone|claystone|granite|sandstone|shale|basalt|peridotite|phyllite|slate|obsidian|kimberlite|scoria|tuff|bauxite|halite|suevite|whitemarble|redmarble|greenmarble)-ice": {
+            "@.*-(meteorite-iron|andesite|chalk|chert|conglomerate|limestone|claystone|granite|sandstone|shale|basalt|peridotite|phyllite|slate|obsidian|kimberlite|scoria|tuff|bauxite|halite|suevite|whitemarble|redmarble|greenmarble|tuff|halite)-ice": {
                 "rock": { "base": "game:block/stone/rock/{rock}1" }
             },
-            "@.*-(meteorite-iron|andesite|chalk|chert|conglomerate|limestone|claystone|granite|sandstone|shale|basalt|peridotite|phyllite|slate|obsidian|kimberlite|scoria|tuff|bauxite|halite|suevite|whitemarble|redmarble|greenmarble)-snow": {
+            "@.*-(meteorite-iron|andesite|chalk|chert|conglomerate|limestone|claystone|granite|sandstone|shale|basalt|peridotite|phyllite|slate|obsidian|kimberlite|scoria|tuff|bauxite|halite|suevite|whitemarble|redmarble|greenmarble|tuff|halite)-snow": {
                 "rock": { "base": "game:block/stone/rock/{rock}1" }
             },
 
+            "@.*-(andesite_columnar|basalt_columnar|basalt_columnar_light|calcite_rough|dacite_columnar|rhyolite_columnar|granite_red|schist_blue|schist_green|slate_warped_costal|calcite_rough|dripstone|dripstone_dark|graywacke|limestone_boulders_mossy_light|limestone_mossy|limestone_icy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan|calcite)-.*": {
+                "rock": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1"
+                }
+            },
             "*": {
-                "rock": { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
+                "rock": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/1"
+                }
             }
 
         }
     },
+    {
+        "file": "conquest:patches/survival/blocktypes/stone/loosestones.json",
+        "op": "add",
+        "path": "/1/enabled",
+        "value": false,
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "conquest"
+            }
+        ]
+    },
+    {
+        "file": "conquest:patches/survival/blocktypes/stone/loosestones.json",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": false,
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "conquest"
+            }
+        ]
+    },
+    {
+        "file": "game:blocktypes/stone/loosestones.json",
+        "op": "remove",
+        "path": "/textures",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "conquest",
+                "invert": true
+            }
+        ],
+        "value": {}
+    },
+
     {
         "file": "game:blocktypes/stone/loosestones.json",
         "op": "add",
@@ -55,22 +102,60 @@
             }
         ],
         "value": {
-            "@.*-(andesite|basalt|chalk|kimberlite|obsidian|peridotite|phyllite|scoria|suevite|slate|greenmarble|redmarble|whitemarble|meteorite-iron)-.*": {
+            "@.*-(andesite|basalt|chalk|kimberlite|obsidian|peridotite|phyllite|scoria|suevite|slate|greenmarble|redmarble|whitemarble|meteorite-iron|tuff|halite)-free": {
                 "rock": {
                     "base": "game:block/stone/rock/{rock}/1"
                 }
             },
-            "@.*-(bauxite|chert|claystone|conglomerate|granite|limestone|sandstone|shale)-.*": {
+            "@.*-(andesite|basalt|chalk|kimberlite|obsidian|peridotite|phyllite|scoria|suevite|slate|greenmarble|redmarble|whitemarble|meteorite-iron|tuff|halite)-water": {
+                "rock": {
+                    "base": "game:block/stone/rock/{rock}/1"
+                }
+            },
+            "@.*-(andesite|basalt|chalk|kimberlite|obsidian|peridotite|phyllite|scoria|suevite|slate|greenmarble|redmarble|whitemarble|meteorite-iron|tuff|halite)-ice": {
+                "rock": {
+                    "base": "game:block/stone/rock/{rock}/1"
+                }
+            },
+            "@.*-(andesite|basalt|chalk|kimberlite|obsidian|peridotite|phyllite|scoria|suevite|slate|greenmarble|redmarble|whitemarble|meteorite-iron|tuff|halite)-snow": {
+                "rock": {
+                    "base": "game:block/stone/rock/{rock}/1"
+                }
+            },
+            "@.*-(bauxite|chert|claystone|conglomerate|granite|limestone|sandstone|shale)-free": {
+                "rock": {
+                    "base": "game:block/stone/rock/{rock}/sides/1"
+                }
+            },
+            "@.*-(bauxite|chert|claystone|conglomerate|granite|limestone|sandstone|shale)-water": {
+                "rock": {
+                    "base": "game:block/stone/rock/{rock}/sides/1"
+                }
+            },
+            "@.*-(bauxite|chert|claystone|conglomerate|granite|limestone|sandstone|shale)-ice": {
+                "rock": {
+                    "base": "game:block/stone/rock/{rock}/sides/1"
+                }
+            },
+            "@.*-(bauxite|chert|claystone|conglomerate|granite|limestone|sandstone|shale)-snow": {
                 "rock": {
                     "base": "game:block/stone/rock/{rock}/sides/1"
                 }
             },
 
+            "@.*-(andesite_columnar|basalt_columnar|basalt_columnar_light|calcite_rough|dacite_columnar|rhyolite_columnar|granite_red|schist_blue|schist_green|slate_warped_costal|calcite_rough|dripstone|dripstone_dark|graywacke|limestone_boulders_mossy_light|limestone_mossy|limestone_icy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan|calcite)-.*": {
+                "rock": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1"
+                }
+            },
             "*": {
-                "rock": { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
+                "rock": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/1"
+                }
             }
 
         }
     }
 ]
+
 

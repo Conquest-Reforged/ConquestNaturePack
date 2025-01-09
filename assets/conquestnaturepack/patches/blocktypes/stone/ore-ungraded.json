@@ -1,248 +1,355 @@
 [
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/skipVariants",
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "remove",
-	"side": "server",
-    "path": "/textures",
-    "file": "game:blocktypes/stone/ore-ungraded.json",
-    "dependsOn": [
-      {
-        "modid": "conquest",
-        "invert": true
-      }
-    ]
-  },
-  {
-    "op": "add",
-	"side": "server",
-    "path": "/texturesByType",
-    "value": {
-      "@.*-(andesite|basalt|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite)": {
-        "all": {
-          "base": "game:block/stone/rock/{rock}1",
-          "overlays": [
-            "game:block/stone/ore/{type}1"
-          ],
-          "alternates": [
-            {
-              "base": "game:block/stone/rock/{rock}1",
-              "overlays": [
-                "game:block/stone/ore/{type}2"
-              ]
-            },
-            {
-              "base": "game:block/stone/rock/{rock}1",
-              "overlays": [
-                "game:block/stone/ore/{type}3"
-              ]
-            }
-          ]
-        }
-      },
-      "@.*-(limestone_icy|andesite_columnar|basalt_columnar|basalt_columnar_light|dacite_columnar|rhyolite_columnar|granite_red|schist_blue|schist_green|slate_warped_costal|calcite_rough|dripstone|dripstone_dark|graywacke|limestone_boulders_mossy_light|limestone_mossy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan|calcite)": {
-        "all": {
-          "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
-          "overlays": [
-            "conquestnaturepack:block/topography/ore/{type}1"
-          ],
-          "alternates": [
-            {
-              "base": "conquestnaturepack:block/topography/rock/{rock}/sides/2",
-              "overlays": [
-                "conquestnaturepack:block/topography/ore/{type}2"
-              ]
-            },
-            {
-              "base": "conquestnaturepack:block/topography/rock/{rock}/sides/3",
-              "overlays": [
-                "conquestnaturepack:block/topography/ore/{type}3"
-              ]
-            }
-          ]
-        }
-      },
-      "*": {
-        "all": {
-          "base": "conquestnaturepack:block/topography/rock/{rock}/1",
-          "overlays": [
-            "conquestnaturepack:block/topography/ore/{type}1"
-          ],
-          "alternates": [
-            {
-              "base": "conquestnaturepack:block/topography/rock/{rock}/2",
-              "overlays": [
-                "conquestnaturepack:block/topography/ore/{type}2"
-              ]
-            },
-            {
-              "base": "conquestnaturepack:block/topography/rock/{rock}/3",
-              "overlays": [
-                "conquestnaturepack:block/topography/ore/{type}3"
-              ]
-            }
-          ]
-        }
-      }
+    {
+        "op": "remove",
+        "side": "server",
+        "path": "/skipVariants",
+        "file": "game:blocktypes/stone/ore-ungraded.json"
     },
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  },
-  {
-    "op": "replace",
-	"side": "server",
-    "path": "/allowedVariants",
-    "value": [
-      "ore-flint-calcite*",
-      "ore-flint-chalk*",
-      "ore-flint-chert",
-      "ore-flint-claystone",
-      "ore-flint-conglomerate*",
-      "ore-flint-dolomite",
-      "ore-flint-limestone*",
-      "ore-flint-mudstone*",
-      "ore-flint-sandstone*",
-      "ore-flint-shale",
-      "ore-alum-chalk*",
-      "ore-alum-chert*",
-      "ore-alum-claystone*",
-      "ore-alum-conglomerate*",
-      "ore-alum-dolomite*",
-      "ore-alum-graywacke*",
-      "ore-alum-limestone*",
-      "ore-alum-mudstone*",
-      "ore-alum-sandstone*",
-      "ore-alum-shale*",
-      "ore-borax-chalk*",
-      "ore-borax-chert*",
-      "ore-borax-claystone*",
-      "ore-borax-conglomerate*",
-      "ore-borax-dolomite*",
-      "ore-borax-graywacke*",
-      "ore-borax-limestone*",
-      "ore-borax-mudstone*",
-      "ore-borax-sandstone*",
-      "ore-borax-shale*",
-      "ore-cinnabar-andesite*",
-      "ore-cinnabar-basalt*",
-      "ore-cinnabar-dacite*",
-      "ore-cinnabar-rhyolite*",
-      "ore-cinnabar-anorthosite*",
-      "ore-cinnabar-granite*",
-      "ore-cinnabar-peridotite*",
-      "ore-cinnabar-gneiss*",
-      "ore-cinnabar-phyllite*",
-      "ore-cinnabar-quartzite*",
-      "ore-cinnabar-schist*",
-      "ore-cinnabar-serpentinite*",
-      "ore-cinnabar-slate*",
-      "ore-corundum-peridotite*",
-      "ore-corundum-greenmarble*",
-      "ore-corundum-redmarble*",
-      "ore-corundum-marble*",
-      "ore-corundum-whitemarble*",
-      "ore-corundum-phyllite*",
-      "ore-corundum-slate*",
-      "ore-fluorite-chalk*",
-      "ore-fluorite-chert*",
-      "ore-fluorite-claystone*",
-      "ore-fluorite-conglomerate*",
-      "ore-fluorite-graywacke*",
-      "ore-fluorite-limestone*",
-      "ore-fluorite-mudstone*",
-      "ore-fluorite-sandstone*",
-      "ore-fluorite-shale*",
-      "ore-graphite-greenmarble*",
-      "ore-graphite-redmarble*",
-      "ore-graphite-marble*",
-      "ore-graphite-whitemarble*",
-      "ore-graphite-phyllite*",
-      "ore-graphite-slate*",
-      "ore-graphite-graywacke*",
-      "ore-kernite-chalk*",
-      "ore-kernite-chert*",
-      "ore-kernite-claystone*",
-      "ore-kernite-conglomerate*",
-      "ore-kernite-limestone*",
-      "ore-kernite-mudstone*",
-      "ore-kernite-sandstone*",
-      "ore-kernite-shale*",
-      "ore-lapislazuli-greenmarble*",
-      "ore-lapislazuli-redmarble*",
-      "ore-lapislazuli-marble*",
-      "ore-lapislazuli-whitemarble*",
-      "ore-lapislazuli-graywacke*",
-      "ore-lapislazuli-limestone*",
-      "ore-olivine-peridotite*",
-      "ore-olivine-serpentinite*",
-      "ore-phosphorite-chalk*",
-      "ore-phosphorite-chert*",
-      "ore-phosphorite-claystone*",
-      "ore-phosphorite-conglomerate*",
-      "ore-phosphorite-dolomite*",
-      "ore-phosphorite-graywacke*",
-      "ore-phosphorite-limestone*",
-      "ore-phosphorite-mudstone*",
-      "ore-phosphorite-sandstone*",
-      "ore-phosphorite-shale*",
-      "ore-quartz-andesite*",
-      "ore-quartz-basalt*",
-      "ore-quartz-dacite*",
-      "ore-quartz-rhyolite*",
-      "ore-quartz-granite*",
-      "ore-quartz-peridotite*",
-      "ore-quartz-phyllite*",
-      "ore-quartz-quartzite*",
-      "ore-quartz-slate*",
-      "ore-quartz-chalk*",
-      "ore-quartz-chert*",
-      "ore-quartz-claystone*",
-      "ore-quartz-conglomerate*",
-      "ore-quartz-graywacke*",
-      "ore-quartz-limestone*",
-      "ore-quartz-mudstone*",
-      "ore-quartz-sandstone*",
-      "ore-quartz-shale*",
-      "ore-stibnite-limestone*",
-      "ore-sulfur-chalk*",
-      "ore-sulfur-chert*",
-      "ore-sulfur-claystone*",
-      "ore-sulfur-conglomerate*",
-      "ore-sulfur-dolomite*",
-      "ore-sulfur-graywacke*",
-      "ore-sulfur-limestone*",
-      "ore-sulfur-mudstone*",
-      "ore-sulfur-sandstone*",
-      "ore-sulfur-shale*",
-      "ore-sylvite-halite*",
-      "ore-anthracite-chalk*",
-      "ore-anthracite-chert*",
-      "ore-anthracite-claystone*",
-      "ore-anthracite-conglomerate*",
-      "ore-anthracite-limestone*",
-      "ore-anthracite-mudstone*",
-      "ore-anthracite-sandstone*",
-      "ore-anthracite-shale*",
-      "ore-bituminouscoal-chalk*",
-      "ore-bituminouscoal-chert*",
-      "ore-bituminouscoal-claystone*",
-      "ore-bituminouscoal-conglomerate*",
-      "ore-bituminouscoal-limestone*",
-      "ore-bituminouscoal-mudstone*",
-      "ore-bituminouscoal-sandstone*",
-      "ore-bituminouscoal-shale*",
-      "ore-lignite-chalk*",
-      "ore-lignite-chert*",
-      "ore-lignite-claystone*",
-      "ore-lignite-conglomerate*",
-      "ore-lignite-limestone*",
-      "ore-lignite-mudstone*",
-      "ore-lignite-sandstone*",
-      "ore-lignite-shale*"
-    ],
-    "file": "game:blocktypes/stone/ore-ungraded.json"
-  }
+    {
+        "op": "remove",
+        "side": "server",
+        "path": "/textures",
+        "file": "game:blocktypes/stone/ore-ungraded.json",
+        "dependsOn": [
+            {
+                "modid": "conquest",
+                "invert": true
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/texturesByType",
+        "dependsOn": [
+            {
+                "modid": "conquest",
+                "invert": true
+            }
+        ],
+        "value": {
+            "@.*-(andesite|basalt|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite)": {
+                "all": {
+                    "base": "game:block/stone/rock/{rock}1",
+                    "overlays": [
+                        "game:block/stone/ore/{type}1"
+                    ],
+                    "alternates": [
+                        {
+                            "base": "game:block/stone/rock/{rock}1",
+                            "overlays": [
+                                "game:block/stone/ore/{type}2"
+                            ]
+                        },
+                        {
+                            "base": "game:block/stone/rock/{rock}1",
+                            "overlays": [
+                                "game:block/stone/ore/{type}3"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "@.*-(limestone_icy|andesite_columnar|basalt_columnar|basalt_columnar_light|dacite_columnar|rhyolite_columnar|granite_red|schist_blue|schist_green|slate_warped_costal|calcite_rough|dripstone|dripstone_dark|graywacke|limestone_boulders_mossy_light|limestone_mossy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan|calcite)": {
+                "all": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
+                    "overlays": [
+                        "conquestnaturepack:block/topography/ore/{type}1"
+                    ],
+                    "alternates": [
+                        {
+                            "base": "conquestnaturepack:block/topography/rock/{rock}/sides/2",
+                            "overlays": [
+                                "conquestnaturepack:block/topography/ore/{type}2"
+                            ]
+                        },
+                        {
+                            "base": "conquestnaturepack:block/topography/rock/{rock}/sides/3",
+                            "overlays": [
+                                "conquestnaturepack:block/topography/ore/{type}3"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "*": {
+                "all": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/1",
+                    "overlays": [
+                        "conquestnaturepack:block/topography/ore/{type}1"
+                    ],
+                    "alternates": [
+                        {
+                            "base": "conquestnaturepack:block/topography/rock/{rock}/2",
+                            "overlays": [
+                                "conquestnaturepack:block/topography/ore/{type}2"
+                            ]
+                        },
+                        {
+                            "base": "conquestnaturepack:block/topography/rock/{rock}/3",
+                            "overlays": [
+                                "conquestnaturepack:block/topography/ore/{type}3"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "file": "game:blocktypes/stone/ore-ungraded.json"
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/texturesByType",
+        "dependsOn": [
+            {
+                "modid": "conquest"
+            }
+        ],
+        "value": {
+            "@.*-(andesite|basalt|phyllite|slate|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|chalk|halite)": {
+                "all": {
+                    "base": "game:block/stone/rock/{rock}/1",
+                    "overlays": [
+                        "game:block/stone/ore/{type}1"
+                    ],
+                    "alternates": [
+                        {
+                            "base": "game:block/stone/rock/{rock}/1",
+                            "overlays": [
+                                "game:block/stone/ore/{type}2"
+                            ]
+                        },
+                        {
+                            "base": "game:block/stone/rock/{rock}/1",
+                            "overlays": [
+                                "game:block/stone/ore/{type}3"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "@.*-(bauxite|chert|claystone|conglomerate|granite|limestone|sandstone|shale)": {
+                "all": {
+                    "base": "game:block/stone/rock/{rock}/sides/1",
+                    "overlays": [
+                        "game:block/stone/ore/{type}1"
+                    ],
+                    "alternates": [
+                        {
+                            "base": "game:block/stone/rock/{rock}/sides/1",
+                            "overlays": [
+                                "game:block/stone/ore/{type}2"
+                            ]
+                        },
+                        {
+                            "base": "game:block/stone/rock/{rock}/sides/1",
+                            "overlays": [
+                                "game:block/stone/ore/{type}3"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "@.*-(limestone_icy|andesite_columnar|basalt_columnar|basalt_columnar_light|dacite_columnar|rhyolite_columnar|granite_red|schist_blue|schist_green|slate_warped_costal|calcite_rough|dripstone|dripstone_dark|graywacke|limestone_boulders_mossy_light|limestone_mossy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan|calcite)": {
+                "all": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
+                    "overlays": [
+                        "conquestnaturepack:block/topography/ore/{type}1"
+                    ],
+                    "alternates": [
+                        {
+                            "base": "conquestnaturepack:block/topography/rock/{rock}/sides/2",
+                            "overlays": [
+                                "conquestnaturepack:block/topography/ore/{type}2"
+                            ]
+                        },
+                        {
+                            "base": "conquestnaturepack:block/topography/rock/{rock}/sides/3",
+                            "overlays": [
+                                "conquestnaturepack:block/topography/ore/{type}3"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "*": {
+                "all": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/1",
+                    "overlays": [
+                        "conquestnaturepack:block/topography/ore/{type}1"
+                    ],
+                    "alternates": [
+                        {
+                            "base": "conquestnaturepack:block/topography/rock/{rock}/2",
+                            "overlays": [
+                                "conquestnaturepack:block/topography/ore/{type}2"
+                            ]
+                        },
+                        {
+                            "base": "conquestnaturepack:block/topography/rock/{rock}/3",
+                            "overlays": [
+                                "conquestnaturepack:block/topography/ore/{type}3"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "file": "game:blocktypes/stone/ore-ungraded.json"
+    },
+    {
+        "op": "replace",
+        "side": "server",
+        "path": "/allowedVariants",
+        "value": [
+            "ore-flint-calcite*",
+            "ore-flint-chalk*",
+            "ore-flint-chert",
+            "ore-flint-claystone",
+            "ore-flint-conglomerate*",
+            "ore-flint-dolomite",
+            "ore-flint-limestone*",
+            "ore-flint-mudstone*",
+            "ore-flint-sandstone*",
+            "ore-flint-shale",
+            "ore-alum-chalk*",
+            "ore-alum-chert*",
+            "ore-alum-claystone*",
+            "ore-alum-conglomerate*",
+            "ore-alum-dolomite*",
+            "ore-alum-graywacke*",
+            "ore-alum-limestone*",
+            "ore-alum-mudstone*",
+            "ore-alum-sandstone*",
+            "ore-alum-shale*",
+            "ore-borax-chalk*",
+            "ore-borax-chert*",
+            "ore-borax-claystone*",
+            "ore-borax-conglomerate*",
+            "ore-borax-dolomite*",
+            "ore-borax-graywacke*",
+            "ore-borax-limestone*",
+            "ore-borax-mudstone*",
+            "ore-borax-sandstone*",
+            "ore-borax-shale*",
+            "ore-cinnabar-andesite*",
+            "ore-cinnabar-basalt*",
+            "ore-cinnabar-dacite*",
+            "ore-cinnabar-rhyolite*",
+            "ore-cinnabar-anorthosite*",
+            "ore-cinnabar-granite*",
+            "ore-cinnabar-peridotite*",
+            "ore-cinnabar-gneiss*",
+            "ore-cinnabar-phyllite*",
+            "ore-cinnabar-quartzite*",
+            "ore-cinnabar-schist*",
+            "ore-cinnabar-serpentinite*",
+            "ore-cinnabar-slate*",
+            "ore-corundum-peridotite*",
+            "ore-corundum-greenmarble*",
+            "ore-corundum-redmarble*",
+            "ore-corundum-marble*",
+            "ore-corundum-whitemarble*",
+            "ore-corundum-phyllite*",
+            "ore-corundum-slate*",
+            "ore-fluorite-chalk*",
+            "ore-fluorite-chert*",
+            "ore-fluorite-claystone*",
+            "ore-fluorite-conglomerate*",
+            "ore-fluorite-graywacke*",
+            "ore-fluorite-limestone*",
+            "ore-fluorite-mudstone*",
+            "ore-fluorite-sandstone*",
+            "ore-fluorite-shale*",
+            "ore-graphite-greenmarble*",
+            "ore-graphite-redmarble*",
+            "ore-graphite-marble*",
+            "ore-graphite-whitemarble*",
+            "ore-graphite-phyllite*",
+            "ore-graphite-slate*",
+            "ore-graphite-graywacke*",
+            "ore-kernite-chalk*",
+            "ore-kernite-chert*",
+            "ore-kernite-claystone*",
+            "ore-kernite-conglomerate*",
+            "ore-kernite-limestone*",
+            "ore-kernite-mudstone*",
+            "ore-kernite-sandstone*",
+            "ore-kernite-shale*",
+            "ore-lapislazuli-greenmarble*",
+            "ore-lapislazuli-redmarble*",
+            "ore-lapislazuli-marble*",
+            "ore-lapislazuli-whitemarble*",
+            "ore-lapislazuli-graywacke*",
+            "ore-lapislazuli-limestone*",
+            "ore-olivine-peridotite*",
+            "ore-olivine-serpentinite*",
+            "ore-phosphorite-chalk*",
+            "ore-phosphorite-chert*",
+            "ore-phosphorite-claystone*",
+            "ore-phosphorite-conglomerate*",
+            "ore-phosphorite-dolomite*",
+            "ore-phosphorite-graywacke*",
+            "ore-phosphorite-limestone*",
+            "ore-phosphorite-mudstone*",
+            "ore-phosphorite-sandstone*",
+            "ore-phosphorite-shale*",
+            "ore-quartz-andesite*",
+            "ore-quartz-basalt*",
+            "ore-quartz-dacite*",
+            "ore-quartz-rhyolite*",
+            "ore-quartz-granite*",
+            "ore-quartz-peridotite*",
+            "ore-quartz-phyllite*",
+            "ore-quartz-quartzite*",
+            "ore-quartz-slate*",
+            "ore-quartz-chalk*",
+            "ore-quartz-chert*",
+            "ore-quartz-claystone*",
+            "ore-quartz-conglomerate*",
+            "ore-quartz-graywacke*",
+            "ore-quartz-limestone*",
+            "ore-quartz-mudstone*",
+            "ore-quartz-sandstone*",
+            "ore-quartz-shale*",
+            "ore-stibnite-limestone*",
+            "ore-sulfur-chalk*",
+            "ore-sulfur-chert*",
+            "ore-sulfur-claystone*",
+            "ore-sulfur-conglomerate*",
+            "ore-sulfur-dolomite*",
+            "ore-sulfur-graywacke*",
+            "ore-sulfur-limestone*",
+            "ore-sulfur-mudstone*",
+            "ore-sulfur-sandstone*",
+            "ore-sulfur-shale*",
+            "ore-sylvite-halite*",
+            "ore-anthracite-chalk*",
+            "ore-anthracite-chert*",
+            "ore-anthracite-claystone*",
+            "ore-anthracite-conglomerate*",
+            "ore-anthracite-limestone*",
+            "ore-anthracite-mudstone*",
+            "ore-anthracite-sandstone*",
+            "ore-anthracite-shale*",
+            "ore-bituminouscoal-chalk*",
+            "ore-bituminouscoal-chert*",
+            "ore-bituminouscoal-claystone*",
+            "ore-bituminouscoal-conglomerate*",
+            "ore-bituminouscoal-limestone*",
+            "ore-bituminouscoal-mudstone*",
+            "ore-bituminouscoal-sandstone*",
+            "ore-bituminouscoal-shale*",
+            "ore-lignite-chalk*",
+            "ore-lignite-chert*",
+            "ore-lignite-claystone*",
+            "ore-lignite-conglomerate*",
+            "ore-lignite-limestone*",
+            "ore-lignite-mudstone*",
+            "ore-lignite-sandstone*",
+            "ore-lignite-shale*"
+        ],
+        "file": "game:blocktypes/stone/ore-ungraded.json"
+    }
 ]

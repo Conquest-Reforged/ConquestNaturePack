@@ -16,11 +16,66 @@
         "op": "add",
         "side": "server",
         "path": "/texturesByType",
+        "dependsOn": [
+            {
+                "modid": "conquest",
+                "invert": true
+            }
+        ],
         "value": {
             "@.*-(andesite|basalt|granite|phyllite|slate|chert|claystone|conglomerate|sandstone|shale|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|bauxite|chalk|limestone|halite)": {
                 "ore": {
                     "base": "game:block/stone/rock/{rock}1",
                     "overlays": [ "inherit" ]
+                }
+            },
+            "@.*-(graywacke|limestone_boulders_mossy_light|limestone_icy|limestone_mossy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan|calcite)": {
+                "ore": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
+                    "overlays": [
+                        "conquestnaturepack:block/topography/ore/{ore}1"
+                    ]
+                }
+            },
+            "@.*-(andesite_columnar|basalt_columnar|basalt_columnar_light|granite_red|slate_warped_costal|dacite_columnar|rhyolite_columnar|schist_blue|schist_green|calcite_rough)": {
+                "ore": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/sides/1",
+                    "overlays": [
+                        "conquestnaturepack:block/topography/ore/{ore}1"
+                    ]
+                }
+            },
+            "*": {
+                "ore": {
+                    "base": "conquestnaturepack:block/topography/rock/{rock}/1",
+                    "overlays": [
+                        "conquestnaturepack:block/topography/ore/{ore}1"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "file": "game:itemtypes/resource/ore-graded.json",
+        "op": "add",
+        "side": "server",
+        "path": "/texturesByType",
+        "dependsOn": [
+            {
+                "modid": "conquest"
+            }
+        ],
+        "value": {
+            "@.*-(andesite|basalt|phyllite|slate|kimberlite|obsidian|scoria|suevite|tuff|peridotite|greenmarble|redmarble|whitemarble|chalk|halite)": {
+                "ore": {
+                    "base": "game:block/stone/rock/{rock}/1",
+                    "overlays": [ "conquestnaturepack:block/topography/ore/{ore}1" ]
+                }
+            },
+            "@.*-(bauxite|claystone|chert|conglomerate|granite|limestone|sandstone|shale)": {
+                "ore": {
+                    "base": "game:block/stone/rock/{rock}/sides/1",
+                    "overlays": [ "conquestnaturepack:block/topography/ore/{ore}1" ]
                 }
             },
             "@.*-(graywacke|limestone_boulders_mossy_light|limestone_icy|limestone_mossy|mudstone|sandstone_brown|sandstone_costal_red|sandstone_mossy_red|sandstone_orange|sandstone_red|sandstone_tan|calcite)": {

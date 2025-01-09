@@ -50,6 +50,12 @@
         "op": "add",
         "path": "/texturesByType",
         "side": "server",
+        "dependsOn": [
+            {
+                "modid": "conquest",
+                "invert": true
+            }
+        ],
         "value": {
             "*-andesite-*": {
                 "all": { "base": "game:block/stone/rock/{rock}*" }
@@ -59,6 +65,37 @@
             },
             "*-limestone-*": {
                 "all": { "base": "game:block/stone/rock/{rock}*" }
+            },
+            "@.*-(|limestone_icy|limestone_mossy|calcite_rough|)-.*": {
+                "all": { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" },
+                "up": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" },
+                "down": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
+            },
+            "*": {
+                "all": { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
+            }
+
+        }
+    },
+    {
+        "file": "game:blocktypes/stone/stalagsection.json",
+        "op": "add",
+        "path": "/texturesByType",
+        "side": "server",
+        "dependsOn": [
+            {
+                "modid": "conquest"
+            }
+        ],
+        "value": {
+            "*-andesite-*": {
+                "base": "game:block/stone/rock/{rock}/1"
+            },
+            "*-granite-*": {
+                "base": "game:block/stone/rock/{rock}/sides/1"
+            },
+            "*-limestone-*": {
+                "all": { "base": "game:block/stone/rock/{rock}/sides/1" }
             },
             "@.*-(|limestone_icy|limestone_mossy|calcite_rough|)-.*": {
                 "all": { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" },

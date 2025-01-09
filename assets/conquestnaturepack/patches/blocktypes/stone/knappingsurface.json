@@ -4,6 +4,12 @@
 		"op": "replace",
 		"path": "/textures",
 		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "conquest",
+				"invert": true
+			}
+		],
 		"value": {
 			"flint": { "base": "game:block/stone/flint" },
 			"chert": { "base": "game:block/stone/rock/chert1" },
@@ -31,5 +37,44 @@
 			"obsidian_light": { "base": "conquestnaturepack:block/topography/rock/obsidian_light/1" },
 			"obsidian_smooth": { "base": "conquestnaturepack:block/topography/rock/obsidian_smooth/1" }
 		}
+	},
+	{
+		"file": "game:blocktypes/stone/knappingsurface.json",
+		"op": "replace",
+		"path": "/textures",
+		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "conquest"
+			}
+		],
+		"value": {
+			"flint": { "base": "game:block/stone/flint" },
+			"chert": { "base": "game:block/stone/rock/chert/sides/1" },
+			"granite": { "base": "game:block/stone/rock/granite/sides/1" },
+			"basalt": { "base": "game:block/stone/rock/basalt/1" },
+			"obsidian": { "base": "game:block/stone/rock/obsidian/1" },
+			"chalk": { "base": "game:block/stone/rock/chalk/1" },
+			"claystone": { "base": "game:block/stone/rock/claystone/sides/1" },
+			"andesite": { "base": "game:block/stone/rock/andesite/1" },
+			"sandstone": { "base": "game:block/stone/rock/sandstone/sides/1" },
+			"shale": { "base": "game:block/stone/rock/shale/sides/1" },
+			"peridotite": { "base": "game:block/stone/rock/peridotite/1" },
+			"andesite_columnar": { "base": "conquestnaturepack:block/topography/rock/andesite_columnar/sides/1" },
+			"andesite_porous": { "base": "conquestnaturepack:block/topography/rock/andesite_porous/1" },
+			"andesite_weathered": { "base": "conquestnaturepack:block/topography/rock/andesite_weathered/1" },
+			"basalt_columnar": { "base": "conquestnaturepack:block/topography/rock/basalt_columnar/sides/1" },
+			"basalt_columnar_light": { "base": "conquestnaturepack:block/topography/rock/basalt_columnar_light/sides/1" },
+			"basalt_porous": { "base": "conquestnaturepack:block/topography/rock/basalt_porous/1" },
+			"basalt_smooth": { "base": "conquestnaturepack:block/topography/rock/basalt_smooth/1" },
+			"basalt_weathered": { "base": "conquestnaturepack:block/topography/rock/basalt_smooth/1" },
+			"granite_red": { "base": "conquestnaturepack:block/topography/rock/granite_red/sides/1" },
+			"granite_smooth": { "base": "conquestnaturepack:block/topography/rock/granite_smooth/1" },
+			"granite_smooth_red": { "base": "conquestnaturepack:block/topography/rock/granite_smooth_red/1" },
+			"granite_snowy": { "base": "conquestnaturepack:block/topography/rock/granite_snowy/1" },
+			"obsidian_light": { "base": "conquestnaturepack:block/topography/rock/obsidian_light/1" },
+			"obsidian_smooth": { "base": "conquestnaturepack:block/topography/rock/obsidian_smooth/1" }
+		}
 	}
 ]
+
