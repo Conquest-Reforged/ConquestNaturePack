@@ -4,6 +4,12 @@
 		"op": "remove",
 		"path": "/textures",
 		"side": "server",
+		"dependsOn": [
+			{
+				"modid": "conquest",
+				"invert": true
+			}
+		],
 		"value": {}
 
 	},

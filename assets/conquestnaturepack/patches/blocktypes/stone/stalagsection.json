@@ -9,8 +9,8 @@
             {
                 "code": "rock",
                 "states": [
-				    "andesite",
-				    "granite",
+                    "andesite",
+                    "granite",
                     "limestone",
                     "limestone_icy",
                     "limestone_light",
@@ -29,19 +29,6 @@
             {
                 "code": "thickness",
                 "states": [ "14", "12", "10", "08", "06", "04" ]
-            }
-        ]
-    },
-    {
-        "file": "game:blocktypes/stone/stalagsection.json",
-        "op": "remove",
-        "path": "/textures",
-        "side": "server",
-        "value": {},
-        "dependsOn": [
-            {
-                "modid": "conquest",
-                "invert": true
             }
         ]
     },
@@ -89,23 +76,25 @@
         ],
         "value": {
             "*-andesite-*": {
-                "base": "game:block/stone/rock/{rock}/1"
+                "all": { "base": "game:block/stone/rock/{rock}/1" }
             },
             "*-granite-*": {
-                "base": "game:block/stone/rock/{rock}/sides/1"
-            },
-            "*-limestone-*": {
-                "all": { "base": "game:block/stone/rock/{rock}/sides/1" }
-            },
-            "@.*-(|limestone_icy|limestone_mossy|calcite_rough|)-.*": {
-                "all": { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" },
-                "up": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" },
-                "down": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
-            },
-            "*": {
-                "all": { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
-            }
+                "all": {
+                    "base": "game:block/stone/rock/{rock}/sides/1"
+                }
+                },
+                "*-limestone-*": {
+                    "all": { "base": "game:block/stone/rock/{rock}/sides/1" }
+                },
+                "@.*-(|limestone_icy|limestone_mossy|calcite_rough|)-.*": {
+                    "all": { "base": "conquestnaturepack:block/topography/rock/{rock}/sides/*" },
+                    "up": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" },
+                    "down": { "base": "conquestnaturepack:block/topography/rock/{rock}/top/*" }
+                },
+                "*": {
+                    "all": { "base": "conquestnaturepack:block/topography/rock/{rock}/*" }
+                }
 
-        }
+            }
     }
 ]

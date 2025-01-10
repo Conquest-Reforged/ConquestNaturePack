@@ -3,20 +3,6 @@
 
     {
         "file": "game:blocktypes/stone/loosestones.json",
-        "op": "remove",
-        "path": "/textures",
-        "side": "server",
-        "dependsOn": [
-            {
-                "modid": "conquest",
-                "invert": true
-            }
-        ],
-        "value": {}
-    },
-
-    {
-        "file": "game:blocktypes/stone/loosestones.json",
         "op": "add",
         "path": "/texturesByType",
         "side": "server",
@@ -76,19 +62,6 @@
                 "modid": "conquest"
             }
         ]
-    },
-    {
-        "file": "game:blocktypes/stone/loosestones.json",
-        "op": "remove",
-        "path": "/textures",
-        "side": "server",
-        "dependsOn": [
-            {
-                "modid": "conquest",
-                "invert": true
-            }
-        ],
-        "value": {}
     },
 
     {
